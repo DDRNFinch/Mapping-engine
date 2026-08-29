@@ -17,6 +17,7 @@
   const exportPanel = el('exportPanel');
 
   const byId = (items, id) => items.find(x => x.id === id);
+  const allTaskTargets = task => [...new Set([...(task.directLo7Targets || []), ...(task.mappedAtomicTargets || [])])];
 
   async function fetchJson(path) {
     const response = await fetch(path, { cache: 'no-store' });
@@ -117,7 +118,7 @@
       taskWrap.appendChild(button(item.title, () => {
         state.taskId = item.id;
         renderBrowser();
-      }, item.id === state.taskId, `${item.mappedAtomicCount} mapped criteria`));
+      }, item.id === state.taskId, `${allTaskTargets(item).length} candidate criteria`));
     });
     el('taskCount').textContent = `${sub.tasks.length}/5`;
 
@@ -129,7 +130,8 @@
     detail.hidden = false;
     el('taskPath').textContent = `${category.title} › ${sub.title} › ${task.id}`;
     el('taskTitle').textContent = task.title;
-    el('mappedCount').textContent = task.mappedAtomicCount;
+    const taskTargets = allTaskTargets(task);
+    el('mappedCount').textContent = taskTargets.length;
 
     el('taskMeta').innerHTML = `
       <div class="meta-item"><strong>Route</strong>${escapeHtml(task.route)}</div>
@@ -137,7 +139,7 @@
       <div class="meta-item"><strong>Type</strong>${escapeHtml(task.type)}</div>
       <div class="meta-item"><strong>Holistic tags</strong>${escapeHtml(task.tags.join(', ') || 'None')}</div>
       <div class="meta-item"><strong>Direct LO7 targets</strong>${escapeHtml(String(task.directLo7Targets.length))}</div>
-      <div class="meta-item"><strong>All primary mappings</strong>${escapeHtml(String(task.mappedAtomicTargets.length))}</div>`;
+      <div class="meta-item"><strong>Candidate atomic criteria</strong>${escapeHtml(String(taskTargets.length))}</div>`;
 
     const promptBox = el('promptBox');
     if (task.conditionalPrompt) {
@@ -149,7 +151,7 @@
 
     const list = el('criteriaList');
     list.innerHTML = '';
-    task.mappedAtomicTargets.forEach(id => {
+    taskTargets.forEach(id => {
       const tag = document.createElement('span');
       tag.className = 'criterion';
       tag.textContent = id;
@@ -157,7 +159,7 @@
     });
 
     el('copyCriteria').onclick = async () => {
-      await navigator.clipboard.writeText(task.mappedAtomicTargets.join('\n'));
+      await navigator.clipboard.writeText(taskTargets.join('\n'));
       el('copyCriteria').textContent = 'Copied';
       setTimeout(() => el('copyCriteria').textContent = 'Copy IDs', 1000);
     };
