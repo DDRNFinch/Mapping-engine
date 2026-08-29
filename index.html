@@ -45,15 +45,36 @@
           <p class="eyebrow" id="taskPath"></p>
           <h2 id="taskTitle"></h2>
         </div>
-        <div class="count-pill"><span id="mappedCount">0</span> mapped atomic criteria</div>
+        <div class="count-pill"><span id="mappedCount">0</span> candidate criteria</div>
       </div>
       <div id="taskMeta" class="meta-grid"></div>
+
+      <section id="evidencePlan" class="evidence-plan" hidden>
+        <div class="evidence-plan-heading">
+          <div>
+            <p class="eyebrow">Minimum evidence for this task</p>
+            <h3 id="evidenceProfileTitle"></h3>
+          </div>
+          <span class="one-submission">1 task submission</span>
+        </div>
+        <p id="oneSubmissionNote" class="evidence-note"></p>
+        <div id="evidenceMinimum" class="evidence-minimum"></div>
+        <div id="evidenceAlternatives"></div>
+        <div class="capture-box">
+          <strong>What the evidence must show or explain</strong>
+          <ul id="evidenceCapture"></ul>
+        </div>
+        <div id="evidenceSelector" class="evidence-selector" hidden></div>
+        <p id="evidenceCoverageText" class="coverage-text"></p>
+      </section>
+
       <div id="promptBox" class="prompt-box" hidden>
-        <strong>Evidence prompt</strong>
+        <strong>Task-specific prompt</strong>
         <p id="taskPrompt"></p>
       </div>
       <details>
-        <summary>Show mapped AC / a,b,c… IDs</summary>
+        <summary>Show all candidate AC / a,b,c… IDs</summary>
+        <p class="details-note">These are candidates attached to the task. They are only awarded when the submitted evidence actually demonstrates the requirement.</p>
         <div class="criteria-tools">
           <button id="copyCriteria" class="secondary">Copy IDs</button>
         </div>
