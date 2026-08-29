@@ -1,8 +1,8 @@
-const CACHE='naxos-mapping-engine-v3';
+const CACHE='naxos-mapping-engine-v4';
 const SHELL=[
-  './','./index.html','./ksb.html','./matrix.html','./styles.css?v=3','./pwa.js?v=3',
-  './app.js','./ksb.js','./matrix.js','./manifest.webmanifest','./naxos-logo.svg',
-  './icon-192.png','./icon-512.png','./apple-touch-icon.png','./manifest.json','./manifest-6570-04.json',
+  './','./index.html','./ksb.html','./matrix.html','./styles.css?v=4','./pwa.js?v=4',
+  './app.js?v=4','./ksb.js?v=4','./matrix.js?v=4','./manifest.webmanifest?v=4','./naxos-logo.svg?v=4',
+  './icon-192.png?v=4','./icon-512.png?v=4','./apple-touch-icon.png?v=4','./manifest.json','./manifest-6570-04.json',
   './ksb-manifest.json','./course-catalog.json','./evidence-rules.json'
 ];
 self.addEventListener('install',event=>{
