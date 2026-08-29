@@ -8,16 +8,16 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Naxos">
   <title>Naxos · NVQ Mapping Engine</title>
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="./pwa.js"></script>
+  <link rel="manifest" href="./manifest.webmanifest?v=4">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=4">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=4">
+  <link rel="stylesheet" href="./styles.css?v=4">
+  <script defer src="./pwa.js?v=4"></script>
 </head>
 <body>
   <header class="topbar">
     <div class="brand-heading">
-      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg" alt="Naxos Mapping Engine"></a>
+      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg?v=4" alt="Naxos Mapping Engine"></a>
       <div class="brand-copy">
         <p class="brand-kicker">Naxos · Mapping Engine</p>
         <h1>NVQ Mapping Engine</h1>
@@ -26,12 +26,8 @@
         <div class="qualification-tabs" aria-label="NVQ qualifications"><a id="tab657004" href="index.html?course=6570-04"><small>Level 2</small>6570-04</a><a id="tab657005" href="index.html?course=6570-05"><small>Level 3</small>6570-05</a></div>
       </div>
     </div>
-    <div class="route-box">
-      <label for="routeSelect">Optional unit</label>
-      <select id="routeSelect" aria-label="Optional unit"></select>
-    </div>
+    <div class="route-box"><label for="routeSelect">Optional unit</label><select id="routeSelect" aria-label="Optional unit"></select></div>
   </header>
-
   <main>
     <section id="statusPanel" class="status-panel" aria-live="polite"></section>
     <section id="browser" class="browser" hidden>
@@ -39,7 +35,6 @@
       <div class="level-panel"><div class="level-title"><span>2</span> Sub-category <strong id="subcategoryCount"></strong></div><div id="subcategories" class="button-stack"></div></div>
       <div class="level-panel"><div class="level-title"><span>3</span> Task <strong id="taskCount"></strong></div><div id="tasks" class="button-stack"></div></div>
     </section>
-
     <section id="taskDetail" class="detail-card" hidden>
       <div class="detail-heading"><div><p class="eyebrow" id="taskPath"></p><h2 id="taskTitle"></h2></div><div class="count-pill"><span id="mappedCount">0</span> candidate criteria</div></div>
       <div id="taskMeta" class="meta-grid"></div>
@@ -51,15 +46,13 @@
       <div id="promptBox" class="prompt-box" hidden><strong>Task-specific prompt</strong><p id="taskPrompt"></p></div>
       <details><summary>Show all candidate AC / a,b,c… IDs</summary><p class="details-note">These are candidates attached to the task. They are only awarded when the submitted evidence actually demonstrates the requirement.</p><div class="criteria-tools"><button id="copyCriteria" class="secondary">Copy IDs</button></div><div id="criteriaList" class="criteria-list"></div></details>
     </section>
-
     <section id="exportPanel" class="export-panel" hidden>
       <div><p class="eyebrow">Evia mapping-pack export</p><h2>Create course QR</h2><p>The QR contains no learner data. It points Evia to the selected versioned NVQ mapping pack.</p><div class="action-row"><button id="generateQr">Generate Evia QR</button><a id="downloadPack" class="button-link secondary" href="#" download>Download JSON pack</a><a id="matrixExportLink" class="button-link secondary" href="matrix.html?course=6570-05">Open evidence matrix</a></div></div>
       <div id="qrArea" class="qr-area" hidden><div id="qrcode"></div><label for="qrPayload">QR payload</label><textarea id="qrPayload" readonly rows="5"></textarea><button id="copyPayload" class="secondary">Copy payload</button></div>
     </section>
   </main>
-
   <footer><span>Naxos · Mapping Engine · Level 2 and Level 3 NVQs use the same 5 × 5 × 5 evidence structure and atomic AC coverage audit</span></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
