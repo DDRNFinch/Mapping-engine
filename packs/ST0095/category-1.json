@@ -1,0 +1,31 @@
+{
+  "id": "1",
+  "title": "Prepare & work safely",
+  "subcategories": [
+    {"id":"1.1","title":"Site safety & setup","tasks":[
+      {"id":"1.1.1","title":"Set up a safe working area","evidenceProfile":"safety","ksbTargets":["K1","K3","S1","S7","B1"],"evidenceRequirements":["B1","K1.a","K1.b","K1.c","K1.f","K1.g","K1.h","K1.i","K1.j","K3.e","S1","S7"],"conditionalPrompt":"Show the work area, hazards and controls before starting."},
+      {"id":"1.1.2","title":"Select and use PPE / RPE","evidenceProfile":"safety","ksbTargets":["K1","K2","S1","S2","B1"],"evidenceRequirements":["B1","K1.k","K2","S1","S2"],"conditionalPrompt":"Show the PPE/RPE and explain why it is needed for this task."},
+      {"id":"1.1.3","title":"Follow RAMS, induction or toolbox information","evidenceProfile":"job-information","ksbTargets":["K1","K3","S1","B1"],"evidenceRequirements":["B1","K1.b","K1.c","K1.e","K3.a","K3.b","K3.c","K3.d","K3.e","S1"],"conditionalPrompt":"Show or describe the safe system of work and how it affects today's task."}
+    ]},
+    {"id":"1.2","title":"Job information & standards","tasks":[
+      {"id":"1.2.1","title":"Read a drawing or specification","evidenceProfile":"job-information","ksbTargets":["K10","S5","B3"],"evidenceRequirements":["B3","K10","S5"],"conditionalPrompt":"Show the drawing/specification and explain the dimensions or requirements you are using."},
+      {"id":"1.2.2","title":"Work to regulations and required standards","evidenceProfile":"knowledge","ksbTargets":["K7","S4","B3"],"evidenceRequirements":["B3","K1.a","K1.d","K7.a","K7.b","K7.c","S4"],"conditionalPrompt":"Explain the standard/regulation that applies and show where it affects the work."},
+      {"id":"1.2.3","title":"Use digital drawings or modelling information","evidenceProfile":"job-information","ksbTargets":["K10","K11","S5"],"evidenceRequirements":["K10","K11","S5"],"conditionalPrompt":"Show the digital information and explain how you used it."}
+    ]},
+    {"id":"1.3","title":"Materials & quantities","tasks":[
+      {"id":"1.3.1","title":"Select bricks, blocks and components","evidenceProfile":"resources","ksbTargets":["K8","S6","B3"],"evidenceRequirements":["B3","K6.g","K8.a"],"conditionalPrompt":"Show the materials/components selected and explain why they are suitable."},
+      {"id":"1.3.2","title":"Estimate quantities for today's work","evidenceProfile":"resources","ksbTargets":["K12","S6","B3"],"evidenceRequirements":["B3","K12.a","K12.b","K12.c","K12.d","K12.e","S6.a","S6.b","S6.c","S6.d"],"conditionalPrompt":"Show the area/measurements and explain how you estimated what is needed."},
+      {"id":"1.3.3","title":"Choose materials with sustainability in mind","evidenceProfile":"resources","ksbTargets":["K4","K5","K8","S3","B2"],"evidenceRequirements":["B2","K4.a","K5.a","S3.a"],"conditionalPrompt":"Explain the material choice, waste/reuse considerations and any building-performance effect."}
+    ]},
+    {"id":"1.4","title":"Tools & equipment","tasks":[
+      {"id":"1.4.1","title":"Select and use hand tools","evidenceProfile":"practical","ksbTargets":["K13","S8","B3"],"evidenceRequirements":["B3","K13.a","K13.b","K13.c","K13.d","K13.e","S8"],"conditionalPrompt":"Show safe selection and use of the hand tools needed for the task."},
+      {"id":"1.4.2","title":"Maintain and store hand tools","evidenceProfile":"resources","ksbTargets":["K13","S9","B3"],"evidenceRequirements":["B3","K13.f","S9"],"conditionalPrompt":"Show cleaning/checking/storage and explain what you look for."},
+      {"id":"1.4.3","title":"Use a power tool safely","evidenceProfile":"practical","ksbTargets":["K1","K14","S1","S8","B1"],"evidenceRequirements":["B1","K1.k","K14.a","K14.b","K14.c","K14.d","S1","S8"],"conditionalPrompt":"Show the setup and controls; do not film while holding a phone and operating the tool."}
+    ]},
+    {"id":"1.5","title":"Environment & building performance","tasks":[
+      {"id":"1.5.1","title":"Explain how building components work together","evidenceProfile":"knowledge","ksbTargets":["K5","K6","K8"],"evidenceRequirements":["K5.b","K5.c","K6.a","K6.c","K8.f"],"conditionalPrompt":"Use the work in front of you to explain how the components protect or perform as part of the building."},
+      {"id":"1.5.2","title":"Segregate waste and prevent contamination","evidenceProfile":"practical","ksbTargets":["K4","S3","B2"],"evidenceRequirements":["B2","K4.b","K4.c","K4.d","K4.e","S3.b","S3.c","S3.d"],"conditionalPrompt":"Show waste segregation or contamination controls and explain what happens to each material."},
+      {"id":"1.5.3","title":"Protect materials and finished work","evidenceProfile":"practical","ksbTargets":["K25","S17","B2","B3"],"evidenceRequirements":["B2","B3","K25.a","K25.b","K25.c","S17"],"conditionalPrompt":"Show protection against weather or construction damage and explain why it is needed."}
+    ]}
+  ]
+}
