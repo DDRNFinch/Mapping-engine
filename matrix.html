@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#efc33d">
-  <title>Evidence Matrix</title>
+  <meta name="theme-color" content="#fb6262">
+  <title>Naxos · Evidence Matrix</title>
+  <link rel="icon" href="naxos-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <style>
     .engine-nav{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active{background:var(--yellow-soft);border-color:#d7aa1c}
@@ -16,10 +17,14 @@
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <h1>Evidence Matrix</h1>
-      <p>Fast evidence navigation for assessor, IQA and EQA</p>
-      <nav class="engine-nav"><a href="index.html">NVQ courses</a><a href="ksb.html">KSB courses</a><a class="active" href="matrix.html">Evidence matrix</a></nav>
+    <div class="brand-heading">
+      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg" alt="Naxos Mapping Engine"></a>
+      <div class="brand-copy">
+        <p class="brand-kicker">Naxos · Mapping Engine</p>
+        <h1>Evidence Matrix</h1>
+        <p>Fast evidence navigation for assessor, IQA and EQA</p>
+        <nav class="engine-nav"><a href="index.html">NVQ courses</a><a href="ksb.html">KSB courses</a><a class="active" href="matrix.html">Evidence matrix</a></nav>
+      </div>
     </div>
   </header>
   <main>
@@ -34,7 +39,7 @@
     <section class="matrix-wrap"><table class="matrix-table"><thead id="matrixHead"></thead><tbody id="matrixBody"></tbody></table></section>
     <section id="matrixDetail" class="matrix-detail" hidden></section>
   </main>
-  <footer><span>Evidence matrix · click a dot to see the exact task and evidence route</span></footer>
+  <footer><span>Naxos · Mapping Engine · Evidence matrix · click a dot to see the exact task and evidence route</span></footer>
   <script src="matrix.js"></script>
 </body>
 </html>
