@@ -4,8 +4,8 @@
   "subcategories": [
     {"id":"5.1","title":"Communication","tasks":[
       {"id":"5.1.1","title":"Explain today's work using construction terminology","evidenceProfile":"communication","ksbTargets":["K26","S18","B3"],"evidenceRequirements":["B3","K26","S18"],"conditionalPrompt":"Give a short explanation of the work, using the correct site/bricklaying terms."},
-      {"id":"5.1.2","title":"Share work information with another person","evidenceProfile":"communication","ksbTargets":["K26","S18","B6"],"evidenceRequirements":["K26","S18"],"conditionalPrompt":"Capture a witness/reflection showing what information was shared and why."},
-      {"id":"5.1.3","title":"Report a problem or change clearly","evidenceProfile":"communication","ksbTargets":["K26","K27","S18","B3","B6"],"evidenceRequirements":["B3","K26","K27","S18"],"conditionalPrompt":"Explain the problem, who you told, and what action followed."}
+      {"id":"5.1.2","title":"Share work information with another person","evidenceProfile":"communication","ksbTargets":["K26","S18","B6"],"evidenceRequirements":["K26","S18","B6.a","B6.b"],"conditionalPrompt":"Capture a witness/reflection showing what information was shared, why it mattered to the team goal and how it affected the wider build team."},
+      {"id":"5.1.3","title":"Report a problem or change clearly","evidenceProfile":"communication","ksbTargets":["K26","K27","S18","B3","B6"],"evidenceRequirements":["B3","K26","K27","S18","B6.a","B6.b"],"conditionalPrompt":"Explain the problem, who you told, what action followed and any effect on the wider team."}
     ]},
     {"id":"5.2","title":"Teamwork","tasks":[
       {"id":"5.2.1","title":"Work as part of the bricklaying team","evidenceProfile":"communication","ksbTargets":["K27","S20","B6"],"evidenceRequirements":["B6.a","K27","S20"],"conditionalPrompt":"Use a witness/reflection to show your role and how you contributed to the team goal."},
@@ -15,17 +15,17 @@
     {"id":"5.3","title":"Inclusion & culture","tasks":[
       {"id":"5.3.1","title":"Follow equality, diversity and inclusion guidance","evidenceProfile":"communication","ksbTargets":["K28","S19","B4"],"evidenceRequirements":["B4","K28","S19"],"conditionalPrompt":"Give a short workplace example showing inclusive behaviour."},
       {"id":"5.3.2","title":"Communicate inclusively with others","evidenceProfile":"communication","ksbTargets":["K26","K28","S18","S19","B4"],"evidenceRequirements":["B4","K26","K28","S18","S19"],"conditionalPrompt":"Explain how you adapted communication respectfully to the person/situation."},
-      {"id":"5.3.3","title":"Support an inclusive team culture","evidenceProfile":"communication","ksbTargets":["K27","K28","S20","B4","B6"],"evidenceRequirements":["B4","K27","K28","S20"],"conditionalPrompt":"Use a witness/reflection describing how you helped keep the team respectful and inclusive."}
+      {"id":"5.3.3","title":"Support an inclusive team culture","evidenceProfile":"communication","ksbTargets":["K27","K28","S20","B4","B6"],"evidenceRequirements":["B4","K27","K28","S20","B6.a","B6.b"],"conditionalPrompt":"Use a witness/reflection describing how you helped keep the team respectful, inclusive and focused on the wider build goal."}
     ]},
     {"id":"5.4","title":"Wellbeing & development","tasks":[
       {"id":"5.4.1","title":"Identify wellbeing support available","evidenceProfile":"knowledge","ksbTargets":["K31","S21","B1"],"evidenceRequirements":["B1","K31.a","K31.b","K31.c","S21"],"conditionalPrompt":"Identify suitable support routes for yourself or others and when they should be used."},
       {"id":"5.4.2","title":"Support wellbeing on site","evidenceProfile":"communication","ksbTargets":["K31","S21","B1","B4"],"evidenceRequirements":["B1","B4","K31.a","K31.b","S21"],"conditionalPrompt":"Describe a safe, appropriate example of recognising/supporting wellbeing."},
-      {"id":"5.4.3","title":"Record a learning or development activity","evidenceProfile":"knowledge","ksbTargets":["K7","K9","B5"],"evidenceRequirements":["B5"],"conditionalPrompt":"Explain what you learned, why it matters to the role and what you will do differently."}
+      {"id":"5.4.3","title":"Record a learning or development activity","evidenceProfile":"knowledge","ksbTargets":["K7","K9","B5"],"evidenceRequirements":["B5","K7.a","K7.b","K7.c","K9.a","K9.b","K9.c","K9.d","K9.e"],"conditionalPrompt":"Explain what you learned about standards, regulations or a modern construction method, why it matters to the role and what you will do differently."}
     ]},
     {"id":"5.5","title":"Modern construction & wider building","tasks":[
-      {"id":"5.5.1","title":"Identify a modern method of construction","evidenceProfile":"knowledge","ksbTargets":["K9","K6","B5"],"evidenceRequirements":["B5","K9.a","K9.b","K9.c","K9.d","K9.e"],"conditionalPrompt":"Show or describe the modern method/component and compare it with traditional masonry."},
-      {"id":"5.5.2","title":"Explain how masonry connects with the wider building","evidenceProfile":"knowledge","ksbTargets":["K5","K6","K8","B6"],"evidenceRequirements":["K6.a","K6.c"],"conditionalPrompt":"Use a real detail to explain interactions with structure, insulation, fire, moisture or services."},
-      {"id":"5.5.3","title":"Learn and apply a new method or product","evidenceProfile":"knowledge","ksbTargets":["K7","K9","B3","B5"],"evidenceRequirements":["B3","B5"],"conditionalPrompt":"Explain the new method/product, source of information and how you applied it safely/accurately."}
+      {"id":"5.5.1","title":"Identify a modern method of construction","evidenceProfile":"knowledge","ksbTargets":["K9","K6","B5"],"evidenceRequirements":["B5","K9.a","K9.b","K9.c","K9.d","K9.e","K6.a","K6.c"],"conditionalPrompt":"Show or describe the modern method/component and compare how it connects with the wider building compared with traditional masonry."},
+      {"id":"5.5.2","title":"Explain how masonry connects with the wider building","evidenceProfile":"knowledge","ksbTargets":["K5","K6","K8"],"evidenceRequirements":["K5.a","K5.b","K5.c","K6.a","K6.c","K8.c","K8.d","K8.e","K8.f","K8.g","K8.h"],"conditionalPrompt":"Use a real detail to explain interactions with structure, insulation, fire, moisture, ties, lintels or services."},
+      {"id":"5.5.3","title":"Learn and apply a new method or product","evidenceProfile":"knowledge","ksbTargets":["K7","K9","B3","B5"],"evidenceRequirements":["B3","B5","K7.a","K7.b","K7.c","K9.a","K9.b","K9.c","K9.d","K9.e"],"conditionalPrompt":"Explain the new method/product, the standard or guidance used, source of information and how you applied it safely and accurately."}
     ]}
   ]
 }
