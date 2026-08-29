@@ -3,6 +3,16 @@
   "schemaVersion": 1,
   "courses": [
     {
+      "id": "6570-04",
+      "type": "nvq",
+      "title": "Trowel Occupations Level 2 — 6570-04",
+      "section": "nvq-6570-04.html",
+      "matrix": false,
+      "status": "structure-preview",
+      "glh": 394,
+      "tqt": 670
+    },
+    {
       "id": "6570-05",
       "type": "nvq",
       "title": "Trowel Occupations Level 3 — 6570-05",
