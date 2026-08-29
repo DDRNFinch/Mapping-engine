@@ -137,8 +137,10 @@
     if (!id && task.id === '1.1.4') id = 'job-information';
     if (!id && /(dpc|cavity tray|insulation|wall tie|fire barrier|fire break|support angle|wind post|movement joint|weep|vent|reinforcement|soffit|temporary|prop|support)/i.test(title)) id = 'hidden-work';
     if (!id && task.type === 'trade') id = 'practical';
-    if (!id && tags.has('COMMUNICATION')) id = 'communication';
+    if (!id && task.type === 'optional-knowledge') id = 'knowledge';
+    if (!id && task.type === 'common' && /^(summarise|explain|discuss|describe)/i.test(title)) id = 'knowledge';
     if (!id && tags.has('SAFE_WORK')) id = 'safety';
+    if (!id && tags.has('COMMUNICATION')) id = 'communication';
     if (!id && (tags.has('RESOURCES') || tags.has('TOOLS'))) id = 'resources';
     if (!id && tags.has('QUALITY')) id = 'quality';
     if (!id && tags.has('PROGRAMME')) id = 'programme';
