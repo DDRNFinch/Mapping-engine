@@ -65,22 +65,40 @@
   }
 
   async function loadRequiredTargets(packDir) {
-    const hasSources = (state.pack.coverageSourceFiles || []).length > 0;
-    const hasTargetFiles = (state.pack.requiredTargetFiles || []).length > 0;
+    const sourcePacks = state.pack.coverageSourcePacks || [];
+    const sourceFiles = state.pack.coverageSourceFiles || [];
+    const targetPaths = state.pack.requiredTargetFiles || [];
     const inline = state.pack.requiredAtomicTargets || [];
-    if (!hasSources && !hasTargetFiles && !inline.length) {
+    if (!sourcePacks.length && !sourceFiles.length && !targetPaths.length && !inline.length) {
       state.requiredTargets = null;
       return;
     }
 
-    const sourceCategories = hasSources
-      ? await Promise.all(state.pack.coverageSourceFiles.map(path => fetchJson(new URL(path, packDir).href)))
+    const sourceIds = [];
+    for (const sourcePath of sourcePacks) {
+      const sourcePackUrl = new URL(sourcePath, packDir);
+      const sourcePack = await fetchJson(sourcePackUrl.href);
+      const sourcePackDir = new URL('./', sourcePackUrl);
+      const categories = await Promise.all((sourcePack.categoryFiles || []).map(path => fetchJson(new URL(path, sourcePackDir).href)));
+      if (sourcePack.routeMappings) {
+        const mappings = await fetchJson(new URL(sourcePack.routeMappings, sourcePackDir).href);
+        for (const [taskId, ids] of Object.entries(mappings.taskMappings || {})) {
+          const task = findTask(categories, taskId);
+          if (task) task.mappedAtomicTargets = uniq([...(task.mappedAtomicTargets || []), ...ids]);
+        }
+      }
+      sourceIds.push(...rawTargets(categories));
+    }
+
+    const sourceCategories = sourceFiles.length
+      ? await Promise.all(sourceFiles.map(path => fetchJson(new URL(path, packDir).href)))
       : [];
-    const targetFiles = hasTargetFiles
-      ? await Promise.all(state.pack.requiredTargetFiles.map(path => fetchJson(new URL(path, packDir).href)))
+    const targetFiles = targetPaths.length
+      ? await Promise.all(targetPaths.map(path => fetchJson(new URL(path, packDir).href)))
       : [];
 
     state.requiredTargets = uniq([
+      ...sourceIds,
       ...rawTargets(sourceCategories),
       ...targetFiles.flatMap(file => file.targets || []),
       ...inline,
