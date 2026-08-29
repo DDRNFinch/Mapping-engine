@@ -1,0 +1,22 @@
+{
+  "mappingEngineCatalog": 1,
+  "schemaVersion": 1,
+  "courses": [
+    {
+      "id": "6570-05",
+      "type": "nvq",
+      "title": "Trowel Occupations Level 3 — 6570-05",
+      "section": "index.html",
+      "manifest": "manifest.json",
+      "matrix": true
+    },
+    {
+      "id": "ST0095",
+      "type": "ksb",
+      "title": "Bricklayer — ST0095 v1.2",
+      "section": "ksb.html",
+      "pack": "packs/ST0095-v1.json",
+      "matrix": true
+    }
+  ]
+}
