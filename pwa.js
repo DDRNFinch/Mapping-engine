@@ -1,6 +1,17 @@
 (()=>{
   let deferredPrompt=null;
   const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  async function refreshWorker(){
+    if(!('serviceWorker' in navigator)) return;
+    try{
+      const reg=await navigator.serviceWorker.register('./sw.js?v=3',{updateViaCache:'none'});
+      await reg.update().catch(()=>{});
+      if('caches' in window){
+        const keys=await caches.keys();
+        await Promise.all(keys.filter(k=>k.startsWith('naxos-mapping-engine-')&&k!=='naxos-mapping-engine-v3').map(k=>caches.delete(k)));
+      }
+    }catch{}
+  }
   function ensureInstallButton(){
     if(standalone()||document.getElementById('naxosInstall')) return;
     const topbar=document.querySelector('.topbar');
@@ -29,7 +40,7 @@
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;ensureInstallButton();});
   window.addEventListener('appinstalled',()=>document.querySelector('.naxos-install-wrap')?.remove());
   window.addEventListener('DOMContentLoaded',()=>{
-    if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+    refreshWorker();
     if(!standalone()) ensureInstallButton();
   });
 })();
