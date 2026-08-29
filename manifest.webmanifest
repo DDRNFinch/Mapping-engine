@@ -12,8 +12,8 @@
     "minimal-ui"
   ],
   "orientation": "portrait-primary",
-  "background_color": "#fff8f8",
-  "theme_color": "#fb6262",
+  "background_color": "#f6f6f8",
+  "theme_color": "#f6f6f8",
   "categories": [
     "education",
     "productivity"
@@ -32,9 +32,9 @@
       "purpose": "any"
     },
     {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
+      "src": "icon-maskable-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "maskable"
     }
   ]
