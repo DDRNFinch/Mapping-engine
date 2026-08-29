@@ -17,6 +17,22 @@
       "section": "ksb.html",
       "pack": "packs/ST0095-v1.json",
       "matrix": true
+    },
+    {
+      "id": "ST0264-SITE",
+      "type": "ksb",
+      "title": "Site Carpenter — ST0264 v1.4",
+      "section": "ksb.html",
+      "pack": "packs/ST0264-SITE-v1.json",
+      "matrix": true
+    },
+    {
+      "id": "ST0264-AJ",
+      "type": "ksb",
+      "title": "Architectural Joiner — ST0264 v1.4",
+      "section": "ksb.html",
+      "pack": "packs/ST0264-AJ-v1.json",
+      "matrix": true
     }
   ]
 }
