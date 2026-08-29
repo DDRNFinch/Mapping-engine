@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efc33d">
+  <title>KSB Mapping Engine</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .engine-nav{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active{background:var(--yellow-soft);border-color:#d7aa1c}.ksb-wording{font-size:.88rem;color:var(--muted);margin:.35rem 0 0;line-height:1.45}.facet-note{font-size:.8rem;color:var(--muted)}.ksb-list{display:grid;gap:.55rem;margin-top:.7rem}.ksb-row{border:1px solid var(--line);border-radius:10px;padding:.65rem .75rem;background:#fafafa}.ksb-row strong{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.requirement-list{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.55rem}.requirement-chip{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.72rem;border:1px solid var(--line);border-radius:7px;padding:.3rem .45rem;background:#fff}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>KSB Mapping Engine</h1>
+      <p>Apprenticeship standards · holistic 5 × 5 × 5 learner task structure</p>
+      <nav class="engine-nav" aria-label="Mapping engine sections">
+        <a href="index.html">NVQ courses</a>
+        <a class="active" href="ksb.html">KSB courses</a>
+        <a href="matrix.html?course=ST0095">Evidence matrix</a>
+      </nav>
+    </div>
+    <div class="route-box">
+      <label for="courseSelect">Course</label>
+      <select id="courseSelect" aria-label="KSB course"></select>
+    </div>
+  </header>
+
+  <main>
+    <section id="statusPanel" class="status-panel" aria-live="polite"></section>
+
+    <section id="browser" class="browser" hidden>
+      <div class="level-panel">
+        <div class="level-title"><span>1</span> Main route <strong id="categoryCount"></strong></div>
+        <div id="categories" class="button-stack"></div>
+      </div>
+      <div class="level-panel">
+        <div class="level-title"><span>2</span> Sub-category <strong id="subcategoryCount"></strong></div>
+        <div id="subcategories" class="button-stack"></div>
+      </div>
+      <div class="level-panel">
+        <div class="level-title"><span>3</span> Task <strong id="taskCount"></strong></div>
+        <div id="tasks" class="button-stack"></div>
+      </div>
+    </section>
+
+    <section id="taskDetail" class="detail-card" hidden>
+      <div class="detail-heading">
+        <div>
+          <p class="eyebrow" id="taskPath"></p>
+          <h2 id="taskTitle"></h2>
+        </div>
+        <div class="count-pill"><span id="mappedCount">0</span> KSBs</div>
+      </div>
+      <div id="taskMeta" class="meta-grid"></div>
+
+      <section id="evidencePlan" class="evidence-plan" hidden>
+        <div class="evidence-plan-heading">
+          <div><p class="eyebrow">Minimum evidence for this task</p><h3 id="evidenceProfileTitle"></h3></div>
+          <span class="one-submission">1 task submission</span>
+        </div>
+        <p id="oneSubmissionNote" class="evidence-note"></p>
+        <div id="evidenceMinimum" class="evidence-minimum"></div>
+        <div id="evidenceAlternatives"></div>
+        <div class="capture-box"><strong>What the evidence must show or explain</strong><ul id="evidenceCapture"></ul></div>
+        <p id="evidenceCoverageText" class="coverage-text"></p>
+      </section>
+
+      <div id="promptBox" class="prompt-box" hidden><strong>Task-specific prompt</strong><p id="taskPrompt"></p></div>
+
+      <details open>
+        <summary>KSBs this task can support</summary>
+        <p class="details-note">The same evidence may support several KSBs. A KSB is only awarded when the evidence actually demonstrates its wording.</p>
+        <div id="ksbList" class="ksb-list"></div>
+      </details>
+      <details>
+        <summary>Show internal a,b,c… evidence checks</summary>
+        <p class="facet-note">These facet IDs are internal mapping checks for compound KSB wording. They are not official Skills England KSB numbers.</p>
+        <div id="requirementList" class="requirement-list"></div>
+      </details>
+    </section>
+
+    <section id="exportPanel" class="export-panel" hidden>
+      <div>
+        <p class="eyebrow">Evia mapping-pack export</p>
+        <h2>Create course QR</h2>
+        <p>One QR installs this complete KSB task/evidence pack into apps built for the mapping-pack format. It contains no learner data.</p>
+        <div class="action-row">
+          <button id="generateQr">Generate Evia QR</button>
+          <a id="downloadPack" class="button-link secondary" href="#" download>Download JSON pack</a>
+          <a id="openMatrix" class="button-link secondary" href="matrix.html?course=ST0095">Open evidence matrix</a>
+        </div>
+      </div>
+      <div id="qrArea" class="qr-area" hidden>
+        <div id="qrcode"></div>
+        <label for="qrPayload">QR payload</label>
+        <textarea id="qrPayload" readonly rows="5"></textarea>
+        <button id="copyPayload" class="secondary">Copy payload</button>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>KSB mapping engine · ST0095 is the first test course</span></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="ksb.js"></script>
+</body>
+</html>
