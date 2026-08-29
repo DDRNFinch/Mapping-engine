@@ -1,12 +1,18 @@
 (() => {
   'use strict';
 
+  const params = new URLSearchParams(window.location.search);
+  const requestedCourse = params.get('course') || '6570-05';
+  const manifestFile = requestedCourse === '6570-04' ? 'manifest-6570-04.json' : 'manifest.json';
+
   const state = {
     manifest: null,
+    qualificationId: requestedCourse,
     pack: null,
     routeMappings: null,
+    requiredTargets: null,
     evidenceRules: null,
-    route: 'repair',
+    route: null,
     categoryId: null,
     subcategoryId: null,
     taskId: null,
@@ -19,7 +25,7 @@
   const browser = el('browser');
   const detail = el('taskDetail');
   const exportPanel = el('exportPanel');
-  const byId = (items, id) => items.find(x => x.id === id);
+  const byId = (items, id) => (items || []).find(x => x.id === id);
   const uniq = items => [...new Set(items || [])];
 
   async function fetchJson(path) {
@@ -51,14 +57,55 @@
     return taskList(categories).find(t => t.id === id) || null;
   }
 
+  function rawTargets(categories) {
+    return uniq(taskList(categories).flatMap(t => [
+      ...(t.directLo7Targets || []),
+      ...(t.mappedAtomicTargets || []),
+    ])).filter(activeUnit);
+  }
+
+  async function loadRequiredTargets(packDir) {
+    const hasSources = (state.pack.coverageSourceFiles || []).length > 0;
+    const hasTargetFiles = (state.pack.requiredTargetFiles || []).length > 0;
+    const inline = state.pack.requiredAtomicTargets || [];
+    if (!hasSources && !hasTargetFiles && !inline.length) {
+      state.requiredTargets = null;
+      return;
+    }
+
+    const sourceCategories = hasSources
+      ? await Promise.all(state.pack.coverageSourceFiles.map(path => fetchJson(new URL(path, packDir).href)))
+      : [];
+    const targetFiles = hasTargetFiles
+      ? await Promise.all(state.pack.requiredTargetFiles.map(path => fetchJson(new URL(path, packDir).href)))
+      : [];
+
+    state.requiredTargets = uniq([
+      ...rawTargets(sourceCategories),
+      ...targetFiles.flatMap(file => file.targets || []),
+      ...inline,
+    ]).filter(activeUnit);
+  }
+
   function prepareCategories(rawCategories, routeMappings) {
     const categories = structuredClone(rawCategories);
     const active = new Set(state.pack.route.activeUnits || []);
     const keep = id => active.has(String(id || '').split('.')[0]);
+    const optionalUnit = String(state.pack.route.optionalUnit || '');
+
+    const optionalCategory = categories.find(c => String(c.id) === '5');
+    if (optionalCategory && state.qualificationId === '6570-04') optionalCategory.title = state.pack.route.title || optionalCategory.title;
 
     for (const task of taskList(categories)) {
+      if (task.primaryUnit === 'OPTIONAL') task.primaryUnit = optionalUnit;
       task.directLo7Targets = uniq(task.directLo7Targets || []).filter(keep);
       task.mappedAtomicTargets = uniq(task.mappedAtomicTargets || []).filter(keep);
+
+      if (state.requiredTargets && (task.targetPrefixes || []).length) {
+        const prefixes = task.targetPrefixes.map(prefix => String(prefix).replaceAll('$OPTIONAL', optionalUnit));
+        const matched = state.requiredTargets.filter(id => prefixes.some(prefix => id === prefix || id.startsWith(`${prefix}.`)));
+        task.mappedAtomicTargets = uniq([...task.mappedAtomicTargets, ...matched]).filter(keep);
+      }
       task.mappedAtomicCount = uniq([...task.directLo7Targets, ...task.mappedAtomicTargets]).length;
     }
 
@@ -77,12 +124,60 @@
     const cats = categories.length;
     const subs = categories.reduce((n, c) => n + (c.subcategories || []).length, 0);
     const tasks = taskList(categories).length;
-    const ids = new Set(taskList(categories).flatMap(allTaskTargets));
-    const expected = Number(state.pack.route.atomicTargetCount || 0);
-    const structurePass = cats <= 5 && categories.every(c => (c.subcategories || []).length <= 5 && (c.subcategories || []).every(s => (s.tasks || []).length <= 5));
-    const coveragePass = ids.size === expected;
-    state.audit = { categories: cats, subcategories: subs, tasks, mapped: ids.size, expected, orphanCount: Math.max(0, expected - ids.size), structurePass, coveragePass, pass: structurePass && coveragePass };
+    const mappedSet = new Set(taskList(categories).flatMap(allTaskTargets));
+    const structurePass = cats <= 5 && categories.every(c =>
+      (c.subcategories || []).length <= 5 &&
+      (c.subcategories || []).every(s => (s.tasks || []).length <= 5)
+    );
+
+    let expected;
+    let missing = [];
+    let extras = [];
+    let coveragePass;
+
+    if (state.requiredTargets) {
+      const requiredSet = new Set(state.requiredTargets);
+      expected = requiredSet.size;
+      missing = [...requiredSet].filter(id => !mappedSet.has(id));
+      extras = [...mappedSet].filter(id => !requiredSet.has(id));
+      coveragePass = missing.length === 0 && extras.length === 0;
+    } else {
+      expected = Number(state.pack.route.atomicTargetCount || 0);
+      coveragePass = mappedSet.size === expected;
+    }
+
+    state.audit = {
+      categories: cats,
+      subcategories: subs,
+      tasks,
+      mapped: mappedSet.size,
+      expected,
+      orphanCount: missing.length || Math.max(0, expected - mappedSet.size),
+      extraCount: extras.length,
+      missing,
+      extras,
+      structurePass,
+      coveragePass,
+      pass: structurePass && coveragePass,
+    };
     return state.audit;
+  }
+
+  function renderQualificationHeader() {
+    const q = state.qualificationId;
+    const level = q === '6570-04' ? 'Level 2' : 'Level 3';
+    const line = el('qualificationLine');
+    if (line) line.textContent = `${q} · ${level} Trowel Occupations · 5 × 5 × 5 learner task structure`;
+    const t2 = el('tab657004');
+    const t3 = el('tab657005');
+    if (t2) t2.classList.toggle('active', q === '6570-04');
+    if (t3) t3.classList.toggle('active', q === '6570-05');
+    const matrixUrl = `matrix.html?course=${encodeURIComponent(q)}`;
+    const matrixNav = el('matrixNav');
+    const matrixExport = el('matrixExportLink');
+    if (matrixNav) matrixNav.href = matrixUrl;
+    if (matrixExport) matrixExport.href = matrixUrl;
+    document.title = `${level} NVQ Mapping Engine · ${q}`;
   }
 
   function renderRoutes() {
@@ -104,6 +199,10 @@
       return;
     }
     const a = state.audit || runAudit();
+    const level2 = state.qualificationId === '6570-04';
+    const statusText = level2
+      ? `${escapeHtml(route.optionalUnit)} · ${escapeHtml(route.title)} is mapped against the 6570-04 atomic AC set, including individual a, b, c… sub-criteria.`
+      : `${escapeHtml(route.optionalUnit)} · ${escapeHtml(route.title)} is a test map pending final wording audit.`;
     panel.innerHTML = `
       <div class="status-grid">
         <div class="metric"><strong>${a.categories}/5</strong><span>categories</span></div>
@@ -112,7 +211,7 @@
         <div class="metric"><strong>${a.mapped}/${a.expected}</strong><span>active atomic criteria mapped</span></div>
         <div class="metric"><strong>${a.orphanCount}</strong><span>unmapped criteria</span></div>
       </div>
-      <p class="status-note ${a.pass ? 'good' : 'warn'}"><strong>${a.pass ? 'Runtime structure and coverage audit passed.' : 'Audit failed — QR export is blocked.'}</strong> ${escapeHtml(route.optionalUnit)} · ${escapeHtml(route.title)} is a test map pending final wording audit.</p>`;
+      <p class="status-note ${a.pass ? 'good' : 'warn'}"><strong>${a.pass ? 'Runtime structure and coverage audit passed.' : 'Audit failed — QR export is blocked.'}</strong> ${statusText}</p>`;
     browser.hidden = false;
     exportPanel.hidden = false;
     el('generateQr').disabled = !a.pass;
@@ -219,6 +318,10 @@
       if (parent === '1.1') return ({a:'drawing',b:'specification',c:'schedule',d:'method',e:'risk',f:'manufacturer'})[child] || null;
       if (parent === '1.4') return ({a:'drawing',b:'specification',d:'schedule',e:'method',f:'risk',g:'manufacturer',h:'oral-written',i:'sketch',j:'electronic',k:'official'})[child] || null;
     }
+    if (unit === '817') {
+      if (parent === '1.1') return ({a:'drawing',b:'specification',c:'schedule',d:'method',e:'risk',f:'manufacturer'})[child] || null;
+      if (parent === '1.4') return ({a:'drawing',b:'specification',c:'schedule',d:'method',e:'risk',f:'manufacturer',g:'oral-written',h:'official',i:'official'})[child] || null;
+    }
     if (unit === '837' && parent === '1.4') return ({a:'drawing',b:'specification',d:'schedule',e:'method',f:'risk',g:'manufacturer',h:'oral-written',i:'sketch',j:'electronic',k:'official'})[child] || null;
     if (unit === '303' && parent === '1.1') return ({a:'drawing',b:'specification',c:'schedule',d:'manufacturer',e:'method',f:'risk',g:'programme'})[child] || null;
     return null;
@@ -273,7 +376,14 @@
     el('downloadPack').href = url;
     el('generateQr').onclick = () => {
       if (!state.audit?.pass) return;
-      const payload = JSON.stringify({ type:'evia-mapping-pack-url', version:1, qualificationId:'6570-05', route:state.route, optionalUnit:state.pack.route.optionalUnit, packUrl:url });
+      const payload = JSON.stringify({
+        type:'evia-mapping-pack-url',
+        version:1,
+        qualificationId:state.qualificationId || state.pack.qualification?.id,
+        route:state.route,
+        optionalUnit:state.pack.route.optionalUnit,
+        packUrl:url
+      });
       el('qrPayload').value = payload;
       el('qrcode').innerHTML = '';
       if (typeof QRCode !== 'function') { alert('QR library did not load. Check the connection and try again.'); return; }
@@ -288,7 +398,7 @@
 
   async function selectRoute(routeId) {
     state.route = routeId;
-    state.pack = state.routeMappings = state.audit = null;
+    state.pack = state.routeMappings = state.requiredTargets = state.audit = null;
     state.categoryId = state.subcategoryId = state.taskId = null;
     state.evidenceSelections = {};
     el('qrArea').hidden = true;
@@ -297,6 +407,7 @@
     state.pack = await fetchJson(route.pack);
     const base = new URL(route.pack, new URL('./', window.location.href));
     const packDir = new URL('./', base);
+    await loadRequiredTargets(packDir);
     const rawCategories = await Promise.all((state.pack.categoryFiles || []).map(path => fetchJson(new URL(path, packDir).href)));
     if (state.pack.routeMappings) state.routeMappings = await fetchJson(new URL(state.pack.routeMappings, packDir).href);
     state.pack.categories = prepareCategories(rawCategories, state.routeMappings);
@@ -306,9 +417,22 @@
 
   async function start() {
     try {
-      [state.manifest, state.evidenceRules] = await Promise.all([fetchJson('manifest.json'), fetchJson('evidence-rules.json')]);
+      [state.manifest, state.evidenceRules] = await Promise.all([fetchJson(manifestFile), fetchJson('evidence-rules.json')]);
+      state.qualificationId = state.manifest.qualificationId || requestedCourse;
+      const preferred = params.get('route');
+      state.route = state.manifest.routes.find(r => r.id === preferred)?.id
+        || state.manifest.routes.find(r => r.id === state.manifest.defaultRoute)?.id
+        || state.manifest.routes.find(r => r.id === 'repair')?.id
+        || state.manifest.routes[0]?.id;
+      renderQualificationHeader();
       renderRoutes();
-      routeSelect.addEventListener('change', () => selectRoute(routeSelect.value).catch(showError));
+      routeSelect.addEventListener('change', () => {
+        const url = new URL(window.location.href);
+        url.searchParams.set('course', state.qualificationId);
+        url.searchParams.set('route', routeSelect.value);
+        history.replaceState(null, '', url);
+        selectRoute(routeSelect.value).catch(showError);
+      });
       await selectRoute(state.route);
     } catch (error) { showError(error); }
   }
