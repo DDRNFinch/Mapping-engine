@@ -1,0 +1,22 @@
+{
+  "name": "Naxos – Mapping Engine",
+  "short_name": "Naxos",
+  "description": "Naxos mapping engine for NVQ and apprenticeship course evidence mapping.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff8f8",
+  "theme_color": "#fb6262",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"NVQ courses","short_name":"NVQ","url":"./index.html","icons":[{"src":"./icon-192.png","sizes":"192x192","type":"image/png"}]},
+    {"name":"KSB courses","short_name":"KSB","url":"./ksb.html","icons":[{"src":"./icon-192.png","sizes":"192x192","type":"image/png"}]},
+    {"name":"Evidence matrix","short_name":"Matrix","url":"./matrix.html","icons":[{"src":"./icon-192.png","sizes":"192x192","type":"image/png"}]}
+  ]
+}
