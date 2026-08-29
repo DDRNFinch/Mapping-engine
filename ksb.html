@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#efc33d">
-  <title>KSB Mapping Engine</title>
+  <meta name="theme-color" content="#fb6262">
+  <title>Naxos · KSB Mapping Engine</title>
+  <link rel="icon" href="naxos-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <style>
     .engine-nav{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active{background:var(--yellow-soft);border-color:#d7aa1c}.ksb-wording{font-size:.88rem;color:var(--muted);margin:.35rem 0 0;line-height:1.45}.facet-note{font-size:.8rem;color:var(--muted)}.ksb-list{display:grid;gap:.55rem;margin-top:.7rem}.ksb-row{border:1px solid var(--line);border-radius:10px;padding:.65rem .75rem;background:#fafafa}.ksb-row strong{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.requirement-list{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.55rem}.requirement-chip{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.72rem;border:1px solid var(--line);border-radius:7px;padding:.3rem .45rem;background:#fff}
@@ -12,14 +13,18 @@
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <h1>KSB Mapping Engine</h1>
-      <p>Apprenticeship standards · holistic 5 × 5 × 5 learner task structure</p>
-      <nav class="engine-nav" aria-label="Mapping engine sections">
-        <a href="index.html">NVQ courses</a>
-        <a class="active" href="ksb.html">KSB courses</a>
-        <a href="matrix.html?course=ST0095">Evidence matrix</a>
-      </nav>
+    <div class="brand-heading">
+      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg" alt="Naxos Mapping Engine"></a>
+      <div class="brand-copy">
+        <p class="brand-kicker">Naxos · Mapping Engine</p>
+        <h1>KSB Mapping Engine</h1>
+        <p>Apprenticeship standards · holistic 5 × 5 × 5 learner task structure</p>
+        <nav class="engine-nav" aria-label="Mapping engine sections">
+          <a href="index.html">NVQ courses</a>
+          <a class="active" href="ksb.html">KSB courses</a>
+          <a href="matrix.html?course=ST0095">Evidence matrix</a>
+        </nav>
+      </div>
     </div>
     <div class="route-box">
       <label for="courseSelect">Course</label>
@@ -101,7 +106,7 @@
     </section>
   </main>
 
-  <footer><span>KSB mapping engine · ST0095 is the first test course</span></footer>
+  <footer><span>Naxos · Mapping Engine · KSB courses use the same 5 × 5 × 5 evidence structure</span></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="ksb.js"></script>
 </body>
