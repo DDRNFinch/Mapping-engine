@@ -1,31 +1,56 @@
-const CACHE='naxos-mapping-engine-v5';
-const SHELL=[
-  './','./index.html','./ksb.html','./matrix.html','./styles.css?v=4','./pwa.js?v=5',
-  './app.js?v=4','./ksb.js?v=4','./matrix.js?v=4','./manifest.webmanifest?v=5','./naxos-logo.svg?v=4',
-  './icon-192.png?v=4','./icon-512.png?v=4','./apple-touch-icon.png?v=4','./manifest.json','./manifest-6570-04.json',
-  './ksb-manifest.json','./course-catalog.json','./evidence-rules.json'
+const CACHE_NAME = 'naxos-shell-v6';
+const CACHE_PREFIX = 'naxos-shell-';
+const CORE = [
+  './',
+  './index.html',
+  './styles.css',
+  './app.js',
+  './manifest.webmanifest',
+  './icon-192.png',
+  './icon-512.png',
+  './apple-touch-icon.png'
 ];
-self.addEventListener('install',event=>{
-  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
+
+self.addEventListener('install', (event) => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await Promise.all(CORE.map(async (url) => {
+      try { await cache.add(url); } catch (_) { /* keep SW installable even if one asset is temporarily unavailable */ }
+    }));
+    await self.skipWaiting();
+  })());
 });
-self.addEventListener('activate',event=>{
-  event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter((key) => key.startsWith(CACHE_PREFIX) && key !== CACHE_NAME).map((key) => caches.delete(key)));
+    await self.clients.claim();
+  })());
 });
-self.addEventListener('fetch',event=>{
-  const req=event.request;
-  if(req.method!=='GET') return;
-  const url=new URL(req.url);
-  if(url.origin!==self.location.origin) return;
-  const networkFirst=req.mode==='navigate'||/\.(?:css|js|json|webmanifest)$/.test(url.pathname);
-  if(networkFirst){
-    event.respondWith(fetch(req,{cache:'no-store'}).then(res=>{
-      if(res&&res.ok){const copy=res.clone();caches.open(CACHE).then(cache=>cache.put(req,copy));}
-      return res;
-    }).catch(()=>caches.match(req).then(cached=>cached||(req.mode==='navigate'?caches.match('./index.html'):Response.error()))));
+
+self.addEventListener('fetch', (event) => {
+  const request = event.request;
+  if (request.method !== 'GET') return;
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
+
+  if (request.mode === 'navigate') {
+    event.respondWith(fetch(request).then((response) => {
+      if (response && response.ok) {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+      }
+      return response;
+    }).catch(async () => (await caches.match(request)) || (await caches.match('./index.html'))));
     return;
   }
-  event.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(res=>{
-    if(res&&res.ok){const copy=res.clone();caches.open(CACHE).then(cache=>cache.put(req,copy));}
-    return res;
+
+  event.respondWith(caches.match(request).then((cached) => cached || fetch(request).then((response) => {
+    if (response && response.ok) {
+      const copy = response.clone();
+      caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+    }
+    return response;
   })));
 });
