@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#efc33d">
   <title>NVQ Mapping Engine</title>
   <link rel="stylesheet" href="styles.css">
-  <style>.engine-nav{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active{background:var(--yellow-soft);border-color:#d7aa1c}</style>
+  <style>.engine-nav,.qualification-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a,.qualification-tabs a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active,.qualification-tabs a.active{background:var(--yellow-soft);border-color:#d7aa1c}.qualification-tabs{margin-top:1rem}.qualification-tabs a{display:flex;gap:.45rem;align-items:center}.qualification-tabs small{font-size:.68rem;opacity:.68;text-transform:uppercase;letter-spacing:.04em}</style>
 </head>
 <body>
   <header class="topbar">
@@ -14,6 +14,7 @@
       <h1>NVQ Mapping Engine</h1>
       <p>6570-05 · 5 × 5 × 5 learner task structure</p>
       <nav class="engine-nav" aria-label="Mapping engine sections"><a class="active" href="index.html">NVQ courses</a><a href="ksb.html">KSB courses</a><a href="matrix.html?course=6570-05">Evidence matrix</a></nav>
+      <div class="qualification-tabs" aria-label="NVQ qualifications"><a href="nvq-6570-04.html"><small>Level 2</small>6570-04</a><a class="active" href="index.html"><small>Level 3</small>6570-05</a></div>
     </div>
     <div class="route-box">
       <label for="routeSelect">Optional unit</label>
