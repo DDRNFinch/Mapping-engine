@@ -3,12 +3,12 @@
   "title": "Build masonry",
   "subcategories": [
     {"id":"3.1","title":"Cavity walling","tasks":[
-      {"id":"3.1.1","title":"Build stretcher-bond cavity walling","evidenceProfile":"practical","ksbTargets":["K15","K22","S11","B3"],"evidenceRequirements":["B3","K22.a","S11.a"],"conditionalPrompt":"Show yourself building, maintaining the cavity and checking line/level/plumb."},
+      {"id":"3.1.1","title":"Build stretcher-bond cavity walling","evidenceProfile":"practical","ksbTargets":["K22","S11","B3"],"evidenceRequirements":["B3","K22.a","S11.a"],"conditionalPrompt":"Show yourself building, maintaining the cavity and checking line/level/plumb."},
       {"id":"3.1.2","title":"Form a return and opening","evidenceProfile":"practical","ksbTargets":["K22","S11","B3"],"evidenceRequirements":["B3","K22.b","K22.c","S11.a","S11.d"],"conditionalPrompt":"Show the return/opening and explain how accuracy and bond are maintained."},
       {"id":"3.1.3","title":"Install ties and insulation","evidenceProfile":"hidden-work","ksbTargets":["K8","K22","S11","B3"],"evidenceRequirements":["B3","K8.d","K8.h","K22.d","K22.e","S11.e"],"conditionalPrompt":"Show tie spacing/orientation and insulation continuity before covering."}
     ]},
     {"id":"3.2","title":"Solid walling","tasks":[
-      {"id":"3.2.1","title":"Build a simple solid wall","evidenceProfile":"practical","ksbTargets":["K15","K16","S13","B3"],"evidenceRequirements":["B3","K16","S13"],"conditionalPrompt":"Show the wall being built and the checks used."},
+      {"id":"3.2.1","title":"Build a simple solid wall","evidenceProfile":"practical","ksbTargets":["K15","K16","S13","B3"],"evidenceRequirements":["B3","K15.a","K15.b","K15.c","K15.d","K16","S13"],"conditionalPrompt":"Show the wall being built, identify the bond used and show the checks made."},
       {"id":"3.2.2","title":"Construct and finish the capping","evidenceProfile":"practical","ksbTargets":["K16","S13","B3"],"evidenceRequirements":["B3","K16","S13"],"conditionalPrompt":"Show the capping construction and finished quality."},
       {"id":"3.2.3","title":"Build a different bond or broken bond detail","evidenceProfile":"practical","ksbTargets":["K15","S13","B3"],"evidenceRequirements":["B3","K15.a","K15.b","K15.c","K15.d","S13"],"conditionalPrompt":"Show the bond pattern and explain how it is maintained."}
     ]},
@@ -20,7 +20,7 @@
     {"id":"3.4","title":"Raking cuts & cutting","tasks":[
       {"id":"3.4.1","title":"Set out and build a wall with a raking cut","evidenceProfile":"practical","ksbTargets":["K30","S22","B3"],"evidenceRequirements":["B3","K30","S22.a","S22.b"],"conditionalPrompt":"Show the rake set-out, cutting and finished line."},
       {"id":"3.4.2","title":"Measure and cut bricks or blocks by hand","evidenceProfile":"practical","ksbTargets":["K29","S15","B3"],"evidenceRequirements":["B3","K29","S15.a","S15.b","S15.c"],"conditionalPrompt":"Show the measurement/mark, hand tool and finished cut."},
-      {"id":"3.4.3","title":"Prepare a cut using power tools safely","evidenceProfile":"practical","ksbTargets":["K1","K14","S1","S8","B1"],"evidenceRequirements":["B1","K14.a","S1","S8"],"conditionalPrompt":"Show the safe setup, control measures and prepared work; do not film unsafely."}
+      {"id":"3.4.3","title":"Prepare a cut using power tools safely","evidenceProfile":"practical","ksbTargets":["K1","K14","S1","S8","B1"],"evidenceRequirements":["B1","K1.k","K14.a","S1","S8"],"conditionalPrompt":"Show the safe setup, dust/RPE control measures and prepared work; do not film unsafely."}
     ]},
     {"id":"3.5","title":"Repairs & defects","tasks":[
       {"id":"3.5.1","title":"Identify a masonry defect","evidenceProfile":"knowledge","ksbTargets":["K24","B3"],"evidenceRequirements":["B3","K24"],"conditionalPrompt":"Show the defect and explain the likely cause and repair approach."},
