@@ -1,0 +1,239 @@
+{
+  "evidenceRules": 1,
+  "schemaVersion": 1,
+  "principles": {
+    "oneSubmissionCanCoverManyCriteria": true,
+    "candidateCriteriaAreNotAutomaticAwards": true,
+    "sameEvidenceMayBeReusedAcrossEquivalentCriteria": true,
+    "inactiveOptionalUnitsAreNeverAwarded": true
+  },
+  "profiles": {
+    "job-information": {
+      "id": "job-information",
+      "label": "Job information evidence",
+      "shortLabel": "Video or document + audio",
+      "oneSubmissionNote": "This is one task submission. One clear video can cover several information types and many equivalent ACs across the active units; it is not one photo per AC.",
+      "preferred": [
+        {
+          "type": "video",
+          "label": "1 short video",
+          "instruction": "Show the job information you actually used and explain what you took from each source and how it affected today's work. Aim for about 1–3 minutes."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "If the information cannot be shown clearly on video",
+          "instruction": "Upload one document/photo set showing the relevant extracts, then add one short audio or written statement explaining the source, what you interpreted and how you used it."
+        }
+      ],
+      "capture": [
+        "Select only the information sources genuinely used today.",
+        "For each selected source: say where it came from, what information you extracted, and how it changed or confirmed the work.",
+        "Do not include confidential project information unless it is permitted to be recorded."
+      ]
+    },
+    "practical": {
+      "id": "practical",
+      "label": "Practical task evidence",
+      "shortLabel": "Video",
+      "oneSubmissionNote": "One practical submission can support several performance and knowledge criteria when the video and short explanation genuinely demonstrate them.",
+      "preferred": [
+        {
+          "type": "video",
+          "label": "1 short practical video",
+          "instruction": "Show yourself carrying out the key part of the task, the checks you make and the finished result. Briefly explain what you are doing and why."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "If video is not practical",
+          "instruction": "Use one 3-photo set (start, during, finish) plus one short audio or written statement explaining the method and checks."
+        }
+      ],
+      "capture": [
+        "Show the task itself, not just the finished result.",
+        "Show at least one measurement, check or quality decision where relevant.",
+        "Explain any criterion that cannot be seen directly."
+      ]
+    },
+    "hidden-work": {
+      "id": "hidden-work",
+      "label": "Hidden-detail evidence",
+      "shortLabel": "3 photos + audio",
+      "oneSubmissionNote": "Treat the photo set and short explanation as one task submission. The purpose is to prove work that will be covered up later.",
+      "preferred": [
+        {
+          "type": "photos",
+          "label": "1 set of 3 photos",
+          "instruction": "Take a clear photo before covering, one during installation and one showing the completed detail in context."
+        },
+        {
+          "type": "audio",
+          "label": "1 short audio statement",
+          "instruction": "Explain what the detail is, how it was positioned/installed and what checks you made before it was covered."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Video alternative",
+          "instruction": "One clear video showing the detail before it is concealed can replace the photo set and audio if the learner explains the installation and checks in the same recording."
+        }
+      ],
+      "capture": [
+        "Make the hidden detail clearly visible before it is covered.",
+        "Show position, fixing/bed/joint and any spacing or continuity requirement relevant to the task.",
+        "Include a wider view so the detail can be identified in the work."
+      ]
+    },
+    "knowledge": {
+      "id": "knowledge",
+      "label": "Knowledge evidence",
+      "shortLabel": "Audio or written",
+      "oneSubmissionNote": "One concise statement can answer several repeated knowledge criteria. The learner does not need a separate statement for each equivalent AC.",
+      "preferred": [
+        {
+          "type": "audio",
+          "label": "1 audio statement",
+          "instruction": "Answer the task prompt in your own words and relate the answer to the work you are doing."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Written alternative",
+          "instruction": "Use one written statement instead of audio. A short video explanation is also acceptable where it adds useful context."
+        }
+      ],
+      "capture": [
+        "Answer the whole prompt, not just a yes/no response.",
+        "Use a real workplace example where possible.",
+        "The same response may satisfy equivalent criteria in several active units."
+      ]
+    },
+    "safety": {
+      "id": "safety",
+      "label": "Safety evidence",
+      "shortLabel": "Video or photos + audio",
+      "oneSubmissionNote": "Safety evidence should show the controls actually used on the task; it can support the repeated safety criteria across the active units.",
+      "preferred": [
+        {
+          "type": "video",
+          "label": "1 short safety video",
+          "instruction": "Show the relevant controls in use and explain the main hazard, the control chosen and what would make you stop or change the work."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Photo alternative",
+          "instruction": "Use up to 3 photos of the controls/work area plus one short audio or written explanation."
+        }
+      ],
+      "capture": [
+        "Only claim PPE, RPE, LEV, access or other controls that are actually relevant and visible/explained.",
+        "Include changed conditions or reporting where the task requires it."
+      ]
+    },
+    "resources": {
+      "id": "resources",
+      "label": "Resources & tools evidence",
+      "shortLabel": "Photo + audio",
+      "oneSubmissionNote": "One resource-focused submission can cover several equivalent resource criteria when the learner identifies and explains the materials, tools or components actually used.",
+      "preferred": [
+        {
+          "type": "photo",
+          "label": "1 clear photo",
+          "instruction": "Show the materials, components, fixings or tools selected for the task."
+        },
+        {
+          "type": "audio",
+          "label": "1 short audio statement",
+          "instruction": "Explain why they are suitable, how you checked them and any limitation, defect or hazard relevant to the task."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Video alternative",
+          "instruction": "One short video identifying the resources and explaining selection/checks can replace the photo and audio."
+        }
+      ],
+      "capture": [
+        "Name the actual resource or tool used.",
+        "Link suitability and checks to the specification or task requirement."
+      ]
+    },
+    "quality": {
+      "id": "quality",
+      "label": "Quality-check evidence",
+      "shortLabel": "Photos + audio",
+      "oneSubmissionNote": "One quality-check submission can support repeated quality criteria across units when the check and result are clearly evidenced.",
+      "preferred": [
+        {
+          "type": "photos",
+          "label": "1–3 photos",
+          "instruction": "Show the completed work and the measurement/check used to confirm it meets the requirement."
+        },
+        {
+          "type": "audio",
+          "label": "1 short audio statement",
+          "instruction": "State what you checked, what tolerance/specification applied and what you would do if it was wrong."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Video alternative",
+          "instruction": "One video showing the check and explaining the result can replace the photo and audio combination."
+        }
+      ],
+      "capture": [
+        "Show the check, not only the finished work.",
+        "Record the outcome and any correction made."
+      ]
+    },
+    "programme": {
+      "id": "programme",
+      "label": "Programme & progress evidence",
+      "shortLabel": "Audio or written",
+      "oneSubmissionNote": "Where the practical evidence already proves the work was completed, no extra visual evidence is needed; add one short explanation of time, progress or change.",
+      "preferred": [
+        {
+          "type": "audio",
+          "label": "1 short audio statement",
+          "instruction": "Explain the allocated time, progress against plan, any change that affected the work and who you told if a change was needed."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Written or document alternative",
+          "instruction": "Use one written statement or a relevant programme/schedule extract with a short explanation."
+        }
+      ],
+      "capture": [
+        "Give the estimated/allocated time where the criterion requires it.",
+        "State whether the task was completed within that time and explain any change."
+      ]
+    },
+    "communication": {
+      "id": "communication",
+      "label": "Communication evidence",
+      "shortLabel": "Witness or audio",
+      "oneSubmissionNote": "One verified example of real workplace communication can support several relationship/communication criteria when the people, purpose and outcome are clear.",
+      "preferred": [
+        {
+          "type": "witness",
+          "label": "1 witness statement",
+          "instruction": "A supervisor/employer confirms the communication or coordination that took place and what the learner contributed."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Reflection alternative",
+          "instruction": "Use one short audio or written reflection describing who you communicated with, what information/advice was exchanged and the outcome."
+        }
+      ],
+      "capture": [
+        "Identify who was involved and why the communication was needed.",
+        "Explain the information/advice given and the result.",
+        "Where a performance criterion requires real communication, verification is stronger than a generic statement."
+      ]
+    }
+  }
+}
