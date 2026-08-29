@@ -38,6 +38,7 @@
   },
   "evidenceRules": "evidence-rules.json",
   "ksbRegistry": "packs/ST0095/ksb-registry.json",
+  "facetRegistry": "packs/ST0095/facets.json",
   "categoryFiles": [
     "packs/ST0095/category-1.json",
     "packs/ST0095/category-2.json",
