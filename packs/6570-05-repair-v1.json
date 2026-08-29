@@ -1,0 +1,56 @@
+{
+  "eviaMappingPack": 1,
+  "schemaVersion": 1,
+  "status": "test",
+  "productionReady": false,
+  "qualification": {
+    "id": "6570-05",
+    "title": "City & Guilds Level 3 NVQ Diploma in Trowel Occupations (Construction)",
+    "source": "Qualification Handbook, July 2025, Version 1.1",
+    "courseType": "nvq",
+    "structure": {
+      "maxCategories": 5,
+      "maxSubcategoriesPerCategory": 5,
+      "maxTasksPerSubcategory": 5
+    },
+    "mandatoryUnits": ["102", "234", "235", "300", "303", "313", "502", "701"],
+    "optionalUnits": [
+      {"id":"238","route":"thin","title":"Erecting thin joint masonry structures","status":"mapping-next","atomicTargetCount":116},
+      {"id":"690","route":"repair","title":"Repairing and maintaining masonry structures","status":"mapped-test","atomicTargetCount":123},
+      {"id":"828","route":"specialist","title":"Installing and forming specialist masonry elements","status":"mapping-next","atomicTargetCount":124},
+      {"id":"837","route":"drainage","title":"Installing drainage","status":"mapping-next","atomicTargetCount":110}
+    ]
+  },
+  "route": {
+    "id": "repair",
+    "optionalUnit": "690",
+    "activeUnits": ["102", "234", "235", "300", "303", "313", "502", "701", "690"],
+    "parentAcCount": 239,
+    "atomicTargetCount": 779,
+    "mappedAtomicTargetCount": 779,
+    "orphanAtomicTargetCount": 0,
+    "taskTypeCount": 125,
+    "wordingAuditStatus": "pending-final-wording-audit"
+  },
+  "validation": {
+    "categoryCount": 5,
+    "subcategoriesPerCategory": [5,5,5,5,5],
+    "tasksPerSubcategory": [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+    "mappedAtomicTargetCount": 779,
+    "uniqueAtomicTargetCount": 779,
+    "orphanAtomicTargets": [],
+    "passesStructure": true,
+    "passesCoverage": true
+  },
+  "export": {
+    "qrPayloadType": "evia-course-url-v1",
+    "note": "QR contains no learner/personal data; it points Evia to this versioned course pack."
+  },
+  "categoryFiles": [
+    "packs/6570-05-repair/category-1.json",
+    "packs/6570-05-repair/category-2.json",
+    "packs/6570-05-repair/category-3.json",
+    "packs/6570-05-repair/category-4.json",
+    "packs/6570-05-repair/category-5.json"
+  ]
+}
