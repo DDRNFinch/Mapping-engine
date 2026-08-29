@@ -1,0 +1,15 @@
+{
+  "ksbMappingManifest": 1,
+  "schemaVersion": 1,
+  "courses": [
+    {
+      "id": "ST0095",
+      "version": "1.2",
+      "title": "Bricklayer — ST0095 v1.2",
+      "status": "mapped-test",
+      "pack": "packs/ST0095-v1.json",
+      "ksbCount": 59,
+      "taskTypeCount": 75
+    }
+  ]
+}
