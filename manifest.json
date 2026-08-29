@@ -1,0 +1,32 @@
+{
+  "mappingEngineManifest": 1,
+  "schemaVersion": 1,
+  "qualificationId": "6570-05",
+  "routes": [
+    {
+      "id": "thin",
+      "optionalUnit": "238",
+      "title": "Thin Joint",
+      "status": "mapping-next"
+    },
+    {
+      "id": "repair",
+      "optionalUnit": "690",
+      "title": "Repair & Maintenance",
+      "status": "mapped-test",
+      "pack": "packs/6570-05-repair-v1.json"
+    },
+    {
+      "id": "specialist",
+      "optionalUnit": "828",
+      "title": "Specialist Masonry",
+      "status": "mapping-next"
+    },
+    {
+      "id": "drainage",
+      "optionalUnit": "837",
+      "title": "Drainage",
+      "status": "mapping-next"
+    }
+  ]
+}
