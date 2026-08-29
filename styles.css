@@ -9,6 +9,7 @@
   --good: #286a3b;
   --warn: #8a5a00;
   --bad: #8f2f2f;
+  --naxos-coral: #fb6262;
 }
 
 * { box-sizing: border-box; }
@@ -45,6 +46,11 @@ button.compact { padding: 7px 10px; font-size: 12px; }
   background: #fff;
   border-bottom: 1px solid var(--line);
 }
+.brand-heading { display:flex; gap:14px; align-items:flex-start; min-width:0; }
+.brand-logo-link { display:block; flex:0 0 auto; border-radius:18px; line-height:0; }
+.brand-logo { width:72px; height:72px; display:block; }
+.brand-copy { min-width:0; }
+.brand-kicker { margin:0 0 4px !important; color:var(--naxos-coral) !important; font-size:11px; line-height:1.2; font-weight:850; text-transform:uppercase; letter-spacing:.09em; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { margin-bottom: 5px; font-size: clamp(24px, 4vw, 38px); }
 h3 { margin-bottom: 0; font-size: 20px; }
@@ -132,6 +138,7 @@ footer { padding:18px clamp(16px,4vw,48px); color:var(--muted); font-size:12px; 
 
 @media (max-width: 900px) {
   .topbar { align-items:stretch; flex-direction:column; }
+  .brand-logo { width:60px; height:60px; }
   .browser { grid-template-columns:1fr; }
   .level-panel { min-height:0; }
   .status-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
