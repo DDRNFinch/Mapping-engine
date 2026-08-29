@@ -1,0 +1,1 @@
+Replace temporary custom install route with a normal installable PWA matching Evia's manifest/service-worker pattern.
