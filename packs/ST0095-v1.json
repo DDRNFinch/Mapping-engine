@@ -1,0 +1,56 @@
+{
+  "eviaMappingPack": 1,
+  "schemaVersion": 3,
+  "status": "test",
+  "productionReady": false,
+  "courseType": "ksb",
+  "qualification": {
+    "id": "ST0095",
+    "version": "1.2",
+    "title": "Bricklayer — ST0095 v1.2",
+    "source": "Skills England occupational standard / OCC0095",
+    "sourceUrl": "https://skillsengland.education.gov.uk/occupations/OCC0095",
+    "structure": {
+      "maxCategories": 5,
+      "maxSubcategoriesPerCategory": 5,
+      "maxTasksPerSubcategory": 5
+    }
+  },
+  "coverage": {
+    "ksbCount": 59,
+    "knowledgeCount": 31,
+    "skillCount": 22,
+    "behaviourCount": 6,
+    "internalEvidenceRequirementCount": 161,
+    "taskTypeCount": 75,
+    "unusedTaskCapacity": 50,
+    "ksbCoverage": 59,
+    "evidenceRequirementCoverage": 161,
+    "orphanKSBs": [],
+    "orphanEvidenceRequirements": []
+  },
+  "rules": {
+    "holisticMapping": true,
+    "candidateKSBsAreNotAutomaticAwards": true,
+    "compoundKSBsUseInternalFacets": true,
+    "facetIdsAreInternalNotOfficialKSBIdentifiers": true,
+    "oneSubmissionCanCoverMultipleKSBs": true
+  },
+  "evidenceRules": "evidence-rules.json",
+  "ksbRegistry": "packs/ST0095/ksb-registry.json",
+  "categoryFiles": [
+    "packs/ST0095/category-1.json",
+    "packs/ST0095/category-2.json",
+    "packs/ST0095/category-3.json",
+    "packs/ST0095/category-4.json",
+    "packs/ST0095/category-5.json"
+  ],
+  "matrix": {
+    "columnMode": "main-category",
+    "defaultFilter": "knowledge"
+  },
+  "export": {
+    "qrPayloadType": "evia-mapping-pack-url-v1",
+    "note": "QR contains no learner or personal data; it points future Evia-format apps to this versioned mapping pack."
+  }
+}
