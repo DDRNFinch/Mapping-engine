@@ -6,9 +6,9 @@
       "id": "6570-04",
       "type": "nvq",
       "title": "Trowel Occupations Level 2 — 6570-04",
-      "section": "nvq-6570-04.html",
-      "matrix": false,
-      "status": "structure-preview",
+      "section": "index.html?course=6570-04",
+      "manifest": "manifest-6570-04.json",
+      "matrix": true,
       "glh": 394,
       "tqt": 670
     },
@@ -16,7 +16,7 @@
       "id": "6570-05",
       "type": "nvq",
       "title": "Trowel Occupations Level 3 — 6570-05",
-      "section": "index.html",
+      "section": "index.html?course=6570-05",
       "manifest": "manifest.json",
       "matrix": true
     },
