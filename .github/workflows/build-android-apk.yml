@@ -54,7 +54,18 @@ jobs:
       - name: Apply Naxos Android identity
         shell: bash
         run: |
-          cp icon-512.png android/app/src/main/res/drawable/naxos_icon.png
+          cat > android/app/src/main/res/drawable/naxos_icon.xml <<'XML'
+          <vector xmlns:android="http://schemas.android.com/apk/res/android"
+              android:width="108dp"
+              android:height="108dp"
+              android:viewportWidth="512"
+              android:viewportHeight="512">
+            <path android:fillColor="#FB6262" android:pathData="M0,0h512v512h-512z"/>
+            <path android:fillColor="@android:color/transparent" android:strokeColor="#FFFFFF" android:strokeWidth="22" android:strokeLineCap="round" android:pathData="M256,96a160,160 0,1 0,0 320a160,160 0,1 0,0 -320"/>
+            <path android:fillColor="@android:color/transparent" android:strokeColor="#FFFFFF" android:strokeWidth="18" android:strokeLineCap="round" android:pathData="M229,217a29,29 0,1 0,0 58a29,29 0,1 0,0 -58"/>
+            <path android:fillColor="@android:color/transparent" android:strokeColor="#FFFFFF" android:strokeWidth="18" android:strokeLineCap="round" android:pathData="M318,229a29,29 0,1 0,0 58a29,29 0,1 0,0 -58"/>
+          </vector>
+          XML
           python3 - <<'PY'
           from pathlib import Path
           p=Path('android/app/src/main/AndroidManifest.xml')
