@@ -1,6 +1,6 @@
 {
   "eviaMappingPack": 1,
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "status": "test",
   "productionReady": false,
   "qualification": {
@@ -13,18 +13,61 @@
       "maxSubcategoriesPerCategory": 5,
       "maxTasksPerSubcategory": 5
     },
-    "mandatoryUnits": ["102", "234", "235", "300", "303", "313", "502", "701"],
+    "mandatoryUnits": [
+      "102",
+      "234",
+      "235",
+      "300",
+      "303",
+      "313",
+      "502",
+      "701"
+    ],
     "optionalUnits": [
-      {"id":"238","route":"thin","title":"Erecting thin joint masonry structures","status":"mapping-next","atomicTargetCount":116},
-      {"id":"690","route":"repair","title":"Repairing and maintaining masonry structures","status":"mapped-test","atomicTargetCount":123},
-      {"id":"828","route":"specialist","title":"Installing and forming specialist masonry elements","status":"mapping-next","atomicTargetCount":124},
-      {"id":"837","route":"drainage","title":"Installing drainage","status":"mapping-next","atomicTargetCount":110}
+      {
+        "id": "238",
+        "route": "thin",
+        "title": "Erecting thin joint masonry structures",
+        "status": "mapping-next",
+        "atomicTargetCount": 116
+      },
+      {
+        "id": "690",
+        "route": "repair",
+        "title": "Repairing and maintaining masonry structures",
+        "status": "mapped-test",
+        "atomicTargetCount": 123
+      },
+      {
+        "id": "828",
+        "route": "specialist",
+        "title": "Installing and forming specialist masonry elements",
+        "status": "mapping-next",
+        "atomicTargetCount": 124
+      },
+      {
+        "id": "837",
+        "route": "drainage",
+        "title": "Installing drainage",
+        "status": "mapping-next",
+        "atomicTargetCount": 110
+      }
     ]
   },
   "route": {
     "id": "repair",
     "optionalUnit": "690",
-    "activeUnits": ["102", "234", "235", "300", "303", "313", "502", "701", "690"],
+    "activeUnits": [
+      "102",
+      "234",
+      "235",
+      "300",
+      "303",
+      "313",
+      "502",
+      "701",
+      "690"
+    ],
     "parentAcCount": 239,
     "atomicTargetCount": 779,
     "mappedAtomicTargetCount": 779,
@@ -34,13 +77,20 @@
   },
   "validation": {
     "categoryCount": 5,
-    "subcategoriesPerCategory": [5,5,5,5,5],
-    "tasksPerSubcategory": [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+    "subcategoriesPerCategory": [5, 5, 5, 5, 5],
+    "tasksPerSubcategory": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
     "mappedAtomicTargetCount": 779,
     "uniqueAtomicTargetCount": 779,
     "orphanAtomicTargets": [],
     "passesStructure": true,
     "passesCoverage": true
+  },
+  "evidence": {
+    "rulesFile": "evidence-rules.json",
+    "oneSubmissionCanCoverManyCriteria": true,
+    "candidateCriteriaAreNotAutomaticAwards": true,
+    "sameEvidenceMayBeReusedAcrossEquivalentCriteria": true,
+    "note": "Evidence requirements are task-level. A single task submission may satisfy many atomic criteria when it actually demonstrates the requirement."
   },
   "export": {
     "qrPayloadType": "evia-course-url-v1",
