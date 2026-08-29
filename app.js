@@ -210,6 +210,9 @@
     const route = state.manifest.routes.find(r => r.id === routeId);
     if (route?.pack) {
       state.pack = await fetchJson(route.pack);
+      if (Array.isArray(state.pack.categoryFiles)) {
+        state.pack.categories = await Promise.all(state.pack.categoryFiles.map(fetchJson));
+      }
     }
     renderStatus(route);
     if (state.pack) {
