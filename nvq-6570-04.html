@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efc33d">
+  <title>6570-04 Level 2 NVQ · Mapping Engine</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .engine-nav,.qualification-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}
+    .engine-nav a,.qualification-tabs a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}
+    .engine-nav a.active,.qualification-tabs a.active{background:var(--yellow-soft);border-color:#d7aa1c}
+    .qualification-tabs{margin-top:1rem}
+    .qualification-tabs a{display:flex;gap:.45rem;align-items:center}
+    .qualification-tabs small{font-size:.68rem;opacity:.68;text-transform:uppercase;letter-spacing:.04em}
+    .preview-banner{margin-top:.9rem;padding:.75rem .9rem;border:1px solid #e3c55a;border-radius:14px;background:#fff9df;font-size:.82rem;line-height:1.45}
+    .qualification-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem;margin-top:1rem}
+    .qualification-summary .metric{background:#fff;border:1px solid var(--line);border-radius:16px;padding:.85rem}
+    .qualification-summary strong{display:block;font-size:1.15rem}
+    .qualification-summary span{display:block;margin-top:.25rem;font-size:.74rem;opacity:.68}
+    .unit-strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.6rem;margin-top:.8rem}
+    .unit-chip{background:#fff;border:1px solid var(--line);border-radius:14px;padding:.7rem .75rem;min-height:76px}
+    .unit-chip strong{display:block;font-size:.82rem}
+    .unit-chip span{display:block;font-size:.72rem;line-height:1.35;margin-top:.3rem;opacity:.72}
+    .route-box select{min-width:260px}
+    .preview-status{font-size:.8rem;line-height:1.5;margin-top:.7rem;opacity:.75}
+    .disabled-note{font-size:.82rem;line-height:1.45;max-width:720px}
+    button[disabled]{opacity:.45;cursor:not-allowed}
+    @media (max-width:900px){.qualification-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.unit-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:600px){.qualification-summary,.unit-strip{grid-template-columns:1fr}.route-box select{min-width:0;width:100%}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>NVQ Mapping Engine</h1>
+      <p>6570-04 · Level 2 Trowel Occupations · 394 GLH · 670 TQT</p>
+      <nav class="engine-nav" aria-label="Mapping engine sections"><a class="active" href="index.html">NVQ courses</a><a href="ksb.html">KSB courses</a></nav>
+      <div class="qualification-tabs" aria-label="NVQ qualifications">
+        <a class="active" href="nvq-6570-04.html"><small>Level 2</small>6570-04</a>
+        <a href="index.html"><small>Level 3</small>6570-05</a>
+      </div>
+    </div>
+    <div class="route-box">
+      <label for="routeSelect">Optional unit</label>
+      <select id="routeSelect" aria-label="Level 2 optional unit"></select>
+    </div>
+  </header>
+
+  <main>
+    <section class="status-panel">
+      <div class="qualification-summary">
+        <div class="metric"><strong>5</strong><span>mandatory units</span></div>
+        <div class="metric"><strong>1+</strong><span>optional units required</span></div>
+        <div class="metric"><strong>394</strong><span>guided learning hours</span></div>
+        <div class="metric"><strong>670</strong><span>total qualification time</span></div>
+      </div>
+      <div class="unit-strip" id="mandatoryUnits"></div>
+      <div class="preview-banner"><strong>Level 2 qualification shell added.</strong> This page shows how 6570-04 sits inside the NVQ section and how the Mapping Engine will present its mandatory units and selected optional route. The learner-facing task wording below is a structure preview; full LO/AC mapping and QR export remain locked until the mapping audit is complete.</div>
+      <p id="routeStatus" class="preview-status"></p>
+    </section>
+
+    <section id="browser" class="browser">
+      <div class="level-panel">
+        <div class="level-title"><span>1</span> Category <strong id="categoryCount"></strong></div>
+        <div id="categories" class="button-stack"></div>
+      </div>
+      <div class="level-panel">
+        <div class="level-title"><span>2</span> Sub-category <strong id="subcategoryCount"></strong></div>
+        <div id="subcategories" class="button-stack"></div>
+      </div>
+      <div class="level-panel">
+        <div class="level-title"><span>3</span> Task <strong id="taskCount"></strong></div>
+        <div id="tasks" class="button-stack"></div>
+      </div>
+    </section>
+
+    <section id="taskDetail" class="detail-card">
+      <div class="detail-heading"><div><p class="eyebrow" id="taskPath"></p><h2 id="taskTitle"></h2></div><div class="count-pill">Preview</div></div>
+      <div id="taskMeta" class="meta-grid"></div>
+      <section class="evidence-plan">
+        <div class="evidence-plan-heading"><div><p class="eyebrow">NVQ evidence structure</p><h3>Evidence will map to Learning Outcomes and Assessment Criteria</h3></div><span class="one-submission">NVQ</span></div>
+        <p class="evidence-note">The final 6570-04 pack will use the same Mapping Engine evidence logic as Level 3: one strong piece of evidence can support several relevant criteria, but criteria are only awarded where the evidence actually demonstrates them.</p>
+        <div class="capture-box"><strong>What happens next for this task</strong><ul><li>Official LO and AC wording is attached to the learner-facing task.</li><li>Evidence methods are selected from the shared NVQ evidence rules.</li><li>Coverage is audited so no active criterion is left unmapped.</li><li>Only after the audit passes will the Evia QR export unlock.</li></ul></div>
+      </section>
+    </section>
+
+    <section class="export-panel">
+      <div><p class="eyebrow">Evia mapping-pack export</p><h2>Course QR locked during mapping</h2><p class="disabled-note">6570-04 is now visible in the NVQ section, but this preview will not generate a course QR until the full Learning Outcome and Assessment Criteria map has been checked against the official handbook.</p><div class="action-row"><button disabled>Generate Evia QR</button></div></div>
+    </section>
+  </main>
+
+  <footer><span>Mapping engine · 6570-04 Level 2 NVQ structure preview · Source: City & Guilds Qualification Handbook, July 2025 v1.1</span></footer>
+
+  <script>
+  (() => {
+    'use strict';
+    const mandatory = [
+      {id:'102',title:'Conforming to general health, safety and welfare in the workplace'},
+      {id:'219',title:'Conforming to productive working practices in the workplace'},
+      {id:'235',title:'Erecting masonry structures in the workplace'},
+      {id:'609',title:'Moving, handling and storing resources in the workplace'},
+      {id:'701',title:'Setting out to form masonry structures in the workplace'}
+    ];
+    const optional = [
+      {id:'234',title:'Erecting masonry cladding in the workplace',short:'Masonry cladding'},
+      {id:'238',title:'Erecting thin joint masonry structures in the workplace',short:'Thin joint masonry'},
+      {id:'690',title:'Repairing and maintaining masonry structures in the workplace',short:'Repair & maintenance'},
+      {id:'817',title:'Placing and compacting concrete in the workplace',short:'Concrete'},
+      {id:'828',title:'Installing and forming specialist masonry elements in the workplace',short:'Specialist masonry'},
+      {id:'837',title:'Installing drainage in the workplace',short:'Drainage'}
+    ];
+    const el = id => document.getElementById(id);
+    const state = {route:'234',category:0,sub:0,task:0};
+
+    const baseCategories = route => [
+      {title:'Safe & productive work',unit:'102 / 219',subs:[
+        {title:'Health, safety & welfare',tasks:['Follow site health and safety controls','Identify and report hazards','Use emergency and welfare arrangements']},
+        {title:'Productive working practices',tasks:['Plan and organise the work','Communicate with the team','Complete work to the required standard']}
+      ]},
+      {title:'Resources & preparation',unit:'609',subs:[
+        {title:'Moving & handling resources',tasks:['Select the resources needed','Move resources safely','Protect and store materials correctly']},
+        {title:'Work area preparation',tasks:['Prepare the work area','Check access and storage','Keep resources ready for use']}
+      ]},
+      {title:'Setting out masonry',unit:'701',subs:[
+        {title:'Setting-out information',tasks:['Read drawings and specifications','Establish datum and control points','Check dimensions and tolerances']},
+        {title:'Lines, levels & profiles',tasks:['Set lines and profiles','Transfer levels','Check angles, openings and positions']}
+      ]},
+      {title:'Erecting masonry structures',unit:'235',subs:[
+        {title:'Masonry preparation',tasks:['Prepare materials and components','Prepare mortar and working area','Check bonds, dimensions and details']},
+        {title:'Build & finish masonry',tasks:['Build masonry to line, level and plumb','Form openings and details','Protect, finish and check completed work']}
+      ]},
+      {title:route.short,unit:route.id,subs:[
+        {title:'Selected optional unit',tasks:['Prepare for '+route.short.toLowerCase(),'Carry out '+route.short.toLowerCase()+' work','Check, finish and record the work']},
+        {title:'Evidence & knowledge',tasks:['Explain the method used','Show safe working and quality checks','Submit evidence for the selected route']}
+      ]}
+    ];
+
+    function button(text, small, active, click){
+      const b=document.createElement('button');
+      b.className='nav-button'+(active?' active':'');
+      b.innerHTML='<span>'+text+(small?'<small>'+small+'</small>':'')+'</span>';
+      b.onclick=click;
+      return b;
+    }
+
+    function render(){
+      const route=optional.find(x=>x.id===state.route)||optional[0];
+      const cats=baseCategories(route);
+      if(state.category>=cats.length) state.category=0;
+      const cat=cats[state.category];
+      if(state.sub>=cat.subs.length) state.sub=0;
+      const sub=cat.subs[state.sub];
+      if(state.task>=sub.tasks.length) state.task=0;
+      const task=sub.tasks[state.task];
+
+      el('routeStatus').innerHTML='<strong>Selected optional unit:</strong> '+route.id+' · '+route.title+' — this sits alongside mandatory units 102, 219, 235, 609 and 701.';
+      const catWrap=el('categories'); catWrap.innerHTML='';
+      cats.forEach((c,i)=>catWrap.appendChild(button(c.title,'Unit '+c.unit,i===state.category,()=>{state.category=i;state.sub=0;state.task=0;render();})));
+      el('categoryCount').textContent=cats.length+'/5';
+      const subWrap=el('subcategories'); subWrap.innerHTML='';
+      cat.subs.forEach((s,i)=>subWrap.appendChild(button(s.title,s.tasks.length+' preview tasks',i===state.sub,()=>{state.sub=i;state.task=0;render();})));
+      el('subcategoryCount').textContent=cat.subs.length+'/5';
+      const taskWrap=el('tasks'); taskWrap.innerHTML='';
+      sub.tasks.forEach((t,i)=>taskWrap.appendChild(button(t,'LO/AC mapping pending',i===state.task,()=>{state.task=i;render();})));
+      el('taskCount').textContent=sub.tasks.length+'/5';
+      el('taskPath').textContent=cat.title+' › '+sub.title+' › Unit '+cat.unit;
+      el('taskTitle').textContent=task;
+      el('taskMeta').innerHTML='<div class="meta-item"><strong>Qualification</strong>6570-04 Level 2</div><div class="meta-item"><strong>Unit</strong>'+cat.unit+'</div><div class="meta-item"><strong>Course type</strong>NVQ</div><div class="meta-item"><strong>Progress measure</strong>GLH</div><div class="meta-item"><strong>Mapping status</strong>Structure preview</div>';
+    }
+
+    const select=el('routeSelect');
+    optional.forEach(item=>{const o=document.createElement('option');o.value=item.id;o.textContent=item.id+' · '+item.short;select.appendChild(o);});
+    select.value=state.route;
+    select.onchange=()=>{state.route=select.value;state.category=4;state.sub=0;state.task=0;render();};
+    el('mandatoryUnits').innerHTML=mandatory.map(u=>'<div class="unit-chip"><strong>Unit '+u.id+'</strong><span>'+u.title+'</span></div>').join('');
+    render();
+  })();
+  </script>
+</body>
+</html>
