@@ -1,0 +1,1 @@
+PWA icons will use standard opaque RGB PNGs to match the working Evia install path.
