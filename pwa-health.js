@@ -1,0 +1,1 @@
+window.addEventListener('load',async()=>{if(!('serviceWorker'in navigator))return;try{const r=await navigator.serviceWorker.register('./sw.js',{scope:'./',updateViaCache:'none'});await navigator.serviceWorker.ready;console.info('Naxos PWA ready',r.scope);}catch(e){console.error('Naxos PWA registration failed',e);}});
