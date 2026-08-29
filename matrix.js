@@ -9,6 +9,7 @@
   function allTasks(){return state.categories.flatMap(c=>(c.subcategories||[]).flatMap(s=>(s.tasks||[]).map(t=>({...t,categoryId:c.id,categoryTitle:c.title,subcategoryId:s.id,subcategoryTitle:s.title}))));}
   function parentAc(id){const p=String(id).split('.');return p.length>=3?`${p[0]}.${p[1]}.${p[2]}`:String(id);}
   function profile(task){const p=state.evidenceRules?.profiles||{};return p[task.evidenceProfile]||p.knowledge||{label:'Evidence',shortLabel:'Evidence'};}
+  function compareKsbIds(a,b){const rank={K:0,S:1,B:2};const ar=rank[String(a)[0]]??9,br=rank[String(b)[0]]??9;return ar-br||String(a).localeCompare(String(b),undefined,{numeric:true,sensitivity:'base'});}
 
   function fillCourseSelect(){const s=el('courseSelect');s.innerHTML='';state.catalog.courses.forEach(c=>{const o=document.createElement('option');o.value=c.id;o.textContent=`${c.type==='nvq'?'NVQ':'KSB'} · ${c.title}`;s.appendChild(o)});s.value=state.course.id;}
   function fillRouteSelect(){const box=el('routeControl'),s=el('routeSelect');if(state.course.type!=='nvq'){box.hidden=true;return;}box.hidden=false;s.innerHTML='';state.routeManifest.routes.forEach(r=>{const o=document.createElement('option');o.value=r.id;o.textContent=`${r.optionalUnit} · ${r.title}`;s.appendChild(o)});s.value=state.route.id;}
@@ -29,8 +30,7 @@
     const tasks=allTasks();state.hits=new Map();
     for(const id of Object.keys(registry.items)){state.hits.set(id,new Map());}
     tasks.forEach(t=>(t.ksbTargets||[]).forEach(id=>{if(!state.hits.has(id))state.hits.set(id,new Map());const m=state.hits.get(id);if(!m.has(t.categoryId))m.set(t.categoryId,[]);m.get(t.categoryId).push(t);}));
-    const order=[...Array(31)].map((_,i)=>`K${i+1}`).concat([...Array(22)].map((_,i)=>`S${i+1}`),[...Array(6)].map((_,i)=>`B${i+1}`));
-    state.criteria=order.map(id=>({id,group:id[0],text:registry.items[id]||'',atoms:[]}));
+    state.criteria=Object.keys(registry.items).sort(compareKsbIds).map(id=>({id,group:id[0],text:registry.items[id]||'',atoms:[]}));
     state.group=state.group&&['K','S','B'].includes(state.group)?state.group:'K';
     el('matrixStatus').innerHTML=`<strong class="good">${state.pack.coverage.ksbCoverage}/${state.pack.coverage.ksbCount} KSBs mapped.</strong><p class="status-note">${state.pack.coverage.taskTypeCount}/125 task types. Compound KSB wording is also split into ${state.pack.coverage.internalEvidenceRequirementCount} internal a,b,c… evidence checks.</p>`;
   }
