@@ -9,7 +9,7 @@
   async function refreshWorker(){
     if(!('serviceWorker' in navigator)) return;
     try{
-      const reg=await navigator.serviceWorker.register('./sw.js?v=7',{scope:'./',updateViaCache:'none'});
+      const reg=await navigator.serviceWorker.register('./sw.js?v=8',{scope:'./',updateViaCache:'none'});
       await reg.update().catch(()=>{});
     }catch{}
   }
