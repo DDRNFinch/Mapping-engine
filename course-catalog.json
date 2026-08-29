@@ -33,6 +33,14 @@
       "section": "ksb.html",
       "pack": "packs/ST0264-AJ-v1.json",
       "matrix": true
+    },
+    {
+      "id": "ST0171",
+      "type": "ksb",
+      "title": "Property Maintenance Operative — ST0171 v1.1",
+      "section": "ksb.html",
+      "pack": "packs/ST0171-v1.json",
+      "matrix": true
     }
   ]
 }
