@@ -51,12 +51,27 @@
     const active=new Set(state.pack.route.activeUnits||[]);const keep=id=>active.has(String(id).split('.')[0]);
 
     let requiredTargets=null;
+    const sourcePacks=state.pack.coverageSourcePacks||[];
     const sourceFiles=state.pack.coverageSourceFiles||[];
     const requiredFiles=state.pack.requiredTargetFiles||[];
     const inline=state.pack.requiredAtomicTargets||[];
-    if(sourceFiles.length||requiredFiles.length||inline.length){
-      const sourceCats=sourceFiles.length?await Promise.all(sourceFiles.map(p=>fetchJson(childPath(packPath,p)))):[];
-      const sourceIds=uniq(flatTasks(sourceCats).flatMap(({t})=>[...(t.directLo7Targets||[]),...(t.mappedAtomicTargets||[])])).filter(keep);
+    if(sourcePacks.length||sourceFiles.length||requiredFiles.length||inline.length){
+      const sourceIds=[];
+      for(const sourcePath of sourcePacks){
+        const sourcePackPath=childPath(packPath,sourcePath);
+        const sourcePack=await fetchJson(sourcePackPath);
+        const sourceCats=await Promise.all((sourcePack.categoryFiles||[]).map(p=>fetchJson(childPath(sourcePackPath,p))));
+        if(sourcePack.routeMappings){
+          const rm=await fetchJson(childPath(sourcePackPath,sourcePack.routeMappings));
+          for(const [taskId,ids] of Object.entries(rm.taskMappings||{})){
+            const found=flatTasks(sourceCats).find(x=>x.t.id===taskId);
+            if(found)found.t.mappedAtomicTargets=uniq([...(found.t.mappedAtomicTargets||[]),...ids]);
+          }
+        }
+        sourceIds.push(...uniq(flatTasks(sourceCats).flatMap(({t})=>[...(t.directLo7Targets||[]),...(t.mappedAtomicTargets||[])])).filter(keep));
+      }
+      const directSourceCats=sourceFiles.length?await Promise.all(sourceFiles.map(p=>fetchJson(childPath(packPath,p)))):[];
+      sourceIds.push(...uniq(flatTasks(directSourceCats).flatMap(({t})=>[...(t.directLo7Targets||[]),...(t.mappedAtomicTargets||[])])).filter(keep));
       const reqDocs=requiredFiles.length?await Promise.all(requiredFiles.map(p=>fetchJson(childPath(packPath,p)))):[];
       requiredTargets=uniq([...sourceIds,...reqDocs.flatMap(d=>d.targets||[]),...inline]).filter(keep);
     }
