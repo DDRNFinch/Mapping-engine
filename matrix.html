@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efc33d">
+  <title>Evidence Matrix</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .engine-nav{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active{background:var(--yellow-soft);border-color:#d7aa1c}
+    .matrix-controls{display:grid;grid-template-columns:2fr 1.3fr 1.3fr 1.5fr;gap:.75rem;background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;margin-bottom:16px}.matrix-controls label{display:block;font-size:.72rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem}.matrix-controls input,.matrix-controls select{width:100%;border:1px solid var(--line);border-radius:10px;padding:.72rem;background:#fff}
+    .matrix-wrap{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:auto;max-height:68vh}.matrix-table{width:100%;border-collapse:separate;border-spacing:0;min-width:820px}.matrix-table th,.matrix-table td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:.65rem;text-align:center;vertical-align:middle}.matrix-table th{position:sticky;top:0;background:#fff8db;z-index:3;font-size:.77rem}.matrix-table th:first-child,.matrix-table td:first-child{position:sticky;left:0;text-align:left;background:#fff;z-index:2;min-width:235px}.matrix-table th:first-child{z-index:4;background:#fff8db}.matrix-table tr:last-child td{border-bottom:0}.matrix-table th:last-child,.matrix-table td:last-child{border-right:0}.criterion-code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:800}.criterion-text{display:block;color:var(--muted);font-size:.76rem;line-height:1.35;margin-top:.25rem;max-width:520px}.matrix-dot{width:34px;height:34px;border-radius:50%;padding:0;display:inline-grid;place-items:center;background:#fff7d6;border:1px solid #d9b233;font-size:.72rem}.matrix-dot.empty{background:#fff;border-color:transparent;color:#bbb;cursor:default}.matrix-dot strong{font-size:.85rem}.matrix-summary{display:flex;gap:1rem;flex-wrap:wrap;margin:0 0 12px;color:var(--muted);font-size:.82rem}.matrix-detail{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:16px}.matrix-detail h2{margin-bottom:.35rem}.task-hit{border:1px solid var(--line);border-radius:12px;padding:.75rem;margin-top:.6rem}.task-hit p{margin:.25rem 0 0;color:var(--muted);font-size:.82rem}.route-name{display:block;font-size:.68rem;color:var(--muted);font-weight:600;margin-top:.2rem}.facet-list{margin:.65rem 0 0;padding-left:1.15rem}.facet-list li{margin:.35rem 0;font-size:.84rem}.mini-chip{display:inline-block;padding:.2rem .45rem;border:1px solid var(--line);border-radius:999px;font-size:.7rem;margin-right:.3rem;background:#fafafa}
+    @media(max-width:900px){.matrix-controls{grid-template-columns:1fr 1fr}.matrix-wrap{max-height:none}}
+    @media(max-width:560px){.matrix-controls{grid-template-columns:1fr}.matrix-table th:first-child,.matrix-table td:first-child{min-width:180px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Evidence Matrix</h1>
+      <p>Fast evidence navigation for assessor, IQA and EQA</p>
+      <nav class="engine-nav"><a href="index.html">NVQ courses</a><a href="ksb.html">KSB courses</a><a class="active" href="matrix.html">Evidence matrix</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="matrix-controls">
+      <div><label for="courseSelect">Course</label><select id="courseSelect"></select></div>
+      <div id="routeControl"><label for="routeSelect">Pathway / optional unit</label><select id="routeSelect"></select></div>
+      <div><label for="groupSelect" id="groupLabel">Unit / KSB type</label><select id="groupSelect"></select></div>
+      <div><label for="matrixSearch">Find criterion</label><input id="matrixSearch" type="search" placeholder="e.g. 235.1.1 or S11"></div>
+    </section>
+    <section id="matrixStatus" class="status-panel" aria-live="polite"></section>
+    <div class="matrix-summary" id="matrixSummary"></div>
+    <section class="matrix-wrap"><table class="matrix-table"><thead id="matrixHead"></thead><tbody id="matrixBody"></tbody></table></section>
+    <section id="matrixDetail" class="matrix-detail" hidden></section>
+  </main>
+  <footer><span>Evidence matrix · click a dot to see the exact task and evidence route</span></footer>
+  <script src="matrix.js"></script>
+</body>
+</html>
