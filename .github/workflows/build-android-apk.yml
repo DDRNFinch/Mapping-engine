@@ -1,0 +1,94 @@
+name: Build Naxos Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Prepare bundled web app
+        shell: bash
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          rsync -a ./ dist/ \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude 'dist' \
+            --exclude 'android' \
+            --exclude 'node_modules' \
+            --exclude 'package.json' \
+            --exclude 'package-lock.json' \
+            --exclude 'capacitor.config.*'
+
+      - name: Create Capacitor Android project
+        shell: bash
+        run: |
+          npm init -y
+          npm install --save-exact @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
+          npx cap init "Naxos Mapping Engine" "uk.co.nisia.naxos" --web-dir=dist
+          npx cap add android
+          npx cap sync android
+
+      - name: Apply Naxos Android identity
+        shell: bash
+        run: |
+          cp icon-512.png android/app/src/main/res/drawable/naxos_icon.png
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('android/app/src/main/AndroidManifest.xml')
+          s=p.read_text()
+          s=s.replace('@mipmap/ic_launcher_round','@drawable/naxos_icon')
+          s=s.replace('@mipmap/ic_launcher','@drawable/naxos_icon')
+          s=s.replace('android:label="@string/app_name"','android:label="Naxos"')
+          p.write_text(s)
+          PY
+
+      - name: Build real Android APK
+        shell: bash
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
+          cd ..
+          cp android/app/build/outputs/apk/debug/app-debug.apk Naxos-Mapping-Engine.apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Naxos-Mapping-Engine-Android
+          path: Naxos-Mapping-Engine.apk
+          if-no-files-found: error
+
+      - name: Publish latest APK release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if gh release view android-latest >/dev/null 2>&1; then
+            gh release upload android-latest Naxos-Mapping-Engine.apk --clobber
+          else
+            gh release create android-latest Naxos-Mapping-Engine.apk \
+              --title "Naxos Mapping Engine — Android" \
+              --notes "Installable Android APK for Naxos Mapping Engine. This is a real Android application package, not a browser shortcut."
+          fi
