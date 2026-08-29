@@ -15,17 +15,17 @@
     {"id":"2.3","title":"Bonds, courses & movement","tasks":[
       {"id":"2.3.1","title":"Select and explain a brick bond","evidenceProfile":"knowledge","ksbTargets":["K15","B3"],"evidenceRequirements":["B3","K15.a","K15.b","K15.c","K15.d"],"conditionalPrompt":"Identify the bond and explain where/why it is used."},
       {"id":"2.3.2","title":"Set out a brick-on-edge or soldier course","evidenceProfile":"practical","ksbTargets":["K23","S11","B3"],"evidenceRequirements":["B3","K23","S11.c"],"conditionalPrompt":"Show the set-out and alignment for the course."},
-      {"id":"2.3.3","title":"Position an expansion or movement joint","evidenceProfile":"hidden-work","ksbTargets":["K19","K22","S11","B3"],"evidenceRequirements":["B3","K19"],"conditionalPrompt":"Show the location/detail before it is concealed and explain why it is needed."}
+      {"id":"2.3.3","title":"Position an expansion or movement joint","evidenceProfile":"hidden-work","ksbTargets":["K19","B3"],"evidenceRequirements":["B3","K19"],"conditionalPrompt":"Show the location/detail before it is concealed and explain why it is needed."}
     ]},
     {"id":"2.4","title":"Openings & cavity details","tasks":[
       {"id":"2.4.1","title":"Set out a lintel and opening detail","evidenceProfile":"practical","ksbTargets":["K8","K10","K22","S5","S10","S11"],"evidenceRequirements":["K8.e","K10","K22.i","S5","S10","S11.b"],"conditionalPrompt":"Show opening dimensions, lintel position/bearing and drawing requirement."},
-      {"id":"2.4.2","title":"Plan cavity closure around an opening","evidenceProfile":"hidden-work","ksbTargets":["K6","K8","K22","S11"],"evidenceRequirements":["K22.c","S11.d"],"conditionalPrompt":"Show the closure detail before covering and explain how the cavity is maintained."},
+      {"id":"2.4.2","title":"Plan cavity closure around an opening","evidenceProfile":"hidden-work","ksbTargets":["K22","S11"],"evidenceRequirements":["K22.c","S11.d"],"conditionalPrompt":"Show the closure detail before covering and explain how the cavity is maintained."},
       {"id":"2.4.3","title":"Set out DPC, tray, weeps and fire stopping","evidenceProfile":"hidden-work","ksbTargets":["K6","K8","K22","S11"],"evidenceRequirements":["K6.b","K8.c","K22.f","K22.g","K22.h","K22.j","S11.g","S11.h","S11.i"],"conditionalPrompt":"Show the hidden detail positions and explain the moisture/fire path."}
     ]},
     {"id":"2.5","title":"Set-out quality & ownership","tasks":[
-      {"id":"2.5.1","title":"Check set-out against tolerances","evidenceProfile":"quality","ksbTargets":["K7","S4","S10","B3"],"evidenceRequirements":["B3","S4","S10"],"conditionalPrompt":"Show the tolerance/check and what you would correct if it was out."},
-      {"id":"2.5.2","title":"Check resources before starting","evidenceProfile":"resources","ksbTargets":["K8","K12","S6","B3"],"evidenceRequirements":["B3"],"conditionalPrompt":"Show quantities/components and confirm they match the task."},
-      {"id":"2.5.3","title":"Explain your plan and sequence for the task","evidenceProfile":"programme","ksbTargets":["K10","K16","K21","B3"],"evidenceRequirements":["B3","K10","K16"],"conditionalPrompt":"Explain the order you will work in and the checks you will make."}
+      {"id":"2.5.1","title":"Check set-out against tolerances","evidenceProfile":"quality","ksbTargets":["S4","S10","B3"],"evidenceRequirements":["B3","S4","S10"],"conditionalPrompt":"Show the tolerance/check and what you would correct if it was out."},
+      {"id":"2.5.2","title":"Check resources before starting","evidenceProfile":"resources","ksbTargets":["K8","K12","S6","B3"],"evidenceRequirements":["B3","K8.a","K8.b","K8.c","K8.d","K8.e","K8.g","K8.h","K12.a","K12.b","K12.c","K12.d","K12.e","S6.a","S6.b","S6.c","S6.d"],"conditionalPrompt":"Show the quantities/components and explain which are required, why they are suitable and how you checked them before starting."},
+      {"id":"2.5.3","title":"Explain your plan and sequence for the task","evidenceProfile":"programme","ksbTargets":["K10","K16","B3"],"evidenceRequirements":["B3","K10","K16"],"conditionalPrompt":"Explain the order you will work in and the checks you will make."}
     ]}
   ]
 }
