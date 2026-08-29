@@ -10,6 +10,24 @@
       "pack": "packs/ST0095-v1.json",
       "ksbCount": 59,
       "taskTypeCount": 75
+    },
+    {
+      "id": "ST0264-SITE",
+      "version": "1.4",
+      "title": "Site Carpenter — ST0264 v1.4",
+      "status": "mapped-test",
+      "pack": "packs/ST0264-SITE-v1.json",
+      "ksbCount": 57,
+      "taskTypeCount": 50
+    },
+    {
+      "id": "ST0264-AJ",
+      "version": "1.4",
+      "title": "Architectural Joiner — ST0264 v1.4",
+      "status": "mapped-test",
+      "pack": "packs/ST0264-AJ-v1.json",
+      "ksbCount": 57,
+      "taskTypeCount": 50
     }
   ]
 }
