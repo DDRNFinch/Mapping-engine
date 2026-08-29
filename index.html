@@ -8,16 +8,15 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Naxos">
   <title>Naxos · NVQ Mapping Engine</title>
-  <link rel="manifest" href="./manifest.webmanifest?v=5">
-  <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=4">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=4">
-  <link rel="stylesheet" href="./styles.css?v=4">
-  <script defer src="./pwa.js?v=5"></script>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="topbar">
     <div class="brand-heading">
-      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg?v=4" alt="Naxos Mapping Engine"></a>
+      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg" alt="Naxos Mapping Engine"></a>
       <div class="brand-copy">
         <p class="brand-kicker">Naxos · Mapping Engine</p>
         <h1>NVQ Mapping Engine</h1>
@@ -53,6 +52,13 @@
   </main>
   <footer><span>Naxos · Mapping Engine · Level 2 and Level 3 NVQs use the same 5 × 5 × 5 evidence structure and atomic AC coverage audit</span></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="app.js?v=4"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./sw.js', { scope: './', updateViaCache: 'none' }).catch(function () {});
+      });
+    }
+  </script>
 </body>
 </html>
