@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#fb6262">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Naxos">
   <title>Naxos · NVQ Mapping Engine</title>
-  <link rel="icon" href="naxos-logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
   <link rel="stylesheet" href="styles.css">
-  <style>.engine-nav,.qualification-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a,.qualification-tabs a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active,.qualification-tabs a.active{background:var(--yellow-soft);border-color:#d7aa1c}.qualification-tabs{margin-top:1rem}.qualification-tabs a{display:flex;gap:.45rem;align-items:center}.qualification-tabs small{font-size:.68rem;opacity:.68;text-transform:uppercase;letter-spacing:.04em}</style>
+  <script defer src="./pwa.js"></script>
 </head>
 <body>
   <header class="topbar">
@@ -29,20 +34,10 @@
 
   <main>
     <section id="statusPanel" class="status-panel" aria-live="polite"></section>
-
     <section id="browser" class="browser" hidden>
-      <div class="level-panel">
-        <div class="level-title"><span>1</span> Category <strong id="categoryCount"></strong></div>
-        <div id="categories" class="button-stack"></div>
-      </div>
-      <div class="level-panel">
-        <div class="level-title"><span>2</span> Sub-category <strong id="subcategoryCount"></strong></div>
-        <div id="subcategories" class="button-stack"></div>
-      </div>
-      <div class="level-panel">
-        <div class="level-title"><span>3</span> Task <strong id="taskCount"></strong></div>
-        <div id="tasks" class="button-stack"></div>
-      </div>
+      <div class="level-panel"><div class="level-title"><span>1</span> Category <strong id="categoryCount"></strong></div><div id="categories" class="button-stack"></div></div>
+      <div class="level-panel"><div class="level-title"><span>2</span> Sub-category <strong id="subcategoryCount"></strong></div><div id="subcategories" class="button-stack"></div></div>
+      <div class="level-panel"><div class="level-title"><span>3</span> Task <strong id="taskCount"></strong></div><div id="tasks" class="button-stack"></div></div>
     </section>
 
     <section id="taskDetail" class="detail-card" hidden>
