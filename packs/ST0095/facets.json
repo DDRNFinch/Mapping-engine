@@ -1,0 +1,32 @@
+{
+  "standardId": "ST0095",
+  "note": "Facet IDs such as K1.a and S11.e are internal evidence-coverage identifiers used by the mapping engine. They are not official Skills England KSB identifiers.",
+  "items": {
+    "K1": [["a","Health and safety regulations, standards and guidance and their impact on the role"],["b","Control of Substances Hazardous to Health (CoSHH)"],["c","Fire safety, fire extinguishers and safety signage"],["d","Health and Safety at Work Act"],["e","Asbestos awareness"],["f","Manual handling"],["g","Situational awareness, slips, trips and falls"],["h","Working in confined spaces"],["i","Working at height"],["j","Electrical safety"],["k","Respiratory protective equipment (RPE) and dust suppression"]],
+    "K3": [["a","Site inductions"],["b","Toolbox talks"],["c","Risk assessments"],["d","Method statements"],["e","Hazard identification in the work area"]],
+    "K4": [["a","Efficient use of resources"],["b","Recycling"],["c","Reuse"],["d","Surface water contamination"],["e","Safe disposal of waste"]],
+    "K5": [["a","Thermal qualities"],["b","Airtightness"],["c","Ventilation in buildings"]],
+    "K6": [["a","Foundations, roofs, walls and floors"],["b","Cavity step trays, damp proof courses and brick ties"],["c","Utilities and services"],["d","Insulation"],["e","Fire protection"],["f","Moisture and air protection"],["g","Quality of materials"]],
+    "K7": [["a","British Standards"],["b","Building Regulations"],["c","Warranty provider standards"]],
+    "K8": [["a","Bricks and blocks, including efflorescence"],["b","Mortar, cement, building sand and plasticisers"],["c","Damp proof courses (DPC)"],["d","Wall ties"],["e","Concrete and steel lintels"],["f","Rolled Steel Joist (RSJ)"],["g","Fire stopping"],["h","Insulation"]],
+    "K9": [["a","Rapid build technology"],["b","Precast components"],["c","Corner profiles"],["d","Alternative frame and cladding systems"],["e","Masonry support systems"]],
+    "K12": [["a","Quantity of bricks and blocks"],["b","Amount of mortar"],["c","Quantity of wall ties"],["d","DPCs and cavity trays"],["e","Lintels"]],
+    "K13": [["a","Levels and measures"],["b","Hammers, bolsters and brick hammers"],["c","Trowels and brick jointers"],["d","Line blocks and pins"],["e","Scutch, chariot and brick clamps"],["f","Maintenance and storage"]],
+    "K14": [["a","Disc cutters"],["b","Mixers"],["c","Drills"],["d","Limitations and safe application of power tools"]],
+    "K15": [["a","English bond"],["b","Flemish bond"],["c","Garden wall bonds"],["d","Broken bond"]],
+    "K17": [["a","Half round"],["b","Flush"],["c","Weather struck"],["d","Recessed"]],
+    "K18": [["a","Projecting and contrasting brickwork"],["b","Isolated and attached piers"],["c","Banding"]],
+    "K20": [["a","Mortar ratios"],["b","Silos"],["c","Pre-mixed mortar"],["d","Gauging"],["e","Hand mixing"],["f","Mechanical mixing"]],
+    "K21": [["a","Bricks and blocks"],["b","Openings and levels"],["c","Profiles"],["d","Gauge rods"],["e","Squares"]],
+    "K22": [["a","Stretcher bond brick and block cavity walling"],["b","Forming openings"],["c","Closing cavities"],["d","Wall ties"],["e","Insulation"],["f","Damp proof courses (DPCs)"],["g","Cavity trays"],["h","Weep holes"],["i","Lintels"],["j","Fire stopping"]],
+    "K25": [["a","Protection from frost"],["b","Protection from water"],["c","Protection from construction damage"]],
+    "K31": [["a","Mental health considerations in self and others"],["b","Physical health considerations in self and others"],["c","How to access support"]],
+    "S3": [["a","Comply with environmental and sustainability regulations, standards and guidance"],["b","Segregate resources for reuse"],["c","Segregate resources for recycling"],["d","Segregate resources for disposal"]],
+    "S6": [["a","Estimate and select bricks and blocks"],["b","Estimate and select mortar"],["c","Estimate and select wall ties"],["d","Estimate and select insulation and related components"]],
+    "S11": [["a","Construct stretcher bond brick and block cavity wall with return and opening to tolerance"],["b","Install a lintel with soldiers"],["c","Form brick-on-edge sill"],["d","Close the cavity around the opening"],["e","Install insulation"],["f","Install fire stopping"],["g","Install cavity tray"],["h","Install damp proof course (DPC)"],["i","Install weep holes"]],
+    "S12": [["a","Half round joint finish"],["b","Flush joint finish"],["c","Weather struck joint finish"],["d","Recessed joint finish"]],
+    "S15": [["a","Measure bricks and blocks"],["b","Cut bricks and blocks using hand tools"],["c","Achieve given tolerances"]],
+    "S22": [["a","Set out a wall with raking cut"],["b","Construct a wall with raking cut"]],
+    "B6": [["a","Team-focus to meet team goals"],["b","Consider the wider build team"]]
+  }
+}
