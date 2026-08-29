@@ -3,18 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#efc33d">
-  <title>NVQ Mapping Engine</title>
+  <meta name="theme-color" content="#fb6262">
+  <title>Naxos · NVQ Mapping Engine</title>
+  <link rel="icon" href="naxos-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <style>.engine-nav,.qualification-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}.engine-nav a,.qualification-tabs a{padding:.55rem .8rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:#fff;font-size:.82rem;font-weight:750}.engine-nav a.active,.qualification-tabs a.active{background:var(--yellow-soft);border-color:#d7aa1c}.qualification-tabs{margin-top:1rem}.qualification-tabs a{display:flex;gap:.45rem;align-items:center}.qualification-tabs small{font-size:.68rem;opacity:.68;text-transform:uppercase;letter-spacing:.04em}</style>
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <h1>NVQ Mapping Engine</h1>
-      <p id="qualificationLine">Loading NVQ qualification…</p>
-      <nav class="engine-nav" aria-label="Mapping engine sections"><a class="active" href="index.html?course=6570-04">NVQ courses</a><a href="ksb.html">KSB courses</a><a id="matrixNav" href="matrix.html?course=6570-05">Evidence matrix</a></nav>
-      <div class="qualification-tabs" aria-label="NVQ qualifications"><a id="tab657004" href="index.html?course=6570-04"><small>Level 2</small>6570-04</a><a id="tab657005" href="index.html?course=6570-05"><small>Level 3</small>6570-05</a></div>
+    <div class="brand-heading">
+      <a class="brand-logo-link" href="index.html" aria-label="Naxos Mapping Engine home"><img class="brand-logo" src="naxos-logo.svg" alt="Naxos Mapping Engine"></a>
+      <div class="brand-copy">
+        <p class="brand-kicker">Naxos · Mapping Engine</p>
+        <h1>NVQ Mapping Engine</h1>
+        <p id="qualificationLine">Loading NVQ qualification…</p>
+        <nav class="engine-nav" aria-label="Mapping engine sections"><a class="active" href="index.html?course=6570-04">NVQ courses</a><a href="ksb.html">KSB courses</a><a id="matrixNav" href="matrix.html?course=6570-05">Evidence matrix</a></nav>
+        <div class="qualification-tabs" aria-label="NVQ qualifications"><a id="tab657004" href="index.html?course=6570-04"><small>Level 2</small>6570-04</a><a id="tab657005" href="index.html?course=6570-05"><small>Level 3</small>6570-05</a></div>
+      </div>
     </div>
     <div class="route-box">
       <label for="routeSelect">Optional unit</label>
@@ -58,7 +63,7 @@
     </section>
   </main>
 
-  <footer><span>Mapping engine · Level 2 and Level 3 NVQs use the same 5 × 5 × 5 evidence structure and atomic AC coverage audit</span></footer>
+  <footer><span>Naxos · Mapping Engine · Level 2 and Level 3 NVQs use the same 5 × 5 × 5 evidence structure and atomic AC coverage audit</span></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="app.js"></script>
 </body>
