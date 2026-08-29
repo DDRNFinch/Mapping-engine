@@ -6,6 +6,7 @@
   function esc(v){return String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');}
   function baseDir(path){return String(path).replace(/[^/]*$/,'');}
   function childPath(packPath,path){if(!path)return null;if(/^https?:/i.test(path))return path;if(path.startsWith('packs/')||path==='evidence-rules.json'||path.startsWith('/'))return path.replace(/^\//,'');return baseDir(packPath)+path;}
+  function flatTasks(categories){return (categories||[]).flatMap(c=>(c.subcategories||[]).flatMap(s=>(s.tasks||[]).map(t=>({t,c,s}))));}
   function allTasks(){return state.categories.flatMap(c=>(c.subcategories||[]).flatMap(s=>(s.tasks||[]).map(t=>({...t,categoryId:c.id,categoryTitle:c.title,subcategoryId:s.id,subcategoryTitle:s.title}))));}
   function parentAc(id){const p=String(id).split('.');return p.length>=3?`${p[0]}.${p[1]}.${p[2]}`:String(id);}
   function profile(task){const p=state.evidenceRules?.profiles||{};return p[task.evidenceProfile]||p.knowledge||{label:'Evidence',shortLabel:'Evidence'};}
@@ -38,20 +39,53 @@
   async function loadNvq(preferredRoute){
     state.mode='nvq';state.registry=state.facets=null;
     state.routeManifest=await fetchJson(state.course.manifest);
-    state.route=state.routeManifest.routes.find(r=>r.id===preferredRoute)||state.routeManifest.routes.find(r=>r.id==='repair')||state.routeManifest.routes[0];fillRouteSelect();
+    state.route=state.routeManifest.routes.find(r=>r.id===preferredRoute)
+      ||state.routeManifest.routes.find(r=>r.id===state.routeManifest.defaultRoute)
+      ||state.routeManifest.routes.find(r=>r.id==='repair')
+      ||state.routeManifest.routes[0];
+    fillRouteSelect();
+
     const packPath=state.route.pack;state.pack=await fetchJson(packPath);
     let cats=await Promise.all(state.pack.categoryFiles.map(p=>fetchJson(childPath(packPath,p))));
-    cats=structuredClone(cats);const active=new Set(state.pack.route.activeUnits||[]);const keep=id=>active.has(String(id).split('.')[0]);
-    const flat=()=>cats.flatMap(c=>(c.subcategories||[]).flatMap(s=>(s.tasks||[]).map(t=>({t,c,s}))));
-    flat().forEach(({t})=>{t.directLo7Targets=uniq(t.directLo7Targets||[]).filter(keep);t.mappedAtomicTargets=uniq(t.mappedAtomicTargets||[]).filter(keep);});
+    cats=structuredClone(cats);
+    const active=new Set(state.pack.route.activeUnits||[]);const keep=id=>active.has(String(id).split('.')[0]);
+
+    let requiredTargets=null;
+    const sourceFiles=state.pack.coverageSourceFiles||[];
+    const requiredFiles=state.pack.requiredTargetFiles||[];
+    const inline=state.pack.requiredAtomicTargets||[];
+    if(sourceFiles.length||requiredFiles.length||inline.length){
+      const sourceCats=sourceFiles.length?await Promise.all(sourceFiles.map(p=>fetchJson(childPath(packPath,p)))):[];
+      const sourceIds=uniq(flatTasks(sourceCats).flatMap(({t})=>[...(t.directLo7Targets||[]),...(t.mappedAtomicTargets||[])])).filter(keep);
+      const reqDocs=requiredFiles.length?await Promise.all(requiredFiles.map(p=>fetchJson(childPath(packPath,p)))):[];
+      requiredTargets=uniq([...sourceIds,...reqDocs.flatMap(d=>d.targets||[]),...inline]).filter(keep);
+    }
+
+    const optionalUnit=String(state.pack.route.optionalUnit||'');
+    const optionalCategory=cats.find(c=>String(c.id)==='5');
+    if(optionalCategory&&state.course.id==='6570-04') optionalCategory.title=state.pack.route.title||optionalCategory.title;
+    const flat=()=>flatTasks(cats);
+    flat().forEach(({t})=>{
+      if(t.primaryUnit==='OPTIONAL')t.primaryUnit=optionalUnit;
+      t.directLo7Targets=uniq(t.directLo7Targets||[]).filter(keep);
+      t.mappedAtomicTargets=uniq(t.mappedAtomicTargets||[]).filter(keep);
+      if(requiredTargets&&(t.targetPrefixes||[]).length){
+        const prefixes=t.targetPrefixes.map(p=>String(p).replaceAll('$OPTIONAL',optionalUnit));
+        const matched=requiredTargets.filter(id=>prefixes.some(p=>id===p||id.startsWith(`${p}.`)));
+        t.mappedAtomicTargets=uniq([...t.mappedAtomicTargets,...matched]).filter(keep);
+      }
+    });
     if(state.pack.routeMappings){const rm=await fetchJson(childPath(packPath,state.pack.routeMappings));for(const [taskId,ids] of Object.entries(rm.taskMappings||{})){const found=flat().find(x=>x.t.id===taskId);if(found)found.t.mappedAtomicTargets=uniq([...(found.t.mappedAtomicTargets||[]),...ids.filter(keep)]);}}
+
     state.categories=cats;
     const erPath=state.pack.evidenceRules||state.pack.evidence?.rulesFile||'evidence-rules.json';state.evidenceRules=await fetchJson(childPath(packPath,erPath));
     const tasks=allTasks();const parentAtoms=new Map();state.hits=new Map();
     tasks.forEach(t=>uniq([...(t.directLo7Targets||[]),...(t.mappedAtomicTargets||[])]).filter(keep).forEach(atom=>{const parent=parentAc(atom);if(!parentAtoms.has(parent))parentAtoms.set(parent,new Set());parentAtoms.get(parent).add(atom);if(!state.hits.has(parent))state.hits.set(parent,new Map());const m=state.hits.get(parent);if(!m.has(t.categoryId))m.set(t.categoryId,[]);m.get(t.categoryId).push(t);}));
     state.criteria=[...parentAtoms.entries()].map(([id,atoms])=>({id,group:id.split('.')[0],text:'',atoms:[...atoms].sort()})).sort((a,b)=>a.id.localeCompare(b.id,undefined,{numeric:true}));
     const units=state.pack.route.activeUnits||[];state.group=units.includes(state.group)?state.group:units[0];
-    el('matrixStatus').innerHTML=`<strong class="good">${state.pack.route.atomicTargetCount} active atomic criteria in this pathway.</strong><p class="status-note">Matrix rows are rolled up to parent AC level for fast IQA/EQA navigation. Click a dot to see the mapped learner tasks and the atomic IDs underneath.</p>`;
+    const atomicCount=requiredTargets?.length??state.pack.route.atomicTargetCount??uniq(tasks.flatMap(t=>[...(t.directLo7Targets||[]),...(t.mappedAtomicTargets||[])])).filter(keep).length;
+    const atomNote=state.course.id==='6570-04'?' Every a, b, c… sub-criterion remains a separate atomic target.':'';
+    el('matrixStatus').innerHTML=`<strong class="good">${atomicCount} active atomic criteria in this pathway.</strong><p class="status-note">Matrix rows are rolled up to parent AC level for fast IQA/EQA navigation. Click a dot to see the mapped learner tasks and the atomic IDs underneath.${atomNote}</p>`;
   }
 
   function renderGroups(){
