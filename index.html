@@ -12,9 +12,9 @@
   <header class="topbar">
     <div>
       <h1>NVQ Mapping Engine</h1>
-      <p>6570-05 · 5 × 5 × 5 learner task structure</p>
-      <nav class="engine-nav" aria-label="Mapping engine sections"><a class="active" href="index.html">NVQ courses</a><a href="ksb.html">KSB courses</a><a href="matrix.html?course=6570-05">Evidence matrix</a></nav>
-      <div class="qualification-tabs" aria-label="NVQ qualifications"><a href="nvq-6570-04.html"><small>Level 2</small>6570-04</a><a class="active" href="index.html"><small>Level 3</small>6570-05</a></div>
+      <p id="qualificationLine">Loading NVQ qualification…</p>
+      <nav class="engine-nav" aria-label="Mapping engine sections"><a class="active" href="index.html?course=6570-04">NVQ courses</a><a href="ksb.html">KSB courses</a><a id="matrixNav" href="matrix.html?course=6570-05">Evidence matrix</a></nav>
+      <div class="qualification-tabs" aria-label="NVQ qualifications"><a id="tab657004" href="index.html?course=6570-04"><small>Level 2</small>6570-04</a><a id="tab657005" href="index.html?course=6570-05"><small>Level 3</small>6570-05</a></div>
     </div>
     <div class="route-box">
       <label for="routeSelect">Optional unit</label>
@@ -53,12 +53,12 @@
     </section>
 
     <section id="exportPanel" class="export-panel" hidden>
-      <div><p class="eyebrow">Evia mapping-pack export</p><h2>Create course QR</h2><p>The QR contains no learner data. It points the new Evia format to the selected versioned mapping pack.</p><div class="action-row"><button id="generateQr">Generate Evia QR</button><a id="downloadPack" class="button-link secondary" href="#" download>Download JSON pack</a><a class="button-link secondary" href="matrix.html?course=6570-05">Open evidence matrix</a></div></div>
+      <div><p class="eyebrow">Evia mapping-pack export</p><h2>Create course QR</h2><p>The QR contains no learner data. It points Evia to the selected versioned NVQ mapping pack.</p><div class="action-row"><button id="generateQr">Generate Evia QR</button><a id="downloadPack" class="button-link secondary" href="#" download>Download JSON pack</a><a id="matrixExportLink" class="button-link secondary" href="matrix.html?course=6570-05">Open evidence matrix</a></div></div>
       <div id="qrArea" class="qr-area" hidden><div id="qrcode"></div><label for="qrPayload">QR payload</label><textarea id="qrPayload" readonly rows="5"></textarea><button id="copyPayload" class="secondary">Copy payload</button></div>
     </section>
   </main>
 
-  <footer><span>Mapping engine · NVQ and KSB course packs use the same 5 × 5 × 5 evidence structure</span></footer>
+  <footer><span>Mapping engine · Level 2 and Level 3 NVQs use the same 5 × 5 × 5 evidence structure and atomic AC coverage audit</span></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="app.js"></script>
 </body>
