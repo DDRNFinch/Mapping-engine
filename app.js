@@ -4,10 +4,12 @@
   const state = {
     manifest: null,
     pack: null,
+    evidenceRules: null,
     route: 'repair',
     categoryId: null,
     subcategoryId: null,
     taskId: null,
+    evidenceSelections: {},
   };
 
   const el = id => document.getElementById(id);
@@ -57,7 +59,7 @@
         <div class="metric"><strong>${state.pack.route.mappedAtomicTargetCount}/${state.pack.route.atomicTargetCount}</strong><span>atomic criteria mapped</span></div>
         <div class="metric"><strong>${state.pack.route.orphanAtomicTargetCount}</strong><span>orphan criteria</span></div>
       </div>
-      <p class="status-note good"><strong>Structure and ID coverage pass.</strong> This remains a test pack until the final exact-wording audit is locked.</p>`;
+      <p class="status-note good"><strong>Structure and ID coverage pass.</strong> Candidate criteria are never one-file-per-criterion: one strong task submission can satisfy many criteria when it actually demonstrates them.</p>`;
     browser.hidden = false;
     exportPanel.hidden = false;
   }
@@ -115,14 +117,163 @@
     const taskWrap = el('tasks');
     taskWrap.innerHTML = '';
     sub.tasks.forEach(item => {
+      const profile = resolveEvidenceProfile(item);
       taskWrap.appendChild(button(item.title, () => {
         state.taskId = item.id;
         renderBrowser();
-      }, item.id === state.taskId, `${allTaskTargets(item).length} candidate criteria`));
+      }, item.id === state.taskId, `${allTaskTargets(item).length} candidate criteria · ${profile.shortLabel}`));
     });
     el('taskCount').textContent = `${sub.tasks.length}/5`;
 
     renderTask(category, sub, byId(sub.tasks, state.taskId));
+  }
+
+  function resolveEvidenceProfile(task) {
+    const profiles = state.evidenceRules?.profiles || {};
+    const title = String(task.title || '').toLowerCase();
+    const tags = new Set(task.tags || []);
+    let id = task.evidenceProfile;
+
+    if (!id && task.id === '1.1.4') id = 'job-information';
+    if (!id && /(dpc|cavity tray|insulation|wall tie|fire barrier|fire break|support angle|wind post|movement joint|weep|vent|reinforcement|soffit|temporary|prop|support)/i.test(title)) id = 'hidden-work';
+    if (!id && task.type === 'trade') id = 'practical';
+    if (!id && tags.has('COMMUNICATION')) id = 'communication';
+    if (!id && tags.has('SAFE_WORK')) id = 'safety';
+    if (!id && (tags.has('RESOURCES') || tags.has('TOOLS'))) id = 'resources';
+    if (!id && tags.has('QUALITY')) id = 'quality';
+    if (!id && tags.has('PROGRAMME')) id = 'programme';
+    if (!id) id = 'knowledge';
+
+    return profiles[id] || profiles.knowledge || {
+      id: 'knowledge', label: 'Knowledge statement', shortLabel: 'Audio / written',
+      preferred: [], alternatives: [], capture: []
+    };
+  }
+
+  function evidenceTypeChip(type) {
+    const names = {
+      video: 'Video', photos: 'Photos', photo: 'Photo', document: 'Document',
+      audio: 'Audio', written: 'Written statement', witness: 'Witness statement',
+      observation: 'Assessor observation'
+    };
+    return `<span class="evidence-chip">${escapeHtml(names[type] || type)}</span>`;
+  }
+
+  function renderEvidencePlan(task, taskTargets) {
+    const panel = el('evidencePlan');
+    const profile = resolveEvidenceProfile(task);
+    panel.hidden = false;
+
+    const preferredItems = (profile.preferred || []).map(item => `
+      <div class="evidence-item">
+        <div class="evidence-item-head">${evidenceTypeChip(item.type)} <strong>${escapeHtml(item.label)}</strong></div>
+        <p>${escapeHtml(item.instruction)}</p>
+      </div>`).join('');
+
+    const alternatives = (profile.alternatives || []).map(alt => `
+      <div class="alternative-box">
+        <strong>${escapeHtml(alt.label)}</strong>
+        <p>${escapeHtml(alt.instruction)}</p>
+      </div>`).join('');
+
+    const capture = [...(profile.capture || [])];
+    if (task.conditionalPrompt) capture.push(task.conditionalPrompt);
+
+    el('evidenceProfileTitle').textContent = profile.label;
+    el('evidenceMinimum').innerHTML = preferredItems;
+    el('evidenceAlternatives').innerHTML = alternatives;
+    el('evidenceCapture').innerHTML = capture.map(x => `<li>${escapeHtml(x)}</li>`).join('');
+    el('oneSubmissionNote').textContent = profile.oneSubmissionNote || 'This is one task submission. The same evidence can support several criteria; it is not one file per criterion.';
+
+    const selector = el('evidenceSelector');
+    if (task.id === '1.1.4') {
+      renderJobInformationSelector(task, taskTargets, selector);
+    } else {
+      selector.hidden = true;
+      selector.innerHTML = '';
+      el('evidenceCoverageText').textContent = `${taskTargets.length} candidate criteria can be considered from this task. Only criteria actually demonstrated are awarded.`;
+    }
+  }
+
+  const infoOptions = [
+    ['drawing', 'Drawings'],
+    ['specification', 'Specifications'],
+    ['schedule', 'Schedules'],
+    ['method', 'Method statement / method of work'],
+    ['risk', 'Risk assessment'],
+    ['manufacturer', 'Manufacturer information'],
+    ['oral-written', 'Oral / written instructions'],
+    ['sketch', 'Sketches'],
+    ['electronic', 'Electronic data'],
+    ['official', 'Official guidance'],
+    ['programme', 'Programme of work'],
+  ];
+
+  function infoTypeForCriterion(id) {
+    const p = String(id).split('.');
+    if (p.length < 4) return null;
+    const unit = p[0], parent = `${p[1]}.${p[2]}`, child = p[3];
+
+    if (['234','235','313','690','701'].includes(unit)) {
+      if (parent === '1.1') {
+        return ({a:'drawing',b:'specification',c:'schedule',d:'method',e:'risk',f:'manufacturer'})[child] || null;
+      }
+      if (parent === '1.4') {
+        return ({a:'drawing',b:'specification',d:'schedule',e:'method',f:'risk',g:'manufacturer',h:'oral-written',i:'sketch',j:'electronic',k:'official'})[child] || null;
+      }
+    }
+    if (unit === '303' && parent === '1.1') {
+      return ({a:'drawing',b:'specification',c:'schedule',d:'manufacturer',e:'method',f:'risk',g:'programme'})[child] || null;
+    }
+    return null;
+  }
+
+  function renderJobInformationSelector(task, taskTargets, selector) {
+    selector.hidden = false;
+    const selected = new Set(state.evidenceSelections[task.id] || []);
+    selector.innerHTML = `
+      <div class="selector-heading">
+        <div>
+          <strong>What information did you actually use today?</strong>
+          <p>Select only what was genuinely used. This stops the engine awarding all 87 candidate criteria automatically.</p>
+        </div>
+        <button id="clearEvidenceSelection" class="secondary compact">Clear</button>
+      </div>
+      <div class="check-grid">
+        ${infoOptions.map(([value,label]) => `
+          <label class="check-option">
+            <input type="checkbox" value="${value}" ${selected.has(value) ? 'checked' : ''}>
+            <span>${escapeHtml(label)}</span>
+          </label>`).join('')}
+      </div>
+      <div class="selected-coverage">
+        <strong id="selectedCoverageCount">0</strong>
+        <span>of ${taskTargets.length} candidate criteria potentially supported by this evidence</span>
+      </div>
+      <details class="selected-details">
+        <summary>Show criteria selected for this evidence</summary>
+        <div id="selectedCriteriaList" class="criteria-list"></div>
+      </details>`;
+
+    const refresh = () => {
+      const values = [...selector.querySelectorAll('input[type="checkbox"]:checked')].map(x => x.value);
+      state.evidenceSelections[task.id] = values;
+      const valueSet = new Set(values);
+      const selectedTargets = taskTargets.filter(id => valueSet.has(infoTypeForCriterion(id)));
+      el('selectedCoverageCount').textContent = selectedTargets.length;
+      el('evidenceCoverageText').textContent = selectedTargets.length
+        ? `One strong submission can potentially support these ${selectedTargets.length} selected criteria across the active units. Each is still checked against what the evidence actually shows or explains.`
+        : `Choose the information used today. The 87 listed criteria are possibilities, not 87 separate evidence files.`;
+      const list = el('selectedCriteriaList');
+      list.innerHTML = selectedTargets.map(id => `<span class="criterion selected">${escapeHtml(id)}</span>`).join('');
+    };
+
+    selector.querySelectorAll('input[type="checkbox"]').forEach(input => input.addEventListener('change', refresh));
+    el('clearEvidenceSelection').onclick = () => {
+      selector.querySelectorAll('input[type="checkbox"]').forEach(input => { input.checked = false; });
+      refresh();
+    };
+    refresh();
   }
 
   function renderTask(category, sub, task) {
@@ -133,12 +284,13 @@
     const taskTargets = allTaskTargets(task);
     el('mappedCount').textContent = taskTargets.length;
 
+    const profile = resolveEvidenceProfile(task);
     el('taskMeta').innerHTML = `
       <div class="meta-item"><strong>Route</strong>${escapeHtml(task.route)}</div>
       <div class="meta-item"><strong>Primary unit</strong>${escapeHtml(task.primaryUnit)}</div>
-      <div class="meta-item"><strong>Type</strong>${escapeHtml(task.type)}</div>
-      <div class="meta-item"><strong>Holistic tags</strong>${escapeHtml(task.tags.join(', ') || 'None')}</div>
-      <div class="meta-item"><strong>Direct LO7 targets</strong>${escapeHtml(String(task.directLo7Targets.length))}</div>
+      <div class="meta-item"><strong>Evidence type</strong>${escapeHtml(profile.shortLabel)}</div>
+      <div class="meta-item"><strong>Holistic tags</strong>${escapeHtml((task.tags || []).join(', ') || 'None')}</div>
+      <div class="meta-item"><strong>Direct LO7 targets</strong>${escapeHtml(String((task.directLo7Targets || []).length))}</div>
       <div class="meta-item"><strong>Candidate atomic criteria</strong>${escapeHtml(String(taskTargets.length))}</div>`;
 
     const promptBox = el('promptBox');
@@ -148,6 +300,8 @@
     } else {
       promptBox.hidden = true;
     }
+
+    renderEvidencePlan(task, taskTargets);
 
     const list = el('criteriaList');
     list.innerHTML = '';
@@ -225,7 +379,10 @@
 
   async function start() {
     try {
-      state.manifest = await fetchJson('manifest.json');
+      [state.manifest, state.evidenceRules] = await Promise.all([
+        fetchJson('manifest.json'),
+        fetchJson('evidence-rules.json'),
+      ]);
       renderRoutes();
       routeSelect.addEventListener('change', () => selectRoute(routeSelect.value));
       await selectRoute(state.route);
