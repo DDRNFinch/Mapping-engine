@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v7';
+const CACHE_NAME='naxos-shell-v8';
 const CACHE_PREFIX='naxos-shell-';
 const CORE=[
   './',
@@ -7,6 +7,7 @@ const CORE=[
   './matrix.html',
   './styles.css',
   './evia-shell.css',
+  './naxos-evia-shell.js',
   './pwa.js',
   './app.js',
   './ksb.js',
