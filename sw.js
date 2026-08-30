@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v8';
+const CACHE_NAME='naxos-shell-v9';
 const CACHE_PREFIX='naxos-shell-';
 const CORE=[
   './',
@@ -8,6 +8,7 @@ const CORE=[
   './styles.css',
   './evia-shell.css',
   './naxos-evia-shell.js',
+  './naxos-editor.js',
   './pwa.js',
   './app.js',
   './ksb.js',
