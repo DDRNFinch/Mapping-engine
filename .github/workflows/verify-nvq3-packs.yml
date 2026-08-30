@@ -1,0 +1,29 @@
+name: Verify NVQ Level 3 packs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packs/6570-05-**'
+      - 'tests/validate-nvq3-packs.mjs'
+      - '.github/workflows/verify-nvq3-packs.yml'
+  pull_request:
+    paths:
+      - 'packs/6570-05-**'
+      - 'tests/validate-nvq3-packs.mjs'
+      - '.github/workflows/verify-nvq3-packs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate all current Level 3 pathways
+        run: node tests/validate-nvq3-packs.mjs
