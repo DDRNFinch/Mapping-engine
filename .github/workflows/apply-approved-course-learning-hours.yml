@@ -1,0 +1,56 @@
+name: Apply approved course learning hours
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply-approved-course-learning-hours.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply approved metadata
+        run: python .github/patch-approved-course-learning-hours.py
+      - name: Validate learning metadata
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          expected={'ST0095':('OTJ',578),'ST0264-SITE':('OTJ',557),'ST0264-AJ':('OTJ',557),'ST0171':('OTJ',418),'6570-04':('GLH',394),'6570-05':('GLH',847)}
+          cat=json.loads(Path('course-catalog.json').read_text())
+          byid={x['id']:x for x in cat['courses']}
+          for cid,(kind,hours) in expected.items():
+              v=byid[cid]['learning']
+              assert v['type']==kind and v['requiredHours']==hours, (cid,v)
+          for cid,path in {'ST0095':'packs/ST0095-v1.json','ST0264-SITE':'packs/ST0264-SITE-v1.json','ST0264-AJ':'packs/ST0264-AJ-v1.json','ST0171':'packs/ST0171-v1.json'}.items():
+              v=json.loads(Path(path).read_text())['learning']
+              assert (v['type'],v['requiredHours'])==expected[cid]
+          for p in Path('packs').glob('6570-04-*-v1.json'):
+              d=json.loads(p.read_text()); assert d['learning']['requiredHours']==394
+          for p in Path('packs').glob('6570-05-*-v1.json'):
+              d=json.loads(p.read_text()); assert d['learning']['requiredHours']==847
+          assert json.loads(Path('manifest-6570-04.json').read_text())['learning']['requiredHours']==394
+          assert json.loads(Path('manifest.json').read_text())['learning']['requiredHours']==847
+          print('learning metadata validated')
+          PY
+      - name: Remove temporary update files
+        run: rm .github/patch-approved-course-learning-hours.py .github/workflows/apply-approved-course-learning-hours.yml
+      - name: Verify scope
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed={'course-catalog.json','manifest.json','manifest-6570-04.json','packs/ST0095-v1.json','packs/ST0264-SITE-v1.json','packs/ST0264-AJ-v1.json','packs/ST0171-v1.json','.github/patch-approved-course-learning-hours.py','.github/workflows/apply-approved-course-learning-hours.yml'}
+          allowed |= {f'packs/6570-04-{x}-v1.json' for x in ['cladding','thin','repair','concrete','specialist','drainage']}
+          allowed |= {f'packs/6570-05-{x}-v1.json' for x in ['thin','repair','specialist','drainage']}
+          paths=set()
+          for row in subprocess.check_output(['git','status','--porcelain'],text=True).splitlines():
+              p=row[3:].strip(); p=p.split(' -> ',1)[-1]; paths.add(p)
+          extra=paths-allowed
+          if extra: raise SystemExit('Unexpected changed files: '+', '.join(sorted(extra)))
+          PY
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Add verified learning hours for all Naxos courses
+          file_pattern: 'course-catalog.json manifest.json manifest-6570-04.json packs/*.json .github/patch-approved-course-learning-hours.py .github/workflows/apply-approved-course-learning-hours.yml'
