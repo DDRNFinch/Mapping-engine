@@ -142,10 +142,25 @@
     return Object.keys(result).length?result:null;
   }
 
-  function exportCustomisations(){
-    const key=`naxos-editor-v1:ksb:${state.course.id}:default`;
+  function editorStoreForExport(){
     try{
-      const store=JSON.parse(localStorage.getItem(key)||'null');
+      const liveGetter=window.NaxosEditor?.getKsbCustomisations;
+      if(typeof liveGetter==='function'){
+        const liveStore=liveGetter(state.course.id);
+        if(liveStore && typeof liveStore==='object') return liveStore;
+      }
+      const key=`naxos-editor-v1:ksb:${state.course.id}:default`;
+      const saved=JSON.parse(localStorage.getItem(key)||'null');
+      return saved && typeof saved==='object' ? saved : null;
+    }catch(error){
+      console.error('Could not read Naxos editor state for export',error);
+      return null;
+    }
+  }
+
+  function exportCustomisations(){
+    try{
+      const store=editorStoreForExport();
       if(!store || typeof store!=='object') return null;
       const titles={category:{},subcategory:{},task:{}};
       for(const group of ['category','subcategory','task']){

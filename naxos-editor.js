@@ -219,6 +219,15 @@
     try { localStorage.setItem(storageKey(), JSON.stringify(ctx.store)); } catch {}
   }
 
+  function liveKsbStore(courseId) {
+    if (mode !== 'ksb' || !ctx || ctx.courseId !== courseId) return null;
+    try { return JSON.parse(JSON.stringify(ctx.store || defaultStore())); }
+    catch { return null; }
+  }
+
+  window.NaxosEditor = window.NaxosEditor || {};
+  window.NaxosEditor.getKsbCustomisations = courseId => liveKsbStore(courseId);
+
   async function loadContext() {
     const sig = currentSignature();
     if (!sig || sig.endsWith(':') || loading || sig === contextSignature) return;
