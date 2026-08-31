@@ -9,7 +9,7 @@
   async function refreshWorker(){
     if(!('serviceWorker' in navigator)) return;
     try{
-      const reg=await navigator.serviceWorker.register('./sw.js?v=8',{scope:'./',updateViaCache:'none'});
+      const reg=await navigator.serviceWorker.register('./sw.js?v=10',{scope:'./',updateViaCache:'none'});
       await reg.update().catch(()=>{});
     }catch{}
   }
@@ -60,6 +60,60 @@
     installCopy(btn,host);
   }
 
+  function ensurePencilStyles(){
+    if(document.getElementById('naxosPencilStyles')) return;
+    const style=document.createElement('style');
+    style.id='naxosPencilStyles';
+    style.textContent=`
+      .button-stack .nav-button{position:relative;padding-right:52px!important}
+      .naxos-pill-pencil{position:absolute;right:9px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:rgba(251,98,98,.08);color:#9f4146;font-size:16px;font-weight:800;line-height:1;z-index:2}
+      .nav-button.active .naxos-pill-pencil{background:rgba(251,98,98,.14)}
+      .naxos-edit-tools.naxos-title-tools-hidden{display:none!important}
+    `;
+    document.head.appendChild(style);
+  }
+
+  function findEditTool(panel,index){
+    const wanted=index===2?'Edit selected task':'Edit selected title';
+    return [...panel.querySelectorAll('.naxos-edit-tools button')].find(button=>button.textContent.trim()===wanted)||null;
+  }
+
+  function enhancePencilEditing(){
+    const panels=document.querySelectorAll('#browser .level-panel');
+    if(panels.length<3) return;
+    ensurePencilStyles();
+
+    panels.forEach((panel,index)=>{
+      const tool=findEditTool(panel,index);
+      if(!tool) return;
+      if(index<2) tool.closest('.naxos-edit-tools')?.classList.add('naxos-title-tools-hidden');
+      else tool.hidden=true;
+
+      const stack=panel.querySelector('.button-stack');
+      if(!stack) return;
+      stack.querySelectorAll('.nav-button').forEach(button=>{
+        if(button.querySelector(':scope > .naxos-pill-pencil')) return;
+        const pencil=document.createElement('span');
+        pencil.className='naxos-pill-pencil';
+        pencil.textContent='✎';
+        pencil.title='Edit';
+        pencil.setAttribute('aria-label','Edit');
+        pencil.addEventListener('click',event=>{
+          event.preventDefault();
+          event.stopPropagation();
+          button.click();
+          setTimeout(()=>{
+            const currentPanels=document.querySelectorAll('#browser .level-panel');
+            const currentPanel=currentPanels[index];
+            const currentTool=currentPanel?findEditTool(currentPanel,index):null;
+            currentTool?.click();
+          },30);
+        });
+        button.appendChild(pencil);
+      });
+    });
+  }
+
   window.addEventListener('beforeinstallprompt',event=>{
     event.preventDefault();
     deferredPrompt=event;
@@ -76,5 +130,15 @@
   window.addEventListener('DOMContentLoaded',()=>{
     refreshWorker();
     ensureInstallButton();
+    enhancePencilEditing();
+    const main=document.querySelector('main')||document.body;
+    let scheduled=false;
+    const observer=new MutationObserver(()=>{
+      if(scheduled) return;
+      scheduled=true;
+      requestAnimationFrame(()=>{scheduled=false;enhancePencilEditing();});
+    });
+    observer.observe(main,{subtree:true,childList:true});
+    setTimeout(enhancePencilEditing,350);
   });
 })();
