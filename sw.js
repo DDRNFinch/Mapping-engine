@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v9';
+const CACHE_NAME='naxos-shell-v10';
 const CACHE_PREFIX='naxos-shell-';
 const CORE=[
   './',
