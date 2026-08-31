@@ -128,14 +128,73 @@
   }
 
   function packUrl(){ return new URL(state.course.pack,new URL('./',window.location.href)).href; }
+
+  function compactEvidenceForExport(evidence){
+    if(!evidence || typeof evidence!=='object') return null;
+    const preferred=(evidence.preferred||[]).map(item=>({
+      type:String(item?.type||'').trim(),
+      label:String(item?.label||'').trim(),
+      instruction:String(item?.instruction||'').trim()
+    })).filter(item=>item.type||item.label||item.instruction);
+    const result={};
+    if(String(evidence.profileId||'').trim()) result.profileId=String(evidence.profileId).trim();
+    if(preferred.length) result.preferred=preferred;
+    return Object.keys(result).length?result:null;
+  }
+
+  function exportCustomisations(){
+    const key=`naxos-editor-v1:ksb:${state.course.id}:default`;
+    try{
+      const store=JSON.parse(localStorage.getItem(key)||'null');
+      if(!store || typeof store!=='object') return null;
+      const titles={category:{},subcategory:{},task:{}};
+      for(const group of ['category','subcategory','task']){
+        for(const [id,value] of Object.entries(store.titles?.[group]||{})){
+          const clean=String(value||'').trim();
+          if(clean) titles[group][id]=clean;
+        }
+      }
+      const taskEdits={};
+      for(const [id,edit] of Object.entries(store.taskEdits||{})){
+        const evidence=compactEvidenceForExport(edit?.evidence);
+        if(evidence) taskEdits[id]={evidence};
+      }
+      const customTasks=(Array.isArray(store.customTasks)?store.customTasks:[]).map(task=>({
+        id:String(task?.id||''),
+        categoryIndex:Number(task?.categoryIndex),
+        subcategoryIndex:Number(task?.subcategoryIndex),
+        title:String(task?.title||'').trim(),
+        targets:Array.isArray(task?.targets)?task.targets.map(String):[],
+        evidence:compactEvidenceForExport(task?.evidence),
+        evidenceRequirements:Array.isArray(task?.evidenceRequirements)?task.evidenceRequirements.map(String):[]
+      })).filter(task=>Number.isInteger(task.categoryIndex)&&Number.isInteger(task.subcategoryIndex)&&task.title&&task.targets.length);
+      const hasTitles=Object.values(titles).some(group=>Object.keys(group).length);
+      if(!hasTitles&&!Object.keys(taskEdits).length&&!customTasks.length) return null;
+      return {version:1,titles,taskEdits,customTasks};
+    }catch(error){
+      console.error('Could not prepare Naxos customisations for export',error);
+      return null;
+    }
+  }
+
   function renderExport(){
     const url=packUrl(); el('downloadPack').href=url; el('openMatrix').href=`matrix.html?course=${encodeURIComponent(state.course.id)}`;
     el('generateQr').onclick=()=>{
       if(!state.audit?.pass) return;
-      const payload=JSON.stringify({type:'evia-mapping-pack-url-v1',version:1,courseType:'ksb',courseId:state.course.id,standardVersion:state.course.version,packUrl:url});
+      const data={type:'evia-mapping-pack-url-v1',version:1,courseType:'ksb',courseId:state.course.id,standardVersion:state.course.version,packUrl:url};
+      const customisations=exportCustomisations();
+      if(customisations) data.customisations=customisations;
+      const payload=JSON.stringify(data);
       el('qrPayload').value=payload; el('qrcode').innerHTML='';
       if(typeof QRCode!=='function'){alert('QR library did not load.');return;}
-      new QRCode(el('qrcode'),{text:payload,width:240,height:240,correctLevel:QRCode.CorrectLevel.M}); el('qrArea').hidden=false;
+      try{
+        new QRCode(el('qrcode'),{text:payload,width:240,height:240,correctLevel:QRCode.CorrectLevel.M});
+      }catch(error){
+        console.error('Could not create Naxos QR',error);
+        alert('This customised course QR is too large. Reduce the number of custom tasks or shorten the custom evidence text and try again.');
+        return;
+      }
+      el('qrArea').hidden=false;
     };
     el('copyPayload').onclick=async()=>{await navigator.clipboard.writeText(el('qrPayload').value);el('copyPayload').textContent='Copied';setTimeout(()=>el('copyPayload').textContent='Copy payload',1000);};
   }
