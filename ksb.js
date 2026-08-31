@@ -142,9 +142,15 @@
 
   async function loadCourse(id){
     state.course=state.manifest.courses.find(c=>c.id===id)||state.manifest.courses[0];
-    state.pack=await fetchJson(state.course.pack);
+    const selectedPackUrl=packUrl();
+    state.pack=await fetchJson(selectedPackUrl);
+    const packDir=new URL('./',selectedPackUrl).href;
+    const resolvePackPath=path=>new URL(path,packDir).href;
     const [registry,facets,evidenceRules,...categories]=await Promise.all([
-      fetchJson(state.pack.ksbRegistry), fetchJson(state.pack.facetRegistry), fetchJson(state.pack.evidenceRules), ...state.pack.categoryFiles.map(fetchJson)
+      fetchJson(resolvePackPath(state.pack.ksbRegistry)),
+      fetchJson(resolvePackPath(state.pack.facetRegistry)),
+      fetchJson(resolvePackPath(state.pack.evidenceRules)),
+      ...state.pack.categoryFiles.map(path=>fetchJson(resolvePackPath(path)))
     ]);
     state.registry=registry; state.facets=facets; state.evidenceRules=evidenceRules; state.categories=categories;
     state.categoryId=state.subcategoryId=state.taskId=null; state.audit=runAudit();
