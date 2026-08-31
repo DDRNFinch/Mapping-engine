@@ -129,17 +129,25 @@
 
   function packUrl(){ return new URL(state.course.pack,new URL('./',window.location.href)).href; }
 
-  function compactEvidenceForExport(evidence){
-    if(!evidence || typeof evidence!=='object') return null;
-    const preferred=(evidence.preferred||[]).map(item=>({
-      type:String(item?.type||'').trim(),
-      label:String(item?.label||'').trim(),
-      instruction:String(item?.instruction||'').trim()
-    })).filter(item=>item.type||item.label||item.instruction);
-    const result={};
-    if(String(evidence.profileId||'').trim()) result.profileId=String(evidence.profileId).trim();
-    if(preferred.length) result.preferred=preferred;
-    return Object.keys(result).length?result:null;
+  function evidenceRowsForPatch(evidence){
+    return (evidence?.preferred||[]).map(item=>[
+      String(item?.type||'').trim(),
+      String(item?.label||'').trim(),
+      String(item?.instruction||'').trim()
+    ]).filter(row=>row.some(Boolean));
+  }
+
+  function compactEvidenceForPatch(evidence,baseProfileId=''){
+    if(!evidence||typeof evidence!=='object') return null;
+    const profileId=String(evidence.profileId||'').trim();
+    const compareProfileId=profileId||baseProfileId;
+    const baseProfile=state.evidenceRules?.profiles?.[compareProfileId]||{};
+    const rows=evidenceRowsForPatch(evidence);
+    const baseRows=evidenceRowsForPatch(baseProfile);
+    const changedRows=JSON.stringify(rows)!==JSON.stringify(baseRows) ? rows : null;
+    const changedProfile=profileId&&profileId!==baseProfileId ? profileId : (!baseProfileId&&profileId ? profileId : '');
+    if(!changedProfile&&!changedRows) return null;
+    return changedRows ? [changedProfile,changedRows] : [changedProfile];
   }
 
   function editorStoreForExport(){
@@ -158,36 +166,49 @@
     }
   }
 
-  function exportCustomisations(){
+  function exportPatch(){
     try{
       const store=editorStoreForExport();
-      if(!store || typeof store!=='object') return null;
-      const titles={category:{},subcategory:{},task:{}};
-      for(const group of ['category','subcategory','task']){
-        for(const [id,value] of Object.entries(store.titles?.[group]||{})){
-          const clean=String(value||'').trim();
-          if(clean) titles[group][id]=clean;
-        }
+      if(!store||typeof store!=='object') return null;
+      const patch={v:1},categoryTitles=[],subcategoryTitles=[],taskTitles=[],evidenceEdits=[],addedTasks=[];
+
+      for(const [key,value] of Object.entries(store.titles?.category||{})){
+        const title=String(value||'').trim(),ci=Number(key);
+        if(title&&Number.isInteger(ci)) categoryTitles.push([ci,title]);
       }
-      const taskEdits={};
-      for(const [id,edit] of Object.entries(store.taskEdits||{})){
-        const evidence=compactEvidenceForExport(edit?.evidence);
-        if(evidence) taskEdits[id]={evidence};
+      for(const [key,value] of Object.entries(store.titles?.subcategory||{})){
+        const [ci,si]=String(key).split(':').map(Number),title=String(value||'').trim();
+        if(title&&Number.isInteger(ci)&&Number.isInteger(si)) subcategoryTitles.push([ci,si,title]);
       }
-      const customTasks=(Array.isArray(store.customTasks)?store.customTasks:[]).map(task=>({
-        id:String(task?.id||''),
-        categoryIndex:Number(task?.categoryIndex),
-        subcategoryIndex:Number(task?.subcategoryIndex),
-        title:String(task?.title||'').trim(),
-        targets:Array.isArray(task?.targets)?task.targets.map(String):[],
-        evidence:compactEvidenceForExport(task?.evidence),
-        evidenceRequirements:Array.isArray(task?.evidenceRequirements)?task.evidenceRequirements.map(String):[]
-      })).filter(task=>Number.isInteger(task.categoryIndex)&&Number.isInteger(task.subcategoryIndex)&&task.title&&task.targets.length);
-      const hasTitles=Object.values(titles).some(group=>Object.keys(group).length);
-      if(!hasTitles&&!Object.keys(taskEdits).length&&!customTasks.length) return null;
-      return {version:1,titles,taskEdits,customTasks};
+      for(const [key,value] of Object.entries(store.titles?.task||{})){
+        const [ci,si,ti]=String(key).split(':').map(Number),title=String(value||'').trim();
+        if(title&&Number.isInteger(ci)&&Number.isInteger(si)&&Number.isInteger(ti)) taskTitles.push([ci,si,ti,title]);
+      }
+
+      for(const [key,edit] of Object.entries(store.taskEdits||{})){
+        const [ci,si,ti]=String(key).split(':').map(Number);
+        if(!Number.isInteger(ci)||!Number.isInteger(si)||!Number.isInteger(ti)) continue;
+        const baseTask=state.categories?.[ci]?.subcategories?.[si]?.tasks?.[ti];
+        const evidence=compactEvidenceForPatch(edit?.evidence,String(baseTask?.evidenceProfile||''));
+        if(evidence) evidenceEdits.push([ci,si,ti,evidence]);
+      }
+
+      for(const task of Array.isArray(store.customTasks)?store.customTasks:[]){
+        const ci=Number(task?.categoryIndex),si=Number(task?.subcategoryIndex),title=String(task?.title||'').trim();
+        const targets=Array.isArray(task?.targets)?task.targets.map(String).filter(Boolean):[];
+        if(!Number.isInteger(ci)||!Number.isInteger(si)||!title||!targets.length) continue;
+        const evidence=compactEvidenceForPatch(task?.evidence,'') || [String(task?.profileId||'knowledge').trim()||'knowledge'];
+        addedTasks.push([ci,si,title,targets,evidence]);
+      }
+
+      if(categoryTitles.length) patch.c=categoryTitles;
+      if(subcategoryTitles.length) patch.s=subcategoryTitles;
+      if(taskTitles.length) patch.t=taskTitles;
+      if(evidenceEdits.length) patch.e=evidenceEdits;
+      if(addedTasks.length) patch.a=addedTasks;
+      return Object.keys(patch).length>1 ? patch : null;
     }catch(error){
-      console.error('Could not prepare Naxos customisations for export',error);
+      console.error('Could not prepare compact Naxos patch',error);
       return null;
     }
   }
@@ -197,16 +218,16 @@
     el('generateQr').onclick=()=>{
       if(!state.audit?.pass) return;
       const data={type:'evia-mapping-pack-url-v1',version:1,courseType:'ksb',courseId:state.course.id,standardVersion:state.course.version,packUrl:url};
-      const customisations=exportCustomisations();
-      if(customisations) data.customisations=customisations;
+      const patch=exportPatch();
+      if(patch) data.patch=patch;
       const payload=JSON.stringify(data);
       el('qrPayload').value=payload; el('qrcode').innerHTML='';
       if(typeof QRCode!=='function'){alert('QR library did not load.');return;}
       try{
-        new QRCode(el('qrcode'),{text:payload,width:240,height:240,correctLevel:QRCode.CorrectLevel.M});
+        new QRCode(el('qrcode'),{text:payload,width:320,height:320,correctLevel:QRCode.CorrectLevel.M});
       }catch(error){
         console.error('Could not create Naxos QR',error);
-        alert('This customised course QR is too large. Reduce the number of custom tasks or shorten the custom evidence text and try again.');
+        alert('This course QR could not be created. Try shortening any custom wording and generate it again.');
         return;
       }
       el('qrArea').hidden=false;
