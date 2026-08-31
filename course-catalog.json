@@ -10,7 +10,11 @@
       "manifest": "manifest-6570-04.json",
       "matrix": true,
       "glh": 394,
-      "tqt": 670
+      "tqt": 670,
+      "learning": {
+        "type": "GLH",
+        "requiredHours": 394
+      }
     },
     {
       "id": "6570-05",
