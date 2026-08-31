@@ -1,0 +1,35 @@
+name: Apply Naxos live customisation export
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-naxos-live-export-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Apply approved Naxos export patch
+        run: python .github/scripts/apply_naxos_live_export.py
+      - name: Validate JavaScript
+        run: |
+          node --check ksb.js
+          node --check naxos-editor.js
+          grep -q 'ksb.js?v=7' ksb.html
+          grep -q 'naxos-editor.js?v=2' ksb.html
+          grep -q 'getKsbCustomisations' naxos-editor.js
+          grep -q 'editorStoreForExport' ksb.js
+      - name: Commit approved app changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ksb.js naxos-editor.js ksb.html
+          git diff --cached --quiet && exit 0
+          git commit -m 'Export live Naxos course customisations'
+          git push
