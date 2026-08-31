@@ -13,7 +13,8 @@
       "tqt": 670,
       "learning": {
         "type": "GLH",
-        "requiredHours": 394
+        "requiredHours": 394,
+        "source": "City & Guilds 6570-04 Qualification Handbook v1.1"
       }
     },
     {
@@ -22,7 +23,14 @@
       "title": "Trowel Occupations Level 3 — 6570-05",
       "section": "index.html?course=6570-05",
       "manifest": "manifest.json",
-      "matrix": true
+      "matrix": true,
+      "learning": {
+        "type": "GLH",
+        "requiredHours": 847,
+        "source": "City & Guilds 6570-05 Qualification Handbook v1.1"
+      },
+      "glh": 847,
+      "tqt": 1470
     },
     {
       "id": "ST0095",
@@ -30,7 +38,12 @@
       "title": "Bricklayer — ST0095 v1.2",
       "section": "ksb.html",
       "pack": "packs/ST0095-v1.json",
-      "matrix": true
+      "matrix": true,
+      "learning": {
+        "type": "OTJ",
+        "requiredHours": 578,
+        "source": "Skills England minimum hours for compliance"
+      }
     },
     {
       "id": "ST0264-SITE",
@@ -38,7 +51,12 @@
       "title": "Site Carpenter — ST0264 v1.4",
       "section": "ksb.html",
       "pack": "packs/ST0264-SITE-v1.json",
-      "matrix": true
+      "matrix": true,
+      "learning": {
+        "type": "OTJ",
+        "requiredHours": 557,
+        "source": "Skills England minimum hours for compliance"
+      }
     },
     {
       "id": "ST0264-AJ",
@@ -46,7 +64,12 @@
       "title": "Architectural Joiner — ST0264 v1.4",
       "section": "ksb.html",
       "pack": "packs/ST0264-AJ-v1.json",
-      "matrix": true
+      "matrix": true,
+      "learning": {
+        "type": "OTJ",
+        "requiredHours": 557,
+        "source": "Skills England minimum hours for compliance"
+      }
     },
     {
       "id": "ST0171",
@@ -54,7 +77,12 @@
       "title": "Property Maintenance Operative — ST0171 v1.1",
       "section": "ksb.html",
       "pack": "packs/ST0171-v1.json",
-      "matrix": true
+      "matrix": true,
+      "learning": {
+        "type": "OTJ",
+        "requiredHours": 418,
+        "source": "Skills England minimum hours for compliance"
+      }
     }
   ]
 }

@@ -1,1 +1,74 @@
-{"eviaMappingPack":1,"schemaVersion":2,"status":"test","productionReady":false,"qualification":{"id":"6570-05","title":"City & Guilds Level 3 NVQ Diploma in Trowel Occupations (Construction)","source":"Qualification Handbook, July 2025, Version 1.1","courseType":"nvq","structure":{"maxCategories":5,"maxSubcategoriesPerCategory":5,"maxTasksPerSubcategory":5},"mandatoryUnits":["102","234","235","300","303","313","502","701"],"selectedOptionalUnit":"238"},"route":{"id":"thin","optionalUnit":"238","activeUnits":["102","234","235","300","303","313","502","701","238"],"parentAcCount":238,"atomicTargetCount":772,"taskTypeCount":125,"wordingAuditStatus":"pending-final-wording-audit"},"validation":{"expectedCategoryCount":5,"expectedSubcategoryCount":25,"expectedTaskTypeCount":125,"expectedAtomicTargetCount":772,"runtimeCoverageAudit":true},"export":{"qrPayloadType":"evia-mapping-pack-url-v1","note":"QR contains no learner or personal data; it points future Evia builds to this versioned mapping pack."},"evidenceRules":"../evidence-rules.json","routeMappings":"6570-05-thin/thin-mappings.json","categoryFiles":["6570-05-repair/category-1.json","6570-05-repair/category-2.json","6570-05-repair/category-3.json","6570-05-repair/category-4.json","6570-05-thin/category-5.json"]}
+{
+  "eviaMappingPack": 1,
+  "schemaVersion": 2,
+  "status": "test",
+  "productionReady": false,
+  "qualification": {
+    "id": "6570-05",
+    "title": "City & Guilds Level 3 NVQ Diploma in Trowel Occupations (Construction)",
+    "source": "Qualification Handbook, July 2025, Version 1.1",
+    "courseType": "nvq",
+    "structure": {
+      "maxCategories": 5,
+      "maxSubcategoriesPerCategory": 5,
+      "maxTasksPerSubcategory": 5
+    },
+    "mandatoryUnits": [
+      "102",
+      "234",
+      "235",
+      "300",
+      "303",
+      "313",
+      "502",
+      "701"
+    ],
+    "selectedOptionalUnit": "238",
+    "glh": 847,
+    "tqt": 1470
+  },
+  "route": {
+    "id": "thin",
+    "optionalUnit": "238",
+    "activeUnits": [
+      "102",
+      "234",
+      "235",
+      "300",
+      "303",
+      "313",
+      "502",
+      "701",
+      "238"
+    ],
+    "parentAcCount": 238,
+    "atomicTargetCount": 772,
+    "taskTypeCount": 125,
+    "wordingAuditStatus": "pending-final-wording-audit"
+  },
+  "validation": {
+    "expectedCategoryCount": 5,
+    "expectedSubcategoryCount": 25,
+    "expectedTaskTypeCount": 125,
+    "expectedAtomicTargetCount": 772,
+    "runtimeCoverageAudit": true
+  },
+  "export": {
+    "qrPayloadType": "evia-mapping-pack-url-v1",
+    "note": "QR contains no learner or personal data; it points future Evia builds to this versioned mapping pack."
+  },
+  "evidenceRules": "../evidence-rules.json",
+  "routeMappings": "6570-05-thin/thin-mappings.json",
+  "categoryFiles": [
+    "6570-05-repair/category-1.json",
+    "6570-05-repair/category-2.json",
+    "6570-05-repair/category-3.json",
+    "6570-05-repair/category-4.json",
+    "6570-05-thin/category-5.json"
+  ],
+  "learning": {
+    "type": "GLH",
+    "requiredHours": 847,
+    "source": "City & Guilds 6570-05 Qualification Handbook v1.1"
+  }
+}

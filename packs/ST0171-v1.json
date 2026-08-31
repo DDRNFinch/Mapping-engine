@@ -1,1 +1,63 @@
-{"eviaMappingPack":1,"schemaVersion":3,"status":"test","productionReady":false,"courseType":"ksb","qualification":{"id":"ST0171","standardId":"ST0171","version":"1.1","title":"Property Maintenance Operative — ST0171 v1.1","source":"Skills England occupational standard ST0171 v1.1","sourceUrl":"https://skillsengland.education.gov.uk/apprenticeships/st0171-v1-1","structure":{"maxCategories":5,"maxSubcategoriesPerCategory":5,"maxTasksPerSubcategory":5}},"coverage":{"ksbCount":62,"knowledgeCount":31,"skillCount":25,"behaviourCount":6,"internalEvidenceRequirementCount":203,"taskTypeCount":50,"unusedTaskCapacity":75,"ksbCoverage":62,"evidenceRequirementCoverage":203,"orphanKSBs":[],"orphanEvidenceRequirements":[]},"rules":{"holisticMapping":true,"candidateKSBsAreNotAutomaticAwards":true,"compoundKSBsUseInternalFacets":true,"facetIdsAreInternalNotOfficialKSBIdentifiers":true,"oneSubmissionCanCoverMultipleKSBs":true},"evidenceRules":"../evidence-rules.json","ksbRegistry":"ST0171/ksb-registry.json","facetRegistry":"ST0171/facets.json","categoryFiles":["ST0171/category-1.json","ST0171/category-2.json","ST0171/category-3.json","ST0171/category-4.json","ST0171/category-5.json"],"matrix":{"columnMode":"main-category","defaultFilter":"knowledge"},"export":{"qrPayloadType":"evia-mapping-pack-url-v1","note":"QR contains no learner or personal data; it points future Evia-format apps to this versioned mapping pack."}}
+{
+  "eviaMappingPack": 1,
+  "schemaVersion": 3,
+  "status": "test",
+  "productionReady": false,
+  "courseType": "ksb",
+  "qualification": {
+    "id": "ST0171",
+    "standardId": "ST0171",
+    "version": "1.1",
+    "title": "Property Maintenance Operative — ST0171 v1.1",
+    "source": "Skills England occupational standard ST0171 v1.1",
+    "sourceUrl": "https://skillsengland.education.gov.uk/apprenticeships/st0171-v1-1",
+    "structure": {
+      "maxCategories": 5,
+      "maxSubcategoriesPerCategory": 5,
+      "maxTasksPerSubcategory": 5
+    }
+  },
+  "coverage": {
+    "ksbCount": 62,
+    "knowledgeCount": 31,
+    "skillCount": 25,
+    "behaviourCount": 6,
+    "internalEvidenceRequirementCount": 203,
+    "taskTypeCount": 50,
+    "unusedTaskCapacity": 75,
+    "ksbCoverage": 62,
+    "evidenceRequirementCoverage": 203,
+    "orphanKSBs": [],
+    "orphanEvidenceRequirements": []
+  },
+  "rules": {
+    "holisticMapping": true,
+    "candidateKSBsAreNotAutomaticAwards": true,
+    "compoundKSBsUseInternalFacets": true,
+    "facetIdsAreInternalNotOfficialKSBIdentifiers": true,
+    "oneSubmissionCanCoverMultipleKSBs": true
+  },
+  "evidenceRules": "../evidence-rules.json",
+  "ksbRegistry": "ST0171/ksb-registry.json",
+  "facetRegistry": "ST0171/facets.json",
+  "categoryFiles": [
+    "ST0171/category-1.json",
+    "ST0171/category-2.json",
+    "ST0171/category-3.json",
+    "ST0171/category-4.json",
+    "ST0171/category-5.json"
+  ],
+  "matrix": {
+    "columnMode": "main-category",
+    "defaultFilter": "knowledge"
+  },
+  "export": {
+    "qrPayloadType": "evia-mapping-pack-url-v1",
+    "note": "QR contains no learner or personal data; it points future Evia-format apps to this versioned mapping pack."
+  },
+  "learning": {
+    "type": "OTJ",
+    "requiredHours": 418,
+    "source": "Skills England minimum hours for compliance"
+  }
+}

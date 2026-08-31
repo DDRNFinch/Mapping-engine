@@ -1,1 +1,56 @@
-{"mappingEngineManifest":1,"schemaVersion":3,"qualificationId":"6570-04","title":"Trowel Occupations Level 2","defaultRoute":"cladding","routes":[{"id":"cladding","optionalUnit":"234","title":"Masonry Cladding","status":"mapped-test","pack":"packs/6570-04-cladding-v1.json"},{"id":"thin","optionalUnit":"238","title":"Thin Joint Masonry","status":"mapped-test","pack":"packs/6570-04-thin-v1.json"},{"id":"repair","optionalUnit":"690","title":"Repair & Maintenance","status":"mapped-test","pack":"packs/6570-04-repair-v1.json"},{"id":"concrete","optionalUnit":"817","title":"Placing & Compacting Concrete","status":"mapped-test","pack":"packs/6570-04-concrete-v1.json"},{"id":"specialist","optionalUnit":"828","title":"Specialist Masonry","status":"mapped-test","pack":"packs/6570-04-specialist-v1.json"},{"id":"drainage","optionalUnit":"837","title":"Drainage","status":"mapped-test","pack":"packs/6570-04-drainage-v1.json"}],"learning":{"type":"GLH","requiredHours":394}}
+{
+  "mappingEngineManifest": 1,
+  "schemaVersion": 3,
+  "qualificationId": "6570-04",
+  "title": "Trowel Occupations Level 2",
+  "defaultRoute": "cladding",
+  "routes": [
+    {
+      "id": "cladding",
+      "optionalUnit": "234",
+      "title": "Masonry Cladding",
+      "status": "mapped-test",
+      "pack": "packs/6570-04-cladding-v1.json"
+    },
+    {
+      "id": "thin",
+      "optionalUnit": "238",
+      "title": "Thin Joint Masonry",
+      "status": "mapped-test",
+      "pack": "packs/6570-04-thin-v1.json"
+    },
+    {
+      "id": "repair",
+      "optionalUnit": "690",
+      "title": "Repair & Maintenance",
+      "status": "mapped-test",
+      "pack": "packs/6570-04-repair-v1.json"
+    },
+    {
+      "id": "concrete",
+      "optionalUnit": "817",
+      "title": "Placing & Compacting Concrete",
+      "status": "mapped-test",
+      "pack": "packs/6570-04-concrete-v1.json"
+    },
+    {
+      "id": "specialist",
+      "optionalUnit": "828",
+      "title": "Specialist Masonry",
+      "status": "mapped-test",
+      "pack": "packs/6570-04-specialist-v1.json"
+    },
+    {
+      "id": "drainage",
+      "optionalUnit": "837",
+      "title": "Drainage",
+      "status": "mapped-test",
+      "pack": "packs/6570-04-drainage-v1.json"
+    }
+  ],
+  "learning": {
+    "type": "GLH",
+    "requiredHours": 394,
+    "source": "City & Guilds 6570-04 Qualification Handbook v1.1"
+  }
+}

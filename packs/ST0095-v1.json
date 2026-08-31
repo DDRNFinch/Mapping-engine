@@ -53,5 +53,10 @@
   "export": {
     "qrPayloadType": "evia-mapping-pack-url-v1",
     "note": "QR contains no learner or personal data; it points future Evia-format apps to this versioned mapping pack."
+  },
+  "learning": {
+    "type": "OTJ",
+    "requiredHours": 578,
+    "source": "Skills England minimum hours for compliance"
   }
 }
