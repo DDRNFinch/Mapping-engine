@@ -36,15 +36,15 @@
     "facetIdsAreInternalNotOfficialKSBIdentifiers": true,
     "oneSubmissionCanCoverMultipleKSBs": true
   },
-  "evidenceRules": "evidence-rules.json",
-  "ksbRegistry": "packs/ST0095/ksb-registry.json",
-  "facetRegistry": "packs/ST0095/facets.json",
+  "evidenceRules": "../evidence-rules.json",
+  "ksbRegistry": "ST0095/ksb-registry.json",
+  "facetRegistry": "ST0095/facets.json",
   "categoryFiles": [
-    "packs/ST0095/category-1.json",
-    "packs/ST0095/category-2.json",
-    "packs/ST0095/category-3.json",
-    "packs/ST0095/category-4.json",
-    "packs/ST0095/category-5.json"
+    "ST0095/category-1.json",
+    "ST0095/category-2.json",
+    "ST0095/category-3.json",
+    "ST0095/category-4.json",
+    "ST0095/category-5.json"
   ],
   "matrix": {
     "columnMode": "main-category",
