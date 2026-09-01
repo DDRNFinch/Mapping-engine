@@ -14,6 +14,13 @@
       const b = Math.max(a, Number(range[2]) || a);
       return { min:a, max:b };
     }
+    const upTo = text.match(/\bup\s+to\s+(\d+)\b/i);
+    if (upTo) return { min:1, max:Math.max(1, Number(upTo[1]) || 1) };
+    const photoCount = /photos?/.test(type) ? text.match(/\b(\d+)\s+photos?\b/i) : null;
+    if (photoCount) {
+      const count = Math.max(1, Number(photoCount[1]) || 1);
+      return { min:count, max:count };
+    }
     const direct = text.match(/\b(\d+)\b/);
     const count = Math.max(1, Number(direct?.[1]) || 1);
     if (type === 'photos' && !direct) return { min:1, max:3 };
