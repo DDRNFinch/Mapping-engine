@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v11';
+const CACHE_NAME='naxos-shell-v12';
 const CACHE_PREFIX='naxos-shell-';
 const QR_CACHE='naxos-qr-v1';
 const QR_LIBRARY_URL='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
@@ -11,6 +11,7 @@ const CORE=[
   './evia-shell.css',
   './naxos-evia-shell.js',
   './naxos-editor.js',
+  './naxos-evidence-contract-v2.js',
   './pwa.js',
   './app.js',
   './ksb.js',
@@ -25,14 +26,16 @@ const CORE=[
   './ksb-manifest.json',
   './manifest-6570-04.json',
   './manifest.json',
-  './evidence-rules.json'
+  './evidence-rules.json',
+  './evidence-capture-contract-v2.json'
 ];
 const DATA_SEEDS=[
   './course-catalog.json',
   './ksb-manifest.json',
   './manifest-6570-04.json',
   './manifest.json',
-  './evidence-rules.json'
+  './evidence-rules.json',
+  './evidence-capture-contract-v2.json'
 ];
 
 function collectJsonReferences(value,baseUrl,out=new Set()){
