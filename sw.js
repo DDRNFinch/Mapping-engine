@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v12';
+const CACHE_NAME='naxos-shell-v13';
 const CACHE_PREFIX='naxos-shell-';
 const QR_CACHE='naxos-qr-v1';
 const QR_LIBRARY_URL='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
