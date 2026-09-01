@@ -1,0 +1,125 @@
+{
+  "evidenceCaptureContract": 2,
+  "schemaVersion": 2,
+  "principle": "Naxos supplies the exact evidence form, quantity, sequence and learner choices. Evia executes this contract and must not infer a different capture method from wording.",
+  "kinds": ["video", "photo", "audio", "written", "document", "witness", "observation", "choice"],
+  "profiles": {
+    "job-information": {
+      "preferred": [
+        {"steps": [{"kind": "video", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [
+          {"kind": "choice", "label": "Choose how to show the job information", "options": [
+            {"label": "Document", "steps": [{"kind": "document", "min": 1, "max": 1}]},
+            {"label": "Photos", "steps": [{"kind": "photo", "min": 1, "max": 3}]}
+          ]},
+          {"kind": "choice", "label": "Choose how to explain the information", "options": [
+            {"label": "Audio", "steps": [{"kind": "audio", "min": 1, "max": 1}]},
+            {"label": "Written", "steps": [{"kind": "written", "min": 1, "max": 1}]}
+          ]}
+        ]}
+      ]
+    },
+    "practical": {
+      "preferred": [
+        {"steps": [{"kind": "video", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [
+          {"kind": "photo", "min": 3, "max": 3},
+          {"kind": "choice", "label": "Choose how to add your explanation", "options": [
+            {"label": "Audio", "steps": [{"kind": "audio", "min": 1, "max": 1}]},
+            {"label": "Written", "steps": [{"kind": "written", "min": 1, "max": 1}]}
+          ]}
+        ]}
+      ]
+    },
+    "hidden-work": {
+      "preferred": [
+        {"steps": [{"kind": "photo", "min": 3, "max": 3}]},
+        {"steps": [{"kind": "audio", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [{"kind": "video", "min": 1, "max": 1}]}
+      ]
+    },
+    "knowledge": {
+      "preferred": [
+        {"steps": [{"kind": "audio", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [
+          {"kind": "choice", "label": "Choose your alternative evidence form", "options": [
+            {"label": "Written", "steps": [{"kind": "written", "min": 1, "max": 1}]},
+            {"label": "Video", "steps": [{"kind": "video", "min": 1, "max": 1}]}
+          ]}
+        ]}
+      ]
+    },
+    "safety": {
+      "preferred": [
+        {"steps": [{"kind": "video", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [
+          {"kind": "photo", "min": 1, "max": 3},
+          {"kind": "choice", "label": "Choose how to explain the controls", "options": [
+            {"label": "Audio", "steps": [{"kind": "audio", "min": 1, "max": 1}]},
+            {"label": "Written", "steps": [{"kind": "written", "min": 1, "max": 1}]}
+          ]}
+        ]}
+      ]
+    },
+    "resources": {
+      "preferred": [
+        {"steps": [{"kind": "photo", "min": 1, "max": 1}]},
+        {"steps": [{"kind": "audio", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [{"kind": "video", "min": 1, "max": 1}]}
+      ]
+    },
+    "quality": {
+      "preferred": [
+        {"steps": [{"kind": "photo", "min": 1, "max": 3}]},
+        {"steps": [{"kind": "audio", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [{"kind": "video", "min": 1, "max": 1}]}
+      ]
+    },
+    "programme": {
+      "preferred": [
+        {"steps": [{"kind": "audio", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [
+          {"kind": "choice", "label": "Choose your programme evidence", "options": [
+            {"label": "Written statement", "steps": [{"kind": "written", "min": 1, "max": 1}]},
+            {"label": "Document with explanation", "steps": [
+              {"kind": "document", "min": 1, "max": 1},
+              {"kind": "choice", "label": "Choose how to explain the document", "options": [
+                {"label": "Audio", "steps": [{"kind": "audio", "min": 1, "max": 1}]},
+                {"label": "Written", "steps": [{"kind": "written", "min": 1, "max": 1}]}
+              ]}
+            ]}
+          ]}
+        ]}
+      ]
+    },
+    "communication": {
+      "preferred": [
+        {"steps": [{"kind": "witness", "min": 1, "max": 1}]}
+      ],
+      "alternatives": [
+        {"steps": [
+          {"kind": "choice", "label": "Choose your reflection form", "options": [
+            {"label": "Audio", "steps": [{"kind": "audio", "min": 1, "max": 1}]},
+            {"label": "Written", "steps": [{"kind": "written", "min": 1, "max": 1}]}
+          ]}
+        ]}
+      ]
+    }
+  }
+}
