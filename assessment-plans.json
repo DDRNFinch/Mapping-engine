@@ -1,0 +1,107 @@
+{
+  "naxosAssessmentPlans": 1,
+  "schemaVersion": 1,
+  "source": "Skills England end-point assessment plans",
+  "courses": {
+    "ST0095": {
+      "courseId": "ST0095",
+      "courseVersion": "1.2",
+      "planVersion": "1.2",
+      "title": "Bricklayer — ST0095 v1.2",
+      "typicalAssessmentPeriodMonths": 3,
+      "overallGrades": ["fail", "pass", "merit", "distinction"],
+      "source": "Skills England · Bricklayer ST0095 v1.2 end-point assessment plan",
+      "sourceUrl": "https://skillsengland.education.gov.uk/apprenticeships/st0095-v1-2?view=epa",
+      "methods": [
+        {
+          "title": "Multiple-choice test",
+          "detail": "40 multiple-choice questions · 60 minutes · closed book."
+        },
+        {
+          "title": "Interview underpinned by a portfolio of evidence",
+          "detail": "60-minute interview with an independent assessor · at least 10 questions · the portfolio underpins the discussion and is not assessed directly."
+        },
+        {
+          "title": "Practical assessment with questions",
+          "detail": "12-hour practical assessment completed over 2 working days · independent assessor observation with at least 6 questions."
+        }
+      ]
+    },
+    "ST0264-SITE": {
+      "courseId": "ST0264-SITE",
+      "standardId": "ST0264",
+      "courseVersion": "1.4",
+      "planVersion": "1.4",
+      "pathway": "Site Carpenter",
+      "title": "Site Carpenter — ST0264 v1.4",
+      "typicalAssessmentPeriodMonths": 3,
+      "overallGrades": ["fail", "pass", "merit", "distinction"],
+      "source": "Skills England · Carpentry and joinery ST0264 v1.4 end-point assessment plan · Site Carpenter",
+      "sourceUrl": "https://skillsengland.education.gov.uk/apprenticeships/st0264-v1-4?option=Site+Carpenter&view=epa",
+      "methods": [
+        {
+          "title": "Multiple-choice test",
+          "detail": "40 multiple-choice questions · 60 minutes · closed book."
+        },
+        {
+          "title": "Practical assessment with questions",
+          "detail": "12-hour practical assessment completed over 2 working days · independent assessor observation with at least 5 questions."
+        },
+        {
+          "title": "Interview underpinned by a portfolio of evidence",
+          "detail": "60-minute interview with an independent assessor · at least 10 questions · the portfolio underpins the discussion and is not assessed directly."
+        }
+      ]
+    },
+    "ST0264-AJ": {
+      "courseId": "ST0264-AJ",
+      "standardId": "ST0264",
+      "courseVersion": "1.4",
+      "planVersion": "1.4",
+      "pathway": "Architectural Joiner",
+      "title": "Architectural Joiner — ST0264 v1.4",
+      "typicalAssessmentPeriodMonths": 3,
+      "overallGrades": ["fail", "pass", "merit", "distinction"],
+      "source": "Skills England · Carpentry and joinery ST0264 v1.4 end-point assessment plan · Architectural Joiner",
+      "sourceUrl": "https://skillsengland.education.gov.uk/apprenticeships/st0264-v1-4?option=Architectural+Joiner&view=epa",
+      "methods": [
+        {
+          "title": "Multiple-choice test",
+          "detail": "40 multiple-choice questions · 60 minutes · closed book."
+        },
+        {
+          "title": "Practical assessment with questions",
+          "detail": "12-hour practical assessment completed over 2 working days · independent assessor observation with at least 5 questions."
+        },
+        {
+          "title": "Interview underpinned by a portfolio of evidence",
+          "detail": "60-minute interview with an independent assessor · at least 10 questions · the portfolio underpins the discussion and is not assessed directly."
+        }
+      ]
+    },
+    "ST0171": {
+      "courseId": "ST0171",
+      "courseVersion": "1.1",
+      "planVersion": "1.1",
+      "title": "Property Maintenance Operative — ST0171 v1.1",
+      "typicalAssessmentPeriodMonths": 3,
+      "overallGrades": ["fail", "pass", "merit", "distinction"],
+      "source": "Skills England · Property Maintenance Operative ST0171 v1.1 end-point assessment plan",
+      "sourceUrl": "https://skillsengland.education.gov.uk/apprenticeships/st0171-v1-1?view=epa",
+      "methods": [
+        {
+          "title": "Practical assessment with questions",
+          "detail": "10-hour practical assessment · independent assessor observation with at least 10 questions."
+        },
+        {
+          "title": "Interview underpinned by a portfolio of evidence",
+          "detail": "At least 60 minutes · at least 10 questions · the portfolio underpins the discussion."
+        },
+        {
+          "title": "Multiple-choice test",
+          "detail": "40 multiple-choice questions · 60 minutes · closed book."
+        }
+      ]
+    }
+  }
+}
