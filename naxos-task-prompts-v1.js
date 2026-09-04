@@ -104,7 +104,11 @@ function indices(){
 }
 function activeCustomId(){return $('tasks')?.querySelector('.naxos-custom-task.active')?.dataset.naxosCustomId||''}
 function builtinKey(i=indices()){return`${i.ci}:${i.si}:${i.ti}`}
-function currentProfile(){return $('naxosProfileSelect')?.value||$('evidenceProfileTitle')?.textContent||'knowledge'}
+function currentProfile(){
+  const editor=$('naxosTaskEditor');
+  if(editor&&!editor.hidden&&$('naxosProfileSelect')?.value)return $('naxosProfileSelect').value;
+  return $('evidenceProfileTitle')?.textContent||'knowledge';
+}
 function currentConditional(){const box=$('promptBox');return box&&!box.hidden?clean($('taskPrompt')?.textContent):''}
 function currentTitle(){return clean($('naxosTaskName')?.value||$('taskTitle')?.textContent)}
 function currentExplicit(){
