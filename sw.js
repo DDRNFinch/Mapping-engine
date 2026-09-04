@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v13';
+const CACHE_NAME='naxos-shell-v14';
 const CACHE_PREFIX='naxos-shell-';
 const QR_CACHE='naxos-qr-v1';
 const QR_LIBRARY_URL='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
@@ -11,7 +11,8 @@ const CORE=[
   './evia-shell.css',
   './naxos-evia-shell.js',
   './naxos-editor.js',
-  './naxos-evidence-contract-v2.js',
+  './naxos-task-prompts-v1.js',
+  './naxos-evidence-contract-v3.js',
   './pwa.js',
   './app.js',
   './ksb.js',
