@@ -1,0 +1,47 @@
+name: Build static question banks
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-question-banks.mjs'
+      - 'question-banks/question-bank-engine-v1.js'
+      - 'question-banks/maths-v1.json'
+      - 'packs/**'
+      - '.github/workflows/build-question-banks.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build course question banks
+        run: node scripts/build-question-banks.mjs
+
+      - name: Validate generated files
+        run: |
+          git diff --check
+          node -e "const fs=require('fs');const m=JSON.parse(fs.readFileSync('question-banks/manifest.json','utf8'));if(m.generatedQuestionCount!==720)process.exit(1);console.log('Question bank count:',m.generatedQuestionCount)"
+
+      - name: Commit generated banks and pack references
+        run: |
+          if git diff --quiet -- question-banks packs; then
+            echo 'Question banks already up to date.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add question-banks packs
+          git commit -m 'Build static course question banks [skip ci]'
+          git push
