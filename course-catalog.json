@@ -1,6 +1,7 @@
 {
   "mappingEngineCatalog": 1,
   "schemaVersion": 1,
+  "questionBank": "question-banks.json",
   "courses": [
     {
       "id": "6570-04",
