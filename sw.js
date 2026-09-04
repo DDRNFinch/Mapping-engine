@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v15';
+const CACHE_NAME='naxos-shell-v16';
 const CACHE_PREFIX='naxos-shell-';
 const QR_CACHE='naxos-qr-v1';
 const QR_LIBRARY_URL='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
@@ -24,6 +24,7 @@ const CORE=[
   './icon-maskable-512.svg',
   './apple-touch-icon.png',
   './course-catalog.json',
+  './question-banks.json',
   './ksb-manifest.json',
   './manifest-6570-04.json',
   './manifest.json',
@@ -32,6 +33,7 @@ const CORE=[
 ];
 const DATA_SEEDS=[
   './course-catalog.json',
+  './question-banks.json',
   './ksb-manifest.json',
   './manifest-6570-04.json',
   './manifest.json',
