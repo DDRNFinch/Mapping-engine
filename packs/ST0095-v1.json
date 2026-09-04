@@ -58,5 +58,13 @@
     "type": "OTJ",
     "requiredHours": 578,
     "source": "Skills England minimum hours for compliance"
+  },
+  "questionBank": {
+    "schemaVersion": 1,
+    "source": "Naxos",
+    "maths": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/maths-v1.json",
+    "english": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/english-v1.json",
+    "trade": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/ST0095-trade-v1.json",
+    "epa": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/ST0095-epa-v1.json"
   }
 }

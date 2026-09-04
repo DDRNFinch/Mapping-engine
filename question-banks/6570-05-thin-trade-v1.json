@@ -1,0 +1,912 @@
+{
+  "naxosQuestionBank": 1,
+  "schemaVersion": 1,
+  "bankId": "6570-05-thin-trade-v1",
+  "version": 1,
+  "category": "trade",
+  "courseId": "6570-05",
+  "questionCount": 50,
+  "route": "thin",
+  "questions": [
+    {
+      "id": "6570-05-TRADE-001",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While preparing read the job and identify setting-out requirements, two current-looking information sources conflict. What is the best next step? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-002",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During set out and start a cavity wall, the work looks acceptable but one required quality check does not pass. What should you do? (Building masonry structures — Cavity walling)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-003",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague proposes substituting a similar resource for set out and start cladding to a timber frame because the specified item is unavailable. Which response is strongest? (Masonry cladding & structural details — Timber-frame cladding)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-004",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out form a rough-ringed arch, a check shows the work no longer matches the issued requirement. What is the best response? (Architectural & decorative masonry — Arches)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-005",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The drawing, specification or instruction for establish and mark datum points does not agree with the site condition. What should you do? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-006",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The next stage will conceal part of build cavity walling to line, level and plumb, but a required check is still outstanding. Which response is strongest? (Building masonry structures — Cavity walling)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-007",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A resource selected for build brick/block cladding to timber frame does not fully match the issued requirement. What is the best response? (Masonry cladding & structural details — Timber-frame cladding)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-008",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During form an axed arch, the work looks acceptable but one required quality check does not pass. What should you do? (Architectural & decorative masonry — Arches)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-009",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "Before committing work on plan checks, tolerances and handover, you find that the information is incomplete or inconsistent. Which response is strongest? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-010",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out maintain a clean, correct cavity, a check shows the work no longer matches the issued requirement. What is the best response? (Building masonry structures — Cavity walling)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-011",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During form an opening in timber-frame cladding, you find a material or component whose condition or identification is doubtful. What should you do? (Masonry cladding & structural details — Timber-frame cladding)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-012",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The next stage will conceal part of form a gauged arch, but a required check is still outstanding. Which response is strongest? (Architectural & decorative masonry — Arches)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-013",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While preparing use drawings, specifications & rams for today's work, two current-looking information sources conflict. What is the best next step? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-014",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During check and finish cavity walling, the work looks acceptable but one required quality check does not pass. What should you do? (Building masonry structures — Cavity walling)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-015",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague proposes substituting a similar resource for finish and quality-check timber-frame cladding because the specified item is unavailable. Which response is strongest? (Masonry cladding & structural details — Timber-frame cladding)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-016",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out support, finish and remove temporary arch work, a check shows the work no longer matches the issued requirement. What is the best response? (Architectural & decorative masonry — Arches)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-017",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The drawing, specification or instruction for summarise today's job information does not agree with the site condition. What should you do? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-018",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The next stage will conceal part of plan the work sequence, resources & time, but a required check is still outstanding. Which response is strongest? (Building masonry structures — Cavity walling)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-019",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A resource selected for follow the safe system of work and task controls does not fully match the issued requirement. What is the best response? (Masonry cladding & structural details — Timber-frame cladding)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-020",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During explain and confirm the chosen method of work, the work looks acceptable but one required quality check does not pass. What should you do? (Architectural & decorative masonry — Arches)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-021",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague suggests using defective equipment only to finish a short part of make and use a trammel. Which response is strongest? (Setting out & preparing work — Profiles, trammels & equipment)",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-022",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A resource selected for build a blockwork structure does not fully match the issued requirement. What is the best response? (Building masonry structures — Blockwork & solid walling)",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-023",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During clad a pre-erected concrete structure, the work looks acceptable but one required quality check does not pass. What should you do? (Masonry cladding & structural details — Concrete, steel & existing structures)",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-024",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague suggests continuing build a chimney stack even though one of the agreed controls has failed. Which response is strongest? (Architectural & decorative masonry — Chimneys & fireplaces)",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-025",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A tool or item of equipment used for make and use a template develops a defect during a pre-use check. What should you do? (Setting out & preparing work — Profiles, trammels & equipment)",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-026",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During build a solid wall structure, you find a material or component whose condition or identification is doubtful. What should you do? (Building masonry structures — Blockwork & solid walling)",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-027",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The next stage will conceal part of clad a pre-erected steel structure, but a required check is still outstanding. Which response is strongest? (Masonry cladding & structural details — Concrete, steel & existing structures)",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-028",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While working on build a fireplace, a required safety control is no longer effective. What is the best response? (Architectural & decorative masonry — Chimneys & fireplaces)",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-029",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During set profiles and ranging lines, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response? (Setting out & preparing work — Profiles, trammels & equipment)",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-030",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague proposes substituting a similar resource for build walling in a local style/material because the specified item is unavailable. Which response is strongest? (Building masonry structures — Blockwork & solid walling)",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-031",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out clad an existing masonry structure, a check shows the work no longer matches the issued requirement. What is the best response? (Masonry cladding & structural details — Concrete, steel & existing structures)",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-032",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During finish and quality-check chimney/fireplace work, site conditions change and the existing safe system no longer controls the risk. What should happen? (Architectural & decorative masonry — Chimneys & fireplaces)",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-033",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague suggests using defective equipment only to finish a short part of use and maintain setting-out equipment. Which response is strongest? (Setting out & preparing work — Profiles, trammels & equipment)",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-034",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A resource selected for cut and position bricks or blocks does not fully match the issued requirement. What is the best response? (Building masonry structures — Blockwork & solid walling)",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-035",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During clad using local materials, you find a material or component whose condition or identification is doubtful. What should you do? (Masonry cladding & structural details — Concrete, steel & existing structures)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-001",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The next stage will conceal part of prepare and start the first thin-joint course, but a required check is still outstanding. Which response is strongest? (Thin-joint masonry — Starting thin-joint masonry)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-002",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out build a thin-joint cavity wall, a check shows the work no longer matches the issued requirement. What is the best response? (Thin-joint masonry — Starting thin-joint masonry)",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-003",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During build a thin-joint solid wall, the work looks acceptable but one required quality check does not pass. What should you do? (Thin-joint masonry — Starting thin-joint masonry)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-004",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague proposes substituting a similar resource for cut and prepare thin-joint blocks because the specified item is unavailable. Which response is strongest? (Thin-joint masonry — Starting thin-joint masonry)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-005",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While preparing explain thin-joint information and regulations, two current-looking information sources conflict. What is the best next step? (Thin-joint masonry — Starting thin-joint masonry)",
+      "answers": [
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you."
+      ],
+      "correct": 1,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-006",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During form an opening in thin-joint masonry, the work looks acceptable but one required quality check does not pass. What should you do? (Thin-joint masonry — Openings & structural details)",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-007",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague proposes substituting a similar resource for install a brick soffit system because the specified item is unavailable. Which response is strongest? (Thin-joint masonry — Openings & structural details)",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-008",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out install a masonry support angle, a check shows the work no longer matches the issued requirement. What is the best response? (Thin-joint masonry — Openings & structural details)",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-009",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During install a wind post, the work looks acceptable but one required quality check does not pass. What should you do? (Thin-joint masonry — Openings & structural details)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-010",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "A colleague proposes substituting a similar resource for explain thin-joint materials and components because the specified item is unavailable. Which response is strongest? (Thin-joint masonry — Openings & structural details)",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-011",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out install dpc, cavity tray or cloak system, a check shows the work no longer matches the issued requirement. What is the best response? (Thin-joint masonry — Cavity & concealed details)",
+      "answers": [
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed."
+      ],
+      "correct": 3,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-012",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During install and check wall ties, the work looks acceptable but one required quality check does not pass. What should you do? (Thin-joint masonry — Cavity & concealed details)",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-013",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "The next stage will conceal part of install a movement joint, but a required check is still outstanding. Which response is strongest? (Thin-joint masonry — Cavity & concealed details)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-014",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "While carrying out install insulation, a check shows the work no longer matches the issued requirement. What is the best response? (Thin-joint masonry — Cavity & concealed details)",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    },
+    {
+      "id": "6570-05-TRADE-THIN-015",
+      "category": "trade",
+      "courseId": "6570-05",
+      "question": "During explain thin-joint safety and hidden-detail checks, site conditions change and the existing safe system no longer controls the risk. What should happen? (Thin-joint masonry — Cavity & concealed details)",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "thin"
+    }
+  ]
+}

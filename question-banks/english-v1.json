@@ -1,0 +1,961 @@
+{
+  "naxosQuestionBank": 1,
+  "schemaVersion": 1,
+  "bankId": "english-v1",
+  "version": 1,
+  "category": "english",
+  "courseId": "ALL",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "ENGLISH-001",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which site-note sentence is clearest and most professional?",
+      "answers": [
+        "Opening wrong. What do you want me to do?",
+        "The opening is not right but we can probably make it work.",
+        "Need an answer ASAP because this is holding us up.",
+        "The opening is 15 mm narrower than the drawing; please confirm the required dimension before work continues."
+      ],
+      "correct": 3,
+      "explanation": "A professional note states the issue, gives the relevant fact and asks for a clear decision.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-002",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence uses a colon correctly?",
+      "answers": [
+        "Bring the following: PPE safety boots, gloves and eye protection.",
+        "Bring the following PPE safety boots: gloves and eye protection.",
+        "Bring the following PPE: safety boots, gloves and eye protection.",
+        "Bring: the following PPE safety boots, gloves and eye protection."
+      ],
+      "correct": 2,
+      "explanation": "A colon can introduce a list after a complete lead-in.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-003",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "A supervisor writes, “Do not proceed until the revised detail has been issued.” What does this require?",
+      "answers": [
+        "Ask a colleague which detail they would use.",
+        "Stop the relevant work and wait for the revised detail.",
+        "Continue but leave the final section unfinished.",
+        "Use the previous detail unless told otherwise."
+      ],
+      "correct": 1,
+      "explanation": "The instruction explicitly prevents the work from proceeding until revised information is issued.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-004",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence gives the least ambiguous instruction?",
+      "answers": [
+        "Measure from the marked datum to the left-hand edge of the opening.",
+        "Measure it from there to the opening.",
+        "Take the measurement to the side.",
+        "Measure from the mark to the edge."
+      ],
+      "correct": 0,
+      "explanation": "It names both the starting point and the exact finishing point.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-005",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence is written in the active voice?",
+      "answers": [
+        "The dimensions were checked before cutting.",
+        "The dimensions had been checked by the apprentice.",
+        "Before cutting, the dimensions were being checked.",
+        "The apprentice checked the dimensions before cutting."
+      ],
+      "correct": 3,
+      "explanation": "The subject performs the action directly in the active voice.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-006",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence is most appropriate for a formal work record?",
+      "answers": [
+        "The thing was bad so we stopped.",
+        "Component looked rough; told someone.",
+        "The damaged component was isolated and reported to the supervisor at 10:20.",
+        "I sorted the dodgy bit and told the boss."
+      ],
+      "correct": 2,
+      "explanation": "A formal record is specific, factual and time-linked.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-007",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence reports an observation rather than an assumption?",
+      "answers": [
+        "The wall was built incorrectly.",
+        "Water is visible at the base of the wall after rainfall.",
+        "The DPC has definitely failed.",
+        "Someone must have damaged the membrane."
+      ],
+      "correct": 1,
+      "explanation": "An observation states what can actually be seen without guessing the cause.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-008",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which question is most useful when a drawing note is unclear?",
+      "answers": [
+        "Which revision and detail should I follow for this opening?",
+        "Is this right?",
+        "What am I supposed to do?",
+        "Can somebody sort this?"
+      ],
+      "correct": 0,
+      "explanation": "It identifies the precise information needed to resolve the ambiguity.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-009",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "A report says, “The temporary repair reduced the leak but did not eliminate it.” Which conclusion is supported?",
+      "answers": [
+        "The permanent repair has been completed.",
+        "The leak was caused by the temporary repair.",
+        "No further monitoring is necessary.",
+        "The problem still requires further action."
+      ],
+      "correct": 3,
+      "explanation": "The statement says the leak remains, so further action is still needed.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-010",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sequence makes an incident note easiest to understand?",
+      "answers": [
+        "Who was informed → unrelated history → action → guess",
+        "Opinion → cause → action → what happened",
+        "What happened → immediate action → who was informed → next action",
+        "Next action → opinion → what happened → blame"
+      ],
+      "correct": 2,
+      "explanation": "A chronological factual sequence makes the record clear and auditable.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-011",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "A note says “verify dimensions on site before manufacture.” What does “verify” mean here?",
+      "answers": [
+        "copy the dimensions without checking",
+        "check and confirm that the dimensions are correct",
+        "estimate the dimensions from the drawing",
+        "change the dimensions to suit available stock"
+      ],
+      "correct": 1,
+      "explanation": "To verify is to check and confirm accuracy.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-012",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which message best explains a delay to a customer?",
+      "answers": [
+        "The repair is delayed because the replacement part has not arrived. We will confirm a new completion time when delivery is verified.",
+        "We are running late because the part is not here.",
+        "It will not be done today. Sorry.",
+        "Supplier problem, nothing we can do."
+      ],
+      "correct": 0,
+      "explanation": "It gives the reason, impact and next communication clearly and professionally.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-013",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which statement is a fact rather than an opinion?",
+      "answers": [
+        "The opening looks badly built.",
+        "The installer did a poor job.",
+        "The opening is probably too small because someone rushed.",
+        "The measured opening is 905 mm wide."
+      ],
+      "correct": 3,
+      "explanation": "A measured dimension can be checked objectively.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-014",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which instruction is ordered most logically?",
+      "answers": [
+        "Prove isolation, begin the work, then isolate the supply.",
+        "Begin the permitted work and isolate the supply if needed.",
+        "Isolate the supply, prove it is isolated, then begin the permitted work.",
+        "Begin the work, isolate the supply, then prove isolation."
+      ],
+      "correct": 2,
+      "explanation": "The sequence places isolation and confirmation before work begins.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-015",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence avoids unnecessary blame in a defect report?",
+      "answers": [
+        "The supplier keeps sending us rubbish.",
+        "The unit was found damaged on inspection and has been quarantined pending review.",
+        "The delivery driver obviously broke the unit.",
+        "Someone has damaged this again."
+      ],
+      "correct": 1,
+      "explanation": "A professional defect report records facts and action without unsupported blame.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-016",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "What does “retain for inspection” mean?",
+      "answers": [
+        "keep the item available so it can be examined",
+        "dispose of the item after photographing it",
+        "return the item immediately",
+        "continue using the item until someone arrives"
+      ],
+      "correct": 0,
+      "explanation": "To retain something is to keep it rather than discard or return it.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-017",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "A drawing note says “typ.” beside several identical details. What is the safest reading approach?",
+      "answers": [
+        "Assume every detail in the project is identical.",
+        "Ignore the note because only dimensions matter.",
+        "Use the note only at the first location shown.",
+        "Treat it as applying to similar locations, but check any location that differs or conflicts."
+      ],
+      "correct": 3,
+      "explanation": "A typical detail can apply repeatedly, but differences and conflicts still need checking.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-018",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence is most suitable for a handover note?",
+      "answers": [
+        "Finished everything and tidied up.",
+        "Job sorted, customer happy.",
+        "Work completed to the issued detail; final fixings checked; area left clean and access restored.",
+        "Done. Looks fine."
+      ],
+      "correct": 2,
+      "explanation": "A handover note should state what was completed and the relevant checks or condition.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-019",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which phrase most clearly signals a mandatory requirement?",
+      "answers": [
+        "may be installed",
+        "must be installed",
+        "should preferably be installed",
+        "could be installed"
+      ],
+      "correct": 1,
+      "explanation": "“Must” indicates a requirement rather than a recommendation or option.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-020",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence correctly distinguishes advice from instruction?",
+      "answers": [
+        "The guidance recommends a method, but the specification requires the stated finish.",
+        "The guidance and specification are always optional.",
+        "A recommendation automatically overrides the specification.",
+        "The specification is only advice if guidance exists."
+      ],
+      "correct": 0,
+      "explanation": "Recommendations and mandatory project requirements do not have the same status.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-021",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "A report states “no defect was visible at the time of inspection.” What does this NOT prove?",
+      "answers": [
+        "that the inspector did not see a defect at that time",
+        "that the inspection occurred",
+        "that the report records the observation",
+        "that no hidden or intermittent defect exists"
+      ],
+      "correct": 3,
+      "explanation": "The wording is limited to what was visible at that time.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-022",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence gives the clearest comparison?",
+      "answers": [
+        "It is 8 mm different.",
+        "The measurements are not the same by 8 mm.",
+        "The second measurement is 8 mm greater than the first.",
+        "The second one is bigger."
+      ],
+      "correct": 2,
+      "explanation": "It identifies which value is greater and by exactly how much.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-023",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "A customer says, “It only leaks when the wind drives rain from the west.” Which detail is most important to record?",
+      "answers": [
+        "the colour of the internal decoration",
+        "the weather condition and direction associated with the leak",
+        "the customer’s opinion of the previous repair",
+        "the time the operative normally starts work"
+      ],
+      "correct": 1,
+      "explanation": "The condition under which the fault appears is useful diagnostic information.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-024",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which sentence is the strongest summary of a completed check?",
+      "answers": [
+        "Level, line and fixing positions were checked against the issued drawing before handover.",
+        "I checked it all and it was okay.",
+        "Everything seemed right before I left.",
+        "The work was checked as usual."
+      ],
+      "correct": 0,
+      "explanation": "It names the checks and the reference used.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-025",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Which response best checks understanding after receiving a complex verbal instruction?",
+      "answers": [
+        "Okay, I think I have got it.",
+        "I will work it out as I go.",
+        "Can you just leave me to it?",
+        "So I will isolate the area, check the revised dimensions, then call you before fixing — is that correct?"
+      ],
+      "correct": 3,
+      "explanation": "Restating the key sequence gives the other person a chance to correct misunderstanding.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-026",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which site-note sentence is clearest and most professional?",
+      "answers": [
+        "The opening is not right but we can probably make it work.",
+        "Need an answer ASAP because this is holding us up.",
+        "The opening is 15 mm narrower than the drawing; please confirm the required dimension before work continues.",
+        "Opening wrong. What do you want me to do?"
+      ],
+      "correct": 2,
+      "explanation": "A professional note states the issue, gives the relevant fact and asks for a clear decision.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-027",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence uses a colon correctly?",
+      "answers": [
+        "Bring the following PPE safety boots: gloves and eye protection.",
+        "Bring the following PPE: safety boots, gloves and eye protection.",
+        "Bring: the following PPE safety boots, gloves and eye protection.",
+        "Bring the following: PPE safety boots, gloves and eye protection."
+      ],
+      "correct": 1,
+      "explanation": "A colon can introduce a list after a complete lead-in.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-028",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: A supervisor writes, “Do not proceed until the revised detail has been issued.” What does this require?",
+      "answers": [
+        "Stop the relevant work and wait for the revised detail.",
+        "Continue but leave the final section unfinished.",
+        "Use the previous detail unless told otherwise.",
+        "Ask a colleague which detail they would use."
+      ],
+      "correct": 0,
+      "explanation": "The instruction explicitly prevents the work from proceeding until revised information is issued.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-029",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence gives the least ambiguous instruction?",
+      "answers": [
+        "Measure it from there to the opening.",
+        "Take the measurement to the side.",
+        "Measure from the mark to the edge.",
+        "Measure from the marked datum to the left-hand edge of the opening."
+      ],
+      "correct": 3,
+      "explanation": "It names both the starting point and the exact finishing point.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-030",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence is written in the active voice?",
+      "answers": [
+        "The dimensions had been checked by the apprentice.",
+        "Before cutting, the dimensions were being checked.",
+        "The apprentice checked the dimensions before cutting.",
+        "The dimensions were checked before cutting."
+      ],
+      "correct": 2,
+      "explanation": "The subject performs the action directly in the active voice.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-031",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence is most appropriate for a formal work record?",
+      "answers": [
+        "Component looked rough; told someone.",
+        "The damaged component was isolated and reported to the supervisor at 10:20.",
+        "I sorted the dodgy bit and told the boss.",
+        "The thing was bad so we stopped."
+      ],
+      "correct": 1,
+      "explanation": "A formal record is specific, factual and time-linked.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-032",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence reports an observation rather than an assumption?",
+      "answers": [
+        "Water is visible at the base of the wall after rainfall.",
+        "The DPC has definitely failed.",
+        "Someone must have damaged the membrane.",
+        "The wall was built incorrectly."
+      ],
+      "correct": 0,
+      "explanation": "An observation states what can actually be seen without guessing the cause.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-033",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which question is most useful when a drawing note is unclear?",
+      "answers": [
+        "Is this right?",
+        "What am I supposed to do?",
+        "Can somebody sort this?",
+        "Which revision and detail should I follow for this opening?"
+      ],
+      "correct": 3,
+      "explanation": "It identifies the precise information needed to resolve the ambiguity.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-034",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: A report says, “The temporary repair reduced the leak but did not eliminate it.” Which conclusion is supported?",
+      "answers": [
+        "The leak was caused by the temporary repair.",
+        "No further monitoring is necessary.",
+        "The problem still requires further action.",
+        "The permanent repair has been completed."
+      ],
+      "correct": 2,
+      "explanation": "The statement says the leak remains, so further action is still needed.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-035",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sequence makes an incident note easiest to understand?",
+      "answers": [
+        "Opinion → cause → action → what happened",
+        "What happened → immediate action → who was informed → next action",
+        "Next action → opinion → what happened → blame",
+        "Who was informed → unrelated history → action → guess"
+      ],
+      "correct": 1,
+      "explanation": "A chronological factual sequence makes the record clear and auditable.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-036",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: A note says “verify dimensions on site before manufacture.” What does “verify” mean here?",
+      "answers": [
+        "check and confirm that the dimensions are correct",
+        "estimate the dimensions from the drawing",
+        "change the dimensions to suit available stock",
+        "copy the dimensions without checking"
+      ],
+      "correct": 0,
+      "explanation": "To verify is to check and confirm accuracy.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-037",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which message best explains a delay to a customer?",
+      "answers": [
+        "We are running late because the part is not here.",
+        "It will not be done today. Sorry.",
+        "Supplier problem, nothing we can do.",
+        "The repair is delayed because the replacement part has not arrived. We will confirm a new completion time when delivery is verified."
+      ],
+      "correct": 3,
+      "explanation": "It gives the reason, impact and next communication clearly and professionally.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-038",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which statement is a fact rather than an opinion?",
+      "answers": [
+        "The installer did a poor job.",
+        "The opening is probably too small because someone rushed.",
+        "The measured opening is 905 mm wide.",
+        "The opening looks badly built."
+      ],
+      "correct": 2,
+      "explanation": "A measured dimension can be checked objectively.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-039",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which instruction is ordered most logically?",
+      "answers": [
+        "Begin the permitted work and isolate the supply if needed.",
+        "Isolate the supply, prove it is isolated, then begin the permitted work.",
+        "Begin the work, isolate the supply, then prove isolation.",
+        "Prove isolation, begin the work, then isolate the supply."
+      ],
+      "correct": 1,
+      "explanation": "The sequence places isolation and confirmation before work begins.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-040",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence avoids unnecessary blame in a defect report?",
+      "answers": [
+        "The unit was found damaged on inspection and has been quarantined pending review.",
+        "The delivery driver obviously broke the unit.",
+        "Someone has damaged this again.",
+        "The supplier keeps sending us rubbish."
+      ],
+      "correct": 0,
+      "explanation": "A professional defect report records facts and action without unsupported blame.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-041",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: What does “retain for inspection” mean?",
+      "answers": [
+        "dispose of the item after photographing it",
+        "return the item immediately",
+        "continue using the item until someone arrives",
+        "keep the item available so it can be examined"
+      ],
+      "correct": 3,
+      "explanation": "To retain something is to keep it rather than discard or return it.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-042",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: A drawing note says “typ.” beside several identical details. What is the safest reading approach?",
+      "answers": [
+        "Ignore the note because only dimensions matter.",
+        "Use the note only at the first location shown.",
+        "Treat it as applying to similar locations, but check any location that differs or conflicts.",
+        "Assume every detail in the project is identical."
+      ],
+      "correct": 2,
+      "explanation": "A typical detail can apply repeatedly, but differences and conflicts still need checking.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-043",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence is most suitable for a handover note?",
+      "answers": [
+        "Job sorted, customer happy.",
+        "Work completed to the issued detail; final fixings checked; area left clean and access restored.",
+        "Done. Looks fine.",
+        "Finished everything and tidied up."
+      ],
+      "correct": 1,
+      "explanation": "A handover note should state what was completed and the relevant checks or condition.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-044",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which phrase most clearly signals a mandatory requirement?",
+      "answers": [
+        "must be installed",
+        "should preferably be installed",
+        "could be installed",
+        "may be installed"
+      ],
+      "correct": 0,
+      "explanation": "“Must” indicates a requirement rather than a recommendation or option.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-045",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence correctly distinguishes advice from instruction?",
+      "answers": [
+        "The guidance and specification are always optional.",
+        "A recommendation automatically overrides the specification.",
+        "The specification is only advice if guidance exists.",
+        "The guidance recommends a method, but the specification requires the stated finish."
+      ],
+      "correct": 3,
+      "explanation": "Recommendations and mandatory project requirements do not have the same status.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-046",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: A report states “no defect was visible at the time of inspection.” What does this NOT prove?",
+      "answers": [
+        "that the inspection occurred",
+        "that the report records the observation",
+        "that no hidden or intermittent defect exists",
+        "that the inspector did not see a defect at that time"
+      ],
+      "correct": 2,
+      "explanation": "The wording is limited to what was visible at that time.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-047",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence gives the clearest comparison?",
+      "answers": [
+        "The measurements are not the same by 8 mm.",
+        "The second measurement is 8 mm greater than the first.",
+        "The second one is bigger.",
+        "It is 8 mm different."
+      ],
+      "correct": 1,
+      "explanation": "It identifies which value is greater and by exactly how much.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-048",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: A customer says, “It only leaks when the wind drives rain from the west.” Which detail is most important to record?",
+      "answers": [
+        "the weather condition and direction associated with the leak",
+        "the customer’s opinion of the previous repair",
+        "the time the operative normally starts work",
+        "the colour of the internal decoration"
+      ],
+      "correct": 0,
+      "explanation": "The condition under which the fault appears is useful diagnostic information.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-049",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which sentence is the strongest summary of a completed check?",
+      "answers": [
+        "I checked it all and it was okay.",
+        "Everything seemed right before I left.",
+        "The work was checked as usual.",
+        "Level, line and fixing positions were checked against the issued drawing before handover."
+      ],
+      "correct": 3,
+      "explanation": "It names the checks and the reference used.",
+      "difficulty": "stretch",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    },
+    {
+      "id": "ENGLISH-050",
+      "category": "english",
+      "courseId": "ALL",
+      "question": "Follow-up: Which response best checks understanding after receiving a complex verbal instruction?",
+      "answers": [
+        "I will work it out as I go.",
+        "Can you just leave me to it?",
+        "So I will isolate the area, check the revised dimensions, then call you before fixing — is that correct?",
+        "Okay, I think I have got it."
+      ],
+      "correct": 2,
+      "explanation": "Restating the key sequence gives the other person a chance to correct misunderstanding.",
+      "difficulty": "competent",
+      "mappings": [
+        "functional-skills-english"
+      ],
+      "active": true
+    }
+  ]
+}

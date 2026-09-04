@@ -1,0 +1,1011 @@
+{
+  "naxosQuestionBank": 1,
+  "schemaVersion": 1,
+  "bankId": "ST0171-trade-v1",
+  "version": 1,
+  "category": "trade",
+  "courseId": "ST0171",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "ST0171-TRADE-001",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "While carrying out the principles and requirements of planned preventative maintenance (ppm) and reactive maintenance, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "K1"
+      ],
+      "active": true,
+      "sourceRef": "K1"
+    },
+    {
+      "id": "ST0171-TRADE-002",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the range of building types and characteristic uses, their common methods of construction and typical defects, and the impact that property maintenance operations may have on building safety, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "K2"
+      ],
+      "active": true,
+      "sourceRef": "K2"
+    },
+    {
+      "id": "ST0171-TRADE-003",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague suggests using defective equipment only to finish a short part of health and safety regulations, relevance to the occupation and the operative's responsibilities. Which response is strongest?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K3"
+      ],
+      "active": true,
+      "sourceRef": "K3"
+    },
+    {
+      "id": "ST0171-TRADE-004",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "While working on risks and hazards associated with property maintenance activities, and their mitigation using risk assessment, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "K4"
+      ],
+      "active": true,
+      "sourceRef": "K4"
+    },
+    {
+      "id": "ST0171-TRADE-005",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During key regulatory and legislative requirements (including building regulations, the building safety bill, and bsi flex 8670), and an awareness of how these apply to varying property types, and their impact on property maintenance operatives’ responsibilities, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K5"
+      ],
+      "active": true,
+      "sourceRef": "K5"
+    },
+    {
+      "id": "ST0171-TRADE-006",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague suggests using defective equipment only to finish a short part of importance of establishing a safe and tidy work area, using appropriate access equipment, providing protection to adjacent areas, and consideration for the safety of other property users. Which response is strongest?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K6"
+      ],
+      "active": true,
+      "sourceRef": "K6"
+    },
+    {
+      "id": "ST0171-TRADE-007",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A tool or item of equipment used for common hand and power tools and equipment used in routine property maintenance tasks and how to use safely develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K7"
+      ],
+      "active": true,
+      "sourceRef": "K7"
+    },
+    {
+      "id": "ST0171-TRADE-008",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the common components of electrical and electronic systems, how to safely isolate electrical supplies and the procedures for correctly reporting identified faults, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K8"
+      ],
+      "active": true,
+      "sourceRef": "K8"
+    },
+    {
+      "id": "ST0171-TRADE-009",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague suggests using defective equipment only to finish a short part of the common forms of emergency equipment and signage, their importance within buildings and the preventative and possible corrective maintenance required. Which response is strongest?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K9"
+      ],
+      "active": true,
+      "sourceRef": "K9"
+    },
+    {
+      "id": "ST0171-TRADE-010",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A resource selected for the principles and components of plumbing systems, how to safely isolate, store and drain down water supplies to diagnose faults and clear blockages does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K10"
+      ],
+      "active": true,
+      "sourceRef": "K10"
+    },
+    {
+      "id": "ST0171-TRADE-011",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the principles and components of common above and below ground drainage systems, the issues that poor drainage can have on properties and how to diagnose faults and clear blockages, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K11"
+      ],
+      "active": true,
+      "sourceRef": "K11"
+    },
+    {
+      "id": "ST0171-TRADE-012",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague suggests continuing the principles of good water hygiene to preserve and maintain the health of water systems within buildings and how these are checked and legally certified to minimise water hygiene and legionella risks even though one of the agreed controls has failed. Which response is strongest?",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "K12"
+      ],
+      "active": true,
+      "sourceRef": "K12"
+    },
+    {
+      "id": "ST0171-TRADE-013",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague involved in the principles and components of common environmental and energy management systems and their methods of operation says their wellbeing is affecting concentration. What is the best response?",
+      "answers": [
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself."
+      ],
+      "correct": 0,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K13"
+      ],
+      "active": true,
+      "sourceRef": "K13"
+    },
+    {
+      "id": "ST0171-TRADE-014",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the common defects found in windows, doors, and glazing systems, the characteristics, uses and limitations of the materials and components used within them, and how these are used to meet statutory regulations, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K14"
+      ],
+      "active": true,
+      "sourceRef": "K14"
+    },
+    {
+      "id": "ST0171-TRADE-015",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague proposes substituting a similar resource for the common types of materials and processes used to prepare, repair and finish plaster defects because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K15"
+      ],
+      "active": true,
+      "sourceRef": "K15"
+    },
+    {
+      "id": "ST0171-TRADE-016",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A resource selected for the common causes of painting and decorating defects, and the types of materials, chemicals and processes used in painting and decorating activities does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K16"
+      ],
+      "active": true,
+      "sourceRef": "K16"
+    },
+    {
+      "id": "ST0171-TRADE-017",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the common causes of tiling defects and the types of materials and processes used in tiling activities, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K17"
+      ],
+      "active": true,
+      "sourceRef": "K17"
+    },
+    {
+      "id": "ST0171-TRADE-018",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague proposes substituting a similar resource for the common causes of flooring defects and the types of materials and processes used in flooring repairs because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K18"
+      ],
+      "active": true,
+      "sourceRef": "K18"
+    },
+    {
+      "id": "ST0171-TRADE-019",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A resource selected for the common forms of masonry and damp proofing defects, materials and processes used in masonry repair activities does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K19"
+      ],
+      "active": true,
+      "sourceRef": "K19"
+    },
+    {
+      "id": "ST0171-TRADE-020",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the common types of roof structures, defects and the types of materials and processes used in remedial and temporary repair, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K20"
+      ],
+      "active": true,
+      "sourceRef": "K20"
+    },
+    {
+      "id": "ST0171-TRADE-021",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague proposes substituting a similar resource for the common types of fencing and railing systems, their typical defects, and the types of materials and processes used in repairs because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K21"
+      ],
+      "active": true,
+      "sourceRef": "K21"
+    },
+    {
+      "id": "ST0171-TRADE-022",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A resource selected for the common types of groundwork and landscaping systems, their typical defects and the types of materials and processes used in remedial repair does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K22"
+      ],
+      "active": true,
+      "sourceRef": "K22"
+    },
+    {
+      "id": "ST0171-TRADE-023",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "The drawing, specification or instruction for technical sources of information and data used in property maintenance operations does not agree with the site condition. What should you do?",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K23"
+      ],
+      "active": true,
+      "sourceRef": "K23"
+    },
+    {
+      "id": "ST0171-TRADE-024",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "Before committing work on the methods to record information and data via written and digital means and the importance of data protection and security, you find that the information is incomplete or inconsistent. Which response is strongest?",
+      "answers": [
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you."
+      ],
+      "correct": 1,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K24"
+      ],
+      "active": true,
+      "sourceRef": "K24"
+    },
+    {
+      "id": "ST0171-TRADE-025",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "While carrying out the purpose of quality assurance and continuous improvement and how these improve commonly occurring faults or inefficiencies, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K25"
+      ],
+      "active": true,
+      "sourceRef": "K25"
+    },
+    {
+      "id": "ST0171-TRADE-026",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During environmental regulations and requirements, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "answers": [
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision."
+      ],
+      "correct": 3,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K26"
+      ],
+      "active": true,
+      "sourceRef": "K26"
+    },
+    {
+      "id": "ST0171-TRADE-027",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A coordination issue around methods of communication and when to use industry terminology to match the style to the audience could create delay or rework. Which response is strongest?",
+      "answers": [
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way."
+      ],
+      "correct": 2,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "K27"
+      ],
+      "active": true,
+      "sourceRef": "K27"
+    },
+    {
+      "id": "ST0171-TRADE-028",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "Your work on the importance of customer service to their organisation, how to provide feedback to ensure customers are informed of property maintenance will affect another person or trade. What is the best response?",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "K28"
+      ],
+      "active": true,
+      "sourceRef": "K28"
+    },
+    {
+      "id": "ST0171-TRADE-029",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During the roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies of other trade operatives, the work looks acceptable but one required quality check does not pass. What should you do?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "K29"
+      ],
+      "active": true,
+      "sourceRef": "K29"
+    },
+    {
+      "id": "ST0171-TRADE-030",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A team decision about the rights and responsibilities of an employee and employer and an awareness of equality, diversity and inclusion, safeguarding and prevent is unfair and has no work-related justification. Which response is strongest?",
+      "answers": [
+        "Ignore it unless the person affected makes a formal complaint.",
+        "Accept it if the current team arrangement is quicker.",
+        "Give the colleague simpler work so the disagreement is avoided.",
+        "Support fair and respectful working and address or report the inappropriate practice through the correct route."
+      ],
+      "correct": 3,
+      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K30"
+      ],
+      "active": true,
+      "sourceRef": "K30"
+    },
+    {
+      "id": "ST0171-TRADE-031",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "You are asked to carry out the purpose of continuing professional development (cpd) and how this supports them to understand their limits for personal authority and competence, but an important part is outside your current competence or authority. What should you do?",
+      "answers": [
+        "Ask another operative to take responsibility informally and continue.",
+        "Choose the least disruptive option and report it after completion.",
+        "Make the situation safe as required and seek the correct instruction, supervision or authorised decision before continuing.",
+        "Use the solution that worked on the previous job."
+      ],
+      "correct": 2,
+      "explanation": "Competent working includes recognising limits and escalating decisions outside your authority.",
+      "difficulty": "competent",
+      "mappings": [
+        "K31"
+      ],
+      "active": true,
+      "sourceRef": "K31"
+    },
+    {
+      "id": "ST0171-TRADE-032",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During plan the sequence of work required to carry out routine property maintenance operations, the work looks acceptable but one required quality check does not pass. What should you do?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "S1"
+      ],
+      "active": true,
+      "sourceRef": "S1"
+    },
+    {
+      "id": "ST0171-TRADE-033",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "Before committing work on identify and select the appropriate materials and components for property maintenance tasks, ensuring these are compliant with relevant regulatory requirements and manufacturer's specifications, you find that the information is incomplete or inconsistent. Which response is strongest?",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S2"
+      ],
+      "active": true,
+      "sourceRef": "S2"
+    },
+    {
+      "id": "ST0171-TRADE-034",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "While working on comply with statutory health and safety regulations and requirements, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S3"
+      ],
+      "active": true,
+      "sourceRef": "S3"
+    },
+    {
+      "id": "ST0171-TRADE-035",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During comply with risk assessments, and organise the workplace, to safeguard themselves and the property, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed."
+      ],
+      "correct": 2,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S4"
+      ],
+      "active": true,
+      "sourceRef": "S4"
+    },
+    {
+      "id": "ST0171-TRADE-036",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "The next stage will conceal part of comply with key regulatory and legislative requirements, including building regulations, but a required check is still outstanding. Which response is strongest?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "S5"
+      ],
+      "active": true,
+      "sourceRef": "S5"
+    },
+    {
+      "id": "ST0171-TRADE-037",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A tool or item of equipment used for uses safe working practices when carrying out property maintenance tasks including the use of ppe, signage, barriers, access equipment and ensuring work area is prepared and reinstated develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S6"
+      ],
+      "active": true,
+      "sourceRef": "S6"
+    },
+    {
+      "id": "ST0171-TRADE-038",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and ensuring the correct functioning of equipment, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S7"
+      ],
+      "active": true,
+      "sourceRef": "S7"
+    },
+    {
+      "id": "ST0171-TRADE-039",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague suggests continuing safely isolate and secure electrical or electronic supplies prior to performing property maintenance operations even though one of the agreed controls has failed. Which response is strongest?",
+      "answers": [
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed."
+      ],
+      "correct": 2,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S8"
+      ],
+      "active": true,
+      "sourceRef": "S8"
+    },
+    {
+      "id": "ST0171-TRADE-040",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "While carrying out apply and implement routine emergency system checks, testing and routine maintenance, identifying and reporting faults as required, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S9"
+      ],
+      "active": true,
+      "sourceRef": "S9"
+    },
+    {
+      "id": "ST0171-TRADE-041",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of supply, replacing components and clearing blockages, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S10"
+      ],
+      "active": true,
+      "sourceRef": "S10"
+    },
+    {
+      "id": "ST0171-TRADE-042",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague proposes substituting a similar resource for perform maintenance and repairs to external drainage systems, including clearing blockages and replacing components because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S11"
+      ],
+      "active": true,
+      "sourceRef": "S11"
+    },
+    {
+      "id": "ST0171-TRADE-043",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague involved in perform maintenance and repairs to environmental and energy management systems, including fault identification, safe isolation of supply, replacing components says their wellbeing is affecting concentration. What is the best response?",
+      "answers": [
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private."
+      ],
+      "correct": 2,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S12"
+      ],
+      "active": true,
+      "sourceRef": "S12"
+    },
+    {
+      "id": "ST0171-TRADE-044",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their associated fittings, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S13"
+      ],
+      "active": true,
+      "sourceRef": "S13"
+    },
+    {
+      "id": "ST0171-TRADE-045",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague proposes substituting a similar resource for perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and compounds because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S14"
+      ],
+      "active": true,
+      "sourceRef": "S14"
+    },
+    {
+      "id": "ST0171-TRADE-046",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A resource selected for use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rollers, and complete sealing activities using gun appliances does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S15"
+      ],
+      "active": true,
+      "sourceRef": "S15"
+    },
+    {
+      "id": "ST0171-TRADE-047",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "During perform tiling repairs, including setting out, surface preparation and cutting around obstacles, the work looks acceptable but one required quality check does not pass. What should you do?",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "S16"
+      ],
+      "active": true,
+      "sourceRef": "S16"
+    },
+    {
+      "id": "ST0171-TRADE-048",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "A colleague proposes substituting a similar resource for perform flooring repairs, including setting out, surface preparation and cutting around obstacles because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S17"
+      ],
+      "active": true,
+      "sourceRef": "S17"
+    },
+    {
+      "id": "ST0171-TRADE-049",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "While carrying out perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending to minor defects within either masonry, roofing, fencing or railing, groundwork or landscaping, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "S18"
+      ],
+      "active": true,
+      "sourceRef": "S18"
+    },
+    {
+      "id": "ST0171-TRADE-050",
+      "category": "trade",
+      "courseId": "ST0171",
+      "question": "The drawing, specification or instruction for select and use technical literature and other sources of information and data to address property maintenance problems does not agree with the site condition. What should you do?",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S19"
+      ],
+      "active": true,
+      "sourceRef": "S19"
+    }
+  ]
+}

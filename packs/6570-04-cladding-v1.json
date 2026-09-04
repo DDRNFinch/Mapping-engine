@@ -105,5 +105,12 @@
     "type": "GLH",
     "requiredHours": 394,
     "source": "City & Guilds 6570-04 Qualification Handbook v1.1"
+  },
+  "questionBank": {
+    "schemaVersion": 1,
+    "source": "Naxos",
+    "maths": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/maths-v1.json",
+    "english": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/english-v1.json",
+    "trade": "https://ddrnfinch.github.io/Naxos-Mapping_Engine/question-banks/6570-04-cladding-trade-v1.json"
   }
 }

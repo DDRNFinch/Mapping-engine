@@ -1,0 +1,1011 @@
+{
+  "naxosQuestionBank": 1,
+  "schemaVersion": 1,
+  "bankId": "ST0095-epa-v1",
+  "version": 1,
+  "category": "epa",
+  "courseId": "ST0095",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "ST0095-EPA-001",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, your work on team-focus to meet team goals including, considering the wider build team will affect another person or trade. What is the best response?",
+      "answers": [
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence."
+      ],
+      "correct": 0,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "B6"
+      ],
+      "active": true,
+      "sourceRef": "B6"
+    },
+    {
+      "id": "ST0095-EPA-002",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during seek learning and development opportunities, a technical decision is needed that you are not authorised to make. What is the best response?",
+      "answers": [
+        "Use the solution that worked on the previous job.",
+        "Ask another operative to take responsibility informally and continue.",
+        "Choose the least disruptive option and report it after completion.",
+        "Make the situation safe as required and seek the correct instruction, supervision or authorised decision before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Competent working includes recognising limits and escalating decisions outside your authority.",
+      "difficulty": "competent",
+      "mappings": [
+        "B5"
+      ],
+      "active": true,
+      "sourceRef": "B5"
+    },
+    {
+      "id": "ST0095-EPA-003",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a team decision about contribute to an inclusive and diverse culture is unfair and has no work-related justification. Which response is strongest?",
+      "answers": [
+        "Accept it if the current team arrangement is quicker.",
+        "Give the colleague simpler work so the disagreement is avoided.",
+        "Support fair and respectful working and address or report the inappropriate practice through the correct route.",
+        "Ignore it unless the person affected makes a formal complaint."
+      ],
+      "correct": 2,
+      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "difficulty": "competent",
+      "mappings": [
+        "B4"
+      ],
+      "active": true,
+      "sourceRef": "B4"
+    },
+    {
+      "id": "ST0095-EPA-004",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, while carrying out take ownership of given work, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "B3"
+      ],
+      "active": true,
+      "sourceRef": "B3"
+    },
+    {
+      "id": "ST0095-EPA-005",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during consider the environment when using resources and carrying out processes, mixed waste and usable offcuts are building up in the work area. What should happen?",
+      "answers": [
+        "Keep the area controlled and segregate resources using the site arrangements for reuse, recycling and disposal.",
+        "Put everything in the nearest waste container so the area is cleared quickly.",
+        "Keep only high-value material and dispose of the rest together.",
+        "Leave all sorting until the end of the project when there is more waste."
+      ],
+      "correct": 0,
+      "explanation": "Environmental compliance includes efficient use of resources and the correct waste route.",
+      "difficulty": "stretch",
+      "mappings": [
+        "B2"
+      ],
+      "active": true,
+      "sourceRef": "B2"
+    },
+    {
+      "id": "ST0095-EPA-006",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a wellbeing concern may now affect safe work on put health, safety and wellbeing first. Which response is strongest?",
+      "answers": [
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision."
+      ],
+      "correct": 3,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "B1"
+      ],
+      "active": true,
+      "sourceRef": "B1"
+    },
+    {
+      "id": "ST0095-EPA-007",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a resource selected for construct a brick wall with raking cut does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S22"
+      ],
+      "active": true,
+      "sourceRef": "S22"
+    },
+    {
+      "id": "ST0095-EPA-008",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during identifies well-being support available to self and others, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "answers": [
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern."
+      ],
+      "correct": 1,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S21"
+      ],
+      "active": true,
+      "sourceRef": "S21"
+    },
+    {
+      "id": "ST0095-EPA-009",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a coordination issue around applies team working principles to their own and the wider build team could create delay or rework. Which response is strongest?",
+      "answers": [
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence."
+      ],
+      "correct": 0,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "S20"
+      ],
+      "active": true,
+      "sourceRef": "S20"
+    },
+    {
+      "id": "ST0095-EPA-010",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague is being excluded from follow equity, diversity and inclusion guidance for reasons unrelated to competence or safety. What is the best response?",
+      "answers": [
+        "Ignore it unless the person affected makes a formal complaint.",
+        "Accept it if the current team arrangement is quicker.",
+        "Give the colleague simpler work so the disagreement is avoided.",
+        "Support fair and respectful working and address or report the inappropriate practice through the correct route."
+      ],
+      "correct": 3,
+      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S19"
+      ],
+      "active": true,
+      "sourceRef": "S19"
+    },
+    {
+      "id": "ST0095-EPA-011",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during verbally communicate with others, applying construction terminology, the sequence or information needed by another person becomes unclear. What should you do?",
+      "answers": [
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way."
+      ],
+      "correct": 2,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "S18"
+      ],
+      "active": true,
+      "sourceRef": "S18"
+    },
+    {
+      "id": "ST0095-EPA-012",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for protect materials and finished work because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S17"
+      ],
+      "active": true,
+      "sourceRef": "S17"
+    },
+    {
+      "id": "ST0095-EPA-013",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a resource selected for carry out a simple repair does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S16"
+      ],
+      "active": true,
+      "sourceRef": "S16"
+    },
+    {
+      "id": "ST0095-EPA-014",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during measure and cut bricks and blocks using hand tools, to given tolerances, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S15"
+      ],
+      "active": true,
+      "sourceRef": "S15"
+    },
+    {
+      "id": "ST0095-EPA-015",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for gauge and hand mix mortar to ratio because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S14"
+      ],
+      "active": true,
+      "sourceRef": "S14"
+    },
+    {
+      "id": "ST0095-EPA-016",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a resource selected for set out and construct a simple brick solid wall with capping does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S13"
+      ],
+      "active": true,
+      "sourceRef": "S13"
+    },
+    {
+      "id": "ST0095-EPA-017",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during apply joint finishes, the work looks acceptable but one required quality check does not pass. What should you do?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "S12"
+      ],
+      "active": true,
+      "sourceRef": "S12"
+    },
+    {
+      "id": "ST0095-EPA-018",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for construct a stretcher bond brick and block cavity wall with return and opening to given tolerances, including installing a lintel with soldiers, brick and edge sill, closure around opening, insulation, fire stopping, cavity tray, damp proof course (dpc) and weep holes because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S11"
+      ],
+      "active": true,
+      "sourceRef": "S11"
+    },
+    {
+      "id": "ST0095-EPA-019",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a resource selected for set out brick and block cavity wall to given tolerances, including an opening does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S10"
+      ],
+      "active": true,
+      "sourceRef": "S10"
+    },
+    {
+      "id": "ST0095-EPA-020",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during maintain and store hand tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed."
+      ],
+      "correct": 1,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S9"
+      ],
+      "active": true,
+      "sourceRef": "S9"
+    },
+    {
+      "id": "ST0095-EPA-021",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of select and use hand tools. Which response is strongest?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S8"
+      ],
+      "active": true,
+      "sourceRef": "S8"
+    },
+    {
+      "id": "ST0095-EPA-022",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, while working on prepare and maintain a safe working area, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S7"
+      ],
+      "active": true,
+      "sourceRef": "S7"
+    },
+    {
+      "id": "ST0095-EPA-023",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, before ordering resources for estimate and select required resources, your calculation differs significantly from a previous similar job. What should you do?",
+      "answers": [
+        "Keep the higher figure so there is no risk of running short.",
+        "Round every stage upward before checking the detailed dimensions.",
+        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance.",
+        "Use the previous job quantity because it is a practical benchmark."
+      ],
+      "correct": 2,
+      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "difficulty": "competent",
+      "mappings": [
+        "S6"
+      ],
+      "active": true,
+      "sourceRef": "S6"
+    },
+    {
+      "id": "ST0095-EPA-024",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, before committing work on read and interpret information from drawings and specifications, you find that the information is incomplete or inconsistent. Which response is strongest?",
+      "answers": [
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you."
+      ],
+      "correct": 1,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S5"
+      ],
+      "active": true,
+      "sourceRef": "S5"
+    },
+    {
+      "id": "ST0095-EPA-025",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, while carrying out comply with industry regulations, standards, and guidance, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S4"
+      ],
+      "active": true,
+      "sourceRef": "S4"
+    },
+    {
+      "id": "ST0095-EPA-026",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during comply with environmental and sustainability regulations, standards, and guidance, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "answers": [
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision."
+      ],
+      "correct": 3,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S3"
+      ],
+      "active": true,
+      "sourceRef": "S3"
+    },
+    {
+      "id": "ST0095-EPA-027",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of identify and use personal protective equipment (ppe). Which response is strongest?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S2"
+      ],
+      "active": true,
+      "sourceRef": "S2"
+    },
+    {
+      "id": "ST0095-EPA-028",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, while working on comply with health and safety regulations, standards, and guidance, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S1"
+      ],
+      "active": true,
+      "sourceRef": "S1"
+    },
+    {
+      "id": "ST0095-EPA-029",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during well-being, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "answers": [
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself."
+      ],
+      "correct": 0,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K31"
+      ],
+      "active": true,
+      "sourceRef": "K31"
+    },
+    {
+      "id": "ST0095-EPA-030",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for brick walls with raking cut because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K30"
+      ],
+      "active": true,
+      "sourceRef": "K30"
+    },
+    {
+      "id": "ST0095-EPA-031",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a tool or item of equipment used for methods of cutting bricks and blocks using hand tools develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K29"
+      ],
+      "active": true,
+      "sourceRef": "K29"
+    },
+    {
+      "id": "ST0095-EPA-032",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during inclusion, equity and diversity in the workplace, someone is treated differently because of an assumption about them rather than their work. What should you do?",
+      "answers": [
+        "Give the colleague simpler work so the disagreement is avoided.",
+        "Support fair and respectful working and address or report the inappropriate practice through the correct route.",
+        "Ignore it unless the person affected makes a formal complaint.",
+        "Accept it if the current team arrangement is quicker."
+      ],
+      "correct": 1,
+      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "difficulty": "competent",
+      "mappings": [
+        "K28"
+      ],
+      "active": true,
+      "sourceRef": "K28"
+    },
+    {
+      "id": "ST0095-EPA-033",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a coordination issue around principles of good team working could create delay or rework. Which response is strongest?",
+      "answers": [
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence."
+      ],
+      "correct": 0,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "K27"
+      ],
+      "active": true,
+      "sourceRef": "K27"
+    },
+    {
+      "id": "ST0095-EPA-034",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, your work on verbal communication techniques and construction terminology will affect another person or trade. What is the best response?",
+      "answers": [
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected."
+      ],
+      "correct": 3,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "K26"
+      ],
+      "active": true,
+      "sourceRef": "K26"
+    },
+    {
+      "id": "ST0095-EPA-035",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during methods of protecting materials and work, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K25"
+      ],
+      "active": true,
+      "sourceRef": "K25"
+    },
+    {
+      "id": "ST0095-EPA-036",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, the next stage will conceal part of defects and repair, but a required check is still outstanding. Which response is strongest?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "K24"
+      ],
+      "active": true,
+      "sourceRef": "K24"
+    },
+    {
+      "id": "ST0095-EPA-037",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a resource selected for brick on edge and soldier courses does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K23"
+      ],
+      "active": true,
+      "sourceRef": "K23"
+    },
+    {
+      "id": "ST0095-EPA-038",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during cavity wall construction using stretcher bond brick and block walling, forming openings, closing cavities, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K22"
+      ],
+      "active": true,
+      "sourceRef": "K22"
+    },
+    {
+      "id": "ST0095-EPA-039",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for cavity wall setting out techniques because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K21"
+      ],
+      "active": true,
+      "sourceRef": "K21"
+    },
+    {
+      "id": "ST0095-EPA-040",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a resource selected for mixing mortar does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K20"
+      ],
+      "active": true,
+      "sourceRef": "K20"
+    },
+    {
+      "id": "ST0095-EPA-041",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during principles of the use of expansion joints, the work looks acceptable but one required quality check does not pass. What should you do?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "K19"
+      ],
+      "active": true,
+      "sourceRef": "K19"
+    },
+    {
+      "id": "ST0095-EPA-042",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for principles of basic decorative walling and piers because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K18"
+      ],
+      "active": true,
+      "sourceRef": "K18"
+    },
+    {
+      "id": "ST0095-EPA-043",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, while carrying out joint finishes, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "K17"
+      ],
+      "active": true,
+      "sourceRef": "K17"
+    },
+    {
+      "id": "ST0095-EPA-044",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during brick solid wall setting out, construction and capping methods, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K16"
+      ],
+      "active": true,
+      "sourceRef": "K16"
+    },
+    {
+      "id": "ST0095-EPA-045",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, the next stage will conceal part of bond types, but a required check is still outstanding. Which response is strongest?",
+      "answers": [
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error."
+      ],
+      "correct": 0,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K15"
+      ],
+      "active": true,
+      "sourceRef": "K15"
+    },
+    {
+      "id": "ST0095-EPA-046",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, a tool or item of equipment used for power tool use and limitations develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K14"
+      ],
+      "active": true,
+      "sourceRef": "K14"
+    },
+    {
+      "id": "ST0095-EPA-047",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, during hand tool use, maintenance and storage, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K13"
+      ],
+      "active": true,
+      "sourceRef": "K13"
+    },
+    {
+      "id": "ST0095-EPA-048",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning simple resource estimation techniques. Which approach is strongest?",
+      "answers": [
+        "Round every stage upward before checking the detailed dimensions.",
+        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance.",
+        "Use the previous job quantity because it is a practical benchmark.",
+        "Keep the higher figure so there is no risk of running short."
+      ],
+      "correct": 1,
+      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "difficulty": "competent",
+      "mappings": [
+        "K12"
+      ],
+      "active": true,
+      "sourceRef": "K12"
+    },
+    {
+      "id": "ST0095-EPA-049",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, while preparing basic principles of digital design and modelling systems, two current-looking information sources conflict. What is the best next step?",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K11"
+      ],
+      "active": true,
+      "sourceRef": "K11"
+    },
+    {
+      "id": "ST0095-EPA-050",
+      "category": "epa",
+      "courseId": "ST0095",
+      "question": "During an EPA assessment, the drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and specifications does not agree with the site condition. What should you do?",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K10"
+      ],
+      "active": true,
+      "sourceRef": "K10"
+    }
+  ]
+}

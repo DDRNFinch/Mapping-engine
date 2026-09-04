@@ -1,0 +1,1011 @@
+{
+  "naxosQuestionBank": 1,
+  "schemaVersion": 1,
+  "bankId": "ST0264-SITE-epa-v1",
+  "version": 1,
+  "category": "epa",
+  "courseId": "ST0264-SITE",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "ST0264-SITE-EPA-001",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, your work on team-focus to meet team goals including, considering the wider build team will affect another person or trade. What is the best response?",
+      "answers": [
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence."
+      ],
+      "correct": 0,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [
+        "B5"
+      ],
+      "active": true,
+      "sourceRef": "B5"
+    },
+    {
+      "id": "ST0264-SITE-EPA-002",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during seek learning and development opportunities, a technical decision is needed that you are not authorised to make. What is the best response?",
+      "answers": [
+        "Use the solution that worked on the previous job.",
+        "Ask another operative to take responsibility informally and continue.",
+        "Choose the least disruptive option and report it after completion.",
+        "Make the situation safe as required and seek the correct instruction, supervision or authorised decision before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Competent working includes recognising limits and escalating decisions outside your authority.",
+      "difficulty": "competent",
+      "mappings": [
+        "B4"
+      ],
+      "active": true,
+      "sourceRef": "B4"
+    },
+    {
+      "id": "ST0264-SITE-EPA-003",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a team decision about contribute to an inclusive and diverse culture is unfair and has no work-related justification. Which response is strongest?",
+      "answers": [
+        "Accept it if the current team arrangement is quicker.",
+        "Give the colleague simpler work so the disagreement is avoided.",
+        "Support fair and respectful working and address or report the inappropriate practice through the correct route.",
+        "Ignore it unless the person affected makes a formal complaint."
+      ],
+      "correct": 2,
+      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "difficulty": "competent",
+      "mappings": [
+        "B3"
+      ],
+      "active": true,
+      "sourceRef": "B3"
+    },
+    {
+      "id": "ST0264-SITE-EPA-004",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, the work on consider the environment when using resources and carrying out processes produces reusable, recyclable and disposal waste. What is the best approach?",
+      "answers": [
+        "Leave all sorting until the end of the project when there is more waste.",
+        "Keep the area controlled and segregate resources using the site arrangements for reuse, recycling and disposal.",
+        "Put everything in the nearest waste container so the area is cleared quickly.",
+        "Keep only high-value material and dispose of the rest together."
+      ],
+      "correct": 1,
+      "explanation": "Environmental compliance includes efficient use of resources and the correct waste route.",
+      "difficulty": "competent",
+      "mappings": [
+        "B2"
+      ],
+      "active": true,
+      "sourceRef": "B2"
+    },
+    {
+      "id": "ST0264-SITE-EPA-005",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during put health, safety and wellbeing first, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "answers": [
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself."
+      ],
+      "correct": 0,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "B1"
+      ],
+      "active": true,
+      "sourceRef": "B1"
+    },
+    {
+      "id": "ST0264-SITE-EPA-006",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests continuing site carpenter even though one of the agreed controls has failed. Which response is strongest?",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S22"
+      ],
+      "active": true,
+      "sourceRef": "S22"
+    },
+    {
+      "id": "ST0264-SITE-EPA-007",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed."
+      ],
+      "correct": 2,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S21"
+      ],
+      "active": true,
+      "sourceRef": "S21"
+    },
+    {
+      "id": "ST0264-SITE-EPA-008",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during site carpenter, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S20"
+      ],
+      "active": true,
+      "sourceRef": "S20"
+    },
+    {
+      "id": "ST0264-SITE-EPA-009",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of site carpenter. Which response is strongest?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S19"
+      ],
+      "active": true,
+      "sourceRef": "S19"
+    },
+    {
+      "id": "ST0264-SITE-EPA-010",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S18"
+      ],
+      "active": true,
+      "sourceRef": "S18"
+    },
+    {
+      "id": "ST0264-SITE-EPA-011",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during site carpenter, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed."
+      ],
+      "correct": 2,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S17"
+      ],
+      "active": true,
+      "sourceRef": "S17"
+    },
+    {
+      "id": "ST0264-SITE-EPA-012",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for site carpenter because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S16"
+      ],
+      "active": true,
+      "sourceRef": "S16"
+    },
+    {
+      "id": "ST0264-SITE-EPA-013",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S15"
+      ],
+      "active": true,
+      "sourceRef": "S15"
+    },
+    {
+      "id": "ST0264-SITE-EPA-014",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during site carpenter, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "S14"
+      ],
+      "active": true,
+      "sourceRef": "S14"
+    },
+    {
+      "id": "ST0264-SITE-EPA-015",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a wellbeing concern may now affect safe work on identifies well-being support available to self and others. Which response is strongest?",
+      "answers": [
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private."
+      ],
+      "correct": 2,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S13"
+      ],
+      "active": true,
+      "sourceRef": "S13"
+    },
+    {
+      "id": "ST0264-SITE-EPA-016",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a tool or item of equipment used for produce jigs develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed."
+      ],
+      "correct": 1,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S12"
+      ],
+      "active": true,
+      "sourceRef": "S12"
+    },
+    {
+      "id": "ST0264-SITE-EPA-017",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during maintain and sharpen hand tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S11"
+      ],
+      "active": true,
+      "sourceRef": "S11"
+    },
+    {
+      "id": "ST0264-SITE-EPA-018",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of select, use and store power tools. Which response is strongest?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S10"
+      ],
+      "active": true,
+      "sourceRef": "S10"
+    },
+    {
+      "id": "ST0264-SITE-EPA-019",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a tool or item of equipment used for select, use and store hand tools develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S9"
+      ],
+      "active": true,
+      "sourceRef": "S9"
+    },
+    {
+      "id": "ST0264-SITE-EPA-020",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during verbally communicate with others, applying construction terminology, the sequence or information needed by another person becomes unclear. What should you do?",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S8"
+      ],
+      "active": true,
+      "sourceRef": "S8"
+    },
+    {
+      "id": "ST0264-SITE-EPA-021",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning estimate required materials and produce a cutting list. Which approach is strongest?",
+      "answers": [
+        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance.",
+        "Use the previous job quantity because it is a practical benchmark.",
+        "Keep the higher figure so there is no risk of running short.",
+        "Round every stage upward before checking the detailed dimensions."
+      ],
+      "correct": 0,
+      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "difficulty": "competent",
+      "mappings": [
+        "S7"
+      ],
+      "active": true,
+      "sourceRef": "S7"
+    },
+    {
+      "id": "ST0264-SITE-EPA-022",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, while preparing interpret and use information from drawings and specifications, two current-looking information sources conflict. What is the best next step?",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S6"
+      ],
+      "active": true,
+      "sourceRef": "S6"
+    },
+    {
+      "id": "ST0264-SITE-EPA-023",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during prepare and maintain a safe working area, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed."
+      ],
+      "correct": 2,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S5"
+      ],
+      "active": true,
+      "sourceRef": "S5"
+    },
+    {
+      "id": "ST0264-SITE-EPA-024",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, the next stage will conceal part of comply with industry regulations, standards, and guidance, but a required check is still outstanding. Which response is strongest?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "S4"
+      ],
+      "active": true,
+      "sourceRef": "S4"
+    },
+    {
+      "id": "ST0264-SITE-EPA-025",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague involved in comply with environmental and sustainability regulations, standards, and guidance says their wellbeing is affecting concentration. What is the best response?",
+      "answers": [
+        "Prioritise immediate safety and help the person access appropriate support or supervision.",
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself."
+      ],
+      "correct": 0,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "S3"
+      ],
+      "active": true,
+      "sourceRef": "S3"
+    },
+    {
+      "id": "ST0264-SITE-EPA-026",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during identify and use safety control equipment, for example, rpe, dust suppression, ppe and lev, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "S2"
+      ],
+      "active": true,
+      "sourceRef": "S2"
+    },
+    {
+      "id": "ST0264-SITE-EPA-027",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests continuing comply with health and safety regulations, standards, and guidance even though one of the agreed controls has failed. Which response is strongest?",
+      "answers": [
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed."
+      ],
+      "correct": 2,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "S1"
+      ],
+      "active": true,
+      "sourceRef": "S1"
+    },
+    {
+      "id": "ST0264-SITE-EPA-028",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, while carrying out employment types (self employed and employed), small business start up principles and tax, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [
+        "K40"
+      ],
+      "active": true,
+      "sourceRef": "K40"
+    },
+    {
+      "id": "ST0264-SITE-EPA-029",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during site carpenter, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K29"
+      ],
+      "active": true,
+      "sourceRef": "K29"
+    },
+    {
+      "id": "ST0264-SITE-EPA-030",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests continuing site carpenter even though one of the agreed controls has failed. Which response is strongest?",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K28"
+      ],
+      "active": true,
+      "sourceRef": "K28"
+    },
+    {
+      "id": "ST0264-SITE-EPA-031",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a resource selected for site carpenter does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K27"
+      ],
+      "active": true,
+      "sourceRef": "K27"
+    },
+    {
+      "id": "ST0264-SITE-EPA-032",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during site carpenter, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "answers": [
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged."
+      ],
+      "correct": 1,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "K26"
+      ],
+      "active": true,
+      "sourceRef": "K26"
+    },
+    {
+      "id": "ST0264-SITE-EPA-033",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests continuing site carpenter even though one of the agreed controls has failed. Which response is strongest?",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "K25"
+      ],
+      "active": true,
+      "sourceRef": "K25"
+    },
+    {
+      "id": "ST0264-SITE-EPA-034",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a resource selected for site carpenter does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use."
+      ],
+      "correct": 3,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K24"
+      ],
+      "active": true,
+      "sourceRef": "K24"
+    },
+    {
+      "id": "ST0264-SITE-EPA-035",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during site carpenter, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K23"
+      ],
+      "active": true,
+      "sourceRef": "K23"
+    },
+    {
+      "id": "ST0264-SITE-EPA-036",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for site carpenter because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K22"
+      ],
+      "active": true,
+      "sourceRef": "K22"
+    },
+    {
+      "id": "ST0264-SITE-EPA-037",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [
+        "K21"
+      ],
+      "active": true,
+      "sourceRef": "K21"
+    },
+    {
+      "id": "ST0264-SITE-EPA-038",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during well-being, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "answers": [
+        "Tell them to work more slowly and keep the issue private.",
+        "Move them to another task without discussing the concern.",
+        "Wait until the end of the week to see whether the issue resolves itself.",
+        "Prioritise immediate safety and help the person access appropriate support or supervision."
+      ],
+      "correct": 3,
+      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K20"
+      ],
+      "active": true,
+      "sourceRef": "K20"
+    },
+    {
+      "id": "ST0264-SITE-EPA-039",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a team decision about inclusion, equity and diversity in the workplace is unfair and has no work-related justification. Which response is strongest?",
+      "answers": [
+        "Accept it if the current team arrangement is quicker.",
+        "Give the colleague simpler work so the disagreement is avoided.",
+        "Support fair and respectful working and address or report the inappropriate practice through the correct route.",
+        "Ignore it unless the person affected makes a formal complaint."
+      ],
+      "correct": 2,
+      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "difficulty": "competent",
+      "mappings": [
+        "K19"
+      ],
+      "active": true,
+      "sourceRef": "K19"
+    },
+    {
+      "id": "ST0264-SITE-EPA-040",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, your work on principles of good team working will affect another person or trade. What is the best response?",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K18"
+      ],
+      "active": true,
+      "sourceRef": "K18"
+    },
+    {
+      "id": "ST0264-SITE-EPA-041",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during power tools use and storage methods and techniques, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K17"
+      ],
+      "active": true,
+      "sourceRef": "K17"
+    },
+    {
+      "id": "ST0264-SITE-EPA-042",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of jig production techniques. Which response is strongest?",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K16"
+      ],
+      "active": true,
+      "sourceRef": "K16"
+    },
+    {
+      "id": "ST0264-SITE-EPA-043",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a tool or item of equipment used for hand tool maintenance and sharpening techniques develops a defect during a pre-use check. What should you do?",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K15"
+      ],
+      "active": true,
+      "sourceRef": "K15"
+    },
+    {
+      "id": "ST0264-SITE-EPA-044",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during hand tool use and storage methods and techniques, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "answers": [
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed."
+      ],
+      "correct": 1,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [
+        "K14"
+      ],
+      "active": true,
+      "sourceRef": "K14"
+    },
+    {
+      "id": "ST0264-SITE-EPA-045",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a coordination issue around verbal communication techniques and construction terminology could create delay or rework. Which response is strongest?",
+      "answers": [
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it.",
+        "Make an informal workaround without changing the agreed sequence."
+      ],
+      "correct": 0,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K13"
+      ],
+      "active": true,
+      "sourceRef": "K13"
+    },
+    {
+      "id": "ST0264-SITE-EPA-046",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a quantity for basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods is much higher than expected. What is the most reliable check?",
+      "answers": [
+        "Use the previous job quantity because it is a practical benchmark.",
+        "Keep the higher figure so there is no risk of running short.",
+        "Round every stage upward before checking the detailed dimensions.",
+        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance."
+      ],
+      "correct": 3,
+      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "difficulty": "competent",
+      "mappings": [
+        "K12"
+      ],
+      "active": true,
+      "sourceRef": "K12"
+    },
+    {
+      "id": "ST0264-SITE-EPA-047",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, during carpentry and joinery products and purpose, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K11"
+      ],
+      "active": true,
+      "sourceRef": "K11"
+    },
+    {
+      "id": "ST0264-SITE-EPA-048",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for timber decay and repair methods because the specified item is unavailable. Which response is strongest?",
+      "answers": [
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference."
+      ],
+      "correct": 1,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K10"
+      ],
+      "active": true,
+      "sourceRef": "K10"
+    },
+    {
+      "id": "ST0264-SITE-EPA-049",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, a resource selected for materials and their characteristics of home grown and imported timber and timber-based products does not fully match the issued requirement. What is the best response?",
+      "answers": [
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work.",
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover."
+      ],
+      "correct": 0,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [
+        "K9"
+      ],
+      "active": true,
+      "sourceRef": "K9"
+    },
+    {
+      "id": "ST0264-SITE-EPA-050",
+      "category": "epa",
+      "courseId": "ST0264-SITE",
+      "question": "During an EPA assessment, the drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and specifications does not agree with the site condition. What should you do?",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [
+        "K8"
+      ],
+      "active": true,
+      "sourceRef": "K8"
+    }
+  ]
+}

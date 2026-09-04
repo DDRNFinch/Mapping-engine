@@ -1,1 +1,127 @@
-{"naxosQuestionBankManifest":1,"schemaVersion":1,"version":1,"sourceOfTruth":"Naxos","engine":"question-banks/question-bank-engine-v1.js","generatedQuestionCount":720,"delivery":"deterministic-versioned-master-bank","shared":{"maths":{"count":50},"english":{"count":50}},"courses":{"ST0095":{"trade":{"count":50},"epa":{"count":50}},"ST0264-SITE":{"trade":{"count":50},"epa":{"count":50}},"ST0264-AJ":{"trade":{"count":50},"epa":{"count":50}},"ST0171":{"trade":{"count":50},"epa":{"count":50}},"6570-04":{"trade":{"uniqueMasterCount":125,"learnerCount":50,"composition":"35 core + 15 selected route","routes":["cladding","thin","repair","concrete","specialist","drainage"]},"epa":null},"6570-05":{"trade":{"uniqueMasterCount":95,"learnerCount":50,"composition":"35 core + 15 selected route","routes":["thin","repair","specialist","drainage"]},"epa":null}},"answerCount":4,"answerPosition":"varied","metadata":["id","category","courseId","difficulty","mappings","explanation","active"]}
+{
+  "naxosQuestionBankManifest": 1,
+  "schemaVersion": 2,
+  "version": 2,
+  "sourceOfTruth": "Naxos",
+  "delivery": "static-course-referenced-json",
+  "generatedQuestionCount": 720,
+  "shared": {
+    "maths": {
+      "file": "question-banks/maths-v1.json",
+      "count": 50
+    },
+    "english": {
+      "file": "question-banks/english-v1.json",
+      "count": 50
+    }
+  },
+  "courses": {
+    "ST0095": {
+      "maths": "question-banks/maths-v1.json",
+      "english": "question-banks/english-v1.json",
+      "trade": "question-banks/ST0095-trade-v1.json",
+      "epa": "question-banks/ST0095-epa-v1.json",
+      "learnerQuestionCount": 200
+    },
+    "ST0264-SITE": {
+      "maths": "question-banks/maths-v1.json",
+      "english": "question-banks/english-v1.json",
+      "trade": "question-banks/ST0264-SITE-trade-v1.json",
+      "epa": "question-banks/ST0264-SITE-epa-v1.json",
+      "learnerQuestionCount": 200
+    },
+    "ST0264-AJ": {
+      "maths": "question-banks/maths-v1.json",
+      "english": "question-banks/english-v1.json",
+      "trade": "question-banks/ST0264-AJ-trade-v1.json",
+      "epa": "question-banks/ST0264-AJ-epa-v1.json",
+      "learnerQuestionCount": 200
+    },
+    "ST0171": {
+      "maths": "question-banks/maths-v1.json",
+      "english": "question-banks/english-v1.json",
+      "trade": "question-banks/ST0171-trade-v1.json",
+      "epa": "question-banks/ST0171-epa-v1.json",
+      "learnerQuestionCount": 200
+    },
+    "6570-04": {
+      "routes": {
+        "cladding": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-04-cladding-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "thin": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-04-thin-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "repair": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-04-repair-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "concrete": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-04-concrete-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "specialist": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-04-specialist-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "drainage": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-04-drainage-trade-v1.json",
+          "learnerQuestionCount": 150
+        }
+      }
+    },
+    "6570-05": {
+      "routes": {
+        "thin": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-05-thin-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "repair": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-05-repair-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "specialist": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-05-specialist-trade-v1.json",
+          "learnerQuestionCount": 150
+        },
+        "drainage": {
+          "maths": "question-banks/maths-v1.json",
+          "english": "question-banks/english-v1.json",
+          "trade": "question-banks/6570-05-drainage-trade-v1.json",
+          "learnerQuestionCount": 150
+        }
+      }
+    }
+  },
+  "answerCount": 4,
+  "answerPosition": "varied",
+  "metadata": [
+    "id",
+    "category",
+    "courseId",
+    "difficulty",
+    "mappings",
+    "explanation",
+    "active"
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "naxosQuestionBank": 1,
+  "schemaVersion": 1,
+  "bankId": "6570-04-specialist-trade-v1",
+  "version": 1,
+  "category": "trade",
+  "courseId": "6570-04",
+  "questionCount": 50,
+  "route": "specialist",
+  "questions": [
+    {
+      "id": "6570-04-TRADE-001",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing read drawings, specifications and work information, two current-looking information sources conflict. What is the best next step? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-002",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The drawing, specification or instruction for read drawings and specifications for masonry work does not agree with the site condition. What should you do? (Erecting masonry structures — Job information & work requirements)",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-003",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on interpret information for moving and storing resources, you find that the information is incomplete or inconsistent. Which response is strongest? (Resources, handling & productive planning — Resource information & lifting requirements)",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-004",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Your work on follow inductions and safety briefings will affect another person or trade. What is the best response? (Safety, welfare & working relationships — Workplace safety requirements)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-005",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The drawing, specification or instruction for follow rams and given instructions does not agree with the site condition. What should you do? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-006",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on follow rams and working instructions, you find that the information is incomplete or inconsistent. Which response is strongest? (Erecting masonry structures — Job information & work requirements)",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-007",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing interpret information for lifting aids and equipment, two current-looking information sources conflict. What is the best next step? (Resources, handling & productive planning — Resource information & lifting requirements)",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-008",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During use health and safety control equipment safely, the sequence or information needed by another person becomes unclear. What should you do? (Safety, welfare & working relationships — Workplace safety requirements)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-009",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on identify and report unsuitable information or resources, you find that the information is incomplete or inconsistent. Which response is strongest? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-010",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing report unsuitable information or resources, two current-looking information sources conflict. What is the best next step? (Erecting masonry structures — Job information & work requirements)",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-011",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The drawing, specification or instruction for report unsuitable information or resources does not agree with the site condition. What should you do? (Resources, handling & productive planning — Resource information & lifting requirements)",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-012",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A coordination issue around follow safety notices and statutory requirements could create delay or rework. Which response is strongest? (Safety, welfare & working relationships — Workplace safety requirements)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-013",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing explain the information used for setting out, two current-looking information sources conflict. What is the best next step? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-014",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The drawing, specification or instruction for explain masonry information and regulations does not agree with the site condition. What should you do? (Erecting masonry structures — Job information & work requirements)",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-015",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on explain technical, product and regulatory information, you find that the information is incomplete or inconsistent. Which response is strongest? (Resources, handling & productive planning — Resource information & lifting requirements)",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-016",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Your work on explain collective protection, ppe, rpe and lev will affect another person or trade. What is the best response? (Safety, welfare & working relationships — Workplace safety requirements)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-017",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The drawing, specification or instruction for plan the setting-out sequence does not agree with the site condition. What should you do? (Setting out & preparing work — Job information & setting-out plan)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-018",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on confirm the required masonry outcome, you find that the information is incomplete or inconsistent. Which response is strongest? (Erecting masonry structures — Job information & work requirements)",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-019",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing plan the handling and storage activity, two current-looking information sources conflict. What is the best next step? (Resources, handling & productive planning — Resource information & lifting requirements)",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-020",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During apply risk-assessment and safe-system controls, the sequence or information needed by another person becomes unclear. What should you do? (Safety, welfare & working relationships — Workplace safety requirements)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-021",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A colleague suggests continuing identify setting-out hazards and controls even though one of the agreed controls has failed. Which response is strongest? (Setting out & preparing work — Safe setting out & site controls)",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-022",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While working on identify masonry hazards and responsibilities, a required safety control is no longer effective. What is the best response? (Erecting masonry structures — Safety, access & working controls)",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-023",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During identify legal responsibilities and handling hazards, you find a material or component whose condition or identification is doubtful. What should you do? (Resources, handling & productive planning — Safe moving, handling & storage)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-024",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A coordination issue around recognise and report changing hazards could create delay or rework. Which response is strongest? (Safety, welfare & working relationships — Hazards, reporting & welfare)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-025",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While working on apply security and accident procedures, a required safety control is no longer effective. What is the best response? (Setting out & preparing work — Safe setting out & site controls)",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-026",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During apply security and accident reporting procedures, site conditions change and the existing safe system no longer controls the risk. What should happen? (Erecting masonry structures — Safety, access & working controls)",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-027",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A colleague proposes substituting a similar resource for apply security, accident and fire procedures because the specified item is unavailable. Which response is strongest? (Resources, handling & productive planning — Safe moving, handling & storage)",
+      "answers": [
+        "Use more of the alternative material to compensate for the difference.",
+        "Install it and record the substitution only at handover.",
+        "Separate the questionable resource and confirm that it is suitable and approved before use.",
+        "Use it in a less visible part of the work."
+      ],
+      "correct": 2,
+      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-028",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Your work on identify typical workplace hazards will affect another person or trade. What is the best response? (Safety, welfare & working relationships — Hazards, reporting & welfare)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-029",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During use access and safety equipment correctly, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response? (Setting out & preparing work — Safe setting out & site controls)",
+      "answers": [
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding."
+      ],
+      "correct": 0,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-030",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A colleague suggests using defective equipment only to finish a short part of use access equipment, tools and materials safely. Which response is strongest? (Erecting masonry structures — Safety, access & working controls)",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-031",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A tool or item of equipment used for use control equipment and lifting aids safely develops a defect during a pre-use check. What should you do? (Resources, handling & productive planning — Safe moving, handling & storage)",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-032",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During explain major safety and health risks, the sequence or information needed by another person becomes unclear. What should you do? (Safety, welfare & working relationships — Hazards, reporting & welfare)",
+      "answers": [
+        "Make an informal workaround without changing the agreed sequence.",
+        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
+        "Complete your own task first because it is already under way.",
+        "Leave the issue for the next person to solve when they reach it."
+      ],
+      "correct": 1,
+      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-033",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A colleague suggests continuing explain ppe, rpe and control measures even though one of the agreed controls has failed. Which response is strongest? (Setting out & preparing work — Safe setting out & site controls)",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-034",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While working on explain ppe, rpe and other control measures, a required safety control is no longer effective. What is the best response? (Erecting masonry structures — Safety, access & working controls)",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-035",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During protect the environment during handling, mixed waste and usable offcuts are building up in the work area. What should happen? (Resources, handling & productive planning — Safe moving, handling & storage)",
+      "answers": [
+        "Keep only high-value material and dispose of the rest together.",
+        "Leave all sorting until the end of the project when there is more waste.",
+        "Keep the area controlled and segregate resources using the site arrangements for reuse, recycling and disposal.",
+        "Put everything in the nearest waste container so the area is cleared quickly."
+      ],
+      "correct": 2,
+      "explanation": "Environmental compliance includes efficient use of resources and the correct waste route.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "core"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-001",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on read drawings, specifications and work information, you find that the information is incomplete or inconsistent. Which response is strongest? (Installing and forming specialist masonry elements in the workplace — Job information & work requirements)",
+      "answers": [
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you."
+      ],
+      "correct": 1,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-002",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing follow rams and given instructions, two current-looking information sources conflict. What is the best next step? (Installing and forming specialist masonry elements in the workplace — Job information & work requirements)",
+      "answers": [
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue."
+      ],
+      "correct": 0,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-003",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The drawing, specification or instruction for report unsuitable information or resources does not agree with the site condition. What should you do? (Installing and forming specialist masonry elements in the workplace — Job information & work requirements)",
+      "answers": [
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+      ],
+      "correct": 3,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-004",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before committing work on explain the information and guidance used, you find that the information is incomplete or inconsistent. Which response is strongest? (Installing and forming specialist masonry elements in the workplace — Job information & work requirements)",
+      "answers": [
+        "Use the site condition because it is the physical reality in front of you.",
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information."
+      ],
+      "correct": 2,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-005",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While preparing confirm the optional-unit work requirements, two current-looking information sources conflict. What is the best next step? (Installing and forming specialist masonry elements in the workplace — Job information & work requirements)",
+      "answers": [
+        "Average the conflicting requirements so progress can continue.",
+        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
+        "Use the drawing because dimensions normally take priority over other information.",
+        "Use the site condition because it is the physical reality in front of you."
+      ],
+      "correct": 1,
+      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-006",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During identify hazards and responsibilities, site conditions change and the existing safe system no longer controls the risk. What should happen? (Installing and forming specialist masonry elements in the workplace — Safety, access & working controls)",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-007",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A colleague suggests continuing apply security and accident procedures even though one of the agreed controls has failed. Which response is strongest? (Installing and forming specialist masonry elements in the workplace — Safety, access & working controls)",
+      "answers": [
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control.",
+        "Pause the affected activity and restore or review the required controls before continuing."
+      ],
+      "correct": 3,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-008",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A tool or item of equipment used for use access, tools and materials safely develops a defect during a pre-use check. What should you do? (Installing and forming specialist masonry elements in the workplace — Safety, access & working controls)",
+      "answers": [
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short."
+      ],
+      "correct": 2,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-009",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During explain ppe, rpe and control equipment, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response? (Installing and forming specialist masonry elements in the workplace — Safety, access & working controls)",
+      "answers": [
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed."
+      ],
+      "correct": 1,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-010",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A colleague suggests continuing respond to task-related emergencies even though one of the agreed controls has failed. Which response is strongest? (Installing and forming specialist masonry elements in the workplace — Safety, access & working controls)",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-011",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "A tool or item of equipment used for select materials, components, fixings and tools develops a defect during a pre-use check. What should you do? (Installing and forming specialist masonry elements in the workplace — Resources, selection & quality)",
+      "answers": [
+        "Use it slowly because the remaining exposure is short.",
+        "Use it only for work that will be concealed.",
+        "Let the most experienced person try it before deciding.",
+        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+      ],
+      "correct": 3,
+      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-012",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "During explain resource characteristics, uses and defects, the work looks acceptable but one required quality check does not pass. What should you do? (Installing and forming specialist masonry elements in the workplace — Resources, selection & quality)",
+      "answers": [
+        "Record the deviation and leave it unless another trade objects.",
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection."
+      ],
+      "correct": 2,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-013",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "The next stage will conceal part of use resources correctly and report problems, but a required check is still outstanding. Which response is strongest? (Installing and forming specialist masonry elements in the workplace — Resources, selection & quality)",
+      "answers": [
+        "Adjust a later part of the work to disguise the current error.",
+        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
+        "Continue and correct the visible result at final inspection.",
+        "Record the deviation and leave it unless another trade objects."
+      ],
+      "correct": 1,
+      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-014",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "While working on explain resource selection procedures and hazards, a required safety control is no longer effective. What is the best response? (Installing and forming specialist masonry elements in the workplace — Resources, selection & quality)",
+      "answers": [
+        "Pause the affected activity and restore or review the required controls before continuing.",
+        "Continue carefully because the task itself has not changed.",
+        "Rely on PPE alone and keep the original method unchanged.",
+        "Finish the immediate operation, then report the failed control."
+      ],
+      "correct": 0,
+      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "difficulty": "competent",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    },
+    {
+      "id": "6570-04-TRADE-SPECIALIST-015",
+      "category": "trade",
+      "courseId": "6570-04",
+      "question": "Before ordering resources for calculate quantities, dimensions or wastage, your calculation differs significantly from a previous similar job. What should you do? (Installing and forming specialist masonry elements in the workplace — Resources, selection & quality)",
+      "answers": [
+        "Use the previous job quantity because it is a practical benchmark.",
+        "Keep the higher figure so there is no risk of running short.",
+        "Round every stage upward before checking the detailed dimensions.",
+        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance."
+      ],
+      "correct": 3,
+      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "difficulty": "stretch",
+      "mappings": [],
+      "active": true,
+      "route": "specialist"
+    }
+  ]
+}
