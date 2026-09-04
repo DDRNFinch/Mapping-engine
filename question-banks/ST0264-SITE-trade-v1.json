@@ -91,12 +91,12 @@
       "id": "ST0264-SITE-TRADE-005",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "Before carrying out a repair involving building and modern methods of construction, what should happen?",
+      "question": "A check during building and modern methods of construction shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for building and modern methods of construction.",
-        "Cover the visible symptom in building and modern methods of construction without checking the underlying cause.",
-        "Use the previous repair method for building and modern methods of construction without checking the current condition.",
-        "Complete the building and modern methods of construction repair using the quickest available material regardless of specification."
+        "Stop at the appropriate point, identify the cause and bring building and modern methods of construction back to the required standard before continuing.",
+        "Rely on memory for building and modern methods of construction and check dimensions only after completion.",
+        "Start building and modern methods of construction immediately and adjust later stages to absorb any error.",
+        "Leave the building and modern methods of construction discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for building and modern methods of construction directly to the scenario.",
@@ -171,12 +171,12 @@
       "id": "ST0264-SITE-TRADE-009",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "The specified resource for material types and characteristics is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of material types and characteristics, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Check and obtain approval for a suitable alternative before incorporating it into material types and characteristics.",
-        "Use the resource for a less visible part of material types and characteristics.",
-        "Choose the nearest-looking substitute for material types and characteristics and continue.",
-        "Install the resource in material types and characteristics and record the substitution only at handover."
+        "Complete and pass the required check on material types and characteristics before the work is covered or progressed.",
+        "Rely on memory for material types and characteristics and check dimensions only after completion.",
+        "Start material types and characteristics immediately and adjust later stages to absorb any error.",
+        "Leave the material types and characteristics discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for material types and characteristics directly to the scenario.",
@@ -231,12 +231,12 @@
       "id": "ST0264-SITE-TRADE-012",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "You need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
+      "question": "The next stage will conceal part of material estimation and cutting lists, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
-        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage."
+        "Leave the material estimation and cutting lists discrepancy for final inspection.",
+        "Complete and pass the required check on material estimation and cutting lists before the work is covered or progressed.",
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -251,12 +251,12 @@
       "id": "ST0264-SITE-TRADE-013",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "Your work on workplace communication will affect another person or trade. What is the best response?",
+      "question": "Before carrying out workplace communication, what is the strongest approach?",
       "answers": [
-        "Share the relevant workplace communication information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence."
+        "Use the current requirement to set out and sequence workplace communication, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -674,9 +674,9 @@
       "question": "A check on comply with industry regulations, standards, and guidance shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
         "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
-        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
-        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
-        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on comply with industry regulations, standards, and guidance."
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another person objects.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise or compensate for the current issue.",
+        "Stop before the issue is built in, identify the cause, correct or escalate it and repeat the required check on comply with industry regulations, standards, and guidance."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
@@ -731,12 +731,12 @@
       "id": "ST0264-SITE-TRADE-037",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A quantity for material estimation and cutting lists is much higher than expected. What is the most reliable check?",
+      "question": "Before carrying out material estimation and cutting lists, what is the strongest approach?",
       "answers": [
-        "Recalculate material estimation and cutting lists from the current job information, checking dimensions, deductions and any justified allowance.",
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage.",
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions."
+        "Use the current requirement to set out and sequence material estimation and cutting lists, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error.",
+        "Leave the material estimation and cutting lists discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -751,12 +751,12 @@
       "id": "ST0264-SITE-TRADE-038",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "A check during workplace communication shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
-        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds."
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring workplace communication back to the required standard before continuing."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",

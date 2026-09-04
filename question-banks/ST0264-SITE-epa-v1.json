@@ -391,12 +391,12 @@
       "id": "ST0264-SITE-EPA-020",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During an EPA assessment, a check during workplace communication shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
-        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds.",
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it."
+        "Leave the workplace communication discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring workplace communication back to the required standard before continuing.",
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -411,12 +411,12 @@
       "id": "ST0264-SITE-EPA-021",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of material estimation and cutting lists, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage.",
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions."
+        "Complete and pass the required check on material estimation and cutting lists before the work is covered or progressed.",
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error.",
+        "Leave the material estimation and cutting lists discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -471,12 +471,12 @@
       "id": "ST0264-SITE-EPA-024",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a required check for comply with industry regulations, standards, and guidance is outstanding and the next stage will conceal the work. Which response is strongest?",
+      "question": "During an EPA assessment, a required check for comply with industry regulations, standards, and guidance is outstanding and the next stage will commit or conceal the work. Which response is strongest?",
       "answers": [
-        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
-        "Do not conceal comply with industry regulations, standards, and guidance; complete the check and correct or formally escalate any unresolved issue before moving on.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise or compensate for the current issue.",
+        "Do not progress comply with industry regulations, standards, and guidance; complete the required check and resolve or formally escalate any non-compliance before moving on.",
         "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
-        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects."
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another person objects."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
@@ -891,12 +891,12 @@
       "id": "ST0264-SITE-EPA-045",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a coordination issue around workplace communication could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of workplace communication, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Resolve the workplace communication interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence."
+        "Complete and pass the required check on workplace communication before the work is covered or progressed.",
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -911,12 +911,12 @@
       "id": "ST0264-SITE-EPA-046",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a quantity for material estimation and cutting lists is much higher than expected. What is the most reliable check?",
+      "question": "During an EPA assessment, before carrying out material estimation and cutting lists, what is the strongest approach?",
       "answers": [
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage.",
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
-        "Recalculate material estimation and cutting lists from the current job information, checking dimensions, deductions and any justified allowance."
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error.",
+        "Leave the material estimation and cutting lists discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence material estimation and cutting lists, make the required checks as work progresses and correct issues before they are concealed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -971,12 +971,12 @@
       "id": "ST0264-SITE-EPA-049",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a material or component for material types and characteristics does not fully match the requirement. What is the best response?",
+      "question": "During an EPA assessment, before carrying out material types and characteristics, what is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for material types and characteristics and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of material types and characteristics.",
-        "Choose the nearest-looking substitute for material types and characteristics and continue.",
-        "Install the resource in material types and characteristics and record the substitution only at handover."
+        "Use the current requirement to set out and sequence material types and characteristics, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for material types and characteristics and check dimensions only after completion.",
+        "Start material types and characteristics immediately and adjust later stages to absorb any error.",
+        "Leave the material types and characteristics discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for material types and characteristics directly to the scenario.",

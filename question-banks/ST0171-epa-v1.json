@@ -211,12 +211,12 @@
       "id": "ST0171-EPA-011",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, information needed for quality assurance and inspection is incomplete. What should you do?",
+      "question": "During an EPA assessment, the work on quality assurance and inspection appears acceptable but a required compliance or quality check does not pass. What should you do?",
       "answers": [
-        "Continue quality assurance and inspection from memory and correct it later if necessary.",
-        "Proceed with quality assurance and inspection and ask for confirmation only at handover.",
-        "Verify the required quality assurance and inspection information and obtain clarification before fixing or recording the work.",
-        "Use whichever quality assurance and inspection source is easiest to follow."
+        "Record the deviation in quality assurance and inspection but leave it unless another person objects.",
+        "Adjust a later part of quality assurance and inspection to disguise or compensate for the current issue.",
+        "Hold the next stage of quality assurance and inspection, investigate the failed check and bring the work back to the required standard before proceeding.",
+        "Continue quality assurance and inspection and correct only the visible result at final inspection."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for quality assurance and inspection directly to the scenario.",
@@ -231,12 +231,12 @@
       "id": "ST0171-EPA-012",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the issued information for recording and reporting information does not match the situation in front of you. Which response is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of recording and reporting information, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Proceed with recording and reporting information and ask for confirmation only at handover.",
-        "Treat the recording and reporting information information as unresolved until the approved source and discrepancy have been confirmed.",
-        "Use whichever recording and reporting information source is easiest to follow.",
-        "Continue recording and reporting information from memory and correct it later if necessary."
+        "Leave the recording and reporting information discrepancy for final inspection.",
+        "Complete and pass the required check on recording and reporting information before the work is covered or progressed.",
+        "Rely on memory for recording and reporting information and check dimensions only after completion.",
+        "Start recording and reporting information immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for recording and reporting information directly to the scenario.",
@@ -531,11 +531,11 @@
       "id": "ST0171-EPA-027",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a required check for building regulations and legal duties is outstanding and the next stage will conceal the work. Which response is strongest?",
+      "question": "During an EPA assessment, a required check for building regulations and legal duties is outstanding and the next stage will commit or conceal the work. Which response is strongest?",
       "answers": [
-        "Record the deviation in building regulations and legal duties but leave it unless another trade objects.",
-        "Adjust a later part of building regulations and legal duties to disguise the current error.",
-        "Do not conceal building regulations and legal duties; complete the check and correct or formally escalate any unresolved issue before moving on.",
+        "Record the deviation in building regulations and legal duties but leave it unless another person objects.",
+        "Adjust a later part of building regulations and legal duties to disguise or compensate for the current issue.",
+        "Do not progress building regulations and legal duties; complete the required check and resolve or formally escalate any non-compliance before moving on.",
         "Continue building regulations and legal duties and correct only the visible result at final inspection."
       ],
       "correct": 2,
@@ -591,12 +591,12 @@
       "id": "ST0171-EPA-030",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the issued information for selecting compliant materials and components does not match the situation in front of you. Which response is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of selecting compliant materials and components, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Use whichever selecting compliant materials and components source is easiest to follow.",
-        "Continue selecting compliant materials and components from memory and correct it later if necessary.",
-        "Proceed with selecting compliant materials and components and ask for confirmation only at handover.",
-        "Treat the selecting compliant materials and components information as unresolved until the approved source and discrepancy have been confirmed."
+        "Rely on memory for selecting compliant materials and components and check dimensions only after completion.",
+        "Start selecting compliant materials and components immediately and adjust later stages to absorb any error.",
+        "Leave the selecting compliant materials and components discrepancy for final inspection.",
+        "Complete and pass the required check on selecting compliant materials and components before the work is covered or progressed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for selecting compliant materials and components directly to the scenario.",
@@ -751,12 +751,12 @@
       "id": "ST0171-EPA-038",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the work on quality assurance and inspection looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, the work on quality assurance and inspection appears acceptable but a required compliance or quality check does not pass. What should you do?",
       "answers": [
         "Continue quality assurance and inspection and correct only the visible result at final inspection.",
-        "Record the deviation in quality assurance and inspection but leave it unless another trade objects.",
-        "Adjust a later part of quality assurance and inspection to disguise the current error.",
-        "Hold the next stage of quality assurance and inspection, investigate the failed check and bring the work back to the required standard before covering it."
+        "Record the deviation in quality assurance and inspection but leave it unless another person objects.",
+        "Adjust a later part of quality assurance and inspection to disguise or compensate for the current issue.",
+        "Hold the next stage of quality assurance and inspection, investigate the failed check and bring the work back to the required standard before proceeding. Verify the outcome before proceeding."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for quality assurance and inspection directly to the scenario.",

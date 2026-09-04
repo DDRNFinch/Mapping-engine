@@ -211,12 +211,12 @@
       "id": "ST0095-EPA-011",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During an EPA assessment, a check during workplace communication shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
-        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds.",
-        "Complete your part of workplace communication first because it is already under way."
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring workplace communication back to the required standard before continuing.",
+        "Rely on memory for workplace communication and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -351,12 +351,12 @@
       "id": "ST0095-EPA-018",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a repair to cavity-wall construction improves the appearance but does not address the apparent cause. What should you do?",
+      "question": "During an EPA assessment, the next stage will conceal part of cavity-wall construction, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
-        "Use the previous repair method for cavity-wall construction without checking the current condition.",
-        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
-        "Reassess cavity-wall construction, correct the underlying defect using the appropriate method and check the completed repair."
+        "Rely on memory for cavity-wall construction and check dimensions only after completion.",
+        "Start cavity-wall construction immediately and adjust later stages to absorb any error.",
+        "Leave the cavity-wall construction discrepancy for final inspection.",
+        "Complete and pass the required check on cavity-wall construction before the work is covered or progressed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
@@ -493,10 +493,10 @@
       "courseId": "ST0095",
       "question": "During an EPA assessment, a check on comply with industry regulations, standards, and guidance shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on comply with industry regulations, standards, and guidance.",
+        "Stop before the issue is built in, identify the cause, correct or escalate it and repeat the required check on comply with industry regulations, standards, and guidance.",
         "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
-        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
-        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error."
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another person objects.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise or compensate for the current issue."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
@@ -591,12 +591,12 @@
       "id": "ST0095-EPA-030",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, the specified resource for raking-cut brickwork is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of raking-cut brickwork, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Use the resource for a less visible part of raking-cut brickwork.",
-        "Choose the nearest-looking substitute for raking-cut brickwork and continue.",
-        "Install the resource in raking-cut brickwork and record the substitution only at handover.",
-        "Check and obtain approval for a suitable alternative before incorporating it into raking-cut brickwork."
+        "Rely on memory for raking-cut brickwork and check dimensions only after completion.",
+        "Start raking-cut brickwork immediately and adjust later stages to absorb any error.",
+        "Leave the raking-cut brickwork discrepancy for final inspection.",
+        "Complete and pass the required check on raking-cut brickwork before the work is covered or progressed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for raking-cut brickwork directly to the scenario.",
@@ -671,12 +671,12 @@
       "id": "ST0095-EPA-034",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, your work on workplace communication will affect another person or trade. What is the best response?",
+      "question": "During an EPA assessment, before carrying out workplace communication, what is the strongest approach?",
       "answers": [
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
-        "Share the relevant workplace communication information with the people affected and agree a safe, workable sequence before continuing."
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence workplace communication, make the required checks as work progresses and correct issues before they are concealed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -691,12 +691,12 @@
       "id": "ST0095-EPA-035",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a resource for protecting materials and finished work has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, a check during protecting materials and finished work shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Choose the nearest-looking substitute for protecting materials and finished work and continue.",
-        "Install the resource in protecting materials and finished work and record the substitution only at handover.",
-        "Do not use the doubtful resource in protecting materials and finished work until its identity, suitability and approval have been checked.",
-        "Use the resource for a less visible part of protecting materials and finished work."
+        "Start protecting materials and finished work immediately and adjust later stages to absorb any error.",
+        "Leave the protecting materials and finished work discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring protecting materials and finished work back to the required standard before continuing.",
+        "Rely on memory for protecting materials and finished work and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for protecting materials and finished work directly to the scenario.",
@@ -731,12 +731,12 @@
       "id": "ST0095-EPA-037",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for brick-on-edge and soldier courses does not fully match the requirement. What is the best response?",
+      "question": "During an EPA assessment, before carrying out brick-on-edge and soldier courses, what is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for brick-on-edge and soldier courses and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of brick-on-edge and soldier courses.",
-        "Choose the nearest-looking substitute for brick-on-edge and soldier courses and continue.",
-        "Install the resource in brick-on-edge and soldier courses and record the substitution only at handover."
+        "Use the current requirement to set out and sequence brick-on-edge and soldier courses, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for brick-on-edge and soldier courses and check dimensions only after completion.",
+        "Start brick-on-edge and soldier courses immediately and adjust later stages to absorb any error.",
+        "Leave the brick-on-edge and soldier courses discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for brick-on-edge and soldier courses directly to the scenario.",
@@ -751,12 +751,12 @@
       "id": "ST0095-EPA-038",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, before carrying out a repair involving cavity-wall construction, what should happen?",
+      "question": "During an EPA assessment, a check during cavity-wall construction shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
-        "Use the previous repair method for cavity-wall construction without checking the current condition.",
-        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
-        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for cavity-wall construction."
+        "Rely on memory for cavity-wall construction and check dimensions only after completion.",
+        "Start cavity-wall construction immediately and adjust later stages to absorb any error.",
+        "Leave the cavity-wall construction discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring cavity-wall construction back to the required standard before continuing."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
@@ -771,12 +771,12 @@
       "id": "ST0095-EPA-039",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, the specified resource for cavity-wall setting out is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of cavity-wall setting out, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Choose the nearest-looking substitute for cavity-wall setting out and continue.",
-        "Install the resource in cavity-wall setting out and record the substitution only at handover.",
-        "Check and obtain approval for a suitable alternative before incorporating it into cavity-wall setting out.",
-        "Use the resource for a less visible part of cavity-wall setting out."
+        "Start cavity-wall setting out immediately and adjust later stages to absorb any error.",
+        "Leave the cavity-wall setting out discrepancy for final inspection.",
+        "Complete and pass the required check on cavity-wall setting out before the work is covered or progressed.",
+        "Rely on memory for cavity-wall setting out and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for cavity-wall setting out directly to the scenario.",
@@ -791,12 +791,12 @@
       "id": "ST0095-EPA-040",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for mortar mixing and ratios does not fully match the requirement. What is the best response?",
+      "question": "During an EPA assessment, before carrying out mortar mixing and ratios, what is the strongest approach?",
       "answers": [
-        "Install the resource in mortar mixing and ratios and record the substitution only at handover.",
-        "Separate the questionable resource for mortar mixing and ratios and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of mortar mixing and ratios.",
-        "Choose the nearest-looking substitute for mortar mixing and ratios and continue."
+        "Leave the mortar mixing and ratios discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence mortar mixing and ratios, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for mortar mixing and ratios and check dimensions only after completion.",
+        "Start mortar mixing and ratios immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for mortar mixing and ratios directly to the scenario.",
@@ -871,12 +871,12 @@
       "id": "ST0095-EPA-044",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a resource for solid-wall setting out and construction has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, a check during solid-wall setting out and construction shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Install the resource in solid-wall setting out and construction and record the substitution only at handover.",
-        "Do not use the doubtful resource in solid-wall setting out and construction until its identity, suitability and approval have been checked.",
-        "Use the resource for a less visible part of solid-wall setting out and construction.",
-        "Choose the nearest-looking substitute for solid-wall setting out and construction and continue."
+        "Leave the solid-wall setting out and construction discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring solid-wall setting out and construction back to the required standard before continuing.",
+        "Rely on memory for solid-wall setting out and construction and check dimensions only after completion.",
+        "Start solid-wall setting out and construction immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for solid-wall setting out and construction directly to the scenario.",
@@ -951,12 +951,12 @@
       "id": "ST0095-EPA-048",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of material estimation and cutting lists, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
-        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage."
+        "Leave the material estimation and cutting lists discrepancy for final inspection.",
+        "Complete and pass the required check on material estimation and cutting lists before the work is covered or progressed.",
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",

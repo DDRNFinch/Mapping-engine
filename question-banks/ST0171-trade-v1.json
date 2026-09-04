@@ -11,12 +11,12 @@
       "id": "ST0171-TRADE-001",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A defect is found while dealing with planned and reactive maintenance. What is the strongest approach?",
+      "question": "You are planning planned and reactive maintenance. What is the strongest approach?",
       "answers": [
-        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for planned and reactive maintenance.",
-        "Cover the visible symptom in planned and reactive maintenance without checking the underlying cause.",
-        "Use the previous repair method for planned and reactive maintenance without checking the current condition.",
-        "Complete the planned and reactive maintenance repair using the quickest available material regardless of specification."
+        "Use the job information, required controls, resources and dependencies to arrange planned and reactive maintenance in a logical safe sequence before starting.",
+        "Start planned and reactive maintenance with the easiest activity and decide the remaining sequence as you go.",
+        "Copy the sequence from a previous job without checking current conditions.",
+        "Plan only your own part of planned and reactive maintenance and ignore dependencies with other work."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for planned and reactive maintenance directly to the scenario.",
@@ -91,12 +91,12 @@
       "id": "ST0171-TRADE-005",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "Before carrying out a repair involving building regulations and legal duties, what should happen?",
+      "question": "The work on building regulations and legal duties appears acceptable but a required compliance or quality check does not pass. What should you do?",
       "answers": [
-        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for building regulations and legal duties.",
-        "Cover the visible symptom in building regulations and legal duties without checking the underlying cause.",
-        "Use the previous repair method for building regulations and legal duties without checking the current condition.",
-        "Complete the building regulations and legal duties repair using the quickest available material regardless of specification."
+        "Hold the next stage of building regulations and legal duties, investigate the failed check and bring the work back to the required standard before proceeding.",
+        "Continue building regulations and legal duties and correct only the visible result at final inspection.",
+        "Record the deviation in building regulations and legal duties but leave it unless another person objects.",
+        "Adjust a later part of building regulations and legal duties to disguise or compensate for the current issue."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for building regulations and legal duties directly to the scenario.",
@@ -171,12 +171,12 @@
       "id": "ST0171-TRADE-009",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A repair to emergency equipment and system checks improves the appearance but does not address the apparent cause. What should you do?",
+      "question": "A colleague wants to continue emergency equipment and system checks despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Reassess emergency equipment and system checks, correct the underlying defect using the appropriate method and check the completed repair.",
-        "Cover the visible symptom in emergency equipment and system checks without checking the underlying cause.",
-        "Use the previous repair method for emergency equipment and system checks without checking the current condition.",
-        "Complete the emergency equipment and system checks repair using the quickest available material regardless of specification."
+        "Do not continue emergency equipment and system checks until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue emergency equipment and system checks carefully because the task itself has not changed.",
+        "Rely on PPE alone for emergency equipment and system checks and leave the failed control as it is.",
+        "Finish the current emergency equipment and system checks operation first, then report the failed control."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for emergency equipment and system checks directly to the scenario.",
@@ -493,10 +493,10 @@
       "courseId": "ST0171",
       "question": "A check on quality assurance and inspection shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on quality assurance and inspection.",
+        "Stop before the issue is built in, identify the cause, correct or escalate it and repeat the required check on quality assurance and inspection.",
         "Continue quality assurance and inspection and correct only the visible result at final inspection.",
-        "Record the deviation in quality assurance and inspection but leave it unless another trade objects.",
-        "Adjust a later part of quality assurance and inspection to disguise the current error."
+        "Record the deviation in quality assurance and inspection but leave it unless another person objects.",
+        "Adjust a later part of quality assurance and inspection to disguise or compensate for the current issue."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for quality assurance and inspection directly to the scenario.",
@@ -651,12 +651,12 @@
       "id": "ST0171-TRADE-033",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "The issued information for selecting compliant materials and components does not match the situation in front of you. Which response is strongest?",
+      "question": "The next stage will conceal part of selecting compliant materials and components, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Treat the selecting compliant materials and components information as unresolved until the approved source and discrepancy have been confirmed.",
-        "Use whichever selecting compliant materials and components source is easiest to follow.",
-        "Continue selecting compliant materials and components from memory and correct it later if necessary.",
-        "Proceed with selecting compliant materials and components and ask for confirmation only at handover."
+        "Complete and pass the required check on selecting compliant materials and components before the work is covered or progressed.",
+        "Rely on memory for selecting compliant materials and components and check dimensions only after completion.",
+        "Start selecting compliant materials and components immediately and adjust later stages to absorb any error.",
+        "Leave the selecting compliant materials and components discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for selecting compliant materials and components directly to the scenario.",
@@ -711,12 +711,12 @@
       "id": "ST0171-TRADE-036",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A required check for building regulations and legal duties is outstanding and the next stage will conceal the work. Which response is strongest?",
+      "question": "A required check for building regulations and legal duties is outstanding and the next stage will commit or conceal the work. Which response is strongest?",
       "answers": [
-        "Adjust a later part of building regulations and legal duties to disguise the current error.",
-        "Do not conceal building regulations and legal duties; complete the check and correct or formally escalate any unresolved issue before moving on.",
+        "Adjust a later part of building regulations and legal duties to disguise or compensate for the current issue.",
+        "Do not progress building regulations and legal duties; complete the required check and resolve or formally escalate any non-compliance before moving on.",
         "Continue building regulations and legal duties and correct only the visible result at final inspection.",
-        "Record the deviation in building regulations and legal duties but leave it unless another trade objects."
+        "Record the deviation in building regulations and legal duties but leave it unless another person objects."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for building regulations and legal duties directly to the scenario.",

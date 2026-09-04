@@ -91,12 +91,12 @@
       "id": "ST0264-AJ-TRADE-005",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "Before carrying out a repair involving building and modern methods of construction, what should happen?",
+      "question": "A check during building and modern methods of construction shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for building and modern methods of construction.",
-        "Cover the visible symptom in building and modern methods of construction without checking the underlying cause.",
-        "Use the previous repair method for building and modern methods of construction without checking the current condition.",
-        "Complete the building and modern methods of construction repair using the quickest available material regardless of specification."
+        "Stop at the appropriate point, identify the cause and bring building and modern methods of construction back to the required standard before continuing.",
+        "Rely on memory for building and modern methods of construction and check dimensions only after completion.",
+        "Start building and modern methods of construction immediately and adjust later stages to absorb any error.",
+        "Leave the building and modern methods of construction discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for building and modern methods of construction directly to the scenario.",
@@ -171,12 +171,12 @@
       "id": "ST0264-AJ-TRADE-009",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "The specified resource for material types and characteristics is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of material types and characteristics, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Check and obtain approval for a suitable alternative before incorporating it into material types and characteristics.",
-        "Use the resource for a less visible part of material types and characteristics.",
-        "Choose the nearest-looking substitute for material types and characteristics and continue.",
-        "Install the resource in material types and characteristics and record the substitution only at handover."
+        "Complete and pass the required check on material types and characteristics before the work is covered or progressed.",
+        "Rely on memory for material types and characteristics and check dimensions only after completion.",
+        "Start material types and characteristics immediately and adjust later stages to absorb any error.",
+        "Leave the material types and characteristics discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for material types and characteristics directly to the scenario.",
@@ -231,12 +231,12 @@
       "id": "ST0264-AJ-TRADE-012",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "You need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
+      "question": "The next stage will conceal part of material estimation and cutting lists, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
-        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage."
+        "Leave the material estimation and cutting lists discrepancy for final inspection.",
+        "Complete and pass the required check on material estimation and cutting lists before the work is covered or progressed.",
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -251,12 +251,12 @@
       "id": "ST0264-AJ-TRADE-013",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "Your work on workplace communication will affect another person or trade. What is the best response?",
+      "question": "Before carrying out workplace communication, what is the strongest approach?",
       "answers": [
-        "Share the relevant workplace communication information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence."
+        "Use the current requirement to set out and sequence workplace communication, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -451,12 +451,12 @@
       "id": "ST0264-AJ-TRADE-023",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A resource for setting out and marking out has doubtful condition or identification. What should you do?",
+      "question": "A check during setting out and marking out shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Choose the nearest-looking substitute for setting out and marking out and continue.",
-        "Install the resource in setting out and marking out and record the substitution only at handover.",
-        "Do not use the doubtful resource in setting out and marking out until its identity, suitability and approval have been checked.",
-        "Use the resource for a less visible part of setting out and marking out."
+        "Start setting out and marking out immediately and adjust later stages to absorb any error.",
+        "Leave the setting out and marking out discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring setting out and marking out back to the required standard before continuing.",
+        "Rely on memory for setting out and marking out and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for setting out and marking out directly to the scenario.",
@@ -471,12 +471,12 @@
       "id": "ST0264-AJ-TRADE-024",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "The specified resource for timber joints is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of timber joints, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Install the resource in timber joints and record the substitution only at handover.",
-        "Check and obtain approval for a suitable alternative before incorporating it into timber joints.",
-        "Use the resource for a less visible part of timber joints.",
-        "Choose the nearest-looking substitute for timber joints and continue."
+        "Leave the timber joints discrepancy for final inspection.",
+        "Complete and pass the required check on timber joints before the work is covered or progressed.",
+        "Rely on memory for timber joints and check dimensions only after completion.",
+        "Start timber joints immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for timber joints directly to the scenario.",
@@ -491,12 +491,12 @@
       "id": "ST0264-AJ-TRADE-025",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A material or component for timber window manufacture does not fully match the requirement. What is the best response?",
+      "question": "Before carrying out timber window manufacture, what is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for timber window manufacture and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of timber window manufacture.",
-        "Choose the nearest-looking substitute for timber window manufacture and continue.",
-        "Install the resource in timber window manufacture and record the substitution only at handover."
+        "Use the current requirement to set out and sequence timber window manufacture, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for timber window manufacture and check dimensions only after completion.",
+        "Start timber window manufacture immediately and adjust later stages to absorb any error.",
+        "Leave the timber window manufacture discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for timber window manufacture directly to the scenario.",
@@ -531,12 +531,12 @@
       "id": "ST0264-AJ-TRADE-027",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "The specified resource for first-fix carpentry is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of first-fix carpentry, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Choose the nearest-looking substitute for first-fix carpentry and continue.",
-        "Install the resource in first-fix carpentry and record the substitution only at handover.",
-        "Check and obtain approval for a suitable alternative before incorporating it into first-fix carpentry.",
-        "Use the resource for a less visible part of first-fix carpentry."
+        "Start first-fix carpentry immediately and adjust later stages to absorb any error.",
+        "Leave the first-fix carpentry discrepancy for final inspection.",
+        "Complete and pass the required check on first-fix carpentry before the work is covered or progressed.",
+        "Rely on memory for first-fix carpentry and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for first-fix carpentry directly to the scenario.",
@@ -551,12 +551,12 @@
       "id": "ST0264-AJ-TRADE-028",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A material or component for manufacture and assembly techniques for second fix timber products does not fully match the requirement. What is the best response?",
+      "question": "Before carrying out manufacture and assembly techniques for second fix timber products, what is the strongest approach?",
       "answers": [
-        "Install the resource in manufacture and assembly techniques for second fix timber products and record the substitution only at handover.",
-        "Separate the questionable resource for manufacture and assembly techniques for second fix timber products and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of manufacture and assembly techniques for second fix timber products.",
-        "Choose the nearest-looking substitute for manufacture and assembly techniques for second fix timber products and continue."
+        "Leave the manufacture and assembly techniques for second fix timber products discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence manufacture and assembly techniques for second fix timber products, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for manufacture and assembly techniques for second fix timber products and check dimensions only after completion.",
+        "Start manufacture and assembly techniques for second fix timber products immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for manufacture and assembly techniques for second fix timber products directly to the scenario.",
@@ -571,12 +571,12 @@
       "id": "ST0264-AJ-TRADE-029",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "Before carrying out a repair involving timber finishing, what should happen?",
+      "question": "A check during timber finishing shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for timber finishing.",
-        "Cover the visible symptom in timber finishing without checking the underlying cause.",
-        "Use the previous repair method for timber finishing without checking the current condition.",
-        "Complete the timber finishing repair using the quickest available material regardless of specification."
+        "Stop at the appropriate point, identify the cause and bring timber finishing back to the required standard before continuing.",
+        "Rely on memory for timber finishing and check dimensions only after completion.",
+        "Start timber finishing immediately and adjust later stages to absorb any error.",
+        "Leave the timber finishing discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for timber finishing directly to the scenario.",
@@ -691,11 +691,11 @@
       "id": "ST0264-AJ-TRADE-035",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "The work on comply with industry regulations, standards, and guidance looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "The work on comply with industry regulations, standards, and guidance appears acceptable but a required compliance or quality check does not pass. What should you do?",
       "answers": [
-        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
-        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
-        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate the failed check and bring the work back to the required standard before covering it.",
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another person objects.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise or compensate for the current issue.",
+        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate the failed check and bring the work back to the required standard before proceeding.",
         "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection."
       ],
       "correct": 2,
@@ -751,12 +751,12 @@
       "id": "ST0264-AJ-TRADE-038",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "Before ordering for material estimation and cutting lists, your calculation differs significantly from a previous similar job. What should you do?",
+      "question": "A check during material estimation and cutting lists shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage.",
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
-        "Rework the material estimation and cutting lists quantity from the issued dimensions and current scope, then check each assumption before accepting the total."
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error.",
+        "Leave the material estimation and cutting lists discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring material estimation and cutting lists back to the required standard before continuing."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -771,12 +771,12 @@
       "id": "ST0264-AJ-TRADE-039",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A coordination issue around workplace communication could create delay or rework. Which response is strongest?",
+      "question": "The next stage will conceal part of workplace communication, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
-        "Resolve the workplace communication interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
-        "Complete your part of workplace communication first because it is already under way."
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection.",
+        "Complete and pass the required check on workplace communication before the work is covered or progressed.",
+        "Rely on memory for workplace communication and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -891,12 +891,12 @@
       "id": "ST0264-AJ-TRADE-045",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "The specified resource for setting out and marking out is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of setting out and marking out, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Check and obtain approval for a suitable alternative before incorporating it into setting out and marking out.",
-        "Use the resource for a less visible part of setting out and marking out.",
-        "Choose the nearest-looking substitute for setting out and marking out and continue.",
-        "Install the resource in setting out and marking out and record the substitution only at handover."
+        "Complete and pass the required check on setting out and marking out before the work is covered or progressed.",
+        "Rely on memory for setting out and marking out and check dimensions only after completion.",
+        "Start setting out and marking out immediately and adjust later stages to absorb any error.",
+        "Leave the setting out and marking out discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for setting out and marking out directly to the scenario.",
@@ -951,12 +951,12 @@
       "id": "ST0264-AJ-TRADE-048",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A repair to timber window manufacture improves the appearance but does not address the apparent cause. What should you do?",
+      "question": "The next stage will conceal part of timber window manufacture, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Complete the timber window manufacture repair using the quickest available material regardless of specification.",
-        "Reassess timber window manufacture, correct the underlying defect using the appropriate method and check the completed repair.",
-        "Cover the visible symptom in timber window manufacture without checking the underlying cause.",
-        "Use the previous repair method for timber window manufacture without checking the current condition."
+        "Leave the timber window manufacture discrepancy for final inspection.",
+        "Complete and pass the required check on timber window manufacture before the work is covered or progressed.",
+        "Rely on memory for timber window manufacture and check dimensions only after completion.",
+        "Start timber window manufacture immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for timber window manufacture directly to the scenario.",
@@ -971,12 +971,12 @@
       "id": "ST0264-AJ-TRADE-049",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A material or component for first-fix carpentry does not fully match the requirement. What is the best response?",
+      "question": "Before carrying out first-fix carpentry, what is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for first-fix carpentry and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of first-fix carpentry.",
-        "Choose the nearest-looking substitute for first-fix carpentry and continue.",
-        "Install the resource in first-fix carpentry and record the substitution only at handover."
+        "Use the current requirement to set out and sequence first-fix carpentry, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for first-fix carpentry and check dimensions only after completion.",
+        "Start first-fix carpentry immediately and adjust later stages to absorb any error.",
+        "Leave the first-fix carpentry discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for first-fix carpentry directly to the scenario.",
@@ -991,12 +991,12 @@
       "id": "ST0264-AJ-TRADE-050",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A resource for second-fix carpentry has doubtful condition or identification. What should you do?",
+      "question": "A check during second-fix carpentry shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Use the resource for a less visible part of second-fix carpentry.",
-        "Choose the nearest-looking substitute for second-fix carpentry and continue.",
-        "Install the resource in second-fix carpentry and record the substitution only at handover.",
-        "Do not use the doubtful resource in second-fix carpentry until its identity, suitability and approval have been checked."
+        "Rely on memory for second-fix carpentry and check dimensions only after completion.",
+        "Start second-fix carpentry immediately and adjust later stages to absorb any error.",
+        "Leave the second-fix carpentry discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring second-fix carpentry back to the required standard before continuing."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for second-fix carpentry directly to the scenario.",

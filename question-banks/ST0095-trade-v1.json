@@ -131,12 +131,12 @@
       "id": "ST0095-TRADE-007",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for standards and regulations associated with bricklaying activities does not fully match the requirement. What is the best response?",
+      "question": "A check on standards and regulations associated with bricklaying activities shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Choose the nearest-looking substitute for standards and regulations associated with bricklaying activities and continue.",
-        "Install the resource in standards and regulations associated with bricklaying activities and record the substitution only at handover.",
-        "Separate the questionable resource for standards and regulations associated with bricklaying activities and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of standards and regulations associated with bricklaying activities."
+        "Record the deviation in standards and regulations associated with bricklaying activities but leave it unless another person objects.",
+        "Adjust a later part of standards and regulations associated with bricklaying activities to disguise or compensate for the current issue.",
+        "Stop before the issue is built in, identify the cause, correct or escalate it and repeat the required check on standards and regulations associated with bricklaying activities.",
+        "Continue standards and regulations associated with bricklaying activities and correct only the visible result at final inspection."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for standards and regulations associated with bricklaying activities directly to the scenario.",
@@ -171,12 +171,12 @@
       "id": "ST0095-TRADE-009",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A repair to modern methods of construction improves the appearance but does not address the apparent cause. What should you do?",
+      "question": "The next stage will conceal part of modern methods of construction, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Reassess modern methods of construction, correct the underlying defect using the appropriate method and check the completed repair.",
-        "Cover the visible symptom in modern methods of construction without checking the underlying cause.",
-        "Use the previous repair method for modern methods of construction without checking the current condition.",
-        "Complete the modern methods of construction repair using the quickest available material regardless of specification."
+        "Complete and pass the required check on modern methods of construction before the work is covered or progressed.",
+        "Rely on memory for modern methods of construction and check dimensions only after completion.",
+        "Start modern methods of construction immediately and adjust later stages to absorb any error.",
+        "Leave the modern methods of construction discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for modern methods of construction directly to the scenario.",
@@ -231,12 +231,12 @@
       "id": "ST0095-TRADE-012",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "You need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
+      "question": "The next stage will conceal part of material estimation and cutting lists, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
-        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
-        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
-        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage."
+        "Leave the material estimation and cutting lists discrepancy for final inspection.",
+        "Complete and pass the required check on material estimation and cutting lists before the work is covered or progressed.",
+        "Rely on memory for material estimation and cutting lists and check dimensions only after completion.",
+        "Start material estimation and cutting lists immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
@@ -311,12 +311,12 @@
       "id": "ST0095-TRADE-016",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for solid-wall setting out and construction does not fully match the requirement. What is the best response?",
+      "question": "Before carrying out solid-wall setting out and construction, what is the strongest approach?",
       "answers": [
-        "Install the resource in solid-wall setting out and construction and record the substitution only at handover.",
-        "Separate the questionable resource for solid-wall setting out and construction and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of solid-wall setting out and construction.",
-        "Choose the nearest-looking substitute for solid-wall setting out and construction and continue."
+        "Leave the solid-wall setting out and construction discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence solid-wall setting out and construction, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for solid-wall setting out and construction and check dimensions only after completion.",
+        "Start solid-wall setting out and construction immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for solid-wall setting out and construction directly to the scenario.",
@@ -391,12 +391,12 @@
       "id": "ST0095-TRADE-020",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A resource for mortar mixing and ratios has doubtful condition or identification. What should you do?",
+      "question": "A check during mortar mixing and ratios shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Install the resource in mortar mixing and ratios and record the substitution only at handover.",
-        "Do not use the doubtful resource in mortar mixing and ratios until its identity, suitability and approval have been checked.",
-        "Use the resource for a less visible part of mortar mixing and ratios.",
-        "Choose the nearest-looking substitute for mortar mixing and ratios and continue."
+        "Leave the mortar mixing and ratios discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring mortar mixing and ratios back to the required standard before continuing.",
+        "Rely on memory for mortar mixing and ratios and check dimensions only after completion.",
+        "Start mortar mixing and ratios immediately and adjust later stages to absorb any error."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for mortar mixing and ratios directly to the scenario.",
@@ -411,12 +411,12 @@
       "id": "ST0095-TRADE-021",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The specified resource for cavity-wall setting out is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of cavity-wall setting out, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Check and obtain approval for a suitable alternative before incorporating it into cavity-wall setting out.",
-        "Use the resource for a less visible part of cavity-wall setting out.",
-        "Choose the nearest-looking substitute for cavity-wall setting out and continue.",
-        "Install the resource in cavity-wall setting out and record the substitution only at handover."
+        "Complete and pass the required check on cavity-wall setting out before the work is covered or progressed.",
+        "Rely on memory for cavity-wall setting out and check dimensions only after completion.",
+        "Start cavity-wall setting out immediately and adjust later stages to absorb any error.",
+        "Leave the cavity-wall setting out discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for cavity-wall setting out directly to the scenario.",
@@ -431,12 +431,12 @@
       "id": "ST0095-TRADE-022",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A defect is found while dealing with cavity-wall construction. What is the strongest approach?",
+      "question": "Before carrying out cavity-wall construction, what is the strongest approach?",
       "answers": [
-        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
-        "Use the previous repair method for cavity-wall construction without checking the current condition.",
-        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
-        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for cavity-wall construction."
+        "Rely on memory for cavity-wall construction and check dimensions only after completion.",
+        "Start cavity-wall construction immediately and adjust later stages to absorb any error.",
+        "Leave the cavity-wall construction discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence cavity-wall construction, make the required checks as work progresses and correct issues before they are concealed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
@@ -451,12 +451,12 @@
       "id": "ST0095-TRADE-023",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A resource for brick-on-edge and soldier courses has doubtful condition or identification. What should you do?",
+      "question": "A check during brick-on-edge and soldier courses shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Choose the nearest-looking substitute for brick-on-edge and soldier courses and continue.",
-        "Install the resource in brick-on-edge and soldier courses and record the substitution only at handover.",
-        "Do not use the doubtful resource in brick-on-edge and soldier courses until its identity, suitability and approval have been checked.",
-        "Use the resource for a less visible part of brick-on-edge and soldier courses."
+        "Start brick-on-edge and soldier courses immediately and adjust later stages to absorb any error.",
+        "Leave the brick-on-edge and soldier courses discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring brick-on-edge and soldier courses back to the required standard before continuing.",
+        "Rely on memory for brick-on-edge and soldier courses and check dimensions only after completion."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for brick-on-edge and soldier courses directly to the scenario.",
@@ -491,12 +491,12 @@
       "id": "ST0095-TRADE-025",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for protecting materials and finished work does not fully match the requirement. What is the best response?",
+      "question": "Before carrying out protecting materials and finished work, what is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for protecting materials and finished work and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of protecting materials and finished work.",
-        "Choose the nearest-looking substitute for protecting materials and finished work and continue.",
-        "Install the resource in protecting materials and finished work and record the substitution only at handover."
+        "Use the current requirement to set out and sequence protecting materials and finished work, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for protecting materials and finished work and check dimensions only after completion.",
+        "Start protecting materials and finished work immediately and adjust later stages to absorb any error.",
+        "Leave the protecting materials and finished work discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for protecting materials and finished work directly to the scenario.",
@@ -511,12 +511,12 @@
       "id": "ST0095-TRADE-026",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "A check during workplace communication shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
-        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds."
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection.",
+        "Stop at the appropriate point, identify the cause and bring workplace communication back to the required standard before continuing."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
@@ -591,12 +591,12 @@
       "id": "ST0095-TRADE-030",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The specified resource for raking-cut brickwork is unavailable. Which response is strongest?",
+      "question": "The next stage will conceal part of raking-cut brickwork, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Use the resource for a less visible part of raking-cut brickwork.",
-        "Choose the nearest-looking substitute for raking-cut brickwork and continue.",
-        "Install the resource in raking-cut brickwork and record the substitution only at handover.",
-        "Check and obtain approval for a suitable alternative before incorporating it into raking-cut brickwork."
+        "Rely on memory for raking-cut brickwork and check dimensions only after completion.",
+        "Start raking-cut brickwork immediately and adjust later stages to absorb any error.",
+        "Leave the raking-cut brickwork discrepancy for final inspection.",
+        "Complete and pass the required check on raking-cut brickwork before the work is covered or progressed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for raking-cut brickwork directly to the scenario.",
@@ -691,11 +691,11 @@
       "id": "ST0095-TRADE-035",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The work on comply with industry regulations, standards, and guidance looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "The work on comply with industry regulations, standards, and guidance appears acceptable but a required compliance or quality check does not pass. What should you do?",
       "answers": [
-        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
-        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
-        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate the failed check and bring the work back to the required standard before covering it.",
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another person objects.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise or compensate for the current issue.",
+        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate the failed check and bring the work back to the required standard before proceeding.",
         "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection."
       ],
       "correct": 2,
@@ -831,12 +831,12 @@
       "id": "ST0095-TRADE-042",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A repair to cavity-wall construction improves the appearance but does not address the apparent cause. What should you do?",
+      "question": "The next stage will conceal part of cavity-wall construction, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
-        "Use the previous repair method for cavity-wall construction without checking the current condition.",
-        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
-        "Reassess cavity-wall construction, correct the underlying defect using the appropriate method and check the completed repair."
+        "Rely on memory for cavity-wall construction and check dimensions only after completion.",
+        "Start cavity-wall construction immediately and adjust later stages to absorb any error.",
+        "Leave the cavity-wall construction discrepancy for final inspection.",
+        "Complete and pass the required check on cavity-wall construction before the work is covered or progressed."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
@@ -971,12 +971,12 @@
       "id": "ST0095-TRADE-049",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "Your work on workplace communication will affect another person or trade. What is the best response?",
+      "question": "Before carrying out workplace communication, what is the strongest approach?",
       "answers": [
-        "Share the relevant workplace communication information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of workplace communication first because it is already under way.",
-        "Leave the workplace communication issue for the next person to solve when they reach it.",
-        "Create an informal workaround for workplace communication without agreeing the changed sequence."
+        "Use the current requirement to set out and sequence workplace communication, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for workplace communication and check dimensions only after completion.",
+        "Start workplace communication immediately and adjust later stages to absorb any error.",
+        "Leave the workplace communication discrepancy for final inspection."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
