@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0264-AJ-epa-v1",
-  "version": 1,
+  "version": 2,
   "category": "epa",
   "courseId": "ST0264-AJ",
   "questionCount": 50,
@@ -13,13 +13,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, your work on team-focus to meet team goals including, considering the wider build team will affect another person or trade. What is the best response?",
       "answers": [
-        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
-        "Complete your own task first because it is already under way.",
-        "Leave the issue for the next person to solve when they reach it.",
-        "Make an informal workaround without changing the agreed sequence."
+        "For Team-focus to meet team goals including, considering the wider build team, share the relevant information with the people affected and agree a safe, workable sequence before the coordination issue creates rework.",
+        "Complete your part of Team-focus to meet team goals including, considering the wider build team first because it is already under way.",
+        "Leave the Team-focus to meet team goals including, considering the wider build team issue for the next person to solve when they reach it.",
+        "Create an informal workaround for Team-focus to meet team goals including, considering the wider build team without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "explanation": "The response must address the specific mapped requirement for Team-focus to meet team goals including, considering the wider build team rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "B5"
@@ -33,13 +33,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, during seek learning and development opportunities, a technical decision is needed that you are not authorised to make. What is the best response?",
       "answers": [
-        "Use the solution that worked on the previous job.",
-        "Ask another operative to take responsibility informally and continue.",
-        "Choose the least disruptive option and report it after completion.",
-        "Make the situation safe as required and seek the correct instruction, supervision or authorised decision before continuing."
+        "Carry on with Seek learning and development opportunities using your best judgement even though the decision is outside your authority.",
+        "Copy a previous Seek learning and development opportunities solution without checking whether it is approved.",
+        "Let the customer decide the technical Seek learning and development opportunities issue instead.",
+        "Do not improvise the decision for Seek learning and development opportunities; recognise the limit of your role and obtain authorised guidance or supervision before continuing."
       ],
       "correct": 3,
-      "explanation": "Competent working includes recognising limits and escalating decisions outside your authority.",
+      "explanation": "The response must address the specific mapped requirement for Seek learning and development opportunities rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "B4"
@@ -51,15 +51,15 @@
       "id": "ST0264-AJ-EPA-003",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a team decision about contribute to an inclusive and diverse culture is unfair and has no work-related justification. Which response is strongest?",
+      "question": "During an EPA assessment, a team decision affecting contribute to an inclusive and diverse culture is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Accept it if the current team arrangement is quicker.",
-        "Give the colleague simpler work so the disagreement is avoided.",
-        "Support fair and respectful working and address or report the inappropriate practice through the correct route.",
-        "Ignore it unless the person affected makes a formal complaint."
+        "Avoid discussing the Contribute to an inclusive and diverse culture decision and give the person different work.",
+        "Wait until Contribute to an inclusive and diverse culture is finished before considering whether the treatment was fair.",
+        "Do not allow an unjustified assumption to determine Contribute to an inclusive and diverse culture; use the proper route to restore fair, respectful and work-related decision-making.",
+        "Use the existing Contribute to an inclusive and diverse culture arrangement because it is familiar to the team."
       ],
       "correct": 2,
-      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "explanation": "The response must address the specific mapped requirement for Contribute to an inclusive and diverse culture rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "B3"
@@ -73,13 +73,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, the work on consider the environment when using resources and carrying out processes produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Leave all sorting until the end of the project when there is more waste.",
-        "Keep the area controlled and segregate resources using the site arrangements for reuse, recycling and disposal.",
-        "Put everything in the nearest waste container so the area is cleared quickly.",
-        "Keep only high-value material and dispose of the rest together."
+        "Leave all sorting from Consider the environment when using resources and carrying out processes until the end of the project.",
+        "For Consider the environment when using resources and carrying out processes, keep the area controlled and separate reusable, recyclable and disposal material using the site's agreed waste arrangements.",
+        "Put all waste from Consider the environment when using resources and carrying out processes in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from Consider the environment when using resources and carrying out processes and dispose of the rest together."
       ],
       "correct": 1,
-      "explanation": "Environmental compliance includes efficient use of resources and the correct waste route.",
+      "explanation": "The response must address the specific mapped requirement for Consider the environment when using resources and carrying out processes rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "B2"
@@ -91,15 +91,15 @@
       "id": "ST0264-AJ-EPA-005",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during put health, safety and wellbeing first, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during put health, safety and wellbeing first, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Prioritise immediate safety and help the person access appropriate support or supervision.",
-        "Tell them to work more slowly and keep the issue private.",
-        "Move them to another task without discussing the concern.",
-        "Wait until the end of the week to see whether the issue resolves itself."
+        "If wellbeing is affecting Put health, safety and wellbeing first, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change.",
+        "Keep Put health, safety and wellbeing first running and assume concentration will improve.",
+        "Ask colleagues to cover the person's mistakes in Put health, safety and wellbeing first without addressing the concern.",
+        "Treat the Put health, safety and wellbeing first issue only as a performance problem."
       ],
       "correct": 0,
-      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "explanation": "The response must address the specific mapped requirement for Put health, safety and wellbeing first rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "B1"
@@ -113,13 +113,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of architectural joiner. Which response is strongest?",
       "answers": [
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+        "Finish Architectural Joiner. Inspect, prepare and operate fixed machinery first because the defect has not stopped the equipment operating.",
+        "Use the equipment for Architectural Joiner. Inspect, prepare and operate fixed machinery only where accuracy is less important.",
+        "Ask someone else to use the equipment for Architectural Joiner. Inspect, prepare and operate fixed machinery so responsibility is transferred.",
+        "Suspend the affected part of Architectural Joiner. Inspect, prepare and operate fixed machinery until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure."
       ],
       "correct": 3,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Inspect, prepare and operate fixed machinery rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S30"
@@ -133,13 +133,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, while carrying out architectural joiner, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Record the deviation and leave it unless another trade objects.",
-        "Adjust a later part of the work to disguise the current error.",
-        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
-        "Continue and correct the visible result at final inspection."
+        "Record the deviation in Architectural Joiner. Fit ironmongery including door locks, door handles, door hinges, latches and draw runners but leave it unless another trade objects.",
+        "Adjust a later part of Architectural Joiner. Fit ironmongery including door locks, door handles, door hinges, latches and draw runners to disguise the current error.",
+        "For Architectural Joiner. Fit ironmongery including door locks, door handles, door hinges, latches and draw runners, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
+        "Continue Architectural Joiner. Fit ironmongery including door locks, door handles, door hinges, latches and draw runners and correct only the visible result at final inspection."
       ],
       "correct": 2,
-      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Fit ironmongery including door locks, door handles, door hinges, latches and draw runners rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S29"
@@ -151,15 +151,15 @@
       "id": "ST0264-AJ-EPA-008",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during architectural joiner, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "question": "During an EPA assessment, during architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference."
+        "Keep the material in Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… and replace it only if the finished work fails inspection.",
+        "Do not use the doubtful material in Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… until its identity, suitability and approval have been checked against the requirement.",
+        "Fit the material during Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… informally."
       ],
       "correct": 1,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S28"
@@ -171,15 +171,15 @@
       "id": "ST0264-AJ-EPA-009",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for architectural joiner because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover."
+        "Quarantine the resource intended for Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings, verify it against the current requirement and use it only when its suitability is confirmed.",
+        "Use the resource in Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings where it will be concealed.",
+        "Modify the resource on site for Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings without checking approval.",
+        "Proceed with Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S27"
@@ -191,15 +191,15 @@
       "id": "ST0264-AJ-EPA-010",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a resource selected for architectural joiner does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use."
+        "Use the resource for a less visible part of Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery.",
+        "Use extra quantity of the substitute during Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery to compensate for the difference.",
+        "Install the resource for Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery and record the substitution only at handover.",
+        "For Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
       ],
       "correct": 3,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "S26"
@@ -211,15 +211,15 @@
       "id": "ST0264-AJ-EPA-011",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during architectural joiner, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "question": "During an EPA assessment, during architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work."
+        "Ask another operative to accept the material for Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives informally.",
+        "Keep the material in Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives and replace it only if the finished work fails inspection.",
+        "Do not use the doubtful material in Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives until its identity, suitability and approval have been checked against the requirement.",
+        "Fit the material during Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives if it appears close enough to the specified item."
       ],
       "correct": 2,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S25"
@@ -233,13 +233,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, the next stage will conceal part of architectural joiner, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Adjust a later part of the work to disguise the current error.",
-        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
-        "Continue and correct the visible result at final inspection.",
-        "Record the deviation and leave it unless another trade objects."
+        "Continue Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving and rely on the final inspection to identify any problem.",
+        "Do not conceal Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving and continue even though the check has not passed.",
+        "Accept Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving because a later finish will hide the discrepancy."
       ],
       "correct": 1,
-      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S24"
@@ -251,15 +251,15 @@
       "id": "ST0264-AJ-EPA-013",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a resource selected for architectural joiner does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover."
+        "For Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
+        "Use the resource for a less visible part of Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products.",
+        "Use extra quantity of the substitute during Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products to compensate for the difference.",
+        "Install the resource for Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S23"
@@ -271,15 +271,15 @@
       "id": "ST0264-AJ-EPA-014",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during identifies well-being support available to self and others, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during identifies well-being support available to self and others, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Tell them to work more slowly and keep the issue private.",
-        "Move them to another task without discussing the concern.",
-        "Wait until the end of the week to see whether the issue resolves itself.",
-        "Prioritise immediate safety and help the person access appropriate support or supervision."
+        "Keep Identifies well-being support available to self and others running and assume concentration will improve.",
+        "Ask colleagues to cover the person's mistakes in Identifies well-being support available to self and others without addressing the concern.",
+        "Treat the Identifies well-being support available to self and others issue only as a performance problem.",
+        "If wellbeing is affecting Identifies well-being support available to self and others, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change."
       ],
       "correct": 3,
-      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "explanation": "The response must address the specific mapped requirement for Identifies well-being support available to self and others rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -293,13 +293,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of produce jigs. Which response is strongest?",
       "answers": [
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short."
+        "Use the equipment for Produce jigs only where accuracy is less important.",
+        "Ask someone else to use the equipment for Produce jigs so responsibility is transferred.",
+        "Suspend the affected part of Produce jigs until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
+        "Finish Produce jigs first because the defect has not stopped the equipment operating."
       ],
       "correct": 2,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Produce jigs rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "S12"
@@ -313,13 +313,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a tool or item of equipment used for maintain and sharpen hand tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed."
+        "Use the defective equipment only for a non-visible part of Maintain and sharpen hand tools.",
+        "For Maintain and sharpen hand tools, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
+        "Continue Maintain and sharpen hand tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during Maintain and sharpen hand tools before deciding."
       ],
       "correct": 1,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Maintain and sharpen hand tools rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -333,13 +333,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, during select, use and store power tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding."
+        "Do not continue Select, use and store power tools with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
+        "Use the equipment for Select, use and store power tools only until the current operation is complete.",
+        "Keep the equipment in service for Select, use and store power tools if a colleague agrees to monitor it.",
+        "Compensate for the defect during Select, use and store power tools by working more slowly."
       ],
       "correct": 0,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Select, use and store power tools rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -353,13 +353,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of select, use and store hand tools. Which response is strongest?",
       "answers": [
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+        "Finish Select, use and store hand tools first because the defect has not stopped the equipment operating.",
+        "Use the equipment for Select, use and store hand tools only where accuracy is less important.",
+        "Ask someone else to use the equipment for Select, use and store hand tools so responsibility is transferred.",
+        "Suspend the affected part of Select, use and store hand tools until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure."
       ],
       "correct": 3,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Select, use and store hand tools rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S9"
@@ -373,13 +373,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, your work on verbally communicate with others, applying construction terminology will affect another person or trade. What is the best response?",
       "answers": [
-        "Leave the issue for the next person to solve when they reach it.",
-        "Make an informal workaround without changing the agreed sequence.",
-        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
-        "Complete your own task first because it is already under way."
+        "Leave the Verbally communicate with others, applying construction terminology issue for the next person to solve when they reach it.",
+        "Create an informal workaround for Verbally communicate with others, applying construction terminology without agreeing the changed sequence.",
+        "For Verbally communicate with others, applying construction terminology, share the relevant information with the people affected and agree a safe, workable sequence before the coordination issue creates rework.",
+        "Complete your part of Verbally communicate with others, applying construction terminology first because it is already under way."
       ],
       "correct": 2,
-      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "explanation": "The response must address the specific mapped requirement for Verbally communicate with others, applying construction terminology rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -391,15 +391,15 @@
       "id": "ST0264-AJ-EPA-020",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, before ordering resources for estimate required materials and produce a cutting list, your calculation differs significantly from a previous similar job. What should you do?",
+      "question": "During an EPA assessment, before ordering for estimate required materials and produce a cutting list, your calculation differs significantly from a previous similar job. What should you do?",
       "answers": [
-        "Round every stage upward before checking the detailed dimensions.",
-        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance.",
-        "Use the previous job quantity because it is a practical benchmark.",
-        "Keep the higher figure so there is no risk of running short."
+        "Ignore openings or deductions in Estimate required materials and produce a cutting list so the estimate stays conservative.",
+        "Rework the Estimate required materials and produce a cutting list quantity from the issued dimensions and current scope, then compare each assumption before accepting the total.",
+        "Average the new Estimate required materials and produce a cutting list quantity with the previous job total.",
+        "Order the larger Estimate required materials and produce a cutting list amount and investigate only if material is left over."
       ],
       "correct": 1,
-      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "explanation": "The response must address the specific mapped requirement for Estimate required materials and produce a cutting list rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "S7"
@@ -411,15 +411,15 @@
       "id": "ST0264-AJ-EPA-021",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, before committing work on interpret and use information from drawings and specifications, you find that the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "During an EPA assessment, before committing work on interpret and use information from drawings and specifications, the information is incomplete or inconsistent. Which response is strongest?",
       "answers": [
-        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing.",
-        "Use the drawing because dimensions normally take priority over other information.",
-        "Use the site condition because it is the physical reality in front of you.",
-        "Average the conflicting requirements so progress can continue."
+        "Treat the uncertainty around Interpret and use information from drawings and specifications as unresolved: check the approved source and get the discrepancy confirmed before work is fixed or concealed.",
+        "Use the newest-looking Interpret and use information from drawings and specifications document even if its revision is unconfirmed.",
+        "Adapt Interpret and use information from drawings and specifications to suit the site without recording the change.",
+        "Proceed with Interpret and use information from drawings and specifications and ask for confirmation only at handover."
       ],
       "correct": 0,
-      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "explanation": "The response must address the specific mapped requirement for Interpret and use information from drawings and specifications rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -431,15 +431,15 @@
       "id": "ST0264-AJ-EPA-022",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, while working on prepare and maintain a safe working area, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, while working on prepare and maintain a safe working area, a required control is no longer effective. What is the best response?",
       "answers": [
-        "Continue carefully because the task itself has not changed.",
-        "Rely on PPE alone and keep the original method unchanged.",
-        "Finish the immediate operation, then report the failed control.",
-        "Pause the affected activity and restore or review the required controls before continuing."
+        "Continue the Prepare and maintain a safe working area activity cautiously because the original task has not changed.",
+        "Keep Prepare and maintain a safe working area moving by relying on PPE while the failed control is left as it is.",
+        "Finish the immediate Prepare and maintain a safe working area operation first, then report that the control failed.",
+        "For the requirement on Prepare and maintain a safe working area, stop the affected activity, make the situation safe and restore or review the failed control before restarting."
       ],
       "correct": 3,
-      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "explanation": "The response must address the specific mapped requirement for Prepare and maintain a safe working area rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -451,15 +451,15 @@
       "id": "ST0264-AJ-EPA-023",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during comply with industry regulations, standards, and guidance, the work looks acceptable but one required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, during comply with industry regulations, standards, and guidance, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Record the deviation and leave it unless another trade objects.",
-        "Adjust a later part of the work to disguise the current error.",
-        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
-        "Continue and correct the visible result at final inspection."
+        "Leave the Comply with industry regulations, standards, and guidance defect for handover so it can be considered with the finished job.",
+        "Change the next stage of Comply with industry regulations, standards, and guidance instead of correcting the failed requirement.",
+        "Hold the next stage of Comply with industry regulations, standards, and guidance, investigate why the check failed and bring the work back to the issued requirement before it is covered.",
+        "Proceed with Comply with industry regulations, standards, and guidance because the work looks acceptable despite the failed check."
       ],
       "correct": 2,
-      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "explanation": "The response must address the specific mapped requirement for Comply with industry regulations, standards, and guidance rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S4"
@@ -473,13 +473,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a wellbeing concern may now affect safe work on comply with environmental and sustainability regulations, standards, and guidance. Which response is strongest?",
       "answers": [
-        "Wait until the end of the week to see whether the issue resolves itself.",
-        "Prioritise immediate safety and help the person access appropriate support or supervision.",
-        "Tell them to work more slowly and keep the issue private.",
-        "Move them to another task without discussing the concern."
+        "Keep the concern about Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal informal even if safety is deteriorating.",
+        "Pause or adjust Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal where safety is affected, respond respectfully to the wellbeing concern and seek suitable support or supervision.",
+        "Tell the person to finish Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal before discussing how they feel.",
+        "Remove the person from Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal permanently without speaking to them."
       ],
       "correct": 1,
-      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "explanation": "The response must address the specific mapped requirement for Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -493,13 +493,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a tool or item of equipment used for identify and use safety control equipment, for example, rpe, dust suppression, ppe and lev develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding."
+        "For Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
+        "Continue Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV before deciding.",
+        "Use the defective equipment only for a non-visible part of Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV."
       ],
       "correct": 0,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "S2"
@@ -511,15 +511,15 @@
       "id": "ST0264-AJ-EPA-026",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during comply with health and safety regulations, standards, and guidance, site conditions change and the existing safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, during comply with health and safety regulations, standards, and guidance, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Continue carefully because the task itself has not changed.",
-        "Rely on PPE alone and keep the original method unchanged.",
-        "Finish the immediate operation, then report the failed control.",
-        "Pause the affected activity and restore or review the required controls before continuing."
+        "Reduce the pace of Comply with health and safety regulations, standards, and guidance and continue under the original method without reviewing it.",
+        "Ask another operative to watch Comply with health and safety regulations, standards, and guidance while the failed control remains unavailable.",
+        "Complete the current stage of Comply with health and safety regulations, standards, and guidance because changing the system now would delay the job.",
+        "Pause work connected with Comply with health and safety regulations, standards, and guidance; reassess the changed risk and put an effective agreed control back in place before continuing."
       ],
       "correct": 3,
-      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "explanation": "The response must address the specific mapped requirement for Comply with health and safety regulations, standards, and guidance rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -533,13 +533,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, the next stage will conceal part of employment types (self employed and employed), small business start up principles and tax, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Record the deviation and leave it unless another trade objects.",
-        "Adjust a later part of the work to disguise the current error.",
-        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
-        "Continue and correct the visible result at final inspection."
+        "Accept Employment types (self employed and employed), small business start up principles and tax because a later finish will hide the discrepancy.",
+        "Continue Employment types (self employed and employed), small business start up principles and tax and rely on the final inspection to identify any problem.",
+        "Do not conceal Employment types (self employed and employed), small business start up principles and tax while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph Employment types (self employed and employed), small business start up principles and tax and continue even though the check has not passed."
       ],
       "correct": 2,
-      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "explanation": "The response must address the specific mapped requirement for Employment types (self employed and employed), small business start up principles and tax rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K40"
@@ -553,13 +553,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, while carrying out architectural joiner, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Adjust a later part of the work to disguise the current error.",
-        "Stop at the appropriate point, identify the cause and correct or escalate the issue before the defect is built in or concealed.",
-        "Continue and correct the visible result at final inspection.",
-        "Record the deviation and leave it unless another trade objects."
+        "Adjust a later part of Architectural Joiner. Ironmongery installation techniques to disguise the current error.",
+        "For Architectural Joiner. Ironmongery installation techniques, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
+        "Continue Architectural Joiner. Ironmongery installation techniques and correct only the visible result at final inspection.",
+        "Record the deviation in Architectural Joiner. Ironmongery installation techniques but leave it unless another trade objects."
       ],
       "correct": 1,
-      "explanation": "Quality issues are best resolved while the work remains accessible and before error accumulates.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Ironmongery installation techniques rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K39"
@@ -571,15 +571,15 @@
       "id": "ST0264-AJ-EPA-029",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during architectural joiner, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "question": "During an EPA assessment, during architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover."
+        "Do not use the doubtful material in Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative until its identity, suitability and approval have been checked against the requirement.",
+        "Fit the material during Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative informally.",
+        "Keep the material in Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative and replace it only if the finished work fails inspection."
       ],
       "correct": 0,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K38"
@@ -591,15 +591,15 @@
       "id": "ST0264-AJ-EPA-030",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for architectural joiner because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use."
+        "Use the resource in Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings where it will be concealed.",
+        "Modify the resource on site for Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings without checking approval.",
+        "Proceed with Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings, verify it against the current requirement and use it only when its suitability is confirmed."
       ],
       "correct": 3,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "K37"
@@ -611,15 +611,15 @@
       "id": "ST0264-AJ-EPA-031",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a resource selected for architectural joiner does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work."
+        "Use extra quantity of the substitute during Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings to compensate for the difference.",
+        "Install the resource for Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings and record the substitution only at handover.",
+        "For Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
+        "Use the resource for a less visible part of Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings."
       ],
       "correct": 2,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K36"
@@ -631,15 +631,15 @@
       "id": "ST0264-AJ-EPA-032",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during architectural joiner, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "question": "During an EPA assessment, during architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference."
+        "Keep the material in Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives and replace it only if the finished work fails inspection.",
+        "Do not use the doubtful material in Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives until its identity, suitability and approval have been checked against the requirement.",
+        "Fit the material during Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives informally."
       ],
       "correct": 1,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K35"
@@ -651,15 +651,15 @@
       "id": "ST0264-AJ-EPA-033",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for architectural joiner because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover."
+        "Quarantine the resource intended for Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows, verify it against the current requirement and use it only when its suitability is confirmed.",
+        "Use the resource in Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows where it will be concealed.",
+        "Modify the resource on site for Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows without checking approval.",
+        "Proceed with Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K34"
@@ -671,15 +671,15 @@
       "id": "ST0264-AJ-EPA-034",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a resource selected for architectural joiner does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use."
+        "Use the resource for a less visible part of Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings.",
+        "Use extra quantity of the substitute during Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings to compensate for the difference.",
+        "Install the resource for Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings and record the substitution only at handover.",
+        "For Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
       ],
       "correct": 3,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K33"
@@ -691,15 +691,15 @@
       "id": "ST0264-AJ-EPA-035",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during architectural joiner, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "question": "During an EPA assessment, during architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work."
+        "Ask another operative to accept the material for Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors informally.",
+        "Keep the material in Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors and replace it only if the finished work fails inspection.",
+        "Do not use the doubtful material in Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors until its identity, suitability and approval have been checked against the requirement.",
+        "Fit the material during Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors if it appears close enough to the specified item."
       ],
       "correct": 2,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "K32"
@@ -713,13 +713,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of architectural joiner. Which response is strongest?",
       "answers": [
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed."
+        "Ask someone else to use the equipment for Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser so responsibility is transferred.",
+        "Suspend the affected part of Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
+        "Finish Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser first because the defect has not stopped the equipment operating.",
+        "Use the equipment for Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser only where accuracy is less important."
       ],
       "correct": 1,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K31"
@@ -731,15 +731,15 @@
       "id": "ST0264-AJ-EPA-037",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, while working on architectural joiner, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, while working on architectural joiner, a required control is no longer effective. What is the best response?",
       "answers": [
-        "Pause the affected activity and restore or review the required controls before continuing.",
-        "Continue carefully because the task itself has not changed.",
-        "Rely on PPE alone and keep the original method unchanged.",
-        "Finish the immediate operation, then report the failed control."
+        "For the requirement on Architectural Joiner. Requirements of fire door assemblies, stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
+        "Continue the Architectural Joiner. Requirements of fire door assemblies activity cautiously because the original task has not changed.",
+        "Keep Architectural Joiner. Requirements of fire door assemblies moving by relying on PPE while the failed control is left as it is.",
+        "Finish the immediate Architectural Joiner. Requirements of fire door assemblies operation first, then report that the control failed."
       ],
       "correct": 0,
-      "explanation": "A changed hazard or failed control needs the safe system to be restored or reassessed before work continues.",
+      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Requirements of fire door assemblies rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K30"
@@ -751,15 +751,15 @@
       "id": "ST0264-AJ-EPA-038",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during well-being, you notice a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during well-being: mental and physical health considerations in self and others and how to access support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Tell them to work more slowly and keep the issue private.",
-        "Move them to another task without discussing the concern.",
-        "Wait until the end of the week to see whether the issue resolves itself.",
-        "Prioritise immediate safety and help the person access appropriate support or supervision."
+        "Keep Well-being: Mental and physical health considerations in self and others and how to access support running and assume concentration will improve.",
+        "Ask colleagues to cover the person's mistakes in Well-being: Mental and physical health considerations in self and others and how to access support without addressing the concern.",
+        "Treat the Well-being: Mental and physical health considerations in self and others and how to access support issue only as a performance problem.",
+        "If wellbeing is affecting Well-being: Mental and physical health considerations in self and others and how to access support, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change."
       ],
       "correct": 3,
-      "explanation": "Wellbeing concerns that may affect safety need timely, supportive action and appropriate escalation.",
+      "explanation": "The response must address the specific mapped requirement for Well-being: Mental and physical health considerations in self and others and how to access support rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K20"
@@ -771,15 +771,15 @@
       "id": "ST0264-AJ-EPA-039",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a team decision about inclusion, equity and diversity in the workplace is unfair and has no work-related justification. Which response is strongest?",
+      "question": "During an EPA assessment, a team decision affecting inclusion, equity and diversity in the workplace is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Accept it if the current team arrangement is quicker.",
-        "Give the colleague simpler work so the disagreement is avoided.",
-        "Support fair and respectful working and address or report the inappropriate practice through the correct route.",
-        "Ignore it unless the person affected makes a formal complaint."
+        "Avoid discussing the Inclusion, equity and diversity in the workplace decision and give the person different work.",
+        "Wait until Inclusion, equity and diversity in the workplace is finished before considering whether the treatment was fair.",
+        "Do not allow an unjustified assumption to determine Inclusion, equity and diversity in the workplace; use the proper route to restore fair, respectful and work-related decision-making.",
+        "Use the existing Inclusion, equity and diversity in the workplace arrangement because it is familiar to the team."
       ],
       "correct": 2,
-      "explanation": "Inclusive working means treatment and opportunity should be based on relevant work requirements, not unsupported assumptions.",
+      "explanation": "The response must address the specific mapped requirement for Inclusion, equity and diversity in the workplace rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -793,13 +793,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, your work on principles of good team working will affect another person or trade. What is the best response?",
       "answers": [
-        "Make an informal workaround without changing the agreed sequence.",
-        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
-        "Complete your own task first because it is already under way.",
-        "Leave the issue for the next person to solve when they reach it."
+        "Create an informal workaround for Principles of good team working without agreeing the changed sequence.",
+        "For Principles of good team working, share the relevant information with the people affected and agree a safe, workable sequence before the coordination issue creates rework.",
+        "Complete your part of Principles of good team working first because it is already under way.",
+        "Leave the Principles of good team working issue for the next person to solve when they reach it."
       ],
       "correct": 1,
-      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "explanation": "The response must address the specific mapped requirement for Principles of good team working rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "K18"
@@ -811,15 +811,15 @@
       "id": "ST0264-AJ-EPA-041",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during power tools use and storage methods and techniques, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during power tools use and storage methods and techniques: portable circular saws, drills, saws, planers, route…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding."
+        "Do not continue Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
+        "Use the equipment for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns only until the current operation is complete.",
+        "Keep the equipment in service for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns if a colleague agrees to monitor it.",
+        "Compensate for the defect during Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns by working more slowly."
       ],
       "correct": 0,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -833,13 +833,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of jig production techniques. Which response is strongest?",
       "answers": [
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure."
+        "Finish Jig production techniques first because the defect has not stopped the equipment operating.",
+        "Use the equipment for Jig production techniques only where accuracy is less important.",
+        "Ask someone else to use the equipment for Jig production techniques so responsibility is transferred.",
+        "Suspend the affected part of Jig production techniques until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure."
       ],
       "correct": 3,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Jig production techniques rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -853,13 +853,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a tool or item of equipment used for hand tool maintenance and sharpening techniques develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use it only for work that will be concealed.",
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short."
+        "Let the most experienced person try the equipment during Hand tool maintenance and sharpening techniques before deciding.",
+        "Use the defective equipment only for a non-visible part of Hand tool maintenance and sharpening techniques.",
+        "For Hand tool maintenance and sharpening techniques, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
+        "Continue Hand tool maintenance and sharpening techniques with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Hand tool maintenance and sharpening techniques rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K15"
@@ -871,15 +871,15 @@
       "id": "ST0264-AJ-EPA-044",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during hand tool use and storage methods and techniques, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during hand tool use and storage methods and techniques: chisels, planes, hand saws, hammers, squares, tri-squa…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Let the most experienced person try it before deciding.",
-        "Remove the equipment from use and report, maintain or replace it in line with the workplace procedure.",
-        "Use it slowly because the remaining exposure is short.",
-        "Use it only for work that will be concealed."
+        "Compensate for the defect during Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels by working more slowly.",
+        "Do not continue Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
+        "Use the equipment for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels only until the current operation is complete.",
+        "Keep the equipment in service for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels if a colleague agrees to monitor it."
       ],
       "correct": 1,
-      "explanation": "Tools and equipment should be safe, serviceable and suitable for accurate work.",
+      "explanation": "The response must address the specific mapped requirement for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -893,13 +893,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, a coordination issue around verbal communication techniques and construction terminology could create delay or rework. Which response is strongest?",
       "answers": [
-        "Communicate the relevant information clearly and agree the safe, workable sequence with the people affected.",
-        "Complete your own task first because it is already under way.",
-        "Leave the issue for the next person to solve when they reach it.",
-        "Make an informal workaround without changing the agreed sequence."
+        "Resolve the Verbal communication techniques and construction terminology interface early by communicating the change, checking understanding and agreeing what each person will do next.",
+        "Send a vague message about Verbal communication techniques and construction terminology and continue regardless of the response.",
+        "Wait for someone else to raise the Verbal communication techniques and construction terminology conflict formally.",
+        "Prioritise your own Verbal communication techniques and construction terminology output even if it blocks following work."
       ],
       "correct": 0,
-      "explanation": "Clear communication and coordination prevent avoidable conflict, delay and rework.",
+      "explanation": "The response must address the specific mapped requirement for Verbal communication techniques and construction terminology rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "K13"
@@ -911,15 +911,15 @@
       "id": "ST0264-AJ-EPA-046",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a quantity for basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods is much higher than expected. What is the most reliable check?",
+      "question": "During an EPA assessment, a quantity for basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting l… is much higher than expected. What is the most reliable check?",
       "answers": [
-        "Use the previous job quantity because it is a practical benchmark.",
-        "Keep the higher figure so there is no risk of running short.",
-        "Round every stage upward before checking the detailed dimensions.",
-        "Recalculate from the current job information, checking dimensions, components, deductions and any justified allowance."
+        "Use the quantity from a previous Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods job because it is a practical benchmark.",
+        "Keep the higher Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods figure without checking so there is no risk of shortage.",
+        "Round every stage of the Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods calculation upward before checking the dimensions.",
+        "For Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods, recalculate from the current job information and check dimensions, deductions, components and any justified allowance before ordering."
       ],
       "correct": 3,
-      "explanation": "A reliable estimate is traceable to the current work information rather than a rough comparison.",
+      "explanation": "The response must address the specific mapped requirement for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -931,15 +931,15 @@
       "id": "ST0264-AJ-EPA-047",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, during carpentry and joinery products and purpose, you find a material or component whose condition or identification is doubtful. What should you do?",
+      "question": "During an EPA assessment, during carpentry and joinery products and purpose: mastics, preservatives, wood fillers, plastics and ironmonge…, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work."
+        "Ask another operative to accept the material for Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery informally.",
+        "Keep the material in Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery and replace it only if the finished work fails inspection.",
+        "Do not use the doubtful material in Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery until its identity, suitability and approval have been checked against the requirement.",
+        "Fit the material during Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery if it appears close enough to the specified item."
       ],
       "correct": 2,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -951,15 +951,15 @@
       "id": "ST0264-AJ-EPA-048",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a colleague proposes substituting a similar resource for timber decay and repair methods because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague proposes a similar substitute for timber decay and repair methods: timber moisture content parameters for a range of timber and timber-bas… because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Install it and record the substitution only at handover.",
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference."
+        "Proceed with Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack, verify it against the current requirement and use it only when its suitability is confirmed.",
+        "Use the resource in Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack where it will be concealed.",
+        "Modify the resource on site for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack without checking approval."
       ],
       "correct": 1,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K10"
@@ -971,15 +971,15 @@
       "id": "ST0264-AJ-EPA-049",
       "category": "epa",
       "courseId": "ST0264-AJ",
-      "question": "During an EPA assessment, a resource selected for materials and their characteristics of home grown and imported timber and timber-based products does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for materials and their characteristics of home grown and imported timber and timber-based products does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Separate the questionable resource and confirm that it is suitable and approved before use.",
-        "Use it in a less visible part of the work.",
-        "Use more of the alternative material to compensate for the difference.",
-        "Install it and record the substitution only at handover."
+        "For Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod…, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
+        "Use the resource for a less visible part of Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod….",
+        "Use extra quantity of the substitute during Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… to compensate for the difference.",
+        "Install the resource for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "Materials and components should be verified against the requirement before incorporation.",
+      "explanation": "The response must address the specific mapped requirement for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… rather than rely on a generic workaround.",
       "difficulty": "competent",
       "mappings": [
         "K9"
@@ -993,13 +993,13 @@
       "courseId": "ST0264-AJ",
       "question": "During an EPA assessment, the drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and specifications does not agree with the site condition. What should you do?",
       "answers": [
-        "Use the drawing because dimensions normally take priority over other information.",
-        "Use the site condition because it is the physical reality in front of you.",
-        "Average the conflicting requirements so progress can continue.",
-        "Stop at the relevant point, verify the current approved information and resolve the conflict before continuing."
+        "Use whichever Methods of interpreting and extracting relevant information from drawings and specifications document is easiest to follow.",
+        "Continue Methods of interpreting and extracting relevant information from drawings and specifications from memory and correct it later if necessary.",
+        "Let the next trade decide which Methods of interpreting and extracting relevant information from drawings and specifications information should have been used.",
+        "Before continuing Methods of interpreting and extracting relevant information from drawings and specifications, verify which instruction, drawing or specification is current and obtain clarification for any conflict."
       ],
       "correct": 3,
-      "explanation": "Conflicting work information should be resolved before it is built into the work.",
+      "explanation": "The response must address the specific mapped requirement for Methods of interpreting and extracting relevant information from drawings and specifications rather than rely on a generic workaround.",
       "difficulty": "stretch",
       "mappings": [
         "K8"
