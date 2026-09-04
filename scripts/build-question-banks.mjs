@@ -101,9 +101,9 @@ globalThis.window = globalThis;
 await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v1.js')).href}?build=${Date.now()}`);
 await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v2.js')).href}?build=${Date.now()}`);
 await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v3.js')).href}?build=${Date.now()}`);
-await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v4.js')).href}?build=${Date.now()}`);
-const engine = globalThis.NaxosQuestionBankV4;
-if (!engine?.build) throw new Error('Naxos question-bank engine v4 did not initialise.');
+await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v5.js')).href}?build=${Date.now()}`);
+const engine = globalThis.NaxosQuestionBankV5;
+if (!engine?.build) throw new Error('Naxos question-bank engine v5 did not initialise.');
 
 const generatedFiles = [];
 
@@ -151,8 +151,8 @@ for (const [courseId, packName] of ksbCourses) {
 
   const tradeFile = `${courseId}-trade-v1.json`;
   const epaFile = `${courseId}-epa-v1.json`;
-  writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-trade-v1`, 'trade', courseId, trade, {}, 3));
-  writeJson(path.join(BANK_DIR, epaFile), bankFile(`${courseId}-epa-v1`, 'epa', courseId, epa, {}, 3));
+  writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-trade-v1`, 'trade', courseId, trade, {}, 4));
+  writeJson(path.join(BANK_DIR, epaFile), bankFile(`${courseId}-epa-v1`, 'epa', courseId, epa, {}, 4));
   generatedFiles.push(tradeFile, epaFile);
 
   updatePackQuestionRefs(packPath, {
@@ -197,7 +197,7 @@ for (const [courseId, routes] of Object.entries(nvqRoutes)) {
     if (trade.length !== 50) throw new Error(`${courseId} ${route} must generate exactly 50 Trade questions.`);
 
     const tradeFile = `${courseId}-${route}-trade-v1.json`;
-    writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-${route}-trade-v1`, 'trade', courseId, trade, { route }, 3));
+    writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-${route}-trade-v1`, 'trade', courseId, trade, { route }, 4));
     generatedFiles.push(tradeFile);
 
     updatePackQuestionRefs(packPath, {
@@ -223,7 +223,7 @@ if (uniqueQuestionCount !== 720) {
 writeJson(path.join(BANK_DIR, 'manifest.json'), {
   naxosQuestionBankManifest: 1,
   schemaVersion: 2,
-  version: 4,
+  version: 5,
   sourceOfTruth: 'Naxos',
   delivery: 'static-course-referenced-json',
   generatedQuestionCount: uniqueQuestionCount,
