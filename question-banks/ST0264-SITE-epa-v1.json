@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0264-SITE-epa-v1",
-  "version": 3,
+  "version": 4,
   "category": "epa",
   "courseId": "ST0264-SITE",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0264-SITE-EPA-001",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, your work on team-focus to meet team goals including, considering the wider build team will affect another person or trade. What is the best response?",
+      "question": "During an EPA assessment, your work on team working will affect another person or trade. What is the best response?",
       "answers": [
-        "Share the relevant team-focus to meet team goals including, considering the wider build team information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of team-focus to meet team goals including, considering the wider build team first because it is already under way.",
-        "Leave the team-focus to meet team goals including, considering the wider build team issue for the next person to solve when they reach it.",
-        "Create an informal workaround for team-focus to meet team goals including, considering the wider build team without agreeing the changed sequence."
+        "Share the relevant team working information with the people affected and agree a safe, workable sequence before continuing.",
+        "Complete your part of team working first because it is already under way.",
+        "Leave the team working issue for the next person to solve when they reach it.",
+        "Create an informal workaround for team working without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for team-focus to meet team goals including, considering the wider build team directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B5"
@@ -31,15 +31,15 @@
       "id": "ST0264-SITE-EPA-002",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during seek learning and development opportunities, a technical decision is needed that you are not authorised to make. What is the best response?",
+      "question": "During an EPA assessment, during competence, authority and professional development, a technical decision is needed that you are not authorised to make. What is the best response?",
       "answers": [
-        "Carry on with seek learning and development opportunities using your best judgement even though the decision is outside your authority.",
-        "Copy a previous seek learning and development opportunities solution without checking whether it is approved.",
-        "Let the customer decide the technical seek learning and development opportunities issue instead.",
-        "Do not improvise the decision for seek learning and development opportunities; recognise the limit of your role and obtain authorised guidance before continuing."
+        "Use the solution that worked on a previous job for competence, authority and professional development.",
+        "Ask another operative to take responsibility for competence, authority and professional development informally while you continue.",
+        "Choose the least disruptive competence, authority and professional development option and report it after completion.",
+        "Recognise the limit of your role and obtain authorised guidance or supervision before continuing competence, authority and professional development."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for seek learning and development opportunities directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for competence, authority and professional development directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B4"
@@ -51,15 +51,15 @@
       "id": "ST0264-SITE-EPA-003",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a team decision affecting contribute to an inclusive and diverse culture is unfair and has no work-related justification. Which response is strongest?",
+      "question": "During an EPA assessment, a team decision affecting inclusion, equity and diversity is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Avoid discussing the contribute to an inclusive and diverse culture decision and give the person different work.",
-        "Wait until contribute to an inclusive and diverse culture is finished before considering whether the treatment was fair.",
-        "Do not allow an unjustified assumption to determine contribute to an inclusive and diverse culture; use the proper route to restore fair and work-related decision-making.",
-        "Use the existing contribute to an inclusive and diverse culture arrangement because it is familiar to the team."
+        "Accept the unequal treatment in inclusion, equity and diversity if the current arrangement is quicker.",
+        "Move the colleague to different inclusion, equity and diversity work so the disagreement disappears.",
+        "Use the proper workplace route to restore fair, respectful and work-related decision-making around inclusion, equity and diversity.",
+        "Ignore the issue during inclusion, equity and diversity unless the person affected raises it formally."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for contribute to an inclusive and diverse culture directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B3"
@@ -71,10 +71,10 @@
       "id": "ST0264-SITE-EPA-004",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, the work on consider the environment when using resources and carrying out processes produces reusable, recyclable and disposal waste. What is the best approach?",
+      "question": "During an EPA assessment, work on consider the environment when using resources and carrying out processes produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
         "Leave all sorting from consider the environment when using resources and carrying out processes until the end of the project.",
-        "Segregate waste from consider the environment when using resources and carrying out processes as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
+        "Segregate waste from consider the environment when using resources and carrying out processes as it is produced, retain usable material and follow the site reuse, recycling and disposal routes.",
         "Put all waste from consider the environment when using resources and carrying out processes in the nearest container so the area is cleared quickly.",
         "Keep only high-value offcuts from consider the environment when using resources and carrying out processes and dispose of the rest together."
       ],
@@ -91,15 +91,15 @@
       "id": "ST0264-SITE-EPA-005",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during put health, safety and wellbeing first, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during wellbeing and support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Respond to the wellbeing concern during put health, safety and wellbeing first by controlling any immediate safety risk, checking in with the person and using the appropriate support route.",
-        "Keep put health, safety and wellbeing first running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in put health, safety and wellbeing first without addressing the concern.",
-        "Treat the put health, safety and wellbeing first issue only as a performance problem."
+        "Control any immediate risk in wellbeing and support, check in with the person and use the appropriate support or escalation route.",
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private.",
+        "Move the person away from wellbeing and support without discussing what support is needed.",
+        "Wait until the end of the week before responding to the wellbeing and support concern."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for put health, safety and wellbeing first directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "B1"
@@ -111,15 +111,15 @@
       "id": "ST0264-SITE-EPA-006",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue timber splicing and scribing despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Carry on with site carpenter if the remaining exposure is brief.",
-        "Add extra PPE for site carpenter instead of restoring the failed control.",
-        "Record the failed control for site carpenter and deal with it after the task is finished.",
-        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed."
+        "Continue timber splicing and scribing carefully because the task itself has not changed.",
+        "Rely on PPE alone for timber splicing and scribing and leave the failed control as it is.",
+        "Finish the current timber splicing and scribing operation first, then report the failed control.",
+        "Do not continue timber splicing and scribing until the failed control has been corrected or the safe system has been revised and agreed."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for timber splicing and scribing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S22"
@@ -131,15 +131,15 @@
       "id": "ST0264-SITE-EPA-007",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for measuring, marking and cutting techniques is no longer effective. What is the strongest response?",
       "answers": [
-        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
-        "Finish the current site carpenter operation first, then report the failed control.",
-        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing.",
-        "Continue the site carpenter work carefully because the task itself has not changed."
+        "Rely on PPE alone for measuring, marking and cutting techniques and leave the failed control as it is.",
+        "Finish the current measuring, marking and cutting techniques operation first, then report the failed control.",
+        "Stop the affected measuring, marking and cutting techniques activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue measuring, marking and cutting techniques carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for measuring, marking and cutting techniques directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S21"
@@ -151,15 +151,15 @@
       "id": "ST0264-SITE-EPA-008",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during joinery connections and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
-        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls.",
-        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
-        "Ask another operative to watch the site carpenter work while the control remains unavailable."
+        "Finish the current joinery connections operation first, then report the failed control.",
+        "Pause joinery connections, review the changed risk and restart only when effective controls are in place.",
+        "Continue joinery connections carefully because the task itself has not changed.",
+        "Rely on PPE alone for joinery connections and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for joinery connections directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S20"
@@ -171,15 +171,15 @@
       "id": "ST0264-SITE-EPA-009",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue laser levels despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Confirm the outcome before the next stage begins.",
-        "Carry on with site carpenter if the remaining exposure is brief.",
-        "Add extra PPE for site carpenter instead of restoring the failed control.",
-        "Record the failed control for site carpenter and deal with it after the task is finished."
+        "Do not continue laser levels until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue laser levels carefully because the task itself has not changed.",
+        "Rely on PPE alone for laser levels and leave the failed control as it is.",
+        "Finish the current laser levels operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for laser levels directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S19"
@@ -191,15 +191,15 @@
       "id": "ST0264-SITE-EPA-010",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for rafter and straight-roof construction is no longer effective. What is the strongest response?",
       "answers": [
-        "Continue the site carpenter work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
-        "Finish the current site carpenter operation first, then report the failed control.",
-        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Make sure the action is completed before work continues."
+        "Continue rafter and straight-roof construction carefully because the task itself has not changed.",
+        "Rely on PPE alone for rafter and straight-roof construction and leave the failed control as it is.",
+        "Finish the current rafter and straight-roof construction operation first, then report the failed control.",
+        "Stop the affected rafter and straight-roof construction activity, make the situation safe and restore or reassess the control before continuing."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for rafter and straight-roof construction directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S18"
@@ -211,15 +211,15 @@
       "id": "ST0264-SITE-EPA-011",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during second-fix carpentry and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
-        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
-        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Check that the issue has been resolved before proceeding.",
-        "Reduce the pace of the site carpenter activity but keep the original method unchanged."
+        "Rely on PPE alone for second-fix carpentry and leave the failed control as it is.",
+        "Finish the current second-fix carpentry operation first, then report the failed control.",
+        "Pause second-fix carpentry, review the changed risk and restart only when effective controls are in place.",
+        "Continue second-fix carpentry carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for second-fix carpentry directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S17"
@@ -231,15 +231,15 @@
       "id": "ST0264-SITE-EPA-012",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue timber sizing tables despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Record the failed control for site carpenter and deal with it after the task is finished.",
-        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Record or confirm the resolution before moving on.",
-        "Carry on with site carpenter if the remaining exposure is brief.",
-        "Add extra PPE for site carpenter instead of restoring the failed control."
+        "Finish the current timber sizing tables operation first, then report the failed control.",
+        "Do not continue timber sizing tables until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue timber sizing tables carefully because the task itself has not changed.",
+        "Rely on PPE alone for timber sizing tables and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for timber sizing tables directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S16"
@@ -251,15 +251,15 @@
       "id": "ST0264-SITE-EPA-013",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for structural fixings and timber sizing is no longer effective. What is the strongest response?",
       "answers": [
-        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Do not restart the affected activity until that action is complete.",
-        "Continue the site carpenter work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
-        "Finish the current site carpenter operation first, then report the failed control."
+        "Stop the affected structural fixings and timber sizing activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue structural fixings and timber sizing carefully because the task itself has not changed.",
+        "Rely on PPE alone for structural fixings and timber sizing and leave the failed control as it is.",
+        "Finish the current structural fixings and timber sizing operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for structural fixings and timber sizing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S15"
@@ -271,15 +271,15 @@
       "id": "ST0264-SITE-EPA-014",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during first-fix carpentry and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
-        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
-        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
-        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Verify the result before allowing the task to continue."
+        "Continue first-fix carpentry carefully because the task itself has not changed.",
+        "Rely on PPE alone for first-fix carpentry and leave the failed control as it is.",
+        "Finish the current first-fix carpentry operation first, then report the failed control.",
+        "Pause first-fix carpentry, review the changed risk and restart only when effective controls are in place."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for first-fix carpentry directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S14"
@@ -291,15 +291,15 @@
       "id": "ST0264-SITE-EPA-015",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a wellbeing concern may now affect safe work on identifies well-being support available to self and others. Which response is strongest?",
+      "question": "During an EPA assessment, a wellbeing concern may now affect safe work on wellbeing and support. Which response is strongest?",
       "answers": [
-        "Remove the person from identifies well-being support available to self and others permanently without speaking to them.",
-        "Keep the concern about identifies well-being support available to self and others informal even if safety is deteriorating.",
-        "Pause or adjust identifies well-being support available to self and others where safety is affected, respond respectfully and seek suitable support or supervision.",
-        "Tell the person to finish identifies well-being support available to self and others before discussing how they feel."
+        "Move the person away from wellbeing and support without discussing what support is needed.",
+        "Wait until the end of the week before responding to the wellbeing and support concern.",
+        "Pause or adjust wellbeing and support where safety is affected, respond respectfully and seek suitable support or supervision.",
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for identifies well-being support available to self and others directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S13"
@@ -311,15 +311,15 @@
       "id": "ST0264-SITE-EPA-016",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a tool or item of equipment used for produce jigs develops a defect during a pre-use check. What should you do?",
+      "question": "During an EPA assessment, a tool used for jigs develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use the defective equipment only for a non-visible part of produce jigs.",
-        "Take the defective equipment out of service before continuing produce jigs, then report it and arrange the required repair, inspection or replacement.",
-        "Continue produce jigs with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during produce jigs before deciding."
+        "Use the defective equipment only for a less important part of jigs.",
+        "Take the defective equipment out of service before continuing jigs, then follow the workplace reporting and repair or replacement procedure.",
+        "Continue jigs with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during jigs before deciding."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for produce jigs directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for jigs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S12"
@@ -331,15 +331,15 @@
       "id": "ST0264-SITE-EPA-017",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during maintain and sharpen hand tools, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during hand-tool maintenance and sharpening and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Stop the affected maintain and sharpen hand tools activity and review the changed risk before restarting under effective agreed controls.",
-        "Reduce the pace of the maintain and sharpen hand tools activity but keep the original method unchanged.",
-        "Ask another operative to watch the maintain and sharpen hand tools work while the control remains unavailable.",
-        "Complete this stage of the maintain and sharpen hand tools work because changing the system now would cause delay."
+        "Pause hand-tool maintenance and sharpening, review the changed risk and restart only when effective controls are in place.",
+        "Continue hand-tool maintenance and sharpening carefully because the task itself has not changed.",
+        "Rely on PPE alone for hand-tool maintenance and sharpening and leave the failed control as it is.",
+        "Finish the current hand-tool maintenance and sharpening operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for maintain and sharpen hand tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand-tool maintenance and sharpening directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -351,15 +351,15 @@
       "id": "ST0264-SITE-EPA-018",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of select, use and store power tools. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment for a short part of power tools. Which response is strongest?",
       "answers": [
-        "Finish select, use and store power tools first because the defect has not stopped the equipment operating.",
-        "Use the equipment for select, use and store power tools only where accuracy is less important.",
-        "Ask someone else to use the equipment for select, use and store power tools so responsibility is transferred.",
-        "Suspend the affected select, use and store power tools activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure."
+        "Continue power tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during power tools before deciding.",
+        "Use the defective equipment only for a less important part of power tools.",
+        "Suspend the affected power tools activity until the defective equipment has been isolated from use and dealt with through the approved procedure."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for select, use and store power tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for power tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -371,15 +371,15 @@
       "id": "ST0264-SITE-EPA-019",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a tool or item of equipment used for select, use and store hand tools develops a defect during a pre-use check. What should you do?",
+      "question": "During an EPA assessment, a tool used for hand tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Let the most experienced person try the equipment during select, use and store hand tools before deciding.",
-        "Use the defective equipment only for a non-visible part of select, use and store hand tools.",
-        "Take the defective equipment out of service before continuing select, use and store hand tools, then report it and arrange the required repair, inspection or replacement.",
-        "Continue select, use and store hand tools with the equipment at a reduced load or speed."
+        "Let the most experienced person try the equipment during hand tools before deciding.",
+        "Use the defective equipment only for a less important part of hand tools.",
+        "Take the defective equipment out of service before continuing hand tools, then follow the workplace reporting and repair or replacement procedure.",
+        "Continue hand tools with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for select, use and store hand tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S9"
@@ -391,15 +391,15 @@
       "id": "ST0264-SITE-EPA-020",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during verbally communicate with others, applying construction terminology, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During an EPA assessment, during workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
       "answers": [
-        "Continue verbally communicate with others, applying construction terminology until the coordination problem actually stops the job.",
-        "Clarify the verbally communicate with others, applying construction terminology issue with the affected people, confirm responsibilities and agree the sequence before work proceeds.",
-        "Assume the other trade understands verbally communicate with others, applying construction terminology without checking.",
-        "Change the verbally communicate with others, applying construction terminology sequence yourself and tell others afterwards."
+        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
+        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds.",
+        "Complete your part of workplace communication first because it is already under way.",
+        "Leave the workplace communication issue for the next person to solve when they reach it."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for verbally communicate with others, applying construction terminology directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S8"
@@ -411,15 +411,15 @@
       "id": "ST0264-SITE-EPA-021",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning estimate required materials and produce a cutting list. Which approach is strongest?",
+      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
       "answers": [
-        "Trace the estimate required materials and produce a cutting list estimate back to current measurements, required components and the stated waste allowance, correcting unsupported assumptions.",
-        "Use a rule-of-thumb quantity for estimate required materials and produce a cutting list instead of checking the current information.",
-        "Apply the same waste allowance to every part of estimate required materials and produce a cutting list without justification.",
-        "Choose the nearest whole quantity for estimate required materials and produce a cutting list before completing the calculation."
+        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
+        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
+        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage.",
+        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for estimate required materials and produce a cutting list directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S7"
@@ -431,15 +431,15 @@
       "id": "ST0264-SITE-EPA-022",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, two current-looking sources for interpret and use information from drawings and specifications conflict. What is the best next step?",
+      "question": "During an EPA assessment, two current-looking sources for drawings and specifications conflict. What is the best next step?",
       "answers": [
-        "Use the drawing for interpret and use information from drawings and specifications automatically because drawings always take priority.",
-        "Use the site condition for interpret and use information from drawings and specifications without checking because it is physically present.",
-        "Average the conflicting requirements for interpret and use information from drawings and specifications so progress can continue.",
-        "Before continuing interpret and use information from drawings and specifications, confirm the current approved information and resolve the conflict or missing detail."
+        "Use whichever drawings and specifications source is easiest to follow.",
+        "Continue drawings and specifications from memory and correct it later if necessary.",
+        "Proceed with drawings and specifications and ask for confirmation only at handover.",
+        "Confirm the current approved information for drawings and specifications and resolve the conflict before committing the work."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for interpret and use information from drawings and specifications directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drawings and specifications directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -451,15 +451,15 @@
       "id": "ST0264-SITE-EPA-023",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during prepare and maintain a safe working area, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, conditions change during safe work-area setup and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Leave the prepare and maintain a safe working area defect for handover so it can be considered with the finished job.",
-        "Change the next stage of prepare and maintain a safe working area instead of correcting the failed requirement.",
-        "Hold the next stage of prepare and maintain a safe working area, investigate why the check failed and bring the work back to the issued requirement before covering it.",
-        "Proceed with prepare and maintain a safe working area because the work looks acceptable despite the failed check."
+        "Rely on PPE alone for safe work-area setup and leave the failed control as it is.",
+        "Finish the current safe work-area setup operation first, then report the failed control.",
+        "Pause safe work-area setup, review the changed risk and restart only when effective controls are in place.",
+        "Continue safe work-area setup carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for prepare and maintain a safe working area directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for safe work-area setup directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -471,12 +471,12 @@
       "id": "ST0264-SITE-EPA-024",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, the next stage will conceal part of comply with industry regulations, standards, and guidance, but a required check is still outstanding. Which response is strongest?",
+      "question": "During an EPA assessment, a required check for comply with industry regulations, standards, and guidance is outstanding and the next stage will conceal the work. Which response is strongest?",
       "answers": [
-        "Continue comply with industry regulations, standards, and guidance and rely on final inspection to identify any problem.",
-        "Do not conceal comply with industry regulations, standards, and guidance while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph comply with industry regulations, standards, and guidance and continue even though the check has not passed.",
-        "Accept comply with industry regulations, standards, and guidance because a later finish will hide the discrepancy."
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
+        "Do not conceal comply with industry regulations, standards, and guidance; complete the check and correct or formally escalate any unresolved issue before moving on.",
+        "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
@@ -491,15 +491,15 @@
       "id": "ST0264-SITE-EPA-025",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, the work on comply with environmental and sustainability regulations, standards, and guidance produces reusable, recyclable and disposal waste. What is the best approach?",
+      "question": "During an EPA assessment, work on environmental compliance and waste segregation produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Segregate waste from comply with environmental and sustainability regulations, standards, and guidance as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
-        "Put all waste from comply with environmental and sustainability regulations, standards, and guidance in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from comply with environmental and sustainability regulations, standards, and guidance and dispose of the rest together.",
-        "Leave all sorting from comply with environmental and sustainability regulations, standards, and guidance until the end of the project."
+        "Segregate waste from environmental compliance and waste segregation as it is produced, retain usable material and follow the site reuse, recycling and disposal routes.",
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for comply with environmental and sustainability regulations, standards, and guidance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S3"
@@ -511,15 +511,15 @@
       "id": "ST0264-SITE-EPA-026",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during identify and use safety control equipment, for example, rpe, dust suppression, ppe, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during PPE, RPE and safety-control equipment and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Reduce the pace of the identify and use safety control equipment, for example, rpe, dust suppression, ppe activity but keep the original method unchanged.",
-        "Ask another operative to watch the identify and use safety control equipment, for example, rpe, dust suppression, ppe work while the control remains unavailable.",
-        "Complete this stage of the identify and use safety control equipment, for example, rpe, dust suppression, ppe work because changing the system now would cause delay.",
-        "Stop the affected identify and use safety control equipment, for example, rpe, dust suppression, ppe activity and review the changed risk before restarting under effective agreed controls."
+        "Continue PPE, RPE and safety-control equipment carefully because the task itself has not changed.",
+        "Rely on PPE alone for PPE, RPE and safety-control equipment and leave the failed control as it is.",
+        "Finish the current PPE, RPE and safety-control equipment operation first, then report the failed control.",
+        "Pause PPE, RPE and safety-control equipment, review the changed risk and restart only when effective controls are in place."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for identify and use safety control equipment, for example, rpe, dust suppression, ppe directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for PPE, RPE and safety-control equipment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S2"
@@ -531,15 +531,15 @@
       "id": "ST0264-SITE-EPA-027",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue comply with health and safety regulations, standards, and guidance even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue health and safety responsibilities despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Add extra PPE for comply with health and safety regulations, standards, and guidance instead of restoring the failed control.",
-        "Record the failed control for comply with health and safety regulations, standards, and guidance and deal with it after the task is finished.",
-        "Do not continue comply with health and safety regulations, standards, and guidance until the failed control has been corrected or the safe system has been revised and agreed.",
-        "Carry on with comply with health and safety regulations, standards, and guidance if the remaining exposure is brief."
+        "Rely on PPE alone for health and safety responsibilities and leave the failed control as it is.",
+        "Finish the current health and safety responsibilities operation first, then report the failed control.",
+        "Do not continue health and safety responsibilities until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue health and safety responsibilities carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for comply with health and safety regulations, standards, and guidance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for health and safety responsibilities directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -551,15 +551,15 @@
       "id": "ST0264-SITE-EPA-028",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while carrying out employment types (self employed and employed), small business start up principles, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a check on employment types (self employed and employed) shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Adjust a later part of employment types (self employed and employed), small business start up principles to disguise the current error.",
-        "Stop the employment types (self employed and employed), small business start up principles work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
-        "Continue employment types (self employed and employed), small business start up principles and correct only the visible result at final inspection.",
-        "Record the deviation in employment types (self employed and employed), small business start up principles but leave it unless another trade objects."
+        "Adjust a later part of employment types (self employed and employed) to disguise the current error.",
+        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on employment types (self employed and employed).",
+        "Continue employment types (self employed and employed) and correct only the visible result at final inspection.",
+        "Record the deviation in employment types (self employed and employed) but leave it unless another trade objects."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for employment types (self employed and employed), small business start up principles directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for employment types (self employed and employed) directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K40"
@@ -571,15 +571,15 @@
       "id": "ST0264-SITE-EPA-029",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during laser levels and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Do not restart the affected activity until that action is complete.",
-        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
-        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
-        "Complete this stage of the site carpenter work because changing the system now would cause delay."
+        "Pause laser levels, review the changed risk and restart only when effective controls are in place.",
+        "Continue laser levels carefully because the task itself has not changed.",
+        "Rely on PPE alone for laser levels and leave the failed control as it is.",
+        "Finish the current laser levels operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for laser levels directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K29"
@@ -591,15 +591,15 @@
       "id": "ST0264-SITE-EPA-030",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue site carpentry: second fix installation techniques: service encasement despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Carry on with site carpenter if the remaining exposure is brief.",
-        "Add extra PPE for site carpenter instead of restoring the failed control.",
-        "Record the failed control for site carpenter and deal with it after the task is finished.",
-        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Verify the result before allowing the task to continue."
+        "Continue site carpentry: second fix installation techniques: service encasement carefully because the task itself has not changed.",
+        "Rely on PPE alone for site carpentry: second fix installation techniques: service encasement and leave the failed control as it is.",
+        "Finish the current site carpentry: second fix installation techniques: service encasement operation first, then report the failed control.",
+        "Do not continue site carpentry: second fix installation techniques: service encasement until the failed control has been corrected or the safe system has been revised and agreed."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for site carpentry: second fix installation techniques: service encasement directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K28"
@@ -611,15 +611,15 @@
       "id": "ST0264-SITE-EPA-031",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for site carpentry: first fixing installation techniques: structural carcassing is no longer effective. What is the strongest response?",
       "answers": [
-        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
-        "Finish the current site carpenter operation first, then report the failed control.",
-        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Complete that response before the work is progressed further.",
-        "Continue the site carpenter work carefully because the task itself has not changed."
+        "Rely on PPE alone for site carpentry: first fixing installation techniques: structural carcassing and leave the failed control as it is.",
+        "Finish the current site carpentry: first fixing installation techniques: structural carcassing operation first, then report the failed control.",
+        "Stop the affected site carpentry: first fixing installation techniques: structural carcassing activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue site carpentry: first fixing installation techniques: structural carcassing carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for site carpentry: first fixing installation techniques: structural carcassing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K27"
@@ -631,15 +631,15 @@
       "id": "ST0264-SITE-EPA-032",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during flat-roof construction and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
-        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Confirm the requirement has been met before continuing.",
-        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
-        "Ask another operative to watch the site carpenter work while the control remains unavailable."
+        "Finish the current flat-roof construction operation first, then report the failed control.",
+        "Pause flat-roof construction, review the changed risk and restart only when effective controls are in place.",
+        "Continue flat-roof construction carefully because the task itself has not changed.",
+        "Rely on PPE alone for flat-roof construction and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for flat-roof construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K26"
@@ -651,15 +651,15 @@
       "id": "ST0264-SITE-EPA-033",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue rafter and straight-roof construction despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Make sure the action is completed before work continues.",
-        "Carry on with site carpenter if the remaining exposure is brief.",
-        "Add extra PPE for site carpenter instead of restoring the failed control.",
-        "Record the failed control for site carpenter and deal with it after the task is finished."
+        "Do not continue rafter and straight-roof construction until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue rafter and straight-roof construction carefully because the task itself has not changed.",
+        "Rely on PPE alone for rafter and straight-roof construction and leave the failed control as it is.",
+        "Finish the current rafter and straight-roof construction operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for rafter and straight-roof construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K25"
@@ -671,15 +671,15 @@
       "id": "ST0264-SITE-EPA-034",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for timber splicing and scribing is no longer effective. What is the strongest response?",
       "answers": [
-        "Continue the site carpenter work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
-        "Finish the current site carpenter operation first, then report the failed control.",
-        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Check that the issue has been resolved before proceeding."
+        "Continue timber splicing and scribing carefully because the task itself has not changed.",
+        "Rely on PPE alone for timber splicing and scribing and leave the failed control as it is.",
+        "Finish the current timber splicing and scribing operation first, then report the failed control.",
+        "Stop the affected timber splicing and scribing activity, make the situation safe and restore or reassess the control before continuing."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for timber splicing and scribing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K24"
@@ -691,15 +691,15 @@
       "id": "ST0264-SITE-EPA-035",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during timber sizing tables and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
-        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
-        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Record or confirm the resolution before moving on.",
-        "Reduce the pace of the site carpenter activity but keep the original method unchanged."
+        "Rely on PPE alone for timber sizing tables and leave the failed control as it is.",
+        "Finish the current timber sizing tables operation first, then report the failed control.",
+        "Pause timber sizing tables, review the changed risk and restart only when effective controls are in place.",
+        "Continue timber sizing tables carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for timber sizing tables directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K23"
@@ -711,15 +711,15 @@
       "id": "ST0264-SITE-EPA-036",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue structural fixings and timber sizing despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Record the failed control for site carpenter and deal with it after the task is finished.",
-        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Do not restart the affected activity until that action is complete.",
-        "Carry on with site carpenter if the remaining exposure is brief.",
-        "Add extra PPE for site carpenter instead of restoring the failed control."
+        "Finish the current structural fixings and timber sizing operation first, then report the failed control.",
+        "Do not continue structural fixings and timber sizing until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue structural fixings and timber sizing carefully because the task itself has not changed.",
+        "Rely on PPE alone for structural fixings and timber sizing and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for structural fixings and timber sizing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K22"
@@ -731,15 +731,15 @@
       "id": "ST0264-SITE-EPA-037",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on site carpenter, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for measuring, marking and cutting techniques is no longer effective. What is the strongest response?",
       "answers": [
-        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Verify the result before allowing the task to continue.",
-        "Continue the site carpenter work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
-        "Finish the current site carpenter operation first, then report the failed control."
+        "Stop the affected measuring, marking and cutting techniques activity, make the situation safe and restore or reassess the control before continuing. Confirm the result before the next stage begins.",
+        "Continue measuring, marking and cutting techniques carefully because the task itself has not changed.",
+        "Rely on PPE alone for measuring, marking and cutting techniques and leave the failed control as it is.",
+        "Finish the current measuring, marking and cutting techniques operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for measuring, marking and cutting techniques directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K21"
@@ -751,15 +751,15 @@
       "id": "ST0264-SITE-EPA-038",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during well-being: mental and physical health considerations in self and others and how, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during wellbeing and support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Keep well-being: mental and physical health considerations in self and others and how running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in well-being: mental and physical health considerations in self and others and how without addressing the concern.",
-        "Treat the well-being: mental and physical health considerations in self and others and how issue only as a performance problem.",
-        "Respond to the wellbeing concern during well-being: mental and physical health considerations in self and others and how by controlling any immediate safety risk, checking in with the person and using the appropriate support route."
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private.",
+        "Move the person away from wellbeing and support without discussing what support is needed.",
+        "Wait until the end of the week before responding to the wellbeing and support concern.",
+        "Control any immediate risk in wellbeing and support, check in with the person and use the appropriate support or escalation route. Verify the outcome before proceeding."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for well-being: mental and physical health considerations in self and others and how directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K20"
@@ -771,15 +771,15 @@
       "id": "ST0264-SITE-EPA-039",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a team decision affecting inclusion, equity and diversity in the workplace is unfair and has no work-related justification. Which response is strongest?",
+      "question": "During an EPA assessment, a team decision affecting inclusion, equity and diversity is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Avoid discussing the inclusion, equity and diversity in the workplace decision and give the person different work.",
-        "Wait until inclusion, equity and diversity in the workplace is finished before considering whether the treatment was fair.",
-        "Do not allow an unjustified assumption to determine inclusion, equity and diversity in the workplace; use the proper route to restore fair and work-related decision-making.",
-        "Use the existing inclusion, equity and diversity in the workplace arrangement because it is familiar to the team."
+        "Accept the unequal treatment in inclusion, equity and diversity if the current arrangement is quicker.",
+        "Move the colleague to different inclusion, equity and diversity work so the disagreement disappears.",
+        "Use the proper workplace route to restore fair, respectful and work-related decision-making around inclusion, equity and diversity. Complete that action before work continues.",
+        "Ignore the issue during inclusion, equity and diversity unless the person affected raises it formally."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity in the workplace directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -791,15 +791,15 @@
       "id": "ST0264-SITE-EPA-040",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, your work on principles of good team working will affect another person or trade. What is the best response?",
+      "question": "During an EPA assessment, your work on team working will affect another person or trade. What is the best response?",
       "answers": [
-        "Create an informal workaround for principles of good team working without agreeing the changed sequence.",
-        "Share the relevant principles of good team working information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of principles of good team working first because it is already under way.",
-        "Leave the principles of good team working issue for the next person to solve when they reach it."
+        "Create an informal workaround for team working without agreeing the changed sequence.",
+        "Share the relevant team working information with the people affected and agree a safe, workable sequence before continuing. Confirm the requirement has been met before moving on.",
+        "Complete your part of team working first because it is already under way.",
+        "Leave the team working issue for the next person to solve when they reach it."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for principles of good team working directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K18"
@@ -811,15 +811,15 @@
       "id": "ST0264-SITE-EPA-041",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during power tools use and storage methods and techniques: portable circular saws,, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during power tools, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Do not continue power tools use and storage methods and techniques: portable circular saws, with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
-        "Use the equipment for power tools use and storage methods and techniques: portable circular saws, only until the current operation is complete.",
-        "Keep the equipment in service for power tools use and storage methods and techniques: portable circular saws, if a colleague agrees to monitor it.",
-        "Compensate for the defect during power tools use and storage methods and techniques: portable circular saws, by working more slowly."
+        "Do not continue power tools with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement.",
+        "Continue power tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during power tools before deciding.",
+        "Use the defective equipment only for a less important part of power tools."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for power tools use and storage methods and techniques: portable circular saws, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for power tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -831,15 +831,15 @@
       "id": "ST0264-SITE-EPA-042",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of jig production techniques. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment for a short part of jigs. Which response is strongest?",
       "answers": [
-        "Finish jig production techniques first because the defect has not stopped the equipment operating.",
-        "Use the equipment for jig production techniques only where accuracy is less important.",
-        "Ask someone else to use the equipment for jig production techniques so responsibility is transferred.",
-        "Suspend the affected jig production techniques activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure."
+        "Continue jigs with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during jigs before deciding.",
+        "Use the defective equipment only for a less important part of jigs.",
+        "Suspend the affected jigs activity until the defective equipment has been isolated from use and dealt with through the approved procedure."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for jig production techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for jigs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -851,15 +851,15 @@
       "id": "ST0264-SITE-EPA-043",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, while working on hand tool maintenance and sharpening techniques, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for hand-tool maintenance and sharpening is no longer effective. What is the strongest response?",
       "answers": [
-        "Rely on PPE alone for the hand tool maintenance and sharpening techniques work and leave the failed control as it is.",
-        "Finish the current hand tool maintenance and sharpening techniques operation first, then report the failed control.",
-        "Pause the hand tool maintenance and sharpening techniques work, make the situation safe and restore or reassess the failed control before continuing.",
-        "Continue the hand tool maintenance and sharpening techniques work carefully because the task itself has not changed."
+        "Rely on PPE alone for hand-tool maintenance and sharpening and leave the failed control as it is.",
+        "Finish the current hand-tool maintenance and sharpening operation first, then report the failed control.",
+        "Stop the affected hand-tool maintenance and sharpening activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue hand-tool maintenance and sharpening carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for hand tool maintenance and sharpening techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand-tool maintenance and sharpening directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K15"
@@ -871,15 +871,15 @@
       "id": "ST0264-SITE-EPA-044",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during hand tool use and storage methods and techniques: chisels, planes, hand saws,, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during hand tools, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Compensate for the defect during hand tool use and storage methods and techniques: chisels, planes, hand saws, by working more slowly.",
-        "Do not continue hand tool use and storage methods and techniques: chisels, planes, hand saws, with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
-        "Use the equipment for hand tool use and storage methods and techniques: chisels, planes, hand saws, only until the current operation is complete.",
-        "Keep the equipment in service for hand tool use and storage methods and techniques: chisels, planes, hand saws, if a colleague agrees to monitor it."
+        "Use the defective equipment only for a less important part of hand tools.",
+        "Do not continue hand tools with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement.",
+        "Continue hand tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during hand tools before deciding."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for hand tool use and storage methods and techniques: chisels, planes, hand saws, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -891,15 +891,15 @@
       "id": "ST0264-SITE-EPA-045",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a coordination issue around verbal communication techniques and construction terminology could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, a coordination issue around workplace communication could create delay or rework. Which response is strongest?",
       "answers": [
-        "Resolve the verbal communication techniques and construction terminology interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about verbal communication techniques and construction terminology and continue regardless of the response.",
-        "Wait for someone else to raise the verbal communication techniques and construction terminology conflict formally.",
-        "Prioritise your own verbal communication techniques and construction terminology output even if it blocks following work."
+        "Resolve the workplace communication interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
+        "Complete your part of workplace communication first because it is already under way.",
+        "Leave the workplace communication issue for the next person to solve when they reach it.",
+        "Create an informal workaround for workplace communication without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for verbal communication techniques and construction terminology directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K13"
@@ -911,15 +911,15 @@
       "id": "ST0264-SITE-EPA-046",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a quantity for basic material estimation techniques, calculating lengths of timber, fixing is much higher than expected. What is the most reliable check?",
+      "question": "During an EPA assessment, a quantity for material estimation and cutting lists is much higher than expected. What is the most reliable check?",
       "answers": [
-        "Use the quantity from a previous basic material estimation techniques, calculating lengths of timber, fixing job because it is a practical benchmark.",
-        "Keep the higher basic material estimation techniques, calculating lengths of timber, fixing figure without checking so there is no risk of shortage.",
-        "Round every stage of the basic material estimation techniques, calculating lengths of timber, fixing calculation upward before checking the dimensions.",
-        "Recalculate the basic material estimation techniques, calculating lengths of timber, fixing quantity from the current job information, checking dimensions, deductions and any justified allowance."
+        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
+        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage.",
+        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
+        "Recalculate material estimation and cutting lists from the current job information, checking dimensions, deductions and any justified allowance."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for basic material estimation techniques, calculating lengths of timber, fixing directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -931,15 +931,15 @@
       "id": "ST0264-SITE-EPA-047",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, during carpentry and joinery products and purpose: mastics, preservatives, wood fillers,, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during carpentry and joinery products and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to watch the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, work while the control remains unavailable.",
-        "Complete this stage of the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, work because changing the system now would cause delay.",
-        "Stop the affected carpentry and joinery products and purpose: mastics, preservatives, wood fillers, activity and review the changed risk before restarting under effective agreed controls.",
-        "Reduce the pace of the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, activity but keep the original method unchanged."
+        "Rely on PPE alone for carpentry and joinery products and leave the failed control as it is.",
+        "Finish the current carpentry and joinery products operation first, then report the failed control.",
+        "Pause carpentry and joinery products, review the changed risk and restart only when effective controls are in place.",
+        "Continue carpentry and joinery products carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for carpentry and joinery products and purpose: mastics, preservatives, wood fillers, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for carpentry and joinery products directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -951,15 +951,15 @@
       "id": "ST0264-SITE-EPA-048",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for timber decay and repair methods: timber moisture content parameters for a range of because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to timber decay and repair improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Proceed with timber decay and repair methods: timber moisture content parameters for a range of because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for timber decay and repair methods: timber moisture content parameters for a range of, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in timber decay and repair methods: timber moisture content parameters for a range of where it will be concealed.",
-        "Modify the resource on site for timber decay and repair methods: timber moisture content parameters for a range of without checking approval."
+        "Complete the timber decay and repair repair using the quickest available material regardless of specification.",
+        "Reassess timber decay and repair, correct the underlying defect using the appropriate method and check the completed repair.",
+        "Cover the visible symptom in timber decay and repair without checking the underlying cause.",
+        "Use the previous repair method for timber decay and repair without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for timber decay and repair methods: timber moisture content parameters for a range of directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for timber decay and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K10"
@@ -971,15 +971,15 @@
       "id": "ST0264-SITE-EPA-049",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, a material or component for materials and their characteristics of home grown and imported timber and does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for material types and characteristics does not fully match the requirement. What is the best response?",
       "answers": [
-        "Separate the questionable resource for materials and their characteristics of home grown and imported timber and and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of materials and their characteristics of home grown and imported timber and.",
-        "Use extra quantity of the substitute in materials and their characteristics of home grown and imported timber and to compensate for the difference.",
-        "Install the resource in materials and their characteristics of home grown and imported timber and and record the substitution only at handover."
+        "Separate the questionable resource for material types and characteristics and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of material types and characteristics.",
+        "Choose the nearest-looking substitute for material types and characteristics and continue.",
+        "Install the resource in material types and characteristics and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for materials and their characteristics of home grown and imported timber and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for material types and characteristics directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K9"
@@ -991,15 +991,15 @@
       "id": "ST0264-SITE-EPA-050",
       "category": "epa",
       "courseId": "ST0264-SITE",
-      "question": "During an EPA assessment, the drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and does not agree with the site condition. What should you do?",
+      "question": "During an EPA assessment, information needed for drawings and specifications is incomplete. What should you do?",
       "answers": [
-        "Use whichever methods of interpreting and extracting relevant information from drawings and document is easiest to follow.",
-        "Continue methods of interpreting and extracting relevant information from drawings and from memory and correct it later if necessary.",
-        "Let the next trade decide which methods of interpreting and extracting relevant information from drawings and information should have been used.",
-        "Verify which drawing, specification or instruction governs methods of interpreting and extracting relevant information from drawings and, then obtain clarification before fixing the work."
+        "Use whichever drawings and specifications source is easiest to follow.",
+        "Continue drawings and specifications from memory and correct it later if necessary.",
+        "Proceed with drawings and specifications and ask for confirmation only at handover.",
+        "Verify the required drawings and specifications information and obtain clarification before fixing or recording the work."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for methods of interpreting and extracting relevant information from drawings and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drawings and specifications directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K8"

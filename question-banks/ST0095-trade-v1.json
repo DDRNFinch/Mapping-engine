@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0095-trade-v1",
-  "version": 3,
+  "version": 4,
   "category": "trade",
   "courseId": "ST0095",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0095-TRADE-001",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "While working on awareness of health and safety regulations, standards, and guidance and impact on, a required safety control is no longer effective. What is the best response?",
+      "question": "A required control for health and safety responsibilities is no longer effective. What is the strongest response?",
       "answers": [
-        "Pause the awareness of health and safety regulations, standards, and guidance and impact on work, make the situation safe and restore or reassess the failed control before continuing.",
-        "Continue the awareness of health and safety regulations, standards, and guidance and impact on work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the awareness of health and safety regulations, standards, and guidance and impact on work and leave the failed control as it is.",
-        "Finish the current awareness of health and safety regulations, standards, and guidance and impact on operation first, then report the failed control."
+        "Stop the affected health and safety responsibilities activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue health and safety responsibilities carefully because the task itself has not changed.",
+        "Rely on PPE alone for health and safety responsibilities and leave the failed control as it is.",
+        "Finish the current health and safety responsibilities operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for awareness of health and safety regulations, standards, and guidance and impact on directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for health and safety responsibilities directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K1"
@@ -31,15 +31,15 @@
       "id": "ST0095-TRADE-002",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During safety control equipment and how to use personal protective equipment (ppe), conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "Conditions change during PPE, RPE and safety-control equipment and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Reduce the pace of the safety control equipment and how to use personal protective equipment (ppe) activity but keep the original method unchanged.",
-        "Ask another operative to watch the safety control equipment and how to use personal protective equipment (ppe) work while the control remains unavailable.",
-        "Complete this stage of the safety control equipment and how to use personal protective equipment (ppe) work because changing the system now would cause delay.",
-        "Stop the affected safety control equipment and how to use personal protective equipment (ppe) activity and review the changed risk before restarting under effective agreed controls."
+        "Continue PPE, RPE and safety-control equipment carefully because the task itself has not changed.",
+        "Rely on PPE alone for PPE, RPE and safety-control equipment and leave the failed control as it is.",
+        "Finish the current PPE, RPE and safety-control equipment operation first, then report the failed control.",
+        "Pause PPE, RPE and safety-control equipment, review the changed risk and restart only when effective controls are in place."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for safety control equipment and how to use personal protective equipment (ppe) directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for PPE, RPE and safety-control equipment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K2"
@@ -51,15 +51,15 @@
       "id": "ST0095-TRADE-003",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague wants to continue safe systems of work: site inductions, toolbox talks, risk assessments, method even though an agreed control has failed. Which response is strongest?",
+      "question": "A colleague wants to continue safe systems of work and risk assessment despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Add extra PPE for safe systems of work: site inductions, toolbox talks, risk assessments, method instead of restoring the failed control.",
-        "Record the failed control for safe systems of work: site inductions, toolbox talks, risk assessments, method and deal with it after the task is finished.",
-        "Do not continue safe systems of work: site inductions, toolbox talks, risk assessments, method until the failed control has been corrected or the safe system has been revised and agreed.",
-        "Carry on with safe systems of work: site inductions, toolbox talks, risk assessments, method if the remaining exposure is brief."
+        "Rely on PPE alone for safe systems of work and risk assessment and leave the failed control as it is.",
+        "Finish the current safe systems of work and risk assessment operation first, then report the failed control.",
+        "Do not continue safe systems of work and risk assessment until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue safe systems of work and risk assessment carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for safe systems of work: site inductions, toolbox talks, risk assessments, method directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for safe systems of work and risk assessment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K3"
@@ -71,15 +71,15 @@
       "id": "ST0095-TRADE-004",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The work on impact of the sector on the environment: efficient use of resources produces reusable, recyclable and disposal waste. What is the best approach?",
+      "question": "Work on environmental compliance and waste segregation produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Leave all sorting from impact of the sector on the environment: efficient use of resources until the end of the project.",
-        "Segregate waste from impact of the sector on the environment: efficient use of resources as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
-        "Put all waste from impact of the sector on the environment: efficient use of resources in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from impact of the sector on the environment: efficient use of resources and dispose of the rest together."
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project.",
+        "Segregate waste from environmental compliance and waste segregation as it is produced, retain usable material and follow the site reuse, recycling and disposal routes.",
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for impact of the sector on the environment: efficient use of resources directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K4"
@@ -91,15 +91,15 @@
       "id": "ST0095-TRADE-005",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During the importance and considerations of the environment and sustainability: thermal, mixed waste and usable offcuts are building up in the work area. What should happen?",
+      "question": "During environmental compliance and waste segregation, mixed waste and usable offcuts are building up. What should happen?",
       "answers": [
-        "Manage the the importance and considerations of the environment and sustainability: thermal waste at source: keep reusable material separate and place each waste stream in the correct site container or route.",
-        "Mix the the importance and considerations of the environment and sustainability: thermal waste now and sort it later if there is time.",
-        "Dispose of every offcut from the importance and considerations of the environment and sustainability: thermal even where it can be reused.",
-        "Move mixed the importance and considerations of the environment and sustainability: thermal waste out of sight without checking the site waste plan."
+        "Manage the environmental compliance and waste segregation waste at source: keep reusable material separate and place each waste stream in the correct site route.",
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for the importance and considerations of the environment and sustainability: thermal directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K5"
@@ -111,15 +111,15 @@
       "id": "ST0095-TRADE-006",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for principles of building: foundations, roofs, walls, cavity step trays, floors, because the specified item is unavailable. Which response is strongest?",
+      "question": "A repair to building: foundations, roofs, walls, cavity step trays, floors improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Use the resource in principles of building: foundations, roofs, walls, cavity step trays, floors, where it will be concealed.",
-        "Modify the resource on site for principles of building: foundations, roofs, walls, cavity step trays, floors, without checking approval.",
-        "Proceed with principles of building: foundations, roofs, walls, cavity step trays, floors, because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for principles of building: foundations, roofs, walls, cavity step trays, floors,, check it against the current requirement and use it only when suitability is confirmed."
+        "Cover the visible symptom in building: foundations, roofs, walls, cavity step trays, floors without checking the underlying cause.",
+        "Use the previous repair method for building: foundations, roofs, walls, cavity step trays, floors without checking the current condition.",
+        "Complete the building: foundations, roofs, walls, cavity step trays, floors repair using the quickest available material regardless of specification.",
+        "Reassess building: foundations, roofs, walls, cavity step trays, floors, correct the underlying defect using the appropriate method and check the completed repair."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for principles of building: foundations, roofs, walls, cavity step trays, floors, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for building: foundations, roofs, walls, cavity step trays, floors directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K6"
@@ -131,15 +131,15 @@
       "id": "ST0095-TRADE-007",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for standards and regulations associated with bricklaying activities: british does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for standards and regulations associated with bricklaying activities does not fully match the requirement. What is the best response?",
       "answers": [
-        "Use extra quantity of the substitute in standards and regulations associated with bricklaying activities: british to compensate for the difference.",
-        "Install the resource in standards and regulations associated with bricklaying activities: british and record the substitution only at handover.",
-        "Separate the questionable resource for standards and regulations associated with bricklaying activities: british and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of standards and regulations associated with bricklaying activities: british."
+        "Choose the nearest-looking substitute for standards and regulations associated with bricklaying activities and continue.",
+        "Install the resource in standards and regulations associated with bricklaying activities and record the substitution only at handover.",
+        "Separate the questionable resource for standards and regulations associated with bricklaying activities and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of standards and regulations associated with bricklaying activities."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for standards and regulations associated with bricklaying activities: british directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for standards and regulations associated with bricklaying activities directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K7"
@@ -151,15 +151,15 @@
       "id": "ST0095-TRADE-008",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During materials and their characteristics: bricks and blocks, efflorescence, mortar,, a resource has doubtful condition or identification. What should you do?",
+      "question": "Before carrying out a repair involving material types and characteristics, what should happen?",
       "answers": [
-        "Keep the material in materials and their characteristics: bricks and blocks, efflorescence, mortar, and replace it only if final inspection fails.",
-        "Do not use the doubtful material in materials and their characteristics: bricks and blocks, efflorescence, mortar, until its identity, suitability and approval have been checked.",
-        "Fit the material in materials and their characteristics: bricks and blocks, efflorescence, mortar, if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for materials and their characteristics: bricks and blocks, efflorescence, mortar, informally."
+        "Complete the material types and characteristics repair using the quickest available material regardless of specification.",
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for material types and characteristics.",
+        "Cover the visible symptom in material types and characteristics without checking the underlying cause.",
+        "Use the previous repair method for material types and characteristics without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for materials and their characteristics: bricks and blocks, efflorescence, mortar, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for material types and characteristics directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K8"
@@ -171,15 +171,15 @@
       "id": "ST0095-TRADE-009",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for modern methods of construction: rapid build technology, precast components, corner because the specified item is unavailable. Which response is strongest?",
+      "question": "A repair to modern methods of construction improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Quarantine the resource intended for modern methods of construction: rapid build technology, precast components, corner, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in modern methods of construction: rapid build technology, precast components, corner where it will be concealed.",
-        "Modify the resource on site for modern methods of construction: rapid build technology, precast components, corner without checking approval.",
-        "Proceed with modern methods of construction: rapid build technology, precast components, corner because shortages justify an unapproved substitution."
+        "Reassess modern methods of construction, correct the underlying defect using the appropriate method and check the completed repair.",
+        "Cover the visible symptom in modern methods of construction without checking the underlying cause.",
+        "Use the previous repair method for modern methods of construction without checking the current condition.",
+        "Complete the modern methods of construction repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for modern methods of construction: rapid build technology, precast components, corner directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for modern methods of construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K9"
@@ -191,15 +191,15 @@
       "id": "ST0095-TRADE-010",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "Two current-looking sources for methods of interpreting and extracting relevant information from drawings and conflict. What is the best next step?",
+      "question": "Two current-looking sources for drawings and specifications conflict. What is the best next step?",
       "answers": [
-        "Use the drawing for methods of interpreting and extracting relevant information from drawings and automatically because drawings always take priority.",
-        "Use the site condition for methods of interpreting and extracting relevant information from drawings and without checking because it is physically present.",
-        "Average the conflicting requirements for methods of interpreting and extracting relevant information from drawings and so progress can continue.",
-        "Before continuing methods of interpreting and extracting relevant information from drawings and, confirm the current approved information and resolve the conflict or missing detail."
+        "Use whichever drawings and specifications source is easiest to follow.",
+        "Continue drawings and specifications from memory and correct it later if necessary.",
+        "Proceed with drawings and specifications and ask for confirmation only at handover.",
+        "Confirm the current approved information for drawings and specifications and resolve the conflict before committing the work."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for methods of interpreting and extracting relevant information from drawings and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drawings and specifications directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K10"
@@ -211,15 +211,15 @@
       "id": "ST0095-TRADE-011",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The drawing, specification or instruction for basic principles of digital design and modelling systems does not agree with the site condition. What should you do?",
+      "question": "Information needed for digital design and modelling is incomplete. What should you do?",
       "answers": [
-        "Continue basic principles of digital design and modelling systems from memory and correct it later if necessary.",
-        "Let the next trade decide which basic principles of digital design and modelling systems information should have been used.",
-        "Verify which drawing, specification or instruction governs basic principles of digital design and modelling systems, then obtain clarification before fixing the work.",
-        "Use whichever basic principles of digital design and modelling systems document is easiest to follow."
+        "Continue digital design and modelling from memory and correct it later if necessary.",
+        "Proceed with digital design and modelling and ask for confirmation only at handover.",
+        "Verify the required digital design and modelling information and obtain clarification before fixing or recording the work.",
+        "Use whichever digital design and modelling source is easiest to follow."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for basic principles of digital design and modelling systems directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for digital design and modelling directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -231,15 +231,15 @@
       "id": "ST0095-TRADE-012",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "You need to allow for dimensions, openings or waste when planning simple resource estimation techniques: quantity of bricks and blocks, amount of. Which approach is strongest?",
+      "question": "You need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
       "answers": [
-        "Choose the nearest whole quantity for simple resource estimation techniques: quantity of bricks and blocks, amount of before completing the calculation.",
-        "Trace the simple resource estimation techniques: quantity of bricks and blocks, amount of estimate back to current measurements, required components and the stated waste allowance, correcting unsupported assumptions.",
-        "Use a rule-of-thumb quantity for simple resource estimation techniques: quantity of bricks and blocks, amount of instead of checking the current information.",
-        "Apply the same waste allowance to every part of simple resource estimation techniques: quantity of bricks and blocks, amount of without justification."
+        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
+        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
+        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
+        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for simple resource estimation techniques: quantity of bricks and blocks, amount of directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -251,15 +251,15 @@
       "id": "ST0095-TRADE-013",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A tool or item of equipment used for hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick develops a defect during a pre-use check. What should you do?",
+      "question": "A tool used for hand tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Take the defective equipment out of service before continuing hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick, then report it and arrange the required repair, inspection or replacement.",
-        "Continue hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick before deciding.",
-        "Use the defective equipment only for a non-visible part of hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick."
+        "Take the defective equipment out of service before continuing hand tools, then follow the workplace reporting and repair or replacement procedure.",
+        "Continue hand tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during hand tools before deciding.",
+        "Use the defective equipment only for a less important part of hand tools."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K13"
@@ -271,15 +271,15 @@
       "id": "ST0095-TRADE-014",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During power tool use and limitations: disc cutters, mixers and drills, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During power tools, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Use the equipment for power tool use and limitations: disc cutters, mixers and drills only until the current operation is complete.",
-        "Keep the equipment in service for power tool use and limitations: disc cutters, mixers and drills if a colleague agrees to monitor it.",
-        "Compensate for the defect during power tool use and limitations: disc cutters, mixers and drills by working more slowly.",
-        "Do not continue power tool use and limitations: disc cutters, mixers and drills with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure."
+        "Continue power tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during power tools before deciding.",
+        "Use the defective equipment only for a less important part of power tools.",
+        "Do not continue power tools with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for power tool use and limitations: disc cutters, mixers and drills directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for power tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -291,15 +291,15 @@
       "id": "ST0095-TRADE-015",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The next stage will conceal part of bond types: english bond, flemish bond, garden wall bonds and broken bond, but a required check is still outstanding. Which response is strongest?",
+      "question": "The next stage will conceal part of brickwork bond types, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Accept bond types: english bond, flemish bond, garden wall bonds and broken bond because a later finish will hide the discrepancy.",
-        "Continue bond types: english bond, flemish bond, garden wall bonds and broken bond and rely on final inspection to identify any problem.",
-        "Do not conceal bond types: english bond, flemish bond, garden wall bonds and broken bond while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph bond types: english bond, flemish bond, garden wall bonds and broken bond and continue even though the check has not passed."
+        "Start brickwork bond types immediately and adjust later stages to absorb any error.",
+        "Leave the brickwork bond types discrepancy for final inspection.",
+        "Complete and pass the required check on brickwork bond types before the work is covered or progressed.",
+        "Rely on memory for brickwork bond types and check dimensions only after completion."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for bond types: english bond, flemish bond, garden wall bonds and broken bond directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brickwork bond types directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K15"
@@ -311,15 +311,15 @@
       "id": "ST0095-TRADE-016",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for brick solid wall setting out, construction and capping methods does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for solid-wall setting out and construction does not fully match the requirement. What is the best response?",
       "answers": [
-        "Install the resource in brick solid wall setting out, construction and capping methods and record the substitution only at handover.",
-        "Separate the questionable resource for brick solid wall setting out, construction and capping methods and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of brick solid wall setting out, construction and capping methods.",
-        "Use extra quantity of the substitute in brick solid wall setting out, construction and capping methods to compensate for the difference."
+        "Install the resource in solid-wall setting out and construction and record the substitution only at handover.",
+        "Separate the questionable resource for solid-wall setting out and construction and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of solid-wall setting out and construction.",
+        "Choose the nearest-looking substitute for solid-wall setting out and construction and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for brick solid wall setting out, construction and capping methods directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for solid-wall setting out and construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -331,15 +331,15 @@
       "id": "ST0095-TRADE-017",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During joint finishes: half round, flush, weather struck and recessed, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "A check during mortar joint finishes shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Hold the next stage of joint finishes: half round, flush, weather struck and recessed, investigate why the check failed and bring the work back to the issued requirement before covering it.",
-        "Proceed with joint finishes: half round, flush, weather struck and recessed because the work looks acceptable despite the failed check.",
-        "Leave the joint finishes: half round, flush, weather struck and recessed defect for handover so it can be considered with the finished job.",
-        "Change the next stage of joint finishes: half round, flush, weather struck and recessed instead of correcting the failed requirement."
+        "Stop at the appropriate point, identify the cause and bring mortar joint finishes back to the required standard before continuing.",
+        "Rely on memory for mortar joint finishes and check dimensions only after completion.",
+        "Start mortar joint finishes immediately and adjust later stages to absorb any error.",
+        "Leave the mortar joint finishes discrepancy for final inspection."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for joint finishes: half round, flush, weather struck and recessed directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar joint finishes directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -351,15 +351,15 @@
       "id": "ST0095-TRADE-018",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for principles of basic decorative walling and piers: projecting and contrasting because the specified item is unavailable. Which response is strongest?",
+      "question": "The specified resource for decorative brickwork and piers is unavailable. Which response is strongest?",
       "answers": [
-        "Use the resource in principles of basic decorative walling and piers: projecting and contrasting where it will be concealed.",
-        "Modify the resource on site for principles of basic decorative walling and piers: projecting and contrasting without checking approval.",
-        "Proceed with principles of basic decorative walling and piers: projecting and contrasting because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for principles of basic decorative walling and piers: projecting and contrasting, check it against the current requirement and use it only when suitability is confirmed."
+        "Use the resource for a less visible part of decorative brickwork and piers.",
+        "Choose the nearest-looking substitute for decorative brickwork and piers and continue.",
+        "Install the resource in decorative brickwork and piers and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into decorative brickwork and piers."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for principles of basic decorative walling and piers: projecting and contrasting directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for decorative brickwork and piers directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K18"
@@ -371,15 +371,15 @@
       "id": "ST0095-TRADE-019",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "While carrying out principles of the use of expansion joints, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "Before carrying out masonry expansion joints, what is the strongest approach?",
       "answers": [
-        "Record the deviation in principles of the use of expansion joints but leave it unless another trade objects.",
-        "Adjust a later part of principles of the use of expansion joints to disguise the current error.",
-        "Stop the principles of the use of expansion joints work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
-        "Continue principles of the use of expansion joints and correct only the visible result at final inspection."
+        "Start masonry expansion joints immediately and adjust later stages to absorb any error.",
+        "Leave the masonry expansion joints discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence masonry expansion joints, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for masonry expansion joints and check dimensions only after completion."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for principles of the use of expansion joints directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for masonry expansion joints directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -391,15 +391,15 @@
       "id": "ST0095-TRADE-020",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical, a resource has doubtful condition or identification. What should you do?",
+      "question": "A resource for mortar mixing and ratios has doubtful condition or identification. What should you do?",
       "answers": [
-        "Keep the material in mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical and replace it only if final inspection fails.",
-        "Do not use the doubtful material in mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical until its identity, suitability and approval have been checked.",
-        "Fit the material in mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical informally."
+        "Install the resource in mortar mixing and ratios and record the substitution only at handover.",
+        "Do not use the doubtful resource in mortar mixing and ratios until its identity, suitability and approval have been checked.",
+        "Use the resource for a less visible part of mortar mixing and ratios.",
+        "Choose the nearest-looking substitute for mortar mixing and ratios and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar mixing and ratios directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K20"
@@ -411,15 +411,15 @@
       "id": "ST0095-TRADE-021",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for cavity wall setting out techniques: bricks and blocks, openings and levels, use of because the specified item is unavailable. Which response is strongest?",
+      "question": "The specified resource for cavity-wall setting out is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for cavity wall setting out techniques: bricks and blocks, openings and levels, use of, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in cavity wall setting out techniques: bricks and blocks, openings and levels, use of where it will be concealed.",
-        "Modify the resource on site for cavity wall setting out techniques: bricks and blocks, openings and levels, use of without checking approval.",
-        "Proceed with cavity wall setting out techniques: bricks and blocks, openings and levels, use of because shortages justify an unapproved substitution."
+        "Check and obtain approval for a suitable alternative before incorporating it into cavity-wall setting out.",
+        "Use the resource for a less visible part of cavity-wall setting out.",
+        "Choose the nearest-looking substitute for cavity-wall setting out and continue.",
+        "Install the resource in cavity-wall setting out and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for cavity wall setting out techniques: bricks and blocks, openings and levels, use of directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cavity-wall setting out directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K21"
@@ -431,15 +431,15 @@
       "id": "ST0095-TRADE-022",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for cavity wall construction using stretcher bond brick and block walling, forming does not fully match the issued requirement. What is the best response?",
+      "question": "A defect is found while dealing with cavity-wall construction. What is the strongest approach?",
       "answers": [
-        "Use the resource for a less visible part of cavity wall construction using stretcher bond brick and block walling, forming.",
-        "Use extra quantity of the substitute in cavity wall construction using stretcher bond brick and block walling, forming to compensate for the difference.",
-        "Install the resource in cavity wall construction using stretcher bond brick and block walling, forming and record the substitution only at handover.",
-        "Separate the questionable resource for cavity wall construction using stretcher bond brick and block walling, forming and verify its condition, specification and approval before use."
+        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
+        "Use the previous repair method for cavity-wall construction without checking the current condition.",
+        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for cavity-wall construction."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for cavity wall construction using stretcher bond brick and block walling, forming directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K22"
@@ -451,15 +451,15 @@
       "id": "ST0095-TRADE-023",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During brick on edge and soldier courses: setting out and construction techniques, a resource has doubtful condition or identification. What should you do?",
+      "question": "A resource for brick-on-edge and soldier courses has doubtful condition or identification. What should you do?",
       "answers": [
-        "Ask another operative to accept the material for brick on edge and soldier courses: setting out and construction techniques informally.",
-        "Keep the material in brick on edge and soldier courses: setting out and construction techniques and replace it only if final inspection fails.",
-        "Do not use the doubtful material in brick on edge and soldier courses: setting out and construction techniques until its identity, suitability and approval have been checked.",
-        "Fit the material in brick on edge and soldier courses: setting out and construction techniques if it appears close enough to the specified item."
+        "Choose the nearest-looking substitute for brick-on-edge and soldier courses and continue.",
+        "Install the resource in brick-on-edge and soldier courses and record the substitution only at handover.",
+        "Do not use the doubtful resource in brick-on-edge and soldier courses until its identity, suitability and approval have been checked.",
+        "Use the resource for a less visible part of brick-on-edge and soldier courses."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for brick on edge and soldier courses: setting out and construction techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brick-on-edge and soldier courses directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K23"
@@ -471,15 +471,15 @@
       "id": "ST0095-TRADE-024",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The next stage will conceal part of defects and repair: construction defects and repair methods, but a required check is still outstanding. Which response is strongest?",
+      "question": "A repair to brickwork defects and repair improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Continue defects and repair: construction defects and repair methods and rely on final inspection to identify any problem.",
-        "Do not conceal defects and repair: construction defects and repair methods while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph defects and repair: construction defects and repair methods and continue even though the check has not passed.",
-        "Accept defects and repair: construction defects and repair methods because a later finish will hide the discrepancy."
+        "Complete the brickwork defects and repair repair using the quickest available material regardless of specification.",
+        "Reassess brickwork defects and repair, correct the underlying defect using the appropriate method and check the completed repair.",
+        "Cover the visible symptom in brickwork defects and repair without checking the underlying cause.",
+        "Use the previous repair method for brickwork defects and repair without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for defects and repair: construction defects and repair methods directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brickwork defects and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K24"
@@ -491,15 +491,15 @@
       "id": "ST0095-TRADE-025",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A material or component for methods of protecting materials and work: frost, water and construction damage does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for protecting materials and finished work does not fully match the requirement. What is the best response?",
       "answers": [
-        "Separate the questionable resource for methods of protecting materials and work: frost, water and construction damage and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of methods of protecting materials and work: frost, water and construction damage.",
-        "Use extra quantity of the substitute in methods of protecting materials and work: frost, water and construction damage to compensate for the difference.",
-        "Install the resource in methods of protecting materials and work: frost, water and construction damage and record the substitution only at handover."
+        "Separate the questionable resource for protecting materials and finished work and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of protecting materials and finished work.",
+        "Choose the nearest-looking substitute for protecting materials and finished work and continue.",
+        "Install the resource in protecting materials and finished work and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for methods of protecting materials and work: frost, water and construction damage directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for protecting materials and finished work directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K25"
@@ -511,15 +511,15 @@
       "id": "ST0095-TRADE-026",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During verbal communication techniques and construction terminology, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
       "answers": [
-        "Assume the other trade understands verbal communication techniques and construction terminology without checking.",
-        "Change the verbal communication techniques and construction terminology sequence yourself and tell others afterwards.",
-        "Continue verbal communication techniques and construction terminology until the coordination problem actually stops the job.",
-        "Clarify the verbal communication techniques and construction terminology issue with the affected people, confirm responsibilities and agree the sequence before work proceeds."
+        "Complete your part of workplace communication first because it is already under way.",
+        "Leave the workplace communication issue for the next person to solve when they reach it.",
+        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
+        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for verbal communication techniques and construction terminology directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K26"
@@ -531,15 +531,15 @@
       "id": "ST0095-TRADE-027",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A coordination issue around principles of good team working could create delay or rework. Which response is strongest?",
+      "question": "A coordination issue around team working could create delay or rework. Which response is strongest?",
       "answers": [
-        "Wait for someone else to raise the principles of good team working conflict formally.",
-        "Prioritise your own principles of good team working output even if it blocks following work.",
-        "Resolve the principles of good team working interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about principles of good team working and continue regardless of the response."
+        "Leave the team working issue for the next person to solve when they reach it.",
+        "Create an informal workaround for team working without agreeing the changed sequence.",
+        "Resolve the team working interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
+        "Complete your part of team working first because it is already under way."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for principles of good team working directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K27"
@@ -551,15 +551,15 @@
       "id": "ST0095-TRADE-028",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague is being excluded during inclusion, equity and diversity in the workplace for reasons unrelated to competence or safety. What is the best response?",
+      "question": "A colleague is being excluded during inclusion, equity and diversity for reasons unrelated to competence or safety. What is the best response?",
       "answers": [
-        "Move the colleague to simpler inclusion, equity and diversity in the workplace work so the disagreement disappears.",
-        "For inclusion, equity and diversity in the workplace, support fair and respectful treatment and address or report inappropriate practice through the correct workplace route.",
-        "Ignore the issue during inclusion, equity and diversity in the workplace unless the person affected makes a formal complaint.",
-        "Accept the unequal treatment in inclusion, equity and diversity in the workplace if the current arrangement is quicker."
+        "Move the colleague to different inclusion, equity and diversity work so the disagreement disappears.",
+        "Support fair and respectful treatment in inclusion, equity and diversity and address or report inappropriate practice through the correct workplace route.",
+        "Ignore the issue during inclusion, equity and diversity unless the person affected raises it formally.",
+        "Accept the unequal treatment in inclusion, equity and diversity if the current arrangement is quicker."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity in the workplace directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K28"
@@ -571,15 +571,15 @@
       "id": "ST0095-TRADE-029",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During methods of cutting bricks and blocks using hand tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During cutting bricks and blocks, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Do not continue methods of cutting bricks and blocks using hand tools with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
-        "Use the equipment for methods of cutting bricks and blocks using hand tools only until the current operation is complete.",
-        "Keep the equipment in service for methods of cutting bricks and blocks using hand tools if a colleague agrees to monitor it.",
-        "Compensate for the defect during methods of cutting bricks and blocks using hand tools by working more slowly."
+        "Do not continue cutting bricks and blocks with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement.",
+        "Continue cutting bricks and blocks with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during cutting bricks and blocks before deciding.",
+        "Use the defective equipment only for a less important part of cutting bricks and blocks."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for methods of cutting bricks and blocks using hand tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cutting bricks and blocks directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K29"
@@ -591,15 +591,15 @@
       "id": "ST0095-TRADE-030",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for brick walls with raking cut: setting out and construction techniques because the specified item is unavailable. Which response is strongest?",
+      "question": "The specified resource for raking-cut brickwork is unavailable. Which response is strongest?",
       "answers": [
-        "Use the resource in brick walls with raking cut: setting out and construction techniques where it will be concealed.",
-        "Modify the resource on site for brick walls with raking cut: setting out and construction techniques without checking approval.",
-        "Proceed with brick walls with raking cut: setting out and construction techniques because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for brick walls with raking cut: setting out and construction techniques, check it against the current requirement and use it only when suitability is confirmed."
+        "Use the resource for a less visible part of raking-cut brickwork.",
+        "Choose the nearest-looking substitute for raking-cut brickwork and continue.",
+        "Install the resource in raking-cut brickwork and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into raking-cut brickwork."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for brick walls with raking cut: setting out and construction techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for raking-cut brickwork directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K30"
@@ -611,15 +611,15 @@
       "id": "ST0095-TRADE-031",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague involved in well-being: mental and physical health considerations in self and others and how says their wellbeing is affecting concentration. What is the best response?",
+      "question": "A colleague involved in wellbeing and support says wellbeing is affecting concentration. What is the best response?",
       "answers": [
-        "Move them away from well-being: mental and physical health considerations in self and others and how without discussing what support they need.",
-        "Wait until the end of the week before responding to the well-being: mental and physical health considerations in self and others and how concern.",
-        "If wellbeing is affecting well-being: mental and physical health considerations in self and others and how, make the activity safe, speak supportively with the person and involve appropriate supervision or support where needed.",
-        "Tell the person to continue well-being: mental and physical health considerations in self and others and how more slowly and keep the concern private."
+        "Move the person away from wellbeing and support without discussing what support is needed.",
+        "Wait until the end of the week before responding to the wellbeing and support concern.",
+        "Make the wellbeing and support activity safe, speak supportively with the person and involve appropriate supervision or support where needed.",
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for well-being: mental and physical health considerations in self and others and how directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K31"
@@ -631,15 +631,15 @@
       "id": "ST0095-TRADE-032",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During comply with health and safety regulations, standards, and guidance, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "Conditions change during health and safety responsibilities and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Complete this stage of the comply with health and safety regulations, standards, and guidance work because changing the system now would cause delay.",
-        "Stop the affected comply with health and safety regulations, standards, and guidance activity and review the changed risk before restarting under effective agreed controls.",
-        "Reduce the pace of the comply with health and safety regulations, standards, and guidance activity but keep the original method unchanged.",
-        "Ask another operative to watch the comply with health and safety regulations, standards, and guidance work while the control remains unavailable."
+        "Finish the current health and safety responsibilities operation first, then report the failed control.",
+        "Pause health and safety responsibilities, review the changed risk and restart only when effective controls are in place.",
+        "Continue health and safety responsibilities carefully because the task itself has not changed.",
+        "Rely on PPE alone for health and safety responsibilities and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for comply with health and safety regulations, standards, and guidance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for health and safety responsibilities directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -651,15 +651,15 @@
       "id": "ST0095-TRADE-033",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague wants to continue identify and use personal protective equipment (ppe) even though an agreed control has failed. Which response is strongest?",
+      "question": "A colleague wants to continue PPE, RPE and safety-control equipment despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Do not continue identify and use personal protective equipment (ppe) until the failed control has been corrected or the safe system has been revised and agreed.",
-        "Carry on with identify and use personal protective equipment (ppe) if the remaining exposure is brief.",
-        "Add extra PPE for identify and use personal protective equipment (ppe) instead of restoring the failed control.",
-        "Record the failed control for identify and use personal protective equipment (ppe) and deal with it after the task is finished."
+        "Do not continue PPE, RPE and safety-control equipment until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue PPE, RPE and safety-control equipment carefully because the task itself has not changed.",
+        "Rely on PPE alone for PPE, RPE and safety-control equipment and leave the failed control as it is.",
+        "Finish the current PPE, RPE and safety-control equipment operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for identify and use personal protective equipment (ppe) directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for PPE, RPE and safety-control equipment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S2"
@@ -671,15 +671,15 @@
       "id": "ST0095-TRADE-034",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "The work on comply with environmental and sustainability regulations, standards, and guidance produces reusable, recyclable and disposal waste. What is the best approach?",
+      "question": "Work on environmental compliance and waste segregation produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Put all waste from comply with environmental and sustainability regulations, standards, and guidance in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from comply with environmental and sustainability regulations, standards, and guidance and dispose of the rest together.",
-        "Leave all sorting from comply with environmental and sustainability regulations, standards, and guidance until the end of the project.",
-        "Segregate waste from comply with environmental and sustainability regulations, standards, and guidance as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes."
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project.",
+        "Segregate waste from environmental compliance and waste segregation as it is produced, retain usable material and follow the site reuse, recycling and disposal routes. Verify the outcome before proceeding."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for comply with environmental and sustainability regulations, standards, and guidance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -691,12 +691,12 @@
       "id": "ST0095-TRADE-035",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During comply with industry regulations, standards, and guidance, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "The work on comply with industry regulations, standards, and guidance looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Leave the comply with industry regulations, standards, and guidance defect for handover so it can be considered with the finished job.",
-        "Change the next stage of comply with industry regulations, standards, and guidance instead of correcting the failed requirement.",
-        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate why the check failed and bring the work back to the issued requirement before covering it.",
-        "Proceed with comply with industry regulations, standards, and guidance because the work looks acceptable despite the failed check."
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
+        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate the failed check and bring the work back to the required standard before covering it.",
+        "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection."
       ],
       "correct": 2,
       "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
@@ -711,15 +711,15 @@
       "id": "ST0095-TRADE-036",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "Before committing work on read and interpret information from drawings and specifications, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "The issued information for drawings and specifications does not match the situation in front of you. Which response is strongest?",
       "answers": [
-        "Proceed with read and interpret information from drawings and specifications and ask for confirmation only at handover.",
-        "Treat the information for read and interpret information from drawings and specifications as unresolved until the approved source and any discrepancy have been confirmed.",
-        "Use the newest-looking read and interpret information from drawings and specifications document even if its revision is unconfirmed.",
-        "Adapt read and interpret information from drawings and specifications to suit the site without recording the change."
+        "Proceed with drawings and specifications and ask for confirmation only at handover.",
+        "Treat the drawings and specifications information as unresolved until the approved source and discrepancy have been confirmed.",
+        "Use whichever drawings and specifications source is easiest to follow.",
+        "Continue drawings and specifications from memory and correct it later if necessary."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for read and interpret information from drawings and specifications directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drawings and specifications directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -731,15 +731,15 @@
       "id": "ST0095-TRADE-037",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A quantity for estimate and select required resources: for example, the quantity of bricks and is much higher than expected. What is the most reliable check?",
+      "question": "A quantity for estimate and select required resources is much higher than expected. What is the most reliable check?",
       "answers": [
-        "Recalculate the estimate and select required resources: for example, the quantity of bricks and quantity from the current job information, checking dimensions, deductions and any justified allowance.",
-        "Use the quantity from a previous estimate and select required resources: for example, the quantity of bricks and job because it is a practical benchmark.",
-        "Keep the higher estimate and select required resources: for example, the quantity of bricks and figure without checking so there is no risk of shortage.",
-        "Round every stage of the estimate and select required resources: for example, the quantity of bricks and calculation upward before checking the dimensions."
+        "Recalculate estimate and select required resources from the current job information, checking dimensions, deductions and any justified allowance.",
+        "Use the quantity from a previous job as the final figure for estimate and select required resources.",
+        "Keep the higher estimate and select required resources figure without checking so there is no risk of shortage.",
+        "Round every stage of the estimate and select required resources calculation upward before checking the dimensions."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for estimate and select required resources: for example, the quantity of bricks and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for estimate and select required resources directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -751,15 +751,15 @@
       "id": "ST0095-TRADE-038",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During prepare and maintain a safe working area, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "Conditions change during safe work-area setup and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Proceed with prepare and maintain a safe working area because the work looks acceptable despite the failed check.",
-        "Leave the prepare and maintain a safe working area defect for handover so it can be considered with the finished job.",
-        "Change the next stage of prepare and maintain a safe working area instead of correcting the failed requirement.",
-        "Hold the next stage of prepare and maintain a safe working area, investigate why the check failed and bring the work back to the issued requirement before covering it."
+        "Continue safe work-area setup carefully because the task itself has not changed.",
+        "Rely on PPE alone for safe work-area setup and leave the failed control as it is.",
+        "Finish the current safe work-area setup operation first, then report the failed control.",
+        "Pause safe work-area setup, review the changed risk and restart only when effective controls are in place."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for prepare and maintain a safe working area directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for safe work-area setup directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S7"
@@ -771,15 +771,15 @@
       "id": "ST0095-TRADE-039",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague suggests using defective equipment only to finish a short part of select and use hand tools. Which response is strongest?",
+      "question": "A colleague suggests using defective equipment for a short part of hand tools. Which response is strongest?",
       "answers": [
-        "Use the equipment for select and use hand tools only where accuracy is less important.",
-        "Ask someone else to use the equipment for select and use hand tools so responsibility is transferred.",
-        "Suspend the affected select and use hand tools activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure.",
-        "Finish select and use hand tools first because the defect has not stopped the equipment operating."
+        "Let the most experienced person try the equipment during hand tools before deciding.",
+        "Use the defective equipment only for a less important part of hand tools.",
+        "Suspend the affected hand tools activity until the defective equipment has been isolated from use and dealt with through the approved procedure.",
+        "Continue hand tools with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for select and use hand tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -791,10 +791,10 @@
       "id": "ST0095-TRADE-040",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A tool or item of equipment used for maintain and store hand tools develops a defect during a pre-use check. What should you do?",
+      "question": "A tool used for maintain and store hand tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use the defective equipment only for a non-visible part of maintain and store hand tools.",
-        "Take the defective equipment out of service before continuing maintain and store hand tools, then report it and arrange the required repair, inspection or replacement.",
+        "Use the defective equipment only for a less important part of maintain and store hand tools.",
+        "Take the defective equipment out of service before continuing maintain and store hand tools, then follow the workplace reporting and repair or replacement procedure.",
         "Continue maintain and store hand tools with the equipment at a reduced load or speed.",
         "Let the most experienced person try the equipment during maintain and store hand tools before deciding."
       ],
@@ -811,15 +811,15 @@
       "id": "ST0095-TRADE-041",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During set out brick and block cavity wall to given tolerances, including an opening, a resource has doubtful condition or identification. What should you do?",
+      "question": "A resource for set out brick and block cavity wall to given tolerances has doubtful condition or identification. What should you do?",
       "answers": [
-        "Do not use the doubtful material in set out brick and block cavity wall to given tolerances, including an opening until its identity, suitability and approval have been checked.",
-        "Fit the material in set out brick and block cavity wall to given tolerances, including an opening if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for set out brick and block cavity wall to given tolerances, including an opening informally.",
-        "Keep the material in set out brick and block cavity wall to given tolerances, including an opening and replace it only if final inspection fails."
+        "Do not use the doubtful resource in set out brick and block cavity wall to given tolerances until its identity, suitability and approval have been checked.",
+        "Use the resource for a less visible part of set out brick and block cavity wall to given tolerances.",
+        "Choose the nearest-looking substitute for set out brick and block cavity wall to given tolerances and continue.",
+        "Install the resource in set out brick and block cavity wall to given tolerances and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for set out brick and block cavity wall to given tolerances, including an opening directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for set out brick and block cavity wall to given tolerances directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -831,15 +831,15 @@
       "id": "ST0095-TRADE-042",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for construct a stretcher bond brick and block cavity wall with return and opening to because the specified item is unavailable. Which response is strongest?",
+      "question": "A repair to cavity-wall construction improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Use the resource in construct a stretcher bond brick and block cavity wall with return and opening to where it will be concealed.",
-        "Modify the resource on site for construct a stretcher bond brick and block cavity wall with return and opening to without checking approval.",
-        "Proceed with construct a stretcher bond brick and block cavity wall with return and opening to because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for construct a stretcher bond brick and block cavity wall with return and opening to, check it against the current requirement and use it only when suitability is confirmed."
+        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
+        "Use the previous repair method for cavity-wall construction without checking the current condition.",
+        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
+        "Reassess cavity-wall construction, correct the underlying defect using the appropriate method and check the completed repair."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for construct a stretcher bond brick and block cavity wall with return and opening to directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -851,15 +851,15 @@
       "id": "ST0095-TRADE-043",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "While carrying out apply joint finishes: for example, half round, flush, weather struck and recessed, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "Before carrying out mortar joint finishes, what is the strongest approach?",
       "answers": [
-        "Record the deviation in apply joint finishes: for example, half round, flush, weather struck and recessed but leave it unless another trade objects.",
-        "Adjust a later part of apply joint finishes: for example, half round, flush, weather struck and recessed to disguise the current error.",
-        "Stop the apply joint finishes: for example, half round, flush, weather struck and recessed work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
-        "Continue apply joint finishes: for example, half round, flush, weather struck and recessed and correct only the visible result at final inspection."
+        "Start mortar joint finishes immediately and adjust later stages to absorb any error.",
+        "Leave the mortar joint finishes discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence mortar joint finishes, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for mortar joint finishes and check dimensions only after completion."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for apply joint finishes: for example, half round, flush, weather struck and recessed directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar joint finishes directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S12"
@@ -871,15 +871,15 @@
       "id": "ST0095-TRADE-044",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During set out and construct a simple brick solid wall with capping, a resource has doubtful condition or identification. What should you do?",
+      "question": "A resource for solid-wall setting out and construction has doubtful condition or identification. What should you do?",
       "answers": [
-        "Keep the material in set out and construct a simple brick solid wall with capping and replace it only if final inspection fails.",
-        "Do not use the doubtful material in set out and construct a simple brick solid wall with capping until its identity, suitability and approval have been checked.",
-        "Fit the material in set out and construct a simple brick solid wall with capping if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for set out and construct a simple brick solid wall with capping informally."
+        "Install the resource in solid-wall setting out and construction and record the substitution only at handover.",
+        "Do not use the doubtful resource in solid-wall setting out and construction until its identity, suitability and approval have been checked.",
+        "Use the resource for a less visible part of solid-wall setting out and construction.",
+        "Choose the nearest-looking substitute for solid-wall setting out and construction and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for set out and construct a simple brick solid wall with capping directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for solid-wall setting out and construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -891,15 +891,15 @@
       "id": "ST0095-TRADE-045",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for gauge and hand mix mortar to ratio because the specified item is unavailable. Which response is strongest?",
+      "question": "The specified resource for mortar mixing and ratios is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for gauge and hand mix mortar to ratio, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in gauge and hand mix mortar to ratio where it will be concealed.",
-        "Modify the resource on site for gauge and hand mix mortar to ratio without checking approval.",
-        "Proceed with gauge and hand mix mortar to ratio because shortages justify an unapproved substitution."
+        "Check and obtain approval for a suitable alternative before incorporating it into mortar mixing and ratios.",
+        "Use the resource for a less visible part of mortar mixing and ratios.",
+        "Choose the nearest-looking substitute for mortar mixing and ratios and continue.",
+        "Install the resource in mortar mixing and ratios and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for gauge and hand mix mortar to ratio directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar mixing and ratios directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S14"
@@ -911,15 +911,15 @@
       "id": "ST0095-TRADE-046",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A tool or item of equipment used for measure and cut bricks and blocks using hand tools, to given tolerances develops a defect during a pre-use check. What should you do?",
+      "question": "A tool used for cutting bricks and blocks develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Continue measure and cut bricks and blocks using hand tools, to given tolerances with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during measure and cut bricks and blocks using hand tools, to given tolerances before deciding.",
-        "Use the defective equipment only for a non-visible part of measure and cut bricks and blocks using hand tools, to given tolerances.",
-        "Take the defective equipment out of service before continuing measure and cut bricks and blocks using hand tools, to given tolerances, then report it and arrange the required repair, inspection or replacement."
+        "Continue cutting bricks and blocks with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during cutting bricks and blocks before deciding.",
+        "Use the defective equipment only for a less important part of cutting bricks and blocks.",
+        "Take the defective equipment out of service before continuing cutting bricks and blocks, then follow the workplace reporting and repair or replacement procedure."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for measure and cut bricks and blocks using hand tools, to given tolerances directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cutting bricks and blocks directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S15"
@@ -931,15 +931,15 @@
       "id": "ST0095-TRADE-047",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During carry out a simple repair: for example, replacing damaged bricks, a resource has doubtful condition or identification. What should you do?",
+      "question": "Before carrying out a repair involving brickwork defects and repair, what should happen?",
       "answers": [
-        "Ask another operative to accept the material for carry out a simple repair: for example, replacing damaged bricks informally.",
-        "Keep the material in carry out a simple repair: for example, replacing damaged bricks and replace it only if final inspection fails.",
-        "Do not use the doubtful material in carry out a simple repair: for example, replacing damaged bricks until its identity, suitability and approval have been checked.",
-        "Fit the material in carry out a simple repair: for example, replacing damaged bricks if it appears close enough to the specified item."
+        "Use the previous repair method for brickwork defects and repair without checking the current condition.",
+        "Complete the brickwork defects and repair repair using the quickest available material regardless of specification.",
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for brickwork defects and repair.",
+        "Cover the visible symptom in brickwork defects and repair without checking the underlying cause."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for carry out a simple repair: for example, replacing damaged bricks directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brickwork defects and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S16"
@@ -951,15 +951,15 @@
       "id": "ST0095-TRADE-048",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "A colleague proposes a similar substitute for protect materials and finished work because the specified item is unavailable. Which response is strongest?",
+      "question": "The specified resource for protecting materials and finished work is unavailable. Which response is strongest?",
       "answers": [
-        "Proceed with protect materials and finished work because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for protect materials and finished work, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in protect materials and finished work where it will be concealed.",
-        "Modify the resource on site for protect materials and finished work without checking approval."
+        "Install the resource in protecting materials and finished work and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into protecting materials and finished work.",
+        "Use the resource for a less visible part of protecting materials and finished work.",
+        "Choose the nearest-looking substitute for protecting materials and finished work and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for protect materials and finished work directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for protecting materials and finished work directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S17"
@@ -971,15 +971,15 @@
       "id": "ST0095-TRADE-049",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "Your work on verbally communicate with others, applying construction terminology will affect another person or trade. What is the best response?",
+      "question": "Your work on workplace communication will affect another person or trade. What is the best response?",
       "answers": [
-        "Share the relevant verbally communicate with others, applying construction terminology information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of verbally communicate with others, applying construction terminology first because it is already under way.",
-        "Leave the verbally communicate with others, applying construction terminology issue for the next person to solve when they reach it.",
-        "Create an informal workaround for verbally communicate with others, applying construction terminology without agreeing the changed sequence."
+        "Share the relevant workplace communication information with the people affected and agree a safe, workable sequence before continuing.",
+        "Complete your part of workplace communication first because it is already under way.",
+        "Leave the workplace communication issue for the next person to solve when they reach it.",
+        "Create an informal workaround for workplace communication without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for verbally communicate with others, applying construction terminology directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S18"
@@ -991,12 +991,12 @@
       "id": "ST0095-TRADE-050",
       "category": "trade",
       "courseId": "ST0095",
-      "question": "During follow equity, diversity and inclusion guidance, someone is treated differently because of an assumption rather than their work. What should you do?",
+      "question": "During follow equity, diversity and inclusion guidance, someone is treated differently because of an unsupported assumption. What should you do?",
       "answers": [
-        "Keep the follow equity, diversity and inclusion guidance decision unchanged because challenging it may create tension.",
-        "Exclude the colleague from follow equity, diversity and inclusion guidance until they prove the assumption wrong.",
-        "Treat the follow equity, diversity and inclusion guidance issue as personal rather than a workplace concern.",
-        "Challenge the unsupported assumption affecting follow equity, diversity and inclusion guidance and base work decisions on relevant competence and safety requirements."
+        "Ignore the issue during follow equity, diversity and inclusion guidance unless the person affected raises it formally.",
+        "Accept the unequal treatment in follow equity, diversity and inclusion guidance if the current arrangement is quicker.",
+        "Move the colleague to different follow equity, diversity and inclusion guidance work so the disagreement disappears.",
+        "Challenge the unsupported assumption affecting follow equity, diversity and inclusion guidance and base decisions on relevant competence, safety and work requirements."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for follow equity, diversity and inclusion guidance directly to the scenario.",

@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0095-epa-v1",
-  "version": 3,
+  "version": 4,
   "category": "epa",
   "courseId": "ST0095",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0095-EPA-001",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, your work on team-focus to meet team goals including, considering the wider build team will affect another person or trade. What is the best response?",
+      "question": "During an EPA assessment, your work on team working will affect another person or trade. What is the best response?",
       "answers": [
-        "Share the relevant team-focus to meet team goals including, considering the wider build team information with the people affected and agree a safe, workable sequence before continuing.",
-        "Complete your part of team-focus to meet team goals including, considering the wider build team first because it is already under way.",
-        "Leave the team-focus to meet team goals including, considering the wider build team issue for the next person to solve when they reach it.",
-        "Create an informal workaround for team-focus to meet team goals including, considering the wider build team without agreeing the changed sequence."
+        "Share the relevant team working information with the people affected and agree a safe, workable sequence before continuing.",
+        "Complete your part of team working first because it is already under way.",
+        "Leave the team working issue for the next person to solve when they reach it.",
+        "Create an informal workaround for team working without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for team-focus to meet team goals including, considering the wider build team directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B6"
@@ -31,15 +31,15 @@
       "id": "ST0095-EPA-002",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during seek learning and development opportunities, a technical decision is needed that you are not authorised to make. What is the best response?",
+      "question": "During an EPA assessment, during competence, authority and professional development, a technical decision is needed that you are not authorised to make. What is the best response?",
       "answers": [
-        "Carry on with seek learning and development opportunities using your best judgement even though the decision is outside your authority.",
-        "Copy a previous seek learning and development opportunities solution without checking whether it is approved.",
-        "Let the customer decide the technical seek learning and development opportunities issue instead.",
-        "Do not improvise the decision for seek learning and development opportunities; recognise the limit of your role and obtain authorised guidance before continuing."
+        "Use the solution that worked on a previous job for competence, authority and professional development.",
+        "Ask another operative to take responsibility for competence, authority and professional development informally while you continue.",
+        "Choose the least disruptive competence, authority and professional development option and report it after completion.",
+        "Recognise the limit of your role and obtain authorised guidance or supervision before continuing competence, authority and professional development."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for seek learning and development opportunities directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for competence, authority and professional development directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B5"
@@ -51,15 +51,15 @@
       "id": "ST0095-EPA-003",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a team decision affecting contribute to an inclusive and diverse culture is unfair and has no work-related justification. Which response is strongest?",
+      "question": "During an EPA assessment, a team decision affecting inclusion, equity and diversity is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Avoid discussing the contribute to an inclusive and diverse culture decision and give the person different work.",
-        "Wait until contribute to an inclusive and diverse culture is finished before considering whether the treatment was fair.",
-        "Do not allow an unjustified assumption to determine contribute to an inclusive and diverse culture; use the proper route to restore fair and work-related decision-making.",
-        "Use the existing contribute to an inclusive and diverse culture arrangement because it is familiar to the team."
+        "Accept the unequal treatment in inclusion, equity and diversity if the current arrangement is quicker.",
+        "Move the colleague to different inclusion, equity and diversity work so the disagreement disappears.",
+        "Use the proper workplace route to restore fair, respectful and work-related decision-making around inclusion, equity and diversity.",
+        "Ignore the issue during inclusion, equity and diversity unless the person affected raises it formally."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for contribute to an inclusive and diverse culture directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B4"
@@ -71,10 +71,10 @@
       "id": "ST0095-EPA-004",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, while carrying out take ownership of given work, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a check on take ownership of given work shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
         "Adjust a later part of take ownership of given work to disguise the current error.",
-        "Stop the take ownership of given work work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on take ownership of given work.",
         "Continue take ownership of given work and correct only the visible result at final inspection.",
         "Record the deviation in take ownership of given work but leave it unless another trade objects."
       ],
@@ -91,12 +91,12 @@
       "id": "ST0095-EPA-005",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during consider the environment when using resources and carrying out processes, mixed waste and usable offcuts are building up in the work area. What should happen?",
+      "question": "During an EPA assessment, during consider the environment when using resources and carrying out processes, mixed waste and usable offcuts are building up. What should happen?",
       "answers": [
-        "Manage the consider the environment when using resources and carrying out processes waste at source: keep reusable material separate and place each waste stream in the correct site container or route.",
-        "Mix the consider the environment when using resources and carrying out processes waste now and sort it later if there is time.",
-        "Dispose of every offcut from consider the environment when using resources and carrying out processes even where it can be reused.",
-        "Move mixed consider the environment when using resources and carrying out processes waste out of sight without checking the site waste plan."
+        "Manage the consider the environment when using resources and carrying out processes waste at source: keep reusable material separate and place each waste stream in the correct site route.",
+        "Put all waste from consider the environment when using resources and carrying out processes in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from consider the environment when using resources and carrying out processes and dispose of the rest together.",
+        "Leave all sorting from consider the environment when using resources and carrying out processes until the end of the project."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for consider the environment when using resources and carrying out processes directly to the scenario.",
@@ -111,15 +111,15 @@
       "id": "ST0095-EPA-006",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a wellbeing concern may now affect safe work on put health, safety and wellbeing first. Which response is strongest?",
+      "question": "During an EPA assessment, a wellbeing concern may now affect safe work on wellbeing and support. Which response is strongest?",
       "answers": [
-        "Tell the person to finish put health, safety and wellbeing first before discussing how they feel.",
-        "Remove the person from put health, safety and wellbeing first permanently without speaking to them.",
-        "Keep the concern about put health, safety and wellbeing first informal even if safety is deteriorating.",
-        "Pause or adjust put health, safety and wellbeing first where safety is affected, respond respectfully and seek suitable support or supervision."
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private.",
+        "Move the person away from wellbeing and support without discussing what support is needed.",
+        "Wait until the end of the week before responding to the wellbeing and support concern.",
+        "Pause or adjust wellbeing and support where safety is affected, respond respectfully and seek suitable support or supervision."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for put health, safety and wellbeing first directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B1"
@@ -131,15 +131,15 @@
       "id": "ST0095-EPA-007",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for construct a brick wall with raking cut does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for raking-cut brickwork does not fully match the requirement. What is the best response?",
       "answers": [
-        "Use extra quantity of the substitute in construct a brick wall with raking cut to compensate for the difference.",
-        "Install the resource in construct a brick wall with raking cut and record the substitution only at handover.",
-        "Separate the questionable resource for construct a brick wall with raking cut and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of construct a brick wall with raking cut."
+        "Choose the nearest-looking substitute for raking-cut brickwork and continue.",
+        "Install the resource in raking-cut brickwork and record the substitution only at handover.",
+        "Separate the questionable resource for raking-cut brickwork and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of raking-cut brickwork."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for construct a brick wall with raking cut directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for raking-cut brickwork directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S22"
@@ -151,15 +151,15 @@
       "id": "ST0095-EPA-008",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during identifies well-being support available to self and others, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during wellbeing and support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Treat the identifies well-being support available to self and others issue only as a performance problem.",
-        "Respond to the wellbeing concern during identifies well-being support available to self and others by controlling any immediate safety risk, checking in with the person and using the appropriate support route.",
-        "Keep identifies well-being support available to self and others running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in identifies well-being support available to self and others without addressing the concern."
+        "Wait until the end of the week before responding to the wellbeing and support concern.",
+        "Control any immediate risk in wellbeing and support, check in with the person and use the appropriate support or escalation route.",
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private.",
+        "Move the person away from wellbeing and support without discussing what support is needed."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for identifies well-being support available to self and others directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S21"
@@ -171,15 +171,15 @@
       "id": "ST0095-EPA-009",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a coordination issue around applies team working principles to their own and the wider build team could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, a coordination issue around team working could create delay or rework. Which response is strongest?",
       "answers": [
-        "Resolve the applies team working principles to their own and the wider build team interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about applies team working principles to their own and the wider build team and continue regardless of the response.",
-        "Wait for someone else to raise the applies team working principles to their own and the wider build team conflict formally.",
-        "Prioritise your own applies team working principles to their own and the wider build team output even if it blocks following work."
+        "Resolve the team working interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
+        "Complete your part of team working first because it is already under way.",
+        "Leave the team working issue for the next person to solve when they reach it.",
+        "Create an informal workaround for team working without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for applies team working principles to their own and the wider build team directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S20"
@@ -193,10 +193,10 @@
       "courseId": "ST0095",
       "question": "During an EPA assessment, a colleague is being excluded during follow equity, diversity and inclusion guidance for reasons unrelated to competence or safety. What is the best response?",
       "answers": [
-        "Ignore the issue during follow equity, diversity and inclusion guidance unless the person affected makes a formal complaint.",
+        "Ignore the issue during follow equity, diversity and inclusion guidance unless the person affected raises it formally.",
         "Accept the unequal treatment in follow equity, diversity and inclusion guidance if the current arrangement is quicker.",
-        "Move the colleague to simpler follow equity, diversity and inclusion guidance work so the disagreement disappears.",
-        "For follow equity, diversity and inclusion guidance, support fair and respectful treatment and address or report inappropriate practice through the correct workplace route."
+        "Move the colleague to different follow equity, diversity and inclusion guidance work so the disagreement disappears.",
+        "Support fair and respectful treatment in follow equity, diversity and inclusion guidance and address or report inappropriate practice through the correct workplace route."
       ],
       "correct": 3,
       "explanation": "The strongest response applies the mapped requirement for follow equity, diversity and inclusion guidance directly to the scenario.",
@@ -211,15 +211,15 @@
       "id": "ST0095-EPA-011",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during verbally communicate with others, applying construction terminology, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During an EPA assessment, during workplace communication, the sequence or information needed by another person becomes unclear. What should you do?",
       "answers": [
-        "Change the verbally communicate with others, applying construction terminology sequence yourself and tell others afterwards.",
-        "Continue verbally communicate with others, applying construction terminology until the coordination problem actually stops the job.",
-        "Clarify the verbally communicate with others, applying construction terminology issue with the affected people, confirm responsibilities and agree the sequence before work proceeds.",
-        "Assume the other trade understands verbally communicate with others, applying construction terminology without checking."
+        "Leave the workplace communication issue for the next person to solve when they reach it.",
+        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
+        "Clarify the workplace communication issue with the affected people, confirm responsibilities and agree the next steps before work proceeds.",
+        "Complete your part of workplace communication first because it is already under way."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for verbally communicate with others, applying construction terminology directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S18"
@@ -231,15 +231,15 @@
       "id": "ST0095-EPA-012",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for protect materials and finished work because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the specified resource for protecting materials and finished work is unavailable. Which response is strongest?",
       "answers": [
-        "Proceed with protect materials and finished work because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for protect materials and finished work, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in protect materials and finished work where it will be concealed.",
-        "Modify the resource on site for protect materials and finished work without checking approval."
+        "Install the resource in protecting materials and finished work and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into protecting materials and finished work.",
+        "Use the resource for a less visible part of protecting materials and finished work.",
+        "Choose the nearest-looking substitute for protecting materials and finished work and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for protect materials and finished work directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for protecting materials and finished work directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S17"
@@ -251,15 +251,15 @@
       "id": "ST0095-EPA-013",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for carry out a simple repair: for example, replacing damaged bricks does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with brickwork defects and repair. What is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for carry out a simple repair: for example, replacing damaged bricks and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of carry out a simple repair: for example, replacing damaged bricks.",
-        "Use extra quantity of the substitute in carry out a simple repair: for example, replacing damaged bricks to compensate for the difference.",
-        "Install the resource in carry out a simple repair: for example, replacing damaged bricks and record the substitution only at handover."
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for brickwork defects and repair.",
+        "Cover the visible symptom in brickwork defects and repair without checking the underlying cause.",
+        "Use the previous repair method for brickwork defects and repair without checking the current condition.",
+        "Complete the brickwork defects and repair repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for carry out a simple repair: for example, replacing damaged bricks directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brickwork defects and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S16"
@@ -271,15 +271,15 @@
       "id": "ST0095-EPA-014",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during measure and cut bricks and blocks using hand tools, to given tolerances, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during cutting bricks and blocks, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Use the equipment for measure and cut bricks and blocks using hand tools, to given tolerances only until the current operation is complete.",
-        "Keep the equipment in service for measure and cut bricks and blocks using hand tools, to given tolerances if a colleague agrees to monitor it.",
-        "Compensate for the defect during measure and cut bricks and blocks using hand tools, to given tolerances by working more slowly.",
-        "Do not continue measure and cut bricks and blocks using hand tools, to given tolerances with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure."
+        "Continue cutting bricks and blocks with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during cutting bricks and blocks before deciding.",
+        "Use the defective equipment only for a less important part of cutting bricks and blocks.",
+        "Do not continue cutting bricks and blocks with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for measure and cut bricks and blocks using hand tools, to given tolerances directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cutting bricks and blocks directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S15"
@@ -291,15 +291,15 @@
       "id": "ST0095-EPA-015",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for gauge and hand mix mortar to ratio because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the specified resource for mortar mixing and ratios is unavailable. Which response is strongest?",
       "answers": [
-        "Modify the resource on site for gauge and hand mix mortar to ratio without checking approval.",
-        "Proceed with gauge and hand mix mortar to ratio because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for gauge and hand mix mortar to ratio, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in gauge and hand mix mortar to ratio where it will be concealed."
+        "Choose the nearest-looking substitute for mortar mixing and ratios and continue.",
+        "Install the resource in mortar mixing and ratios and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into mortar mixing and ratios.",
+        "Use the resource for a less visible part of mortar mixing and ratios."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for gauge and hand mix mortar to ratio directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar mixing and ratios directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S14"
@@ -311,15 +311,15 @@
       "id": "ST0095-EPA-016",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for set out and construct a simple brick solid wall with capping does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for solid-wall setting out and construction does not fully match the requirement. What is the best response?",
       "answers": [
-        "Install the resource in set out and construct a simple brick solid wall with capping and record the substitution only at handover.",
-        "Separate the questionable resource for set out and construct a simple brick solid wall with capping and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of set out and construct a simple brick solid wall with capping.",
-        "Use extra quantity of the substitute in set out and construct a simple brick solid wall with capping to compensate for the difference."
+        "Install the resource in solid-wall setting out and construction and record the substitution only at handover.",
+        "Separate the questionable resource for solid-wall setting out and construction and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of solid-wall setting out and construction.",
+        "Choose the nearest-looking substitute for solid-wall setting out and construction and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for set out and construct a simple brick solid wall with capping directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for solid-wall setting out and construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -331,15 +331,15 @@
       "id": "ST0095-EPA-017",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during apply joint finishes: for example, half round, flush, weather struck and recessed, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, a check during mortar joint finishes shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Hold the next stage of apply joint finishes: for example, half round, flush, weather struck and recessed, investigate why the check failed and bring the work back to the issued requirement before covering it.",
-        "Proceed with apply joint finishes: for example, half round, flush, weather struck and recessed because the work looks acceptable despite the failed check.",
-        "Leave the apply joint finishes: for example, half round, flush, weather struck and recessed defect for handover so it can be considered with the finished job.",
-        "Change the next stage of apply joint finishes: for example, half round, flush, weather struck and recessed instead of correcting the failed requirement."
+        "Stop at the appropriate point, identify the cause and bring mortar joint finishes back to the required standard before continuing.",
+        "Rely on memory for mortar joint finishes and check dimensions only after completion.",
+        "Start mortar joint finishes immediately and adjust later stages to absorb any error.",
+        "Leave the mortar joint finishes discrepancy for final inspection."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for apply joint finishes: for example, half round, flush, weather struck and recessed directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar joint finishes directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S12"
@@ -351,15 +351,15 @@
       "id": "ST0095-EPA-018",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for construct a stretcher bond brick and block cavity wall with return and opening to because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to cavity-wall construction improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Use the resource in construct a stretcher bond brick and block cavity wall with return and opening to where it will be concealed.",
-        "Modify the resource on site for construct a stretcher bond brick and block cavity wall with return and opening to without checking approval.",
-        "Proceed with construct a stretcher bond brick and block cavity wall with return and opening to because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for construct a stretcher bond brick and block cavity wall with return and opening to, check it against the current requirement and use it only when suitability is confirmed."
+        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
+        "Use the previous repair method for cavity-wall construction without checking the current condition.",
+        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
+        "Reassess cavity-wall construction, correct the underlying defect using the appropriate method and check the completed repair."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for construct a stretcher bond brick and block cavity wall with return and opening to directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -371,15 +371,15 @@
       "id": "ST0095-EPA-019",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for set out brick and block cavity wall to given tolerances, including an opening does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for set out brick and block cavity wall to given tolerances does not fully match the requirement. What is the best response?",
       "answers": [
-        "Use extra quantity of the substitute in set out brick and block cavity wall to given tolerances, including an opening to compensate for the difference.",
-        "Install the resource in set out brick and block cavity wall to given tolerances, including an opening and record the substitution only at handover.",
-        "Separate the questionable resource for set out brick and block cavity wall to given tolerances, including an opening and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of set out brick and block cavity wall to given tolerances, including an opening."
+        "Choose the nearest-looking substitute for set out brick and block cavity wall to given tolerances and continue.",
+        "Install the resource in set out brick and block cavity wall to given tolerances and record the substitution only at handover.",
+        "Separate the questionable resource for set out brick and block cavity wall to given tolerances and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of set out brick and block cavity wall to given tolerances."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for set out brick and block cavity wall to given tolerances, including an opening directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for set out brick and block cavity wall to given tolerances directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -391,12 +391,12 @@
       "id": "ST0095-EPA-020",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during maintain and store hand tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during maintain and store hand tools, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Compensate for the defect during maintain and store hand tools by working more slowly.",
-        "Do not continue maintain and store hand tools with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
-        "Use the equipment for maintain and store hand tools only until the current operation is complete.",
-        "Keep the equipment in service for maintain and store hand tools if a colleague agrees to monitor it."
+        "Use the defective equipment only for a less important part of maintain and store hand tools.",
+        "Do not continue maintain and store hand tools with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement.",
+        "Continue maintain and store hand tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during maintain and store hand tools before deciding."
       ],
       "correct": 1,
       "explanation": "The strongest response applies the mapped requirement for maintain and store hand tools directly to the scenario.",
@@ -411,15 +411,15 @@
       "id": "ST0095-EPA-021",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague suggests using defective equipment only to finish a short part of select and use hand tools. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague suggests using defective equipment for a short part of hand tools. Which response is strongest?",
       "answers": [
-        "Suspend the affected select and use hand tools activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure.",
-        "Finish select and use hand tools first because the defect has not stopped the equipment operating.",
-        "Use the equipment for select and use hand tools only where accuracy is less important.",
-        "Ask someone else to use the equipment for select and use hand tools so responsibility is transferred."
+        "Suspend the affected hand tools activity until the defective equipment has been isolated from use and dealt with through the approved procedure.",
+        "Continue hand tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during hand tools before deciding.",
+        "Use the defective equipment only for a less important part of hand tools."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for select and use hand tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -431,15 +431,15 @@
       "id": "ST0095-EPA-022",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, while carrying out prepare and maintain a safe working area, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a required control for safe work-area setup is no longer effective. What is the strongest response?",
       "answers": [
-        "Continue prepare and maintain a safe working area and correct only the visible result at final inspection.",
-        "Record the deviation in prepare and maintain a safe working area but leave it unless another trade objects.",
-        "Adjust a later part of prepare and maintain a safe working area to disguise the current error.",
-        "Stop the prepare and maintain a safe working area work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check."
+        "Continue safe work-area setup carefully because the task itself has not changed.",
+        "Rely on PPE alone for safe work-area setup and leave the failed control as it is.",
+        "Finish the current safe work-area setup operation first, then report the failed control.",
+        "Stop the affected safe work-area setup activity, make the situation safe and restore or reassess the control before continuing."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for prepare and maintain a safe working area directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for safe work-area setup directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S7"
@@ -451,15 +451,15 @@
       "id": "ST0095-EPA-023",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, before ordering for estimate and select required resources: for example, the quantity of bricks and, your calculation differs significantly from a previous similar job. What should you do?",
+      "question": "During an EPA assessment, before ordering for estimate and select required resources, your calculation differs significantly from a previous similar job. What should you do?",
       "answers": [
-        "Order the larger estimate and select required resources: for example, the quantity of bricks and amount and investigate only if material is left over.",
-        "Ignore openings or deductions in estimate and select required resources: for example, the quantity of bricks and so the estimate stays conservative.",
-        "Rework the estimate and select required resources: for example, the quantity of bricks and quantity from the issued dimensions and current scope, then check each assumption before accepting the total.",
-        "Average the new estimate and select required resources: for example, the quantity of bricks and quantity with the previous job total."
+        "Keep the higher estimate and select required resources figure without checking so there is no risk of shortage.",
+        "Round every stage of the estimate and select required resources calculation upward before checking the dimensions.",
+        "Rework the estimate and select required resources quantity from the issued dimensions and current scope, then check each assumption before accepting the total.",
+        "Use the quantity from a previous job as the final figure for estimate and select required resources."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for estimate and select required resources: for example, the quantity of bricks and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for estimate and select required resources directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -471,15 +471,15 @@
       "id": "ST0095-EPA-024",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, before committing work on read and interpret information from drawings and specifications, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "During an EPA assessment, the issued information for drawings and specifications does not match the situation in front of you. Which response is strongest?",
       "answers": [
-        "Proceed with read and interpret information from drawings and specifications and ask for confirmation only at handover.",
-        "Treat the information for read and interpret information from drawings and specifications as unresolved until the approved source and any discrepancy have been confirmed.",
-        "Use the newest-looking read and interpret information from drawings and specifications document even if its revision is unconfirmed.",
-        "Adapt read and interpret information from drawings and specifications to suit the site without recording the change."
+        "Proceed with drawings and specifications and ask for confirmation only at handover.",
+        "Treat the drawings and specifications information as unresolved until the approved source and discrepancy have been confirmed.",
+        "Use whichever drawings and specifications source is easiest to follow.",
+        "Continue drawings and specifications from memory and correct it later if necessary."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for read and interpret information from drawings and specifications directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drawings and specifications directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -491,9 +491,9 @@
       "id": "ST0095-EPA-025",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, while carrying out comply with industry regulations, standards, and guidance, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a check on comply with industry regulations, standards, and guidance shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Stop the comply with industry regulations, standards, and guidance work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on comply with industry regulations, standards, and guidance.",
         "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
         "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
         "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error."
@@ -511,15 +511,15 @@
       "id": "ST0095-EPA-026",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during comply with environmental and sustainability regulations, standards, and guidance, mixed waste and usable offcuts are building up in the work area. What should happen?",
+      "question": "During an EPA assessment, during environmental compliance and waste segregation, mixed waste and usable offcuts are building up. What should happen?",
       "answers": [
-        "Mix the comply with environmental and sustainability regulations, standards, and guidance waste now and sort it later if there is time.",
-        "Dispose of every offcut from comply with environmental and sustainability regulations, standards, and guidance even where it can be reused.",
-        "Move mixed comply with environmental and sustainability regulations, standards, and guidance waste out of sight without checking the site waste plan.",
-        "Manage the comply with environmental and sustainability regulations, standards, and guidance waste at source: keep reusable material separate and place each waste stream in the correct site container or route."
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project.",
+        "Manage the environmental compliance and waste segregation waste at source: keep reusable material separate and place each waste stream in the correct site route."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for comply with environmental and sustainability regulations, standards, and guidance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -531,15 +531,15 @@
       "id": "ST0095-EPA-027",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague wants to continue identify and use personal protective equipment (ppe) even though an agreed control has failed. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue PPE, RPE and safety-control equipment despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Add extra PPE for identify and use personal protective equipment (ppe) instead of restoring the failed control.",
-        "Record the failed control for identify and use personal protective equipment (ppe) and deal with it after the task is finished.",
-        "Do not continue identify and use personal protective equipment (ppe) until the failed control has been corrected or the safe system has been revised and agreed.",
-        "Carry on with identify and use personal protective equipment (ppe) if the remaining exposure is brief."
+        "Rely on PPE alone for PPE, RPE and safety-control equipment and leave the failed control as it is.",
+        "Finish the current PPE, RPE and safety-control equipment operation first, then report the failed control.",
+        "Do not continue PPE, RPE and safety-control equipment until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue PPE, RPE and safety-control equipment carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for identify and use personal protective equipment (ppe) directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for PPE, RPE and safety-control equipment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S2"
@@ -551,15 +551,15 @@
       "id": "ST0095-EPA-028",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, while working on comply with health and safety regulations, standards, and guidance, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for health and safety responsibilities is no longer effective. What is the strongest response?",
       "answers": [
-        "Finish the current comply with health and safety regulations, standards, and guidance operation first, then report the failed control.",
-        "Pause the comply with health and safety regulations, standards, and guidance work, make the situation safe and restore or reassess the failed control before continuing.",
-        "Continue the comply with health and safety regulations, standards, and guidance work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the comply with health and safety regulations, standards, and guidance work and leave the failed control as it is."
+        "Finish the current health and safety responsibilities operation first, then report the failed control.",
+        "Stop the affected health and safety responsibilities activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue health and safety responsibilities carefully because the task itself has not changed.",
+        "Rely on PPE alone for health and safety responsibilities and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for comply with health and safety regulations, standards, and guidance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for health and safety responsibilities directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -571,15 +571,15 @@
       "id": "ST0095-EPA-029",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during well-being: mental and physical health considerations in self and others and how, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During an EPA assessment, during wellbeing and support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Respond to the wellbeing concern during well-being: mental and physical health considerations in self and others and how by controlling any immediate safety risk, checking in with the person and using the appropriate support route.",
-        "Keep well-being: mental and physical health considerations in self and others and how running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in well-being: mental and physical health considerations in self and others and how without addressing the concern.",
-        "Treat the well-being: mental and physical health considerations in self and others and how issue only as a performance problem."
+        "Control any immediate risk in wellbeing and support, check in with the person and use the appropriate support or escalation route. Confirm the result before the next stage begins.",
+        "Tell the person to continue wellbeing and support more slowly and keep the concern private.",
+        "Move the person away from wellbeing and support without discussing what support is needed.",
+        "Wait until the end of the week before responding to the wellbeing and support concern."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for well-being: mental and physical health considerations in self and others and how directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for wellbeing and support directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K31"
@@ -591,15 +591,15 @@
       "id": "ST0095-EPA-030",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for brick walls with raking cut: setting out and construction techniques because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the specified resource for raking-cut brickwork is unavailable. Which response is strongest?",
       "answers": [
-        "Use the resource in brick walls with raking cut: setting out and construction techniques where it will be concealed.",
-        "Modify the resource on site for brick walls with raking cut: setting out and construction techniques without checking approval.",
-        "Proceed with brick walls with raking cut: setting out and construction techniques because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for brick walls with raking cut: setting out and construction techniques, check it against the current requirement and use it only when suitability is confirmed."
+        "Use the resource for a less visible part of raking-cut brickwork.",
+        "Choose the nearest-looking substitute for raking-cut brickwork and continue.",
+        "Install the resource in raking-cut brickwork and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into raking-cut brickwork."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for brick walls with raking cut: setting out and construction techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for raking-cut brickwork directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K30"
@@ -611,15 +611,15 @@
       "id": "ST0095-EPA-031",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a tool or item of equipment used for methods of cutting bricks and blocks using hand tools develops a defect during a pre-use check. What should you do?",
+      "question": "During an EPA assessment, a tool used for cutting bricks and blocks develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Let the most experienced person try the equipment during methods of cutting bricks and blocks using hand tools before deciding.",
-        "Use the defective equipment only for a non-visible part of methods of cutting bricks and blocks using hand tools.",
-        "Take the defective equipment out of service before continuing methods of cutting bricks and blocks using hand tools, then report it and arrange the required repair, inspection or replacement.",
-        "Continue methods of cutting bricks and blocks using hand tools with the equipment at a reduced load or speed."
+        "Let the most experienced person try the equipment during cutting bricks and blocks before deciding.",
+        "Use the defective equipment only for a less important part of cutting bricks and blocks.",
+        "Take the defective equipment out of service before continuing cutting bricks and blocks, then follow the workplace reporting and repair or replacement procedure.",
+        "Continue cutting bricks and blocks with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for methods of cutting bricks and blocks using hand tools directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cutting bricks and blocks directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K29"
@@ -631,15 +631,15 @@
       "id": "ST0095-EPA-032",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during inclusion, equity and diversity in the workplace, someone is treated differently because of an assumption rather than their work. What should you do?",
+      "question": "During an EPA assessment, during inclusion, equity and diversity, someone is treated differently because of an unsupported assumption. What should you do?",
       "answers": [
-        "Treat the inclusion, equity and diversity in the workplace issue as personal rather than a workplace concern.",
-        "Challenge the unsupported assumption affecting inclusion, equity and diversity in the workplace and base work decisions on relevant competence and safety requirements.",
-        "Keep the inclusion, equity and diversity in the workplace decision unchanged because challenging it may create tension.",
-        "Exclude the colleague from inclusion, equity and diversity in the workplace until they prove the assumption wrong."
+        "Move the colleague to different inclusion, equity and diversity work so the disagreement disappears.",
+        "Challenge the unsupported assumption affecting inclusion, equity and diversity and base decisions on relevant competence, safety and work requirements.",
+        "Ignore the issue during inclusion, equity and diversity unless the person affected raises it formally.",
+        "Accept the unequal treatment in inclusion, equity and diversity if the current arrangement is quicker."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity in the workplace directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K28"
@@ -651,15 +651,15 @@
       "id": "ST0095-EPA-033",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a coordination issue around principles of good team working could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, a coordination issue around team working could create delay or rework. Which response is strongest?",
       "answers": [
-        "Resolve the principles of good team working interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about principles of good team working and continue regardless of the response.",
-        "Wait for someone else to raise the principles of good team working conflict formally.",
-        "Prioritise your own principles of good team working output even if it blocks following work."
+        "Resolve the team working interface early by communicating the issue, checking understanding and agreeing what each person will do next. Confirm the result before the next stage begins.",
+        "Complete your part of team working first because it is already under way.",
+        "Leave the team working issue for the next person to solve when they reach it.",
+        "Create an informal workaround for team working without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for principles of good team working directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K27"
@@ -671,15 +671,15 @@
       "id": "ST0095-EPA-034",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, your work on verbal communication techniques and construction terminology will affect another person or trade. What is the best response?",
+      "question": "During an EPA assessment, your work on workplace communication will affect another person or trade. What is the best response?",
       "answers": [
-        "Complete your part of verbal communication techniques and construction terminology first because it is already under way.",
-        "Leave the verbal communication techniques and construction terminology issue for the next person to solve when they reach it.",
-        "Create an informal workaround for verbal communication techniques and construction terminology without agreeing the changed sequence.",
-        "Share the relevant verbal communication techniques and construction terminology information with the people affected and agree a safe, workable sequence before continuing."
+        "Complete your part of workplace communication first because it is already under way.",
+        "Leave the workplace communication issue for the next person to solve when they reach it.",
+        "Create an informal workaround for workplace communication without agreeing the changed sequence.",
+        "Share the relevant workplace communication information with the people affected and agree a safe, workable sequence before continuing."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for verbal communication techniques and construction terminology directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K26"
@@ -691,15 +691,15 @@
       "id": "ST0095-EPA-035",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during methods of protecting materials and work: frost, water and construction damage, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, a resource for protecting materials and finished work has doubtful condition or identification. What should you do?",
       "answers": [
-        "Ask another operative to accept the material for methods of protecting materials and work: frost, water and construction damage informally.",
-        "Keep the material in methods of protecting materials and work: frost, water and construction damage and replace it only if final inspection fails.",
-        "Do not use the doubtful material in methods of protecting materials and work: frost, water and construction damage until its identity, suitability and approval have been checked.",
-        "Fit the material in methods of protecting materials and work: frost, water and construction damage if it appears close enough to the specified item."
+        "Choose the nearest-looking substitute for protecting materials and finished work and continue.",
+        "Install the resource in protecting materials and finished work and record the substitution only at handover.",
+        "Do not use the doubtful resource in protecting materials and finished work until its identity, suitability and approval have been checked.",
+        "Use the resource for a less visible part of protecting materials and finished work."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for methods of protecting materials and work: frost, water and construction damage directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for protecting materials and finished work directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K25"
@@ -711,15 +711,15 @@
       "id": "ST0095-EPA-036",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, the next stage will conceal part of defects and repair: construction defects and repair methods, but a required check is still outstanding. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to brickwork defects and repair improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Continue defects and repair: construction defects and repair methods and rely on final inspection to identify any problem.",
-        "Do not conceal defects and repair: construction defects and repair methods while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph defects and repair: construction defects and repair methods and continue even though the check has not passed.",
-        "Accept defects and repair: construction defects and repair methods because a later finish will hide the discrepancy."
+        "Complete the brickwork defects and repair repair using the quickest available material regardless of specification.",
+        "Reassess brickwork defects and repair, correct the underlying defect using the appropriate method and check the completed repair.",
+        "Cover the visible symptom in brickwork defects and repair without checking the underlying cause.",
+        "Use the previous repair method for brickwork defects and repair without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for defects and repair: construction defects and repair methods directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brickwork defects and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K24"
@@ -731,15 +731,15 @@
       "id": "ST0095-EPA-037",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for brick on edge and soldier courses: setting out and construction techniques does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for brick-on-edge and soldier courses does not fully match the requirement. What is the best response?",
       "answers": [
-        "Separate the questionable resource for brick on edge and soldier courses: setting out and construction techniques and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of brick on edge and soldier courses: setting out and construction techniques.",
-        "Use extra quantity of the substitute in brick on edge and soldier courses: setting out and construction techniques to compensate for the difference.",
-        "Install the resource in brick on edge and soldier courses: setting out and construction techniques and record the substitution only at handover."
+        "Separate the questionable resource for brick-on-edge and soldier courses and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of brick-on-edge and soldier courses.",
+        "Choose the nearest-looking substitute for brick-on-edge and soldier courses and continue.",
+        "Install the resource in brick-on-edge and soldier courses and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for brick on edge and soldier courses: setting out and construction techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brick-on-edge and soldier courses directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K23"
@@ -751,15 +751,15 @@
       "id": "ST0095-EPA-038",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during cavity wall construction using stretcher bond brick and block walling, forming, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, before carrying out a repair involving cavity-wall construction, what should happen?",
       "answers": [
-        "Fit the material in cavity wall construction using stretcher bond brick and block walling, forming if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for cavity wall construction using stretcher bond brick and block walling, forming informally.",
-        "Keep the material in cavity wall construction using stretcher bond brick and block walling, forming and replace it only if final inspection fails.",
-        "Do not use the doubtful material in cavity wall construction using stretcher bond brick and block walling, forming until its identity, suitability and approval have been checked."
+        "Cover the visible symptom in cavity-wall construction without checking the underlying cause.",
+        "Use the previous repair method for cavity-wall construction without checking the current condition.",
+        "Complete the cavity-wall construction repair using the quickest available material regardless of specification.",
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for cavity-wall construction."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for cavity wall construction using stretcher bond brick and block walling, forming directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cavity-wall construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K22"
@@ -771,15 +771,15 @@
       "id": "ST0095-EPA-039",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for cavity wall setting out techniques: bricks and blocks, openings and levels, use of because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the specified resource for cavity-wall setting out is unavailable. Which response is strongest?",
       "answers": [
-        "Modify the resource on site for cavity wall setting out techniques: bricks and blocks, openings and levels, use of without checking approval.",
-        "Proceed with cavity wall setting out techniques: bricks and blocks, openings and levels, use of because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for cavity wall setting out techniques: bricks and blocks, openings and levels, use of, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in cavity wall setting out techniques: bricks and blocks, openings and levels, use of where it will be concealed."
+        "Choose the nearest-looking substitute for cavity-wall setting out and continue.",
+        "Install the resource in cavity-wall setting out and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into cavity-wall setting out.",
+        "Use the resource for a less visible part of cavity-wall setting out."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for cavity wall setting out techniques: bricks and blocks, openings and levels, use of directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for cavity-wall setting out directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K21"
@@ -791,15 +791,15 @@
       "id": "ST0095-EPA-040",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a material or component for mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a material or component for mortar mixing and ratios does not fully match the requirement. What is the best response?",
       "answers": [
-        "Install the resource in mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical and record the substitution only at handover.",
-        "Separate the questionable resource for mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical.",
-        "Use extra quantity of the substitute in mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical to compensate for the difference."
+        "Install the resource in mortar mixing and ratios and record the substitution only at handover.",
+        "Separate the questionable resource for mortar mixing and ratios and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of mortar mixing and ratios.",
+        "Choose the nearest-looking substitute for mortar mixing and ratios and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for mixing mortar: ratios, silos, pre-mixed, gauging, hand mixing and mechanical directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar mixing and ratios directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K20"
@@ -811,15 +811,15 @@
       "id": "ST0095-EPA-041",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during principles of the use of expansion joints, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, a check during masonry expansion joints shows the work is drifting from the required line, level, size or detail. What should you do?",
       "answers": [
-        "Hold the next stage of principles of the use of expansion joints, investigate why the check failed and bring the work back to the issued requirement before covering it.",
-        "Proceed with principles of the use of expansion joints because the work looks acceptable despite the failed check.",
-        "Leave the principles of the use of expansion joints defect for handover so it can be considered with the finished job.",
-        "Change the next stage of principles of the use of expansion joints instead of correcting the failed requirement."
+        "Stop at the appropriate point, identify the cause and bring masonry expansion joints back to the required standard before continuing.",
+        "Rely on memory for masonry expansion joints and check dimensions only after completion.",
+        "Start masonry expansion joints immediately and adjust later stages to absorb any error.",
+        "Leave the masonry expansion joints discrepancy for final inspection."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for principles of the use of expansion joints directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for masonry expansion joints directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -831,15 +831,15 @@
       "id": "ST0095-EPA-042",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for principles of basic decorative walling and piers: projecting and contrasting because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, the specified resource for decorative brickwork and piers is unavailable. Which response is strongest?",
       "answers": [
-        "Use the resource in principles of basic decorative walling and piers: projecting and contrasting where it will be concealed.",
-        "Modify the resource on site for principles of basic decorative walling and piers: projecting and contrasting without checking approval.",
-        "Proceed with principles of basic decorative walling and piers: projecting and contrasting because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for principles of basic decorative walling and piers: projecting and contrasting, check it against the current requirement and use it only when suitability is confirmed."
+        "Use the resource for a less visible part of decorative brickwork and piers.",
+        "Choose the nearest-looking substitute for decorative brickwork and piers and continue.",
+        "Install the resource in decorative brickwork and piers and record the substitution only at handover.",
+        "Check and obtain approval for a suitable alternative before incorporating it into decorative brickwork and piers."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for principles of basic decorative walling and piers: projecting and contrasting directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for decorative brickwork and piers directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K18"
@@ -851,15 +851,15 @@
       "id": "ST0095-EPA-043",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, while carrying out joint finishes: half round, flush, weather struck and recessed, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, before carrying out mortar joint finishes, what is the strongest approach?",
       "answers": [
-        "Record the deviation in joint finishes: half round, flush, weather struck and recessed but leave it unless another trade objects.",
-        "Adjust a later part of joint finishes: half round, flush, weather struck and recessed to disguise the current error.",
-        "Stop the joint finishes: half round, flush, weather struck and recessed work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
-        "Continue joint finishes: half round, flush, weather struck and recessed and correct only the visible result at final inspection."
+        "Start mortar joint finishes immediately and adjust later stages to absorb any error.",
+        "Leave the mortar joint finishes discrepancy for final inspection.",
+        "Use the current requirement to set out and sequence mortar joint finishes, make the required checks as work progresses and correct issues before they are concealed.",
+        "Rely on memory for mortar joint finishes and check dimensions only after completion."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for joint finishes: half round, flush, weather struck and recessed directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for mortar joint finishes directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -871,15 +871,15 @@
       "id": "ST0095-EPA-044",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during brick solid wall setting out, construction and capping methods, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, a resource for solid-wall setting out and construction has doubtful condition or identification. What should you do?",
       "answers": [
-        "Keep the material in brick solid wall setting out, construction and capping methods and replace it only if final inspection fails.",
-        "Do not use the doubtful material in brick solid wall setting out, construction and capping methods until its identity, suitability and approval have been checked.",
-        "Fit the material in brick solid wall setting out, construction and capping methods if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for brick solid wall setting out, construction and capping methods informally."
+        "Install the resource in solid-wall setting out and construction and record the substitution only at handover.",
+        "Do not use the doubtful resource in solid-wall setting out and construction until its identity, suitability and approval have been checked.",
+        "Use the resource for a less visible part of solid-wall setting out and construction.",
+        "Choose the nearest-looking substitute for solid-wall setting out and construction and continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for brick solid wall setting out, construction and capping methods directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for solid-wall setting out and construction directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -891,15 +891,15 @@
       "id": "ST0095-EPA-045",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, the next stage will conceal part of bond types: english bond, flemish bond, garden wall bonds and broken bond, but a required check is still outstanding. Which response is strongest?",
+      "question": "During an EPA assessment, the next stage will conceal part of brickwork bond types, but a required check is outstanding. Which response is strongest?",
       "answers": [
-        "Do not conceal bond types: english bond, flemish bond, garden wall bonds and broken bond while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph bond types: english bond, flemish bond, garden wall bonds and broken bond and continue even though the check has not passed.",
-        "Accept bond types: english bond, flemish bond, garden wall bonds and broken bond because a later finish will hide the discrepancy.",
-        "Continue bond types: english bond, flemish bond, garden wall bonds and broken bond and rely on final inspection to identify any problem."
+        "Complete and pass the required check on brickwork bond types before the work is covered or progressed.",
+        "Rely on memory for brickwork bond types and check dimensions only after completion.",
+        "Start brickwork bond types immediately and adjust later stages to absorb any error.",
+        "Leave the brickwork bond types discrepancy for final inspection."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for bond types: english bond, flemish bond, garden wall bonds and broken bond directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for brickwork bond types directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K15"
@@ -911,15 +911,15 @@
       "id": "ST0095-EPA-046",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, a tool or item of equipment used for power tool use and limitations: disc cutters, mixers and drills develops a defect during a pre-use check. What should you do?",
+      "question": "During an EPA assessment, a tool used for power tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Continue power tool use and limitations: disc cutters, mixers and drills with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during power tool use and limitations: disc cutters, mixers and drills before deciding.",
-        "Use the defective equipment only for a non-visible part of power tool use and limitations: disc cutters, mixers and drills.",
-        "Take the defective equipment out of service before continuing power tool use and limitations: disc cutters, mixers and drills, then report it and arrange the required repair, inspection or replacement."
+        "Continue power tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during power tools before deciding.",
+        "Use the defective equipment only for a less important part of power tools.",
+        "Take the defective equipment out of service before continuing power tools, then follow the workplace reporting and repair or replacement procedure."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for power tool use and limitations: disc cutters, mixers and drills directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for power tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -931,15 +931,15 @@
       "id": "ST0095-EPA-047",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, during hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During an EPA assessment, during hand tools, a safety or accuracy feature on the equipment becomes unreliable. What is the best response?",
       "answers": [
-        "Keep the equipment in service for hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick if a colleague agrees to monitor it.",
-        "Compensate for the defect during hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick by working more slowly.",
-        "Do not continue hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
-        "Use the equipment for hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick only until the current operation is complete."
+        "Let the most experienced person try the equipment during hand tools before deciding.",
+        "Use the defective equipment only for a less important part of hand tools.",
+        "Do not continue hand tools with unreliable equipment; remove it from use and arrange the required inspection, maintenance or replacement.",
+        "Continue hand tools with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for hand tool use, maintenance and storage: levels, measures, hammers, bolsters, brick directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K13"
@@ -951,15 +951,15 @@
       "id": "ST0095-EPA-048",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning simple resource estimation techniques: quantity of bricks and blocks, amount of. Which approach is strongest?",
+      "question": "During an EPA assessment, you need to allow for dimensions, openings or waste when planning material estimation and cutting lists. Which approach is strongest?",
       "answers": [
-        "Choose the nearest whole quantity for simple resource estimation techniques: quantity of bricks and blocks, amount of before completing the calculation.",
-        "Trace the simple resource estimation techniques: quantity of bricks and blocks, amount of estimate back to current measurements, required components and the stated waste allowance, correcting unsupported assumptions.",
-        "Use a rule-of-thumb quantity for simple resource estimation techniques: quantity of bricks and blocks, amount of instead of checking the current information.",
-        "Apply the same waste allowance to every part of simple resource estimation techniques: quantity of bricks and blocks, amount of without justification."
+        "Round every stage of the material estimation and cutting lists calculation upward before checking the dimensions.",
+        "Trace the material estimation and cutting lists estimate back to current measurements, required components and the stated waste allowance.",
+        "Use the quantity from a previous job as the final figure for material estimation and cutting lists.",
+        "Keep the higher material estimation and cutting lists figure without checking so there is no risk of shortage."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for simple resource estimation techniques: quantity of bricks and blocks, amount of directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for material estimation and cutting lists directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -971,15 +971,15 @@
       "id": "ST0095-EPA-049",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, two current-looking sources for basic principles of digital design and modelling systems conflict. What is the best next step?",
+      "question": "During an EPA assessment, two current-looking sources for digital design and modelling conflict. What is the best next step?",
       "answers": [
-        "Before continuing basic principles of digital design and modelling systems, confirm the current approved information and resolve the conflict or missing detail.",
-        "Use the drawing for basic principles of digital design and modelling systems automatically because drawings always take priority.",
-        "Use the site condition for basic principles of digital design and modelling systems without checking because it is physically present.",
-        "Average the conflicting requirements for basic principles of digital design and modelling systems so progress can continue."
+        "Confirm the current approved information for digital design and modelling and resolve the conflict before committing the work.",
+        "Use whichever digital design and modelling source is easiest to follow.",
+        "Continue digital design and modelling from memory and correct it later if necessary.",
+        "Proceed with digital design and modelling and ask for confirmation only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for basic principles of digital design and modelling systems directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for digital design and modelling directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -991,15 +991,15 @@
       "id": "ST0095-EPA-050",
       "category": "epa",
       "courseId": "ST0095",
-      "question": "During an EPA assessment, the drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and does not agree with the site condition. What should you do?",
+      "question": "During an EPA assessment, information needed for drawings and specifications is incomplete. What should you do?",
       "answers": [
-        "Use whichever methods of interpreting and extracting relevant information from drawings and document is easiest to follow.",
-        "Continue methods of interpreting and extracting relevant information from drawings and from memory and correct it later if necessary.",
-        "Let the next trade decide which methods of interpreting and extracting relevant information from drawings and information should have been used.",
-        "Verify which drawing, specification or instruction governs methods of interpreting and extracting relevant information from drawings and, then obtain clarification before fixing the work."
+        "Use whichever drawings and specifications source is easiest to follow.",
+        "Continue drawings and specifications from memory and correct it later if necessary.",
+        "Proceed with drawings and specifications and ask for confirmation only at handover.",
+        "Verify the required drawings and specifications information and obtain clarification before fixing or recording the work."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for methods of interpreting and extracting relevant information from drawings and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drawings and specifications directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K10"

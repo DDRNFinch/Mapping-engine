@@ -1,7 +1,7 @@
 {
   "naxosQuestionBankManifest": 1,
   "schemaVersion": 2,
-  "version": 4,
+  "version": 5,
   "sourceOfTruth": "Naxos",
   "delivery": "static-course-referenced-json",
   "generatedQuestionCount": 720,

@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0171-epa-v1",
-  "version": 3,
+  "version": 4,
   "category": "epa",
   "courseId": "ST0171",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0171-EPA-001",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, you are asked to carry out seek learning and development opportunities, but an important decision is outside your current competence or authority. What should you do?",
+      "question": "During an EPA assessment, a decision involving competence, authority and professional development is outside your current competence or authority. What should you do?",
       "answers": [
-        "For seek learning and development opportunities, make the situation safe and seek the correct instruction, supervision or authorised decision before acting beyond your competence.",
-        "Use the solution that worked on a previous seek learning and development opportunities job.",
-        "Ask another operative to take responsibility for seek learning and development opportunities informally while you continue.",
-        "Choose the least disruptive seek learning and development opportunities option and report it after completion."
+        "Make the situation safe and seek the correct instruction, supervision or authorised decision before acting on competence, authority and professional development.",
+        "Use the solution that worked on a previous job for competence, authority and professional development.",
+        "Ask another operative to take responsibility for competence, authority and professional development informally while you continue.",
+        "Choose the least disruptive competence, authority and professional development option and report it after completion."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for seek learning and development opportunities directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for competence, authority and professional development directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B6"
@@ -31,15 +31,15 @@
       "id": "ST0171-EPA-002",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during contribute to equality, diverse and inclusive culture, someone is treated differently because of an assumption rather than their work. What should you do?",
+      "question": "During an EPA assessment, during inclusion, equity and diversity, someone is treated differently because of an unsupported assumption. What should you do?",
       "answers": [
-        "Keep the contribute to equality, diverse and inclusive culture decision unchanged because challenging it may create tension.",
-        "Exclude the colleague from contribute to equality, diverse and inclusive culture until they prove the assumption wrong.",
-        "Treat the contribute to equality, diverse and inclusive culture issue as personal rather than a workplace concern.",
-        "Challenge the unsupported assumption affecting contribute to equality, diverse and inclusive culture and base work decisions on relevant competence and safety requirements."
+        "Ignore the issue during inclusion, equity and diversity unless the person affected raises it formally.",
+        "Accept the unequal treatment in inclusion, equity and diversity if the current arrangement is quicker.",
+        "Move the colleague to different inclusion, equity and diversity work so the disagreement disappears.",
+        "Challenge the unsupported assumption affecting inclusion, equity and diversity and base decisions on relevant competence, safety and work requirements."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for contribute to equality, diverse and inclusive culture directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B5"
@@ -51,15 +51,15 @@
       "id": "ST0171-EPA-003",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a coordination issue around team focuses to meet goals could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, a coordination issue around team working could create delay or rework. Which response is strongest?",
       "answers": [
-        "Wait for someone else to raise the team focuses to meet goals conflict formally.",
-        "Prioritise your own team focuses to meet goals output even if it blocks following work.",
-        "Resolve the team focuses to meet goals interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about team focuses to meet goals and continue regardless of the response."
+        "Leave the team working issue for the next person to solve when they reach it.",
+        "Create an informal workaround for team working without agreeing the changed sequence.",
+        "Resolve the team working interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
+        "Complete your part of team working first because it is already under way."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for team focuses to meet goals directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B4"
@@ -71,10 +71,10 @@
       "id": "ST0171-EPA-004",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, while carrying out takes responsibility for completion of own work, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a check on takes responsibility for completion of own work shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
         "Adjust a later part of takes responsibility for completion of own work to disguise the current error.",
-        "Stop the takes responsibility for completion of own work work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Stop before the issue is concealed, identify the cause, correct or escalate it and repeat the required check on takes responsibility for completion of own work.",
         "Continue takes responsibility for completion of own work and correct only the visible result at final inspection.",
         "Record the deviation in takes responsibility for completion of own work but leave it unless another trade objects."
       ],
@@ -91,12 +91,12 @@
       "id": "ST0171-EPA-005",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during prioritise and promote health and safety, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during prioritise and promote health and safety and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Stop the affected prioritise and promote health and safety activity and review the changed risk before restarting under effective agreed controls.",
-        "Reduce the pace of the prioritise and promote health and safety activity but keep the original method unchanged.",
-        "Ask another operative to watch the prioritise and promote health and safety work while the control remains unavailable.",
-        "Complete this stage of the prioritise and promote health and safety work because changing the system now would cause delay."
+        "Pause prioritise and promote health and safety, review the changed risk and restart only when effective controls are in place.",
+        "Continue prioritise and promote health and safety carefully because the task itself has not changed.",
+        "Rely on PPE alone for prioritise and promote health and safety and leave the failed control as it is.",
+        "Finish the current prioritise and promote health and safety operation first, then report the failed control."
       ],
       "correct": 0,
       "explanation": "The strongest response applies the mapped requirement for prioritise and promote health and safety directly to the scenario.",
@@ -111,15 +111,15 @@
       "id": "ST0171-EPA-006",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, at the end of prioritise and promote sustainable working practices, several waste streams have been mixed. Which response is strongest?",
+      "question": "During an EPA assessment, several waste streams from environmental compliance and waste segregation have been mixed. Which response is strongest?",
       "answers": [
-        "Use one container for all prioritise and promote sustainable working practices waste because segregation slows the task.",
-        "Separate only hazardous prioritise and promote sustainable working practices waste and mix all other materials together.",
-        "Wait until prioritise and promote sustainable working practices is complete before deciding which materials could have been reused.",
-        "Prevent mixed waste building up during prioritise and promote sustainable working practices by separating resources at source and following the site's agreed waste arrangements."
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project.",
+        "Stop further mixing and restore segregation for environmental compliance and waste segregation in line with the site environmental and waste arrangements."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for prioritise and promote sustainable working practices directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "B1"
@@ -131,15 +131,15 @@
       "id": "ST0171-EPA-007",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, you are asked to carry out escalates issues beyond their level of competence and authority, but an important decision is outside your current competence or authority. What should you do?",
+      "question": "During an EPA assessment, a decision involving competence, authority and professional development is outside your current competence or authority. What should you do?",
       "answers": [
-        "Ask another operative to take responsibility for escalates issues beyond their level of competence and authority informally while you continue.",
-        "Choose the least disruptive escalates issues beyond their level of competence and authority option and report it after completion.",
-        "For escalates issues beyond their level of competence and authority, make the situation safe and seek the correct instruction, supervision or authorised decision before acting beyond your competence.",
-        "Use the solution that worked on a previous escalates issues beyond their level of competence and authority job."
+        "Ask another operative to take responsibility for competence, authority and professional development informally while you continue.",
+        "Choose the least disruptive competence, authority and professional development option and report it after completion.",
+        "Make the situation safe and seek the correct instruction, supervision or authorised decision before acting on competence, authority and professional development. Complete that action before work continues.",
+        "Use the solution that worked on a previous job for competence, authority and professional development."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for escalates issues beyond their level of competence and authority directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for competence, authority and professional development directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S25"
@@ -151,15 +151,15 @@
       "id": "ST0171-EPA-008",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during provide customer feedback whilst maintaining customer service, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During an EPA assessment, during customer service and feedback, the sequence or information needed by another person becomes unclear. What should you do?",
       "answers": [
-        "Continue provide customer feedback whilst maintaining customer service until the coordination problem actually stops the job.",
-        "Clarify the provide customer feedback whilst maintaining customer service issue with the affected people, confirm responsibilities and agree the sequence before work proceeds.",
-        "Assume the other trade understands provide customer feedback whilst maintaining customer service without checking.",
-        "Change the provide customer feedback whilst maintaining customer service sequence yourself and tell others afterwards."
+        "Create an informal workaround for customer service and feedback without agreeing the changed sequence.",
+        "Clarify the customer service and feedback issue with the affected people, confirm responsibilities and agree the next steps before work proceeds.",
+        "Complete your part of customer service and feedback first because it is already under way.",
+        "Leave the customer service and feedback issue for the next person to solve when they reach it."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for provide customer feedback whilst maintaining customer service directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for customer service and feedback directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S24"
@@ -171,15 +171,15 @@
       "id": "ST0171-EPA-009",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a coordination issue around use and adapt communication methods for different situations and when, working could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, a coordination issue around workplace communication could create delay or rework. Which response is strongest?",
       "answers": [
-        "Resolve the use and adapt communication methods for different situations and when, working interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about use and adapt communication methods for different situations and when, working and continue regardless of the response.",
-        "Wait for someone else to raise the use and adapt communication methods for different situations and when, working conflict formally.",
-        "Prioritise your own use and adapt communication methods for different situations and when, working output even if it blocks following work."
+        "Resolve the workplace communication interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
+        "Complete your part of workplace communication first because it is already under way.",
+        "Leave the workplace communication issue for the next person to solve when they reach it.",
+        "Create an informal workaround for workplace communication without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for use and adapt communication methods for different situations and when, working directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for workplace communication directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S23"
@@ -191,15 +191,15 @@
       "id": "ST0171-EPA-010",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the work on comply with environmental regulations and procedures produces reusable, recyclable and disposal waste. What is the best approach?",
+      "question": "During an EPA assessment, work on environmental compliance and waste segregation produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Put all waste from comply with environmental regulations and procedures in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from comply with environmental regulations and procedures and dispose of the rest together.",
-        "Leave all sorting from comply with environmental regulations and procedures until the end of the project.",
-        "Segregate waste from comply with environmental regulations and procedures as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes."
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project.",
+        "Segregate waste from environmental compliance and waste segregation as it is produced, retain usable material and follow the site reuse, recycling and disposal routes."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for comply with environmental regulations and procedures directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S22"
@@ -211,15 +211,15 @@
       "id": "ST0171-EPA-011",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the drawing, specification or instruction for inspect own work, ensuring it is delivered to the given specifications does not agree with the site condition. What should you do?",
+      "question": "During an EPA assessment, information needed for quality assurance and inspection is incomplete. What should you do?",
       "answers": [
-        "Continue inspect own work, ensuring it is delivered to the given specifications from memory and correct it later if necessary.",
-        "Let the next trade decide which inspect own work, ensuring it is delivered to the given specifications information should have been used.",
-        "Verify which drawing, specification or instruction governs inspect own work, ensuring it is delivered to the given specifications, then obtain clarification before fixing the work.",
-        "Use whichever inspect own work, ensuring it is delivered to the given specifications document is easiest to follow."
+        "Continue quality assurance and inspection from memory and correct it later if necessary.",
+        "Proceed with quality assurance and inspection and ask for confirmation only at handover.",
+        "Verify the required quality assurance and inspection information and obtain clarification before fixing or recording the work.",
+        "Use whichever quality assurance and inspection source is easiest to follow."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for inspect own work, ensuring it is delivered to the given specifications directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for quality assurance and inspection directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S21"
@@ -231,15 +231,15 @@
       "id": "ST0171-EPA-012",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, before committing work on record and report information, using digital and written techniques, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "During an EPA assessment, the issued information for recording and reporting information does not match the situation in front of you. Which response is strongest?",
       "answers": [
-        "Proceed with record and report information, using digital and written techniques and ask for confirmation only at handover.",
-        "Treat the information for record and report information, using digital and written techniques as unresolved until the approved source and any discrepancy have been confirmed.",
-        "Use the newest-looking record and report information, using digital and written techniques document even if its revision is unconfirmed.",
-        "Adapt record and report information, using digital and written techniques to suit the site without recording the change."
+        "Proceed with recording and reporting information and ask for confirmation only at handover.",
+        "Treat the recording and reporting information information as unresolved until the approved source and discrepancy have been confirmed.",
+        "Use whichever recording and reporting information source is easiest to follow.",
+        "Continue recording and reporting information from memory and correct it later if necessary."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for record and report information, using digital and written techniques directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for recording and reporting information directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S20"
@@ -251,15 +251,15 @@
       "id": "ST0171-EPA-013",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, two current-looking sources for select and use technical literature and other sources of information and data to conflict. What is the best next step?",
+      "question": "During an EPA assessment, two current-looking sources for technical information and literature conflict. What is the best next step?",
       "answers": [
-        "Before continuing select and use technical literature and other sources of information and data to, confirm the current approved information and resolve the conflict or missing detail.",
-        "Use the drawing for select and use technical literature and other sources of information and data to automatically because drawings always take priority.",
-        "Use the site condition for select and use technical literature and other sources of information and data to without checking because it is physically present.",
-        "Average the conflicting requirements for select and use technical literature and other sources of information and data to so progress can continue."
+        "Confirm the current approved information for technical information and literature and resolve the conflict before committing the work.",
+        "Use whichever technical information and literature source is easiest to follow.",
+        "Continue technical information and literature from memory and correct it later if necessary.",
+        "Proceed with technical information and literature and ask for confirmation only at handover."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for select and use technical literature and other sources of information and data to directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for technical information and literature directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S19"
@@ -271,15 +271,15 @@
       "id": "ST0171-EPA-014",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during perform planned, responsive or temporary repairs to buildings or their immediate, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, before carrying out a repair involving roof inspection and repair, what should happen?",
       "answers": [
-        "Proceed with perform planned, responsive or temporary repairs to buildings or their immediate because the work looks acceptable despite the failed check.",
-        "Leave the perform planned, responsive or temporary repairs to buildings or their immediate defect for handover so it can be considered with the finished job.",
-        "Change the next stage of perform planned, responsive or temporary repairs to buildings or their immediate instead of correcting the failed requirement.",
-        "Hold the next stage of perform planned, responsive or temporary repairs to buildings or their immediate, investigate why the check failed and bring the work back to the issued requirement before covering it."
+        "Cover the visible symptom in roof inspection and repair without checking the underlying cause.",
+        "Use the previous repair method for roof inspection and repair without checking the current condition.",
+        "Complete the roof inspection and repair repair using the quickest available material regardless of specification.",
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for roof inspection and repair."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for perform planned, responsive or temporary repairs to buildings or their immediate directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for roof inspection and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S18"
@@ -291,15 +291,15 @@
       "id": "ST0171-EPA-015",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for perform flooring repairs, including setting out, surface preparation and cutting because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to flooring repairs improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Modify the resource on site for perform flooring repairs, including setting out, surface preparation and cutting without checking approval.",
-        "Proceed with perform flooring repairs, including setting out, surface preparation and cutting because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for perform flooring repairs, including setting out, surface preparation and cutting, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in perform flooring repairs, including setting out, surface preparation and cutting where it will be concealed."
+        "Use the previous repair method for flooring repairs without checking the current condition.",
+        "Complete the flooring repairs repair using the quickest available material regardless of specification.",
+        "Reassess flooring repairs, correct the underlying defect using the appropriate method and check the completed repair.",
+        "Cover the visible symptom in flooring repairs without checking the underlying cause."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for perform flooring repairs, including setting out, surface preparation and cutting directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for flooring repairs directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S17"
@@ -311,15 +311,15 @@
       "id": "ST0171-EPA-016",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, while carrying out perform tiling repairs, including setting out, surface preparation and cutting, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with tiling repairs. What is the strongest approach?",
       "answers": [
-        "Adjust a later part of perform tiling repairs, including setting out, surface preparation and cutting to disguise the current error.",
-        "Stop the perform tiling repairs, including setting out, surface preparation and cutting work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
-        "Continue perform tiling repairs, including setting out, surface preparation and cutting and correct only the visible result at final inspection.",
-        "Record the deviation in perform tiling repairs, including setting out, surface preparation and cutting but leave it unless another trade objects."
+        "Complete the tiling repairs repair using the quickest available material regardless of specification.",
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for tiling repairs.",
+        "Cover the visible symptom in tiling repairs without checking the underlying cause.",
+        "Use the previous repair method for tiling repairs without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for perform tiling repairs, including setting out, surface preparation and cutting directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for tiling repairs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S16"
@@ -331,15 +331,15 @@
       "id": "ST0171-EPA-017",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during use painting and decorating skills to prepare surfaces for decoration, apply paint, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, before carrying out a repair involving painting and decorating, what should happen?",
       "answers": [
-        "Do not use the doubtful material in use painting and decorating skills to prepare surfaces for decoration, apply paint until its identity, suitability and approval have been checked.",
-        "Fit the material in use painting and decorating skills to prepare surfaces for decoration, apply paint if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for use painting and decorating skills to prepare surfaces for decoration, apply paint informally.",
-        "Keep the material in use painting and decorating skills to prepare surfaces for decoration, apply paint and replace it only if final inspection fails."
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for painting and decorating.",
+        "Cover the visible symptom in painting and decorating without checking the underlying cause.",
+        "Use the previous repair method for painting and decorating without checking the current condition.",
+        "Complete the painting and decorating repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for use painting and decorating skills to prepare surfaces for decoration, apply paint directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for painting and decorating directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S15"
@@ -351,15 +351,15 @@
       "id": "ST0171-EPA-018",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for perform repairs to plastered surfaces, including surface preparation, fixing and because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to plaster repair and finishing improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Use the resource in perform repairs to plastered surfaces, including surface preparation, fixing and where it will be concealed.",
-        "Modify the resource on site for perform repairs to plastered surfaces, including surface preparation, fixing and without checking approval.",
-        "Proceed with perform repairs to plastered surfaces, including surface preparation, fixing and because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for perform repairs to plastered surfaces, including surface preparation, fixing and, check it against the current requirement and use it only when suitability is confirmed."
+        "Cover the visible symptom in plaster repair and finishing without checking the underlying cause.",
+        "Use the previous repair method for plaster repair and finishing without checking the current condition.",
+        "Complete the plaster repair and finishing repair using the quickest available material regardless of specification.",
+        "Reassess plaster repair and finishing, correct the underlying defect using the appropriate method and check the completed repair."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for perform repairs to plastered surfaces, including surface preparation, fixing and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for plaster repair and finishing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S14"
@@ -371,15 +371,15 @@
       "id": "ST0171-EPA-019",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, while working on use carpentry and joinery skills to perform repairs to windows, doors and glazing, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for windows, doors and glazing is no longer effective. What is the strongest response?",
       "answers": [
-        "Rely on PPE alone for the use carpentry and joinery skills to perform repairs to windows, doors and glazing work and leave the failed control as it is.",
-        "Finish the current use carpentry and joinery skills to perform repairs to windows, doors and glazing operation first, then report the failed control.",
-        "Pause the use carpentry and joinery skills to perform repairs to windows, doors and glazing work, make the situation safe and restore or reassess the failed control before continuing.",
-        "Continue the use carpentry and joinery skills to perform repairs to windows, doors and glazing work carefully because the task itself has not changed."
+        "Rely on PPE alone for windows, doors and glazing and leave the failed control as it is.",
+        "Finish the current windows, doors and glazing operation first, then report the failed control.",
+        "Stop the affected windows, doors and glazing activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue windows, doors and glazing carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for use carpentry and joinery skills to perform repairs to windows, doors and glazing directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for windows, doors and glazing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -391,15 +391,15 @@
       "id": "ST0171-EPA-020",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during perform maintenance and repairs to environmental and energy management systems,, mixed waste and usable offcuts are building up in the work area. What should happen?",
+      "question": "During an EPA assessment, during environmental and energy-management systems, mixed waste and usable offcuts are building up. What should happen?",
       "answers": [
-        "Move mixed perform maintenance and repairs to environmental and energy management systems, waste out of sight without checking the site waste plan.",
-        "Manage the perform maintenance and repairs to environmental and energy management systems, waste at source: keep reusable material separate and place each waste stream in the correct site container or route.",
-        "Mix the perform maintenance and repairs to environmental and energy management systems, waste now and sort it later if there is time.",
-        "Dispose of every offcut from perform maintenance and repairs to environmental and energy management systems, even where it can be reused."
+        "Leave all sorting from environmental and energy-management systems until the end of the project.",
+        "Manage the environmental and energy-management systems waste at source: keep reusable material separate and place each waste stream in the correct site route.",
+        "Put all waste from environmental and energy-management systems in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental and energy-management systems and dispose of the rest together."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for perform maintenance and repairs to environmental and energy management systems, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental and energy-management systems directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S12"
@@ -411,15 +411,15 @@
       "id": "ST0171-EPA-021",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for perform maintenance and repairs to external drainage systems, including clearing because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to drainage systems and fault diagnosis improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Quarantine the resource intended for perform maintenance and repairs to external drainage systems, including clearing, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in perform maintenance and repairs to external drainage systems, including clearing where it will be concealed.",
-        "Modify the resource on site for perform maintenance and repairs to external drainage systems, including clearing without checking approval.",
-        "Proceed with perform maintenance and repairs to external drainage systems, including clearing because shortages justify an unapproved substitution."
+        "Reassess drainage systems and fault diagnosis, correct the underlying defect using the appropriate method and check the completed repair.",
+        "Cover the visible symptom in drainage systems and fault diagnosis without checking the underlying cause.",
+        "Use the previous repair method for drainage systems and fault diagnosis without checking the current condition.",
+        "Complete the drainage systems and fault diagnosis repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for perform maintenance and repairs to external drainage systems, including clearing directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for drainage systems and fault diagnosis directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -431,15 +431,15 @@
       "id": "ST0171-EPA-022",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a material or component for perform maintenance and repairs to plumbing systems, including fault does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with plumbing systems and safe isolation. What is the strongest approach?",
       "answers": [
-        "Use the resource for a less visible part of perform maintenance and repairs to plumbing systems, including fault.",
-        "Use extra quantity of the substitute in perform maintenance and repairs to plumbing systems, including fault to compensate for the difference.",
-        "Install the resource in perform maintenance and repairs to plumbing systems, including fault and record the substitution only at handover.",
-        "Separate the questionable resource for perform maintenance and repairs to plumbing systems, including fault and verify its condition, specification and approval before use."
+        "Cover the visible symptom in plumbing systems and safe isolation without checking the underlying cause.",
+        "Use the previous repair method for plumbing systems and safe isolation without checking the current condition.",
+        "Complete the plumbing systems and safe isolation repair using the quickest available material regardless of specification.",
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for plumbing systems and safe isolation."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for perform maintenance and repairs to plumbing systems, including fault directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for plumbing systems and safe isolation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -451,15 +451,15 @@
       "id": "ST0171-EPA-023",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during apply and implement routine emergency system checks, testing and routine, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, conditions change during emergency equipment and system checks and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Leave the apply and implement routine emergency system checks, testing and routine defect for handover so it can be considered with the finished job.",
-        "Change the next stage of apply and implement routine emergency system checks, testing and routine instead of correcting the failed requirement.",
-        "Hold the next stage of apply and implement routine emergency system checks, testing and routine, investigate why the check failed and bring the work back to the issued requirement before covering it.",
-        "Proceed with apply and implement routine emergency system checks, testing and routine because the work looks acceptable despite the failed check."
+        "Rely on PPE alone for emergency equipment and system checks and leave the failed control as it is.",
+        "Finish the current emergency equipment and system checks operation first, then report the failed control.",
+        "Pause emergency equipment and system checks, review the changed risk and restart only when effective controls are in place.",
+        "Continue emergency equipment and system checks carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for apply and implement routine emergency system checks, testing and routine directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for emergency equipment and system checks directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S9"
@@ -471,15 +471,15 @@
       "id": "ST0171-EPA-024",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the next stage will conceal part of safely isolate and secure electrical or electronic supplies prior to performing, but a required check is still outstanding. Which response is strongest?",
+      "question": "During an EPA assessment, a colleague wants to continue electrical systems and safe isolation despite a failed safety control. Which response is strongest?",
       "answers": [
-        "Continue safely isolate and secure electrical or electronic supplies prior to performing and rely on final inspection to identify any problem.",
-        "Do not conceal safely isolate and secure electrical or electronic supplies prior to performing while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph safely isolate and secure electrical or electronic supplies prior to performing and continue even though the check has not passed.",
-        "Accept safely isolate and secure electrical or electronic supplies prior to performing because a later finish will hide the discrepancy."
+        "Finish the current electrical systems and safe isolation operation first, then report the failed control.",
+        "Do not continue electrical systems and safe isolation until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Continue electrical systems and safe isolation carefully because the task itself has not changed.",
+        "Rely on PPE alone for electrical systems and safe isolation and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for safely isolate and secure electrical or electronic supplies prior to performing directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for electrical systems and safe isolation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -491,15 +491,15 @@
       "id": "ST0171-EPA-025",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a tool or item of equipment used for select, and use work tools and equipment for property maintenance tasks, applying develops a defect during a pre-use check. What should you do?",
+      "question": "During an EPA assessment, a tool used for property-maintenance tools and equipment develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Take the defective equipment out of service before continuing select, and use work tools and equipment for property maintenance tasks, applying, then report it and arrange the required repair, inspection or replacement.",
-        "Continue select, and use work tools and equipment for property maintenance tasks, applying with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during select, and use work tools and equipment for property maintenance tasks, applying before deciding.",
-        "Use the defective equipment only for a non-visible part of select, and use work tools and equipment for property maintenance tasks, applying."
+        "Take the defective equipment out of service before continuing property-maintenance tools and equipment, then follow the workplace reporting and repair or replacement procedure.",
+        "Continue property-maintenance tools and equipment with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during property-maintenance tools and equipment before deciding.",
+        "Use the defective equipment only for a less important part of property-maintenance tools and equipment."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for select, and use work tools and equipment for property maintenance tasks, applying directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for property-maintenance tools and equipment directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S7"
@@ -511,15 +511,15 @@
       "id": "ST0171-EPA-026",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during uses safe working practices when carrying out property maintenance tasks including, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during PPE, RPE and safety-control equipment and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Reduce the pace of the uses safe working practices when carrying out property maintenance tasks including activity but keep the original method unchanged.",
-        "Ask another operative to watch the uses safe working practices when carrying out property maintenance tasks including work while the control remains unavailable.",
-        "Complete this stage of the uses safe working practices when carrying out property maintenance tasks including work because changing the system now would cause delay.",
-        "Stop the affected uses safe working practices when carrying out property maintenance tasks including activity and review the changed risk before restarting under effective agreed controls."
+        "Continue PPE, RPE and safety-control equipment carefully because the task itself has not changed.",
+        "Rely on PPE alone for PPE, RPE and safety-control equipment and leave the failed control as it is.",
+        "Finish the current PPE, RPE and safety-control equipment operation first, then report the failed control.",
+        "Pause PPE, RPE and safety-control equipment, review the changed risk and restart only when effective controls are in place."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for uses safe working practices when carrying out property maintenance tasks including directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for PPE, RPE and safety-control equipment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -531,15 +531,15 @@
       "id": "ST0171-EPA-027",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the next stage will conceal part of comply with key regulatory and legislative requirements, including building, but a required check is still outstanding. Which response is strongest?",
+      "question": "During an EPA assessment, a required check for building regulations and legal duties is outstanding and the next stage will conceal the work. Which response is strongest?",
       "answers": [
-        "Accept comply with key regulatory and legislative requirements, including building because a later finish will hide the discrepancy.",
-        "Continue comply with key regulatory and legislative requirements, including building and rely on final inspection to identify any problem.",
-        "Do not conceal comply with key regulatory and legislative requirements, including building while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph comply with key regulatory and legislative requirements, including building and continue even though the check has not passed."
+        "Record the deviation in building regulations and legal duties but leave it unless another trade objects.",
+        "Adjust a later part of building regulations and legal duties to disguise the current error.",
+        "Do not conceal building regulations and legal duties; complete the check and correct or formally escalate any unresolved issue before moving on.",
+        "Continue building regulations and legal duties and correct only the visible result at final inspection."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for comply with key regulatory and legislative requirements, including building directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for building regulations and legal duties directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -551,15 +551,15 @@
       "id": "ST0171-EPA-028",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, while working on comply with risk assessments, and organise the workplace, to safeguard themselves, a required safety control is no longer effective. What is the best response?",
+      "question": "During an EPA assessment, a required control for safe systems of work and risk assessment is no longer effective. What is the strongest response?",
       "answers": [
-        "Finish the current comply with risk assessments, and organise the workplace, to safeguard themselves operation first, then report the failed control.",
-        "Pause the comply with risk assessments, and organise the workplace, to safeguard themselves work, make the situation safe and restore or reassess the failed control before continuing.",
-        "Continue the comply with risk assessments, and organise the workplace, to safeguard themselves work carefully because the task itself has not changed.",
-        "Rely on PPE alone for the comply with risk assessments, and organise the workplace, to safeguard themselves work and leave the failed control as it is."
+        "Finish the current safe systems of work and risk assessment operation first, then report the failed control.",
+        "Stop the affected safe systems of work and risk assessment activity, make the situation safe and restore or reassess the control before continuing.",
+        "Continue safe systems of work and risk assessment carefully because the task itself has not changed.",
+        "Rely on PPE alone for safe systems of work and risk assessment and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for comply with risk assessments, and organise the workplace, to safeguard themselves directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for safe systems of work and risk assessment directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S4"
@@ -571,15 +571,15 @@
       "id": "ST0171-EPA-029",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during comply with statutory health and safety regulations and requirements, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During an EPA assessment, conditions change during health and safety responsibilities and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Stop the affected comply with statutory health and safety regulations and requirements activity and review the changed risk before restarting under effective agreed controls.",
-        "Reduce the pace of the comply with statutory health and safety regulations and requirements activity but keep the original method unchanged.",
-        "Ask another operative to watch the comply with statutory health and safety regulations and requirements work while the control remains unavailable.",
-        "Complete this stage of the comply with statutory health and safety regulations and requirements work because changing the system now would cause delay."
+        "Pause health and safety responsibilities, review the changed risk and restart only when effective controls are in place.",
+        "Continue health and safety responsibilities carefully because the task itself has not changed.",
+        "Rely on PPE alone for health and safety responsibilities and leave the failed control as it is.",
+        "Finish the current health and safety responsibilities operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for comply with statutory health and safety regulations and requirements directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for health and safety responsibilities directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -591,15 +591,15 @@
       "id": "ST0171-EPA-030",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, before committing work on identify and select the appropriate materials and components for property, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "During an EPA assessment, the issued information for selecting compliant materials and components does not match the situation in front of you. Which response is strongest?",
       "answers": [
-        "Use the newest-looking identify and select the appropriate materials and components for property document even if its revision is unconfirmed.",
-        "Adapt identify and select the appropriate materials and components for property to suit the site without recording the change.",
-        "Proceed with identify and select the appropriate materials and components for property and ask for confirmation only at handover.",
-        "Treat the information for identify and select the appropriate materials and components for property as unresolved until the approved source and any discrepancy have been confirmed."
+        "Use whichever selecting compliant materials and components source is easiest to follow.",
+        "Continue selecting compliant materials and components from memory and correct it later if necessary.",
+        "Proceed with selecting compliant materials and components and ask for confirmation only at handover.",
+        "Treat the selecting compliant materials and components information as unresolved until the approved source and discrepancy have been confirmed."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for identify and select the appropriate materials and components for property directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for selecting compliant materials and components directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S2"
@@ -611,15 +611,15 @@
       "id": "ST0171-EPA-031",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, while carrying out plan the sequence of work required to carry out routine property maintenance, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, you are planning planning a maintenance work sequence. What is the strongest approach?",
       "answers": [
-        "Record the deviation in plan the sequence of work required to carry out routine property maintenance but leave it unless another trade objects.",
-        "Adjust a later part of plan the sequence of work required to carry out routine property maintenance to disguise the current error.",
-        "Stop the plan the sequence of work required to carry out routine property maintenance work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
-        "Continue plan the sequence of work required to carry out routine property maintenance and correct only the visible result at final inspection."
+        "Copy the sequence from a previous job without checking current conditions.",
+        "Plan only your own part of planning a maintenance work sequence and ignore dependencies with other work.",
+        "Use the job information, required controls, resources and dependencies to arrange planning a maintenance work sequence in a logical safe sequence before starting.",
+        "Start planning a maintenance work sequence with the easiest activity and decide the remaining sequence as you go."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for plan the sequence of work required to carry out routine property maintenance directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for planning a maintenance work sequence directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -631,15 +631,15 @@
       "id": "ST0171-EPA-032",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the purpose of continuing professional development (cpd) and how this supports, a technical decision is needed that you are not authorised to make. What is the best response?",
+      "question": "During an EPA assessment, during competence, authority and professional development, a technical decision is needed that you are not authorised to make. What is the best response?",
       "answers": [
-        "Let the customer decide the technical the purpose of continuing professional development (cpd) and how this supports issue instead.",
-        "Do not improvise the decision for the purpose of continuing professional development (cpd) and how this supports; recognise the limit of your role and obtain authorised guidance before continuing.",
-        "Carry on with the purpose of continuing professional development (cpd) and how this supports using your best judgement even though the decision is outside your authority.",
-        "Copy a previous the purpose of continuing professional development (cpd) and how this supports solution without checking whether it is approved."
+        "Choose the least disruptive competence, authority and professional development option and report it after completion.",
+        "Recognise the limit of your role and obtain authorised guidance or supervision before continuing competence, authority and professional development.",
+        "Use the solution that worked on a previous job for competence, authority and professional development.",
+        "Ask another operative to take responsibility for competence, authority and professional development informally while you continue."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for the purpose of continuing professional development (cpd) and how this supports directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for competence, authority and professional development directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K31"
@@ -651,15 +651,15 @@
       "id": "ST0171-EPA-033",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a team decision affecting the rights and responsibilities of an employee and employer and an awareness of is unfair and has no work-related justification. Which response is strongest?",
+      "question": "During an EPA assessment, a team decision affecting employment responsibilities and safeguarding is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Do not allow an unjustified assumption to determine the rights and responsibilities of an employee and employer and an awareness of; use the proper route to restore fair and work-related decision-making.",
-        "Use the existing the rights and responsibilities of an employee and employer and an awareness of arrangement because it is familiar to the team.",
-        "Avoid discussing the the rights and responsibilities of an employee and employer and an awareness of decision and give the person different work.",
-        "Wait until the rights and responsibilities of an employee and employer and an awareness of is finished before considering whether the treatment was fair."
+        "Use the proper workplace route to restore fair, respectful and work-related decision-making around employment responsibilities and safeguarding.",
+        "Ignore the issue during employment responsibilities and safeguarding unless the person affected raises it formally.",
+        "Accept the unequal treatment in employment responsibilities and safeguarding if the current arrangement is quicker.",
+        "Move the colleague to different employment responsibilities and safeguarding work so the disagreement disappears."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for the rights and responsibilities of an employee and employer and an awareness of directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for employment responsibilities and safeguarding directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K30"
@@ -671,15 +671,15 @@
       "id": "ST0171-EPA-034",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, while carrying out the roles and responsibilities of property maintenance operatives and the purpose, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with trade roles and coordination. What is the strongest approach?",
       "answers": [
-        "Continue the roles and responsibilities of property maintenance operatives and the purpose and correct only the visible result at final inspection.",
-        "Record the deviation in the roles and responsibilities of property maintenance operatives and the purpose but leave it unless another trade objects.",
-        "Adjust a later part of the roles and responsibilities of property maintenance operatives and the purpose to disguise the current error.",
-        "Stop the the roles and responsibilities of property maintenance operatives and the purpose work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check."
+        "Cover the visible symptom in trade roles and coordination without checking the underlying cause.",
+        "Use the previous repair method for trade roles and coordination without checking the current condition.",
+        "Complete the trade roles and coordination repair using the quickest available material regardless of specification.",
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for trade roles and coordination."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for the roles and responsibilities of property maintenance operatives and the purpose directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for trade roles and coordination directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K29"
@@ -691,15 +691,15 @@
       "id": "ST0171-EPA-035",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the importance of customer service to their organisation, how to provide feedback, the sequence or information needed by another person becomes unclear. What should you do?",
+      "question": "During an EPA assessment, during customer service and feedback, the sequence or information needed by another person becomes unclear. What should you do?",
       "answers": [
-        "Change the the importance of customer service to their organisation, how to provide feedback sequence yourself and tell others afterwards.",
-        "Continue the importance of customer service to their organisation, how to provide feedback until the coordination problem actually stops the job.",
-        "Clarify the the importance of customer service to their organisation, how to provide feedback issue with the affected people, confirm responsibilities and agree the sequence before work proceeds.",
-        "Assume the other trade understands the importance of customer service to their organisation, how to provide feedback without checking."
+        "Leave the customer service and feedback issue for the next person to solve when they reach it.",
+        "Create an informal workaround for customer service and feedback without agreeing the changed sequence.",
+        "Clarify the customer service and feedback issue with the affected people, confirm responsibilities and agree the next steps before work proceeds. Complete that action before work continues.",
+        "Complete your part of customer service and feedback first because it is already under way."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for the importance of customer service to their organisation, how to provide feedback directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for customer service and feedback directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K28"
@@ -711,15 +711,15 @@
       "id": "ST0171-EPA-036",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a coordination issue around methods of communication and when to use industry terminology to match the style could create delay or rework. Which response is strongest?",
+      "question": "During an EPA assessment, a coordination issue around communication and when to use industry terminology to match the style could create delay or rework. Which response is strongest?",
       "answers": [
-        "Prioritise your own methods of communication and when to use industry terminology to match the style output even if it blocks following work.",
-        "Resolve the methods of communication and when to use industry terminology to match the style interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about methods of communication and when to use industry terminology to match the style and continue regardless of the response.",
-        "Wait for someone else to raise the methods of communication and when to use industry terminology to match the style conflict formally."
+        "Create an informal workaround for communication and when to use industry terminology to match the style without agreeing the changed sequence.",
+        "Resolve the communication and when to use industry terminology to match the style interface early by communicating the issue, checking understanding and agreeing what each person will do next.",
+        "Complete your part of communication and when to use industry terminology to match the style first because it is already under way.",
+        "Leave the communication and when to use industry terminology to match the style issue for the next person to solve when they reach it."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for methods of communication and when to use industry terminology to match the style directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for communication and when to use industry terminology to match the style directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K27"
@@ -731,15 +731,15 @@
       "id": "ST0171-EPA-037",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, the work on environmental regulations and requirements: environmental protection act, safe produces reusable, recyclable and disposal waste. What is the best approach?",
+      "question": "During an EPA assessment, work on environmental compliance and waste segregation produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Segregate waste from environmental regulations and requirements: environmental protection act, safe as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
-        "Put all waste from environmental regulations and requirements: environmental protection act, safe in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from environmental regulations and requirements: environmental protection act, safe and dispose of the rest together.",
-        "Leave all sorting from environmental regulations and requirements: environmental protection act, safe until the end of the project."
+        "Segregate waste from environmental compliance and waste segregation as it is produced, retain usable material and follow the site reuse, recycling and disposal routes. Confirm the result before the next stage begins.",
+        "Put all waste from environmental compliance and waste segregation in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental compliance and waste segregation and dispose of the rest together.",
+        "Leave all sorting from environmental compliance and waste segregation until the end of the project."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for environmental regulations and requirements: environmental protection act, safe directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental compliance and waste segregation directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K26"
@@ -751,15 +751,15 @@
       "id": "ST0171-EPA-038",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the purpose of quality assurance and continuous improvement and how these improve, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During an EPA assessment, the work on quality assurance and inspection looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Proceed with the purpose of quality assurance and continuous improvement and how these improve because the work looks acceptable despite the failed check.",
-        "Leave the the purpose of quality assurance and continuous improvement and how these improve defect for handover so it can be considered with the finished job.",
-        "Change the next stage of the purpose of quality assurance and continuous improvement and how these improve instead of correcting the failed requirement.",
-        "Hold the next stage of the purpose of quality assurance and continuous improvement and how these improve, investigate why the check failed and bring the work back to the issued requirement before covering it."
+        "Continue quality assurance and inspection and correct only the visible result at final inspection.",
+        "Record the deviation in quality assurance and inspection but leave it unless another trade objects.",
+        "Adjust a later part of quality assurance and inspection to disguise the current error.",
+        "Hold the next stage of quality assurance and inspection, investigate the failed check and bring the work back to the required standard before covering it."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for the purpose of quality assurance and continuous improvement and how these improve directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for quality assurance and inspection directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K25"
@@ -771,15 +771,15 @@
       "id": "ST0171-EPA-039",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, before committing work on the methods to record information and data via written and digital means and the, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "During an EPA assessment, the issued information for recording and reporting information does not match the situation in front of you. Which response is strongest?",
       "answers": [
-        "Adapt the methods to record information and data via written and digital means and the to suit the site without recording the change.",
-        "Proceed with the methods to record information and data via written and digital means and the and ask for confirmation only at handover.",
-        "Treat the information for the methods to record information and data via written and digital means and the as unresolved until the approved source and any discrepancy have been confirmed.",
-        "Use the newest-looking the methods to record information and data via written and digital means and the document even if its revision is unconfirmed."
+        "Continue recording and reporting information from memory and correct it later if necessary.",
+        "Proceed with recording and reporting information and ask for confirmation only at handover.",
+        "Treat the recording and reporting information information as unresolved until the approved source and discrepancy have been confirmed. Complete that action before work continues.",
+        "Use whichever recording and reporting information source is easiest to follow."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for the methods to record information and data via written and digital means and the directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for recording and reporting information directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K24"
@@ -791,15 +791,15 @@
       "id": "ST0171-EPA-040",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, two current-looking sources for technical sources of information and data used in property maintenance operations conflict. What is the best next step?",
+      "question": "During an EPA assessment, two current-looking sources for technical information and literature conflict. What is the best next step?",
       "answers": [
-        "Average the conflicting requirements for technical sources of information and data used in property maintenance operations so progress can continue.",
-        "Before continuing technical sources of information and data used in property maintenance operations, confirm the current approved information and resolve the conflict or missing detail.",
-        "Use the drawing for technical sources of information and data used in property maintenance operations automatically because drawings always take priority.",
-        "Use the site condition for technical sources of information and data used in property maintenance operations without checking because it is physically present."
+        "Proceed with technical information and literature and ask for confirmation only at handover.",
+        "Confirm the current approved information for technical information and literature and resolve the conflict before committing the work. Confirm the requirement has been met before moving on.",
+        "Use whichever technical information and literature source is easiest to follow.",
+        "Continue technical information and literature from memory and correct it later if necessary."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for technical sources of information and data used in property maintenance operations directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for technical information and literature directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K23"
@@ -811,15 +811,15 @@
       "id": "ST0171-EPA-041",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the common types of groundwork and landscaping systems, their typical defects and, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, before carrying out a repair involving groundwork and landscaping repairs, what should happen?",
       "answers": [
-        "Do not use the doubtful material in the common types of groundwork and landscaping systems, their typical defects and until its identity, suitability and approval have been checked.",
-        "Fit the material in the common types of groundwork and landscaping systems, their typical defects and if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for the common types of groundwork and landscaping systems, their typical defects and informally.",
-        "Keep the material in the common types of groundwork and landscaping systems, their typical defects and and replace it only if final inspection fails."
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for groundwork and landscaping repairs.",
+        "Cover the visible symptom in groundwork and landscaping repairs without checking the underlying cause.",
+        "Use the previous repair method for groundwork and landscaping repairs without checking the current condition.",
+        "Complete the groundwork and landscaping repairs repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for the common types of groundwork and landscaping systems, their typical defects and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for groundwork and landscaping repairs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K22"
@@ -831,15 +831,15 @@
       "id": "ST0171-EPA-042",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for the common types of fencing and railing systems, their typical defects, and the because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to fencing and railing repairs improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Use the resource in the common types of fencing and railing systems, their typical defects, and the where it will be concealed.",
-        "Modify the resource on site for the common types of fencing and railing systems, their typical defects, and the without checking approval.",
-        "Proceed with the common types of fencing and railing systems, their typical defects, and the because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for the common types of fencing and railing systems, their typical defects, and the, check it against the current requirement and use it only when suitability is confirmed."
+        "Cover the visible symptom in fencing and railing repairs without checking the underlying cause.",
+        "Use the previous repair method for fencing and railing repairs without checking the current condition.",
+        "Complete the fencing and railing repairs repair using the quickest available material regardless of specification.",
+        "Reassess fencing and railing repairs, correct the underlying defect using the appropriate method and check the completed repair."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for the common types of fencing and railing systems, their typical defects, and the directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for fencing and railing repairs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K21"
@@ -851,15 +851,15 @@
       "id": "ST0171-EPA-043",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a material or component for the common types of roof structures, defects and the types of materials and does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with roof inspection and repair. What is the strongest approach?",
       "answers": [
-        "Use extra quantity of the substitute in the common types of roof structures, defects and the types of materials and to compensate for the difference.",
-        "Install the resource in the common types of roof structures, defects and the types of materials and and record the substitution only at handover.",
-        "Separate the questionable resource for the common types of roof structures, defects and the types of materials and and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of the common types of roof structures, defects and the types of materials and."
+        "Use the previous repair method for roof inspection and repair without checking the current condition.",
+        "Complete the roof inspection and repair repair using the quickest available material regardless of specification.",
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for roof inspection and repair.",
+        "Cover the visible symptom in roof inspection and repair without checking the underlying cause."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for the common types of roof structures, defects and the types of materials and directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for roof inspection and repair directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K20"
@@ -871,15 +871,15 @@
       "id": "ST0171-EPA-044",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the common forms of masonry and damp proofing defects, materials and processes, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, before carrying out a repair involving masonry and damp-proofing repairs, what should happen?",
       "answers": [
-        "Keep the material in the common forms of masonry and damp proofing defects, materials and processes and replace it only if final inspection fails.",
-        "Do not use the doubtful material in the common forms of masonry and damp proofing defects, materials and processes until its identity, suitability and approval have been checked.",
-        "Fit the material in the common forms of masonry and damp proofing defects, materials and processes if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for the common forms of masonry and damp proofing defects, materials and processes informally."
+        "Complete the masonry and damp-proofing repairs repair using the quickest available material regardless of specification.",
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for masonry and damp-proofing repairs.",
+        "Cover the visible symptom in masonry and damp-proofing repairs without checking the underlying cause.",
+        "Use the previous repair method for masonry and damp-proofing repairs without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for the common forms of masonry and damp proofing defects, materials and processes directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for masonry and damp-proofing repairs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -891,15 +891,15 @@
       "id": "ST0171-EPA-045",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for the common causes of flooring defects and the types of materials and processes because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to flooring repairs improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Quarantine the resource intended for the common causes of flooring defects and the types of materials and processes, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in the common causes of flooring defects and the types of materials and processes where it will be concealed.",
-        "Modify the resource on site for the common causes of flooring defects and the types of materials and processes without checking approval.",
-        "Proceed with the common causes of flooring defects and the types of materials and processes because shortages justify an unapproved substitution."
+        "Reassess flooring repairs, correct the underlying defect using the appropriate method and check the completed repair. Confirm the result before the next stage begins.",
+        "Cover the visible symptom in flooring repairs without checking the underlying cause.",
+        "Use the previous repair method for flooring repairs without checking the current condition.",
+        "Complete the flooring repairs repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for the common causes of flooring defects and the types of materials and processes directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for flooring repairs directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K18"
@@ -911,15 +911,15 @@
       "id": "ST0171-EPA-046",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a material or component for the common causes of tiling defects and the types of materials and processes used does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with tiling repairs. What is the strongest approach?",
       "answers": [
-        "Use the resource for a less visible part of the common causes of tiling defects and the types of materials and processes used.",
-        "Use extra quantity of the substitute in the common causes of tiling defects and the types of materials and processes used to compensate for the difference.",
-        "Install the resource in the common causes of tiling defects and the types of materials and processes used and record the substitution only at handover.",
-        "Separate the questionable resource for the common causes of tiling defects and the types of materials and processes used and verify its condition, specification and approval before use."
+        "Cover the visible symptom in tiling repairs without checking the underlying cause.",
+        "Use the previous repair method for tiling repairs without checking the current condition.",
+        "Complete the tiling repairs repair using the quickest available material regardless of specification.",
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for tiling repairs. Verify the outcome before proceeding."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for the common causes of tiling defects and the types of materials and processes used directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for tiling repairs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -931,15 +931,15 @@
       "id": "ST0171-EPA-047",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the common causes of painting and decorating defects, and the types of materials,, a resource has doubtful condition or identification. What should you do?",
+      "question": "During an EPA assessment, before carrying out a repair involving painting and decorating, what should happen?",
       "answers": [
-        "Ask another operative to accept the material for the common causes of painting and decorating defects, and the types of materials, informally.",
-        "Keep the material in the common causes of painting and decorating defects, and the types of materials, and replace it only if final inspection fails.",
-        "Do not use the doubtful material in the common causes of painting and decorating defects, and the types of materials, until its identity, suitability and approval have been checked.",
-        "Fit the material in the common causes of painting and decorating defects, and the types of materials, if it appears close enough to the specified item."
+        "Use the previous repair method for painting and decorating without checking the current condition.",
+        "Complete the painting and decorating repair using the quickest available material regardless of specification.",
+        "Confirm the fault, make any required isolation or protection, and use the correct repair method and components for painting and decorating. Complete that action before work continues.",
+        "Cover the visible symptom in painting and decorating without checking the underlying cause."
       ],
       "correct": 2,
-      "explanation": "The strongest response applies the mapped requirement for the common causes of painting and decorating defects, and the types of materials, directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for painting and decorating directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -951,15 +951,15 @@
       "id": "ST0171-EPA-048",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a colleague proposes a similar substitute for the common types of materials and processes used to prepare, repair and finish because the specified item is unavailable. Which response is strongest?",
+      "question": "During an EPA assessment, a repair to plaster repair and finishing improves the appearance but does not address the apparent cause. What should you do?",
       "answers": [
-        "Proceed with the common types of materials and processes used to prepare, repair and finish because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for the common types of materials and processes used to prepare, repair and finish, check it against the current requirement and use it only when suitability is confirmed.",
-        "Use the resource in the common types of materials and processes used to prepare, repair and finish where it will be concealed.",
-        "Modify the resource on site for the common types of materials and processes used to prepare, repair and finish without checking approval."
+        "Complete the plaster repair and finishing repair using the quickest available material regardless of specification.",
+        "Reassess plaster repair and finishing, correct the underlying defect using the appropriate method and check the completed repair. Confirm the requirement has been met before moving on.",
+        "Cover the visible symptom in plaster repair and finishing without checking the underlying cause.",
+        "Use the previous repair method for plaster repair and finishing without checking the current condition."
       ],
       "correct": 1,
-      "explanation": "The strongest response applies the mapped requirement for the common types of materials and processes used to prepare, repair and finish directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for plaster repair and finishing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K15"
@@ -971,15 +971,15 @@
       "id": "ST0171-EPA-049",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, a material or component for the common defects found in windows, doors, and glazing systems, the does not fully match the issued requirement. What is the best response?",
+      "question": "During an EPA assessment, a defect is found while dealing with windows, doors and glazing. What is the strongest approach?",
       "answers": [
-        "Separate the questionable resource for the common defects found in windows, doors, and glazing systems, the and verify its condition, specification and approval before use.",
-        "Use the resource for a less visible part of the common defects found in windows, doors, and glazing systems, the.",
-        "Use extra quantity of the substitute in the common defects found in windows, doors, and glazing systems, the to compensate for the difference.",
-        "Install the resource in the common defects found in windows, doors, and glazing systems, the and record the substitution only at handover."
+        "Assess the condition and likely cause, choose the appropriate repair method and verify the result against the requirement for windows, doors and glazing.",
+        "Cover the visible symptom in windows, doors and glazing without checking the underlying cause.",
+        "Use the previous repair method for windows, doors and glazing without checking the current condition.",
+        "Complete the windows, doors and glazing repair using the quickest available material regardless of specification."
       ],
       "correct": 0,
-      "explanation": "The strongest response applies the mapped requirement for the common defects found in windows, doors, and glazing systems, the directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for windows, doors and glazing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -991,15 +991,15 @@
       "id": "ST0171-EPA-050",
       "category": "epa",
       "courseId": "ST0171",
-      "question": "During an EPA assessment, during the principles and components of common environmental and energy management, mixed waste and usable offcuts are building up in the work area. What should happen?",
+      "question": "During an EPA assessment, during environmental and energy-management systems, mixed waste and usable offcuts are building up. What should happen?",
       "answers": [
-        "Mix the the principles and components of common environmental and energy management waste now and sort it later if there is time.",
-        "Dispose of every offcut from the principles and components of common environmental and energy management even where it can be reused.",
-        "Move mixed the principles and components of common environmental and energy management waste out of sight without checking the site waste plan.",
-        "Manage the the principles and components of common environmental and energy management waste at source: keep reusable material separate and place each waste stream in the correct site container or route."
+        "Put all waste from environmental and energy-management systems in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from environmental and energy-management systems and dispose of the rest together.",
+        "Leave all sorting from environmental and energy-management systems until the end of the project.",
+        "Manage the environmental and energy-management systems waste at source: keep reusable material separate and place each waste stream in the correct site route. Verify the outcome before proceeding."
       ],
       "correct": 3,
-      "explanation": "The strongest response applies the mapped requirement for the principles and components of common environmental and energy management directly to the scenario.",
+      "explanation": "The strongest response applies the mapped requirement for environmental and energy-management systems directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K13"
