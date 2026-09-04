@@ -1,4 +1,4 @@
-const CACHE_NAME='naxos-shell-v15';
+const CACHE_NAME='naxos-shell-v16';
 const CACHE_PREFIX='naxos-shell-';
 const QR_CACHE='naxos-qr-v1';
 const QR_LIBRARY_URL='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
@@ -28,7 +28,9 @@ const CORE=[
   './manifest-6570-04.json',
   './manifest.json',
   './evidence-rules.json',
-  './evidence-capture-contract-v2.json'
+  './evidence-capture-contract-v2.json',
+  './question-banks/manifest.json',
+  './question-banks/question-bank-engine-v1.js'
 ];
 const DATA_SEEDS=[
   './course-catalog.json',
@@ -36,7 +38,8 @@ const DATA_SEEDS=[
   './manifest-6570-04.json',
   './manifest.json',
   './evidence-rules.json',
-  './evidence-capture-contract-v2.json'
+  './evidence-capture-contract-v2.json',
+  './question-banks/manifest.json'
 ];
 
 function collectJsonReferences(value,baseUrl,out=new Set()){
