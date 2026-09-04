@@ -16,8 +16,9 @@ function writeJson(filePath, value) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-function bankFile(bankId, category, courseId, questions, extra = {}) {
+function bankFile(bankId, category, courseId, questions, extra = {}, version = 1) {
   if (!Array.isArray(questions) || !questions.length) throw new Error(`No questions generated for ${bankId}`);
+  const correctAnswers = new Map();
   for (const question of questions) {
     if (!question?.id || !question?.question || !Array.isArray(question.answers) || question.answers.length !== 4) {
       throw new Error(`Invalid question in ${bankId}`);
@@ -25,12 +26,18 @@ function bankFile(bankId, category, courseId, questions, extra = {}) {
     if (!Number.isInteger(question.correct) || question.correct < 0 || question.correct > 3) {
       throw new Error(`Invalid correct answer in ${bankId}: ${question.id}`);
     }
+    if (category === 'trade' || category === 'epa') {
+      const correctText = String(question.answers[question.correct] || '').trim().toLowerCase();
+      const previous = correctAnswers.get(correctText);
+      if (previous) throw new Error(`Repeated correct-answer text in ${bankId}: ${previous} and ${question.id}`);
+      correctAnswers.set(correctText, question.id);
+    }
   }
   return {
     naxosQuestionBank: 1,
     schemaVersion: 1,
     bankId,
-    version: 1,
+    version,
     category,
     courseId,
     questionCount: questions.length,
@@ -92,8 +99,9 @@ function validateUniqueIds(files) {
 
 globalThis.window = globalThis;
 await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v1.js')).href}?build=${Date.now()}`);
-const engine = globalThis.NaxosQuestionBankV1;
-if (!engine?.build) throw new Error('Naxos question-bank engine did not initialise.');
+await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v2.js')).href}?build=${Date.now()}`);
+const engine = globalThis.NaxosQuestionBankV2;
+if (!engine?.build) throw new Error('Naxos question-bank engine v2 did not initialise.');
 
 const generatedFiles = [];
 
@@ -141,8 +149,8 @@ for (const [courseId, packName] of ksbCourses) {
 
   const tradeFile = `${courseId}-trade-v1.json`;
   const epaFile = `${courseId}-epa-v1.json`;
-  writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-trade-v1`, 'trade', courseId, trade));
-  writeJson(path.join(BANK_DIR, epaFile), bankFile(`${courseId}-epa-v1`, 'epa', courseId, epa));
+  writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-trade-v1`, 'trade', courseId, trade, {}, 2));
+  writeJson(path.join(BANK_DIR, epaFile), bankFile(`${courseId}-epa-v1`, 'epa', courseId, epa, {}, 2));
   generatedFiles.push(tradeFile, epaFile);
 
   updatePackQuestionRefs(packPath, {
@@ -187,7 +195,7 @@ for (const [courseId, routes] of Object.entries(nvqRoutes)) {
     if (trade.length !== 50) throw new Error(`${courseId} ${route} must generate exactly 50 Trade questions.`);
 
     const tradeFile = `${courseId}-${route}-trade-v1.json`;
-    writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-${route}-trade-v1`, 'trade', courseId, trade, { route }));
+    writeJson(path.join(BANK_DIR, tradeFile), bankFile(`${courseId}-${route}-trade-v1`, 'trade', courseId, trade, { route }, 2));
     generatedFiles.push(tradeFile);
 
     updatePackQuestionRefs(packPath, {
@@ -213,7 +221,7 @@ if (uniqueQuestionCount !== 720) {
 writeJson(path.join(BANK_DIR, 'manifest.json'), {
   naxosQuestionBankManifest: 1,
   schemaVersion: 2,
-  version: 2,
+  version: 3,
   sourceOfTruth: 'Naxos',
   delivery: 'static-course-referenced-json',
   generatedQuestionCount: uniqueQuestionCount,
@@ -224,6 +232,7 @@ writeJson(path.join(BANK_DIR, 'manifest.json'), {
   courses: manifestCourses,
   answerCount: 4,
   answerPosition: 'varied',
+  correctAnswerReuse: 'prohibited-within-trade-or-epa-bank',
   metadata: ['id', 'category', 'courseId', 'difficulty', 'mappings', 'explanation', 'active']
 });
 
