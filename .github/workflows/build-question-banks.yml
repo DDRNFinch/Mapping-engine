@@ -8,6 +8,7 @@ on:
       - 'scripts/build-question-banks.mjs'
       - 'question-banks/question-bank-engine-v1.js'
       - 'question-banks/question-bank-engine-v2.js'
+      - 'question-banks/question-bank-engine-v3.js'
       - 'question-banks/maths-v1.json'
       - 'packs/**'
       - '.github/workflows/build-question-banks.yml'
