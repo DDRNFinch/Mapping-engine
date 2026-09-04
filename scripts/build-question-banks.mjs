@@ -100,8 +100,9 @@ function validateUniqueIds(files) {
 globalThis.window = globalThis;
 await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v1.js')).href}?build=${Date.now()}`);
 await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v2.js')).href}?build=${Date.now()}`);
-const engine = globalThis.NaxosQuestionBankV2;
-if (!engine?.build) throw new Error('Naxos question-bank engine v2 did not initialise.');
+await import(`${pathToFileURL(path.join(BANK_DIR, 'question-bank-engine-v3.js')).href}?build=${Date.now()}`);
+const engine = globalThis.NaxosQuestionBankV3;
+if (!engine?.build) throw new Error('Naxos question-bank engine v3 did not initialise.');
 
 const generatedFiles = [];
 
