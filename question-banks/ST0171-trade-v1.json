@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0171-trade-v1",
-  "version": 2,
+  "version": 3,
   "category": "trade",
   "courseId": "ST0171",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0171-TRADE-001",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "While carrying out the principles and requirements of planned preventative maintenance (ppm) and reactive maintenance, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "While carrying out the principles and requirements of planned preventative maintenance (ppm) and, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "For The principles and requirements of planned preventative maintenance (PPM) and reactive maintenance, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
-        "Continue The principles and requirements of planned preventative maintenance (PPM) and reactive maintenance and correct only the visible result at final inspection.",
-        "Record the deviation in The principles and requirements of planned preventative maintenance (PPM) and reactive maintenance but leave it unless another trade objects.",
-        "Adjust a later part of The principles and requirements of planned preventative maintenance (PPM) and reactive maintenance to disguise the current error."
+        "Stop the the principles and requirements of planned preventative maintenance (ppm) and work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Continue the principles and requirements of planned preventative maintenance (ppm) and and correct only the visible result at final inspection.",
+        "Record the deviation in the principles and requirements of planned preventative maintenance (ppm) and but leave it unless another trade objects.",
+        "Adjust a later part of the principles and requirements of planned preventative maintenance (ppm) and to disguise the current error."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The principles and requirements of planned preventative maintenance (PPM) and reactive maintenance rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the principles and requirements of planned preventative maintenance (ppm) and directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K1"
@@ -31,15 +31,15 @@
       "id": "ST0171-TRADE-002",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the range of building types and characteristic uses, their common methods of construction and typical de…, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During the range of building types and characteristic uses, their common methods of, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Reduce the pace of The range of building types and characteristic uses, their common methods of construction and typical defects, and the impact that property maintenance operations may ha… and continue under the original method without reviewing it.",
-        "Ask another operative to watch The range of building types and characteristic uses, their common methods of construction and typical defects, and the impact that property maintenance operations may ha… while the failed control remains unavailable.",
-        "Complete the current stage of The range of building types and characteristic uses, their common methods of construction and typical defects, and the impact that property maintenance operations may ha… because changing the system now would delay the job.",
-        "Pause work connected with The range of building types and characteristic uses, their common methods of construction and typical defects, and the impact that property maintenance operations may ha…; reassess the changed risk and put an effective agreed control back in place before continuing."
+        "Proceed with the range of building types and characteristic uses, their common methods of because the work looks acceptable despite the failed check.",
+        "Leave the the range of building types and characteristic uses, their common methods of defect for handover so it can be considered with the finished job.",
+        "Change the next stage of the range of building types and characteristic uses, their common methods of instead of correcting the failed requirement.",
+        "Hold the next stage of the range of building types and characteristic uses, their common methods of, investigate why the check failed and bring the work back to the issued requirement before covering it."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for The range of building types and characteristic uses, their common methods of construction and typical defects, and the impact that property maintenance operations may ha… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the range of building types and characteristic uses, their common methods of directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K2"
@@ -51,15 +51,15 @@
       "id": "ST0171-TRADE-003",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague suggests using defective equipment only to finish a short part of health and safety regulations, relevance to the occupation and the operative's responsibilities. Which response is strongest?",
+      "question": "A colleague wants to continue health and safety regulations, relevance to the occupation and the operative's even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Use the equipment for Health and safety regulations, relevance to the occupation and the operative's responsibilities. Health and Safety at Work Act Control of Substances Hazardous to Health… only where accuracy is less important.",
-        "Ask someone else to use the equipment for Health and safety regulations, relevance to the occupation and the operative's responsibilities. Health and Safety at Work Act Control of Substances Hazardous to Health… so responsibility is transferred.",
-        "Suspend the affected part of Health and safety regulations, relevance to the occupation and the operative's responsibilities. Health and Safety at Work Act Control of Substances Hazardous to Health… until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Health and safety regulations, relevance to the occupation and the operative's responsibilities. Health and Safety at Work Act Control of Substances Hazardous to Health… first because the defect has not stopped the equipment operating."
+        "Add extra PPE for health and safety regulations, relevance to the occupation and the operative's instead of restoring the failed control.",
+        "Record the failed control for health and safety regulations, relevance to the occupation and the operative's and deal with it after the task is finished.",
+        "Do not continue health and safety regulations, relevance to the occupation and the operative's until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with health and safety regulations, relevance to the occupation and the operative's if the remaining exposure is brief."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Health and safety regulations, relevance to the occupation and the operative's responsibilities. Health and Safety at Work Act Control of Substances Hazardous to Health… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for health and safety regulations, relevance to the occupation and the operative's directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K3"
@@ -71,15 +71,15 @@
       "id": "ST0171-TRADE-004",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "While working on risks and hazards associated with property maintenance activities, and their mitigation using risk asses…, a required control is no longer effective. What is the best response?",
+      "question": "While working on risks and hazards associated with property maintenance activities, and their, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Finish the immediate Risks and hazards associated with property maintenance activities, and their mitigation using risk assessment operation first, then report that the control failed.",
-        "For the requirement on Risks and hazards associated with property maintenance activities, and their mitigation using risk assessment, stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
-        "Continue the Risks and hazards associated with property maintenance activities, and their mitigation using risk assessment activity cautiously because the original task has not changed.",
-        "Keep Risks and hazards associated with property maintenance activities, and their mitigation using risk assessment moving by relying on PPE while the failed control is left as it is."
+        "Finish the current risks and hazards associated with property maintenance activities, and their operation first, then report the failed control.",
+        "Pause the risks and hazards associated with property maintenance activities, and their work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the risks and hazards associated with property maintenance activities, and their work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the risks and hazards associated with property maintenance activities, and their work and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Risks and hazards associated with property maintenance activities, and their mitigation using risk assessment rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for risks and hazards associated with property maintenance activities, and their directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K4"
@@ -91,15 +91,15 @@
       "id": "ST0171-TRADE-005",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During key regulatory and legislative requirements (including building regulations, the building safety bill, a…, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During key regulatory and legislative requirements (including building regulations, the, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Pause work connected with Key regulatory and legislative requirements (including building regulations, the building safety bill, and BSI Flex 8670), and an awareness of how these apply to varying…; reassess the changed risk and put an effective agreed control back in place before continuing.",
-        "Reduce the pace of Key regulatory and legislative requirements (including building regulations, the building safety bill, and BSI Flex 8670), and an awareness of how these apply to varying… and continue under the original method without reviewing it.",
-        "Ask another operative to watch Key regulatory and legislative requirements (including building regulations, the building safety bill, and BSI Flex 8670), and an awareness of how these apply to varying… while the failed control remains unavailable.",
-        "Complete the current stage of Key regulatory and legislative requirements (including building regulations, the building safety bill, and BSI Flex 8670), and an awareness of how these apply to varying… because changing the system now would delay the job."
+        "Hold the next stage of key regulatory and legislative requirements (including building regulations, the, investigate why the check failed and bring the work back to the issued requirement before covering it.",
+        "Proceed with key regulatory and legislative requirements (including building regulations, the because the work looks acceptable despite the failed check.",
+        "Leave the key regulatory and legislative requirements (including building regulations, the defect for handover so it can be considered with the finished job.",
+        "Change the next stage of key regulatory and legislative requirements (including building regulations, the instead of correcting the failed requirement."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Key regulatory and legislative requirements (including building regulations, the building safety bill, and BSI Flex 8670), and an awareness of how these apply to varying… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for key regulatory and legislative requirements (including building regulations, the directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K5"
@@ -111,15 +111,15 @@
       "id": "ST0171-TRADE-006",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague suggests using defective equipment only to finish a short part of importance of establishing a safe and tidy work area, using appropriate access equipment, providing prot…. Which response is strongest?",
+      "question": "A colleague suggests using defective equipment only to finish a short part of importance of establishing a safe and tidy work area, using appropriate access. Which response is strongest?",
       "answers": [
-        "Finish Importance of establishing a safe and tidy work area, using appropriate access equipment, providing protection to adjacent areas, and consideration for the safety of oth… first because the defect has not stopped the equipment operating.",
-        "Use the equipment for Importance of establishing a safe and tidy work area, using appropriate access equipment, providing protection to adjacent areas, and consideration for the safety of oth… only where accuracy is less important.",
-        "Ask someone else to use the equipment for Importance of establishing a safe and tidy work area, using appropriate access equipment, providing protection to adjacent areas, and consideration for the safety of oth… so responsibility is transferred.",
-        "Suspend the affected part of Importance of establishing a safe and tidy work area, using appropriate access equipment, providing protection to adjacent areas, and consideration for the safety of oth… until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure."
+        "Finish importance of establishing a safe and tidy work area, using appropriate access first because the defect has not stopped the equipment operating.",
+        "Use the equipment for importance of establishing a safe and tidy work area, using appropriate access only where accuracy is less important.",
+        "Ask someone else to use the equipment for importance of establishing a safe and tidy work area, using appropriate access so responsibility is transferred.",
+        "Suspend the affected importance of establishing a safe and tidy work area, using appropriate access activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Importance of establishing a safe and tidy work area, using appropriate access equipment, providing protection to adjacent areas, and consideration for the safety of oth… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for importance of establishing a safe and tidy work area, using appropriate access directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K6"
@@ -131,15 +131,15 @@
       "id": "ST0171-TRADE-007",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A tool or item of equipment used for common hand and power tools and equipment used in routine property maintenance tasks and how to use safe… develops a defect during a pre-use check. What should you do?",
+      "question": "A tool or item of equipment used for common hand and power tools and equipment used in routine property maintenance develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Let the most experienced person try the equipment during Common hand and power tools and equipment used in routine property maintenance tasks and how to use safely before deciding.",
-        "Use the defective equipment only for a non-visible part of Common hand and power tools and equipment used in routine property maintenance tasks and how to use safely.",
-        "For Common hand and power tools and equipment used in routine property maintenance tasks and how to use safely, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Common hand and power tools and equipment used in routine property maintenance tasks and how to use safely with the equipment at a reduced load or speed."
+        "Let the most experienced person try the equipment during common hand and power tools and equipment used in routine property maintenance before deciding.",
+        "Use the defective equipment only for a non-visible part of common hand and power tools and equipment used in routine property maintenance.",
+        "Take the defective equipment out of service before continuing common hand and power tools and equipment used in routine property maintenance, then report it and arrange the required repair, inspection or replacement.",
+        "Continue common hand and power tools and equipment used in routine property maintenance with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Common hand and power tools and equipment used in routine property maintenance tasks and how to use safely rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for common hand and power tools and equipment used in routine property maintenance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K7"
@@ -151,15 +151,15 @@
       "id": "ST0171-TRADE-008",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the common components of electrical and electronic systems, how to safely isolate electrical supplies an…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During the common components of electrical and electronic systems, how to safely isolate, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Keep the material in The common components of electrical and electronic systems, how to safely isolate electrical supplies and the procedures for correctly reporting identified faults and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in The common components of electrical and electronic systems, how to safely isolate electrical supplies and the procedures for correctly reporting identified faults until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during The common components of electrical and electronic systems, how to safely isolate electrical supplies and the procedures for correctly reporting identified faults if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for The common components of electrical and electronic systems, how to safely isolate electrical supplies and the procedures for correctly reporting identified faults informally."
+        "Keep the material in the common components of electrical and electronic systems, how to safely isolate and replace it only if final inspection fails.",
+        "Do not use the doubtful material in the common components of electrical and electronic systems, how to safely isolate until its identity, suitability and approval have been checked.",
+        "Fit the material in the common components of electrical and electronic systems, how to safely isolate if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for the common components of electrical and electronic systems, how to safely isolate informally."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for The common components of electrical and electronic systems, how to safely isolate electrical supplies and the procedures for correctly reporting identified faults rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common components of electrical and electronic systems, how to safely isolate directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K8"
@@ -171,15 +171,15 @@
       "id": "ST0171-TRADE-009",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague suggests using defective equipment only to finish a short part of the common forms of emergency equipment and signage, their importance within buildings and the preventat…. Which response is strongest?",
+      "question": "A colleague suggests using defective equipment only to finish a short part of the common forms of emergency equipment and signage, their importance within. Which response is strongest?",
       "answers": [
-        "Suspend the affected part of The common forms of emergency equipment and signage, their importance within buildings and the preventative and possible corrective maintenance required until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish The common forms of emergency equipment and signage, their importance within buildings and the preventative and possible corrective maintenance required first because the defect has not stopped the equipment operating.",
-        "Use the equipment for The common forms of emergency equipment and signage, their importance within buildings and the preventative and possible corrective maintenance required only where accuracy is less important.",
-        "Ask someone else to use the equipment for The common forms of emergency equipment and signage, their importance within buildings and the preventative and possible corrective maintenance required so responsibility is transferred."
+        "Suspend the affected the common forms of emergency equipment and signage, their importance within activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure.",
+        "Finish the common forms of emergency equipment and signage, their importance within first because the defect has not stopped the equipment operating.",
+        "Use the equipment for the common forms of emergency equipment and signage, their importance within only where accuracy is less important.",
+        "Ask someone else to use the equipment for the common forms of emergency equipment and signage, their importance within so responsibility is transferred."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The common forms of emergency equipment and signage, their importance within buildings and the preventative and possible corrective maintenance required rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common forms of emergency equipment and signage, their importance within directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K9"
@@ -191,15 +191,15 @@
       "id": "ST0171-TRADE-010",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A material or component for the principles and components of plumbing systems, how to safely isolate, store and drain down water sup… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for the principles and components of plumbing systems, how to safely isolate, store does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of The principles and components of plumbing systems, how to safely isolate, store and drain down water supplies to diagnose faults and clear blockages.",
-        "Use extra quantity of the substitute during The principles and components of plumbing systems, how to safely isolate, store and drain down water supplies to diagnose faults and clear blockages to compensate for the difference.",
-        "Install the resource for The principles and components of plumbing systems, how to safely isolate, store and drain down water supplies to diagnose faults and clear blockages and record the substitution only at handover.",
-        "For The principles and components of plumbing systems, how to safely isolate, store and drain down water supplies to diagnose faults and clear blockages, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Use the resource for a less visible part of the principles and components of plumbing systems, how to safely isolate, store.",
+        "Use extra quantity of the substitute in the principles and components of plumbing systems, how to safely isolate, store to compensate for the difference.",
+        "Install the resource in the principles and components of plumbing systems, how to safely isolate, store and record the substitution only at handover.",
+        "Separate the questionable resource for the principles and components of plumbing systems, how to safely isolate, store and verify its condition, specification and approval before use."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for The principles and components of plumbing systems, how to safely isolate, store and drain down water supplies to diagnose faults and clear blockages rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the principles and components of plumbing systems, how to safely isolate, store directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K10"
@@ -211,15 +211,15 @@
       "id": "ST0171-TRADE-011",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the principles and components of common above and below ground drainage systems, the issues that poor dr…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During the principles and components of common above and below ground drainage systems,, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Ask another operative to accept the material for The principles and components of common above and below ground drainage systems, the issues that poor drainage can have on properties and how to diagnose faults and clea… informally.",
-        "Keep the material in The principles and components of common above and below ground drainage systems, the issues that poor drainage can have on properties and how to diagnose faults and clea… and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in The principles and components of common above and below ground drainage systems, the issues that poor drainage can have on properties and how to diagnose faults and clea… until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during The principles and components of common above and below ground drainage systems, the issues that poor drainage can have on properties and how to diagnose faults and clea… if it appears close enough to the specified item."
+        "Ask another operative to accept the material for the principles and components of common above and below ground drainage systems, informally.",
+        "Keep the material in the principles and components of common above and below ground drainage systems, and replace it only if final inspection fails.",
+        "Do not use the doubtful material in the principles and components of common above and below ground drainage systems, until its identity, suitability and approval have been checked.",
+        "Fit the material in the principles and components of common above and below ground drainage systems, if it appears close enough to the specified item."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for The principles and components of common above and below ground drainage systems, the issues that poor drainage can have on properties and how to diagnose faults and clea… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the principles and components of common above and below ground drainage systems, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -231,15 +231,15 @@
       "id": "ST0171-TRADE-012",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague wants to continue the principles of good water hygiene to preserve and maintain the health of water systems within buildin… even though an agreed control has failed. Which response is strongest?",
+      "question": "The next stage will conceal part of the principles of good water hygiene to preserve and maintain the health of water, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Record the failed control for The principles of good water hygiene to preserve and maintain the health of water systems within buildings and how these are checked and legally certified to minimise wa… and deal with it after the task is finished.",
-        "Do not continue The principles of good water hygiene to preserve and maintain the health of water systems within buildings and how these are checked and legally certified to minimise wa… under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with The principles of good water hygiene to preserve and maintain the health of water systems within buildings and how these are checked and legally certified to minimise wa… if the remaining exposure is brief.",
-        "Use additional PPE for The principles of good water hygiene to preserve and maintain the health of water systems within buildings and how these are checked and legally certified to minimise wa… instead of restoring the failed control."
+        "Continue the principles of good water hygiene to preserve and maintain the health of water and rely on final inspection to identify any problem.",
+        "Do not conceal the principles of good water hygiene to preserve and maintain the health of water while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph the principles of good water hygiene to preserve and maintain the health of water and continue even though the check has not passed.",
+        "Accept the principles of good water hygiene to preserve and maintain the health of water because a later finish will hide the discrepancy."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for The principles of good water hygiene to preserve and maintain the health of water systems within buildings and how these are checked and legally certified to minimise wa… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the principles of good water hygiene to preserve and maintain the health of water directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -251,15 +251,15 @@
       "id": "ST0171-TRADE-013",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague involved in the principles and components of common environmental and energy management systems and their methods of… says their wellbeing is affecting concentration. What is the best response?",
+      "question": "The work on the principles and components of common environmental and energy management produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "For The principles and components of common environmental and energy management systems and their methods of operation, prioritise immediate safety, speak supportively with the person and involve appropriate supervision or support where needed.",
-        "Tell the person to continue The principles and components of common environmental and energy management systems and their methods of operation more slowly and keep the concern private.",
-        "Move them away from The principles and components of common environmental and energy management systems and their methods of operation without discussing what support they need.",
-        "Wait until the end of the week before responding to the The principles and components of common environmental and energy management systems and their methods of operation concern."
+        "Segregate waste from the principles and components of common environmental and energy management as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
+        "Put all waste from the principles and components of common environmental and energy management in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from the principles and components of common environmental and energy management and dispose of the rest together.",
+        "Leave all sorting from the principles and components of common environmental and energy management until the end of the project."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The principles and components of common environmental and energy management systems and their methods of operation rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the principles and components of common environmental and energy management directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K13"
@@ -271,15 +271,15 @@
       "id": "ST0171-TRADE-014",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the common defects found in windows, doors, and glazing systems, the characteristics, uses and limitatio…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During the common defects found in windows, doors, and glazing systems, the, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Fit the material during The common defects found in windows, doors, and glazing systems, the characteristics, uses and limitations of the materials and components used within them, and how thes… if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for The common defects found in windows, doors, and glazing systems, the characteristics, uses and limitations of the materials and components used within them, and how thes… informally.",
-        "Keep the material in The common defects found in windows, doors, and glazing systems, the characteristics, uses and limitations of the materials and components used within them, and how thes… and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in The common defects found in windows, doors, and glazing systems, the characteristics, uses and limitations of the materials and components used within them, and how thes… until its identity, suitability and approval have been checked against the requirement."
+        "Fit the material in the common defects found in windows, doors, and glazing systems, the if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for the common defects found in windows, doors, and glazing systems, the informally.",
+        "Keep the material in the common defects found in windows, doors, and glazing systems, the and replace it only if final inspection fails.",
+        "Do not use the doubtful material in the common defects found in windows, doors, and glazing systems, the until its identity, suitability and approval have been checked."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for The common defects found in windows, doors, and glazing systems, the characteristics, uses and limitations of the materials and components used within them, and how thes… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common defects found in windows, doors, and glazing systems, the directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -291,15 +291,15 @@
       "id": "ST0171-TRADE-015",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague proposes a similar substitute for the common types of materials and processes used to prepare, repair and finish plaster defects because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for the common types of materials and processes used to prepare, repair and finish because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Modify the resource on site for The common types of materials and processes used to prepare, repair and finish plaster defects without checking approval.",
-        "Proceed with The common types of materials and processes used to prepare, repair and finish plaster defects because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for The common types of materials and processes used to prepare, repair and finish plaster defects, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in The common types of materials and processes used to prepare, repair and finish plaster defects where it will be concealed."
+        "Modify the resource on site for the common types of materials and processes used to prepare, repair and finish without checking approval.",
+        "Proceed with the common types of materials and processes used to prepare, repair and finish because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for the common types of materials and processes used to prepare, repair and finish, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in the common types of materials and processes used to prepare, repair and finish where it will be concealed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for The common types of materials and processes used to prepare, repair and finish plaster defects rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common types of materials and processes used to prepare, repair and finish directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K15"
@@ -311,15 +311,15 @@
       "id": "ST0171-TRADE-016",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A material or component for the common causes of painting and decorating defects, and the types of materials, chemicals and processe… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for the common causes of painting and decorating defects, and the types of materials, does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Install the resource for The common causes of painting and decorating defects, and the types of materials, chemicals and processes used in painting and decorating activities. How paints and chem… and record the substitution only at handover.",
-        "For The common causes of painting and decorating defects, and the types of materials, chemicals and processes used in painting and decorating activities. How paints and chem…, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
-        "Use the resource for a less visible part of The common causes of painting and decorating defects, and the types of materials, chemicals and processes used in painting and decorating activities. How paints and chem….",
-        "Use extra quantity of the substitute during The common causes of painting and decorating defects, and the types of materials, chemicals and processes used in painting and decorating activities. How paints and chem… to compensate for the difference."
+        "Install the resource in the common causes of painting and decorating defects, and the types of materials, and record the substitution only at handover.",
+        "Separate the questionable resource for the common causes of painting and decorating defects, and the types of materials, and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of the common causes of painting and decorating defects, and the types of materials,.",
+        "Use extra quantity of the substitute in the common causes of painting and decorating defects, and the types of materials, to compensate for the difference."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for The common causes of painting and decorating defects, and the types of materials, chemicals and processes used in painting and decorating activities. How paints and chem… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common causes of painting and decorating defects, and the types of materials, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -331,15 +331,15 @@
       "id": "ST0171-TRADE-017",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the common causes of tiling defects and the types of materials and processes used in tiling activities, a resource has doubtful condition or identification. What should you do?",
+      "question": "During the common causes of tiling defects and the types of materials and processes used, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Do not use the doubtful material in The common causes of tiling defects and the types of materials and processes used in tiling activities until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during The common causes of tiling defects and the types of materials and processes used in tiling activities if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for The common causes of tiling defects and the types of materials and processes used in tiling activities informally.",
-        "Keep the material in The common causes of tiling defects and the types of materials and processes used in tiling activities and replace it only if the finished work fails inspection."
+        "Do not use the doubtful material in the common causes of tiling defects and the types of materials and processes used until its identity, suitability and approval have been checked.",
+        "Fit the material in the common causes of tiling defects and the types of materials and processes used if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for the common causes of tiling defects and the types of materials and processes used informally.",
+        "Keep the material in the common causes of tiling defects and the types of materials and processes used and replace it only if final inspection fails."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The common causes of tiling defects and the types of materials and processes used in tiling activities rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common causes of tiling defects and the types of materials and processes used directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -351,15 +351,15 @@
       "id": "ST0171-TRADE-018",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague proposes a similar substitute for the common causes of flooring defects and the types of materials and processes used in flooring repairs because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for the common causes of flooring defects and the types of materials and processes because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Use the resource in The common causes of flooring defects and the types of materials and processes used in flooring repairs where it will be concealed.",
-        "Modify the resource on site for The common causes of flooring defects and the types of materials and processes used in flooring repairs without checking approval.",
-        "Proceed with The common causes of flooring defects and the types of materials and processes used in flooring repairs because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for The common causes of flooring defects and the types of materials and processes used in flooring repairs, verify it against the current requirement and use it only when its suitability is confirmed."
+        "Use the resource in the common causes of flooring defects and the types of materials and processes where it will be concealed.",
+        "Modify the resource on site for the common causes of flooring defects and the types of materials and processes without checking approval.",
+        "Proceed with the common causes of flooring defects and the types of materials and processes because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for the common causes of flooring defects and the types of materials and processes, check it against the current requirement and use it only when suitability is confirmed."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for The common causes of flooring defects and the types of materials and processes used in flooring repairs rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common causes of flooring defects and the types of materials and processes directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K18"
@@ -371,15 +371,15 @@
       "id": "ST0171-TRADE-019",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A material or component for the common forms of masonry and damp proofing defects, materials and processes used in masonry repair ac… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for the common forms of masonry and damp proofing defects, materials and processes does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use extra quantity of the substitute during The common forms of masonry and damp proofing defects, materials and processes used in masonry repair activities: Mixing mortars, replacing defective pointing, laying an… to compensate for the difference.",
-        "Install the resource for The common forms of masonry and damp proofing defects, materials and processes used in masonry repair activities: Mixing mortars, replacing defective pointing, laying an… and record the substitution only at handover.",
-        "For The common forms of masonry and damp proofing defects, materials and processes used in masonry repair activities: Mixing mortars, replacing defective pointing, laying an…, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
-        "Use the resource for a less visible part of The common forms of masonry and damp proofing defects, materials and processes used in masonry repair activities: Mixing mortars, replacing defective pointing, laying an…."
+        "Use extra quantity of the substitute in the common forms of masonry and damp proofing defects, materials and processes to compensate for the difference.",
+        "Install the resource in the common forms of masonry and damp proofing defects, materials and processes and record the substitution only at handover.",
+        "Separate the questionable resource for the common forms of masonry and damp proofing defects, materials and processes and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of the common forms of masonry and damp proofing defects, materials and processes."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for The common forms of masonry and damp proofing defects, materials and processes used in masonry repair activities: Mixing mortars, replacing defective pointing, laying an… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common forms of masonry and damp proofing defects, materials and processes directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -391,15 +391,15 @@
       "id": "ST0171-TRADE-020",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the common types of roof structures, defects and the types of materials and processes used in remedial a…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During the common types of roof structures, defects and the types of materials and, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Keep the material in The common types of roof structures, defects and the types of materials and processes used in remedial and temporary repair and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in The common types of roof structures, defects and the types of materials and processes used in remedial and temporary repair until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during The common types of roof structures, defects and the types of materials and processes used in remedial and temporary repair if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for The common types of roof structures, defects and the types of materials and processes used in remedial and temporary repair informally."
+        "Keep the material in the common types of roof structures, defects and the types of materials and and replace it only if final inspection fails.",
+        "Do not use the doubtful material in the common types of roof structures, defects and the types of materials and until its identity, suitability and approval have been checked.",
+        "Fit the material in the common types of roof structures, defects and the types of materials and if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for the common types of roof structures, defects and the types of materials and informally."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for The common types of roof structures, defects and the types of materials and processes used in remedial and temporary repair rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common types of roof structures, defects and the types of materials and directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K20"
@@ -411,15 +411,15 @@
       "id": "ST0171-TRADE-021",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague proposes a similar substitute for the common types of fencing and railing systems, their typical defects, and the types of materials and p… because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for the common types of fencing and railing systems, their typical defects, and the because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for The common types of fencing and railing systems, their typical defects, and the types of materials and processes used in repairs, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in The common types of fencing and railing systems, their typical defects, and the types of materials and processes used in repairs where it will be concealed.",
-        "Modify the resource on site for The common types of fencing and railing systems, their typical defects, and the types of materials and processes used in repairs without checking approval.",
-        "Proceed with The common types of fencing and railing systems, their typical defects, and the types of materials and processes used in repairs because shortages justify an unapproved substitution."
+        "Quarantine the resource intended for the common types of fencing and railing systems, their typical defects, and the, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in the common types of fencing and railing systems, their typical defects, and the where it will be concealed.",
+        "Modify the resource on site for the common types of fencing and railing systems, their typical defects, and the without checking approval.",
+        "Proceed with the common types of fencing and railing systems, their typical defects, and the because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The common types of fencing and railing systems, their typical defects, and the types of materials and processes used in repairs rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common types of fencing and railing systems, their typical defects, and the directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K21"
@@ -431,15 +431,15 @@
       "id": "ST0171-TRADE-022",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A material or component for the common types of groundwork and landscaping systems, their typical defects and the types of materials… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for the common types of groundwork and landscaping systems, their typical defects and does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of The common types of groundwork and landscaping systems, their typical defects and the types of materials and processes used in remedial repair.",
-        "Use extra quantity of the substitute during The common types of groundwork and landscaping systems, their typical defects and the types of materials and processes used in remedial repair to compensate for the difference.",
-        "Install the resource for The common types of groundwork and landscaping systems, their typical defects and the types of materials and processes used in remedial repair and record the substitution only at handover.",
-        "For The common types of groundwork and landscaping systems, their typical defects and the types of materials and processes used in remedial repair, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Use the resource for a less visible part of the common types of groundwork and landscaping systems, their typical defects and.",
+        "Use extra quantity of the substitute in the common types of groundwork and landscaping systems, their typical defects and to compensate for the difference.",
+        "Install the resource in the common types of groundwork and landscaping systems, their typical defects and and record the substitution only at handover.",
+        "Separate the questionable resource for the common types of groundwork and landscaping systems, their typical defects and and verify its condition, specification and approval before use."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for The common types of groundwork and landscaping systems, their typical defects and the types of materials and processes used in remedial repair rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the common types of groundwork and landscaping systems, their typical defects and directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K22"
@@ -453,13 +453,13 @@
       "courseId": "ST0171",
       "question": "The drawing, specification or instruction for technical sources of information and data used in property maintenance operations does not agree with the site condition. What should you do?",
       "answers": [
-        "Continue Technical sources of information and data used in property maintenance operations from memory and correct it later if necessary.",
-        "Let the next trade decide which Technical sources of information and data used in property maintenance operations information should have been used.",
-        "Before continuing Technical sources of information and data used in property maintenance operations, verify which instruction, drawing or specification is current and obtain clarification for any conflict.",
-        "Use whichever Technical sources of information and data used in property maintenance operations document is easiest to follow."
+        "Continue technical sources of information and data used in property maintenance operations from memory and correct it later if necessary.",
+        "Let the next trade decide which technical sources of information and data used in property maintenance operations information should have been used.",
+        "Verify which drawing, specification or instruction governs technical sources of information and data used in property maintenance operations, then obtain clarification before fixing the work.",
+        "Use whichever technical sources of information and data used in property maintenance operations document is easiest to follow."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Technical sources of information and data used in property maintenance operations rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for technical sources of information and data used in property maintenance operations directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K23"
@@ -471,15 +471,15 @@
       "id": "ST0171-TRADE-024",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "Before committing work on the methods to record information and data via written and digital means and the importance of data prot…, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "Before committing work on the methods to record information and data via written and digital means and the, the information is incomplete or inconsistent. Which response is strongest?",
       "answers": [
-        "Proceed with The methods to record information and data via written and digital means and the importance of data protection and security and ask for confirmation only at handover.",
-        "Treat the uncertainty around The methods to record information and data via written and digital means and the importance of data protection and security as unresolved: check the approved source and get the discrepancy confirmed before work is fixed or concealed.",
-        "Use the newest-looking The methods to record information and data via written and digital means and the importance of data protection and security document even if its revision is unconfirmed.",
-        "Adapt The methods to record information and data via written and digital means and the importance of data protection and security to suit the site without recording the change."
+        "Proceed with the methods to record information and data via written and digital means and the and ask for confirmation only at handover.",
+        "Treat the information for the methods to record information and data via written and digital means and the as unresolved until the approved source and any discrepancy have been confirmed.",
+        "Use the newest-looking the methods to record information and data via written and digital means and the document even if its revision is unconfirmed.",
+        "Adapt the methods to record information and data via written and digital means and the to suit the site without recording the change."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for The methods to record information and data via written and digital means and the importance of data protection and security rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the methods to record information and data via written and digital means and the directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K24"
@@ -491,15 +491,15 @@
       "id": "ST0171-TRADE-025",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "While carrying out the purpose of quality assurance and continuous improvement and how these improve commonly occurring fau…, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "While carrying out the purpose of quality assurance and continuous improvement and how these improve, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "For The purpose of quality assurance and continuous improvement and how these improve commonly occurring faults or inefficiencies, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
-        "Continue The purpose of quality assurance and continuous improvement and how these improve commonly occurring faults or inefficiencies and correct only the visible result at final inspection.",
-        "Record the deviation in The purpose of quality assurance and continuous improvement and how these improve commonly occurring faults or inefficiencies but leave it unless another trade objects.",
-        "Adjust a later part of The purpose of quality assurance and continuous improvement and how these improve commonly occurring faults or inefficiencies to disguise the current error."
+        "Stop the the purpose of quality assurance and continuous improvement and how these improve work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Continue the purpose of quality assurance and continuous improvement and how these improve and correct only the visible result at final inspection.",
+        "Record the deviation in the purpose of quality assurance and continuous improvement and how these improve but leave it unless another trade objects.",
+        "Adjust a later part of the purpose of quality assurance and continuous improvement and how these improve to disguise the current error."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The purpose of quality assurance and continuous improvement and how these improve commonly occurring faults or inefficiencies rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the purpose of quality assurance and continuous improvement and how these improve directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K25"
@@ -511,15 +511,15 @@
       "id": "ST0171-TRADE-026",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During environmental regulations and requirements: environmental protection act, safe disposal of waste, minimi…, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During environmental regulations and requirements: environmental protection act, safe, mixed waste and usable offcuts are building up in the work area. What should happen?",
       "answers": [
-        "Keep Environmental regulations and requirements: Environmental Protection Act, safe disposal of waste, minimising waste (re-use and re-cycle), waste contractors permit, energ… running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in Environmental regulations and requirements: Environmental Protection Act, safe disposal of waste, minimising waste (re-use and re-cycle), waste contractors permit, energ… without addressing the concern.",
-        "Treat the Environmental regulations and requirements: Environmental Protection Act, safe disposal of waste, minimising waste (re-use and re-cycle), waste contractors permit, energ… issue only as a performance problem.",
-        "If wellbeing is affecting Environmental regulations and requirements: Environmental Protection Act, safe disposal of waste, minimising waste (re-use and re-cycle), waste contractors permit, energ…, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change."
+        "Mix the environmental regulations and requirements: environmental protection act, safe waste now and sort it later if there is time.",
+        "Dispose of every offcut from environmental regulations and requirements: environmental protection act, safe even where it can be reused.",
+        "Move mixed environmental regulations and requirements: environmental protection act, safe waste out of sight without checking the site waste plan.",
+        "Manage the environmental regulations and requirements: environmental protection act, safe waste at source: keep reusable material separate and place each waste stream in the correct site container or route."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Environmental regulations and requirements: Environmental Protection Act, safe disposal of waste, minimising waste (re-use and re-cycle), waste contractors permit, energ… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for environmental regulations and requirements: environmental protection act, safe directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K26"
@@ -531,15 +531,15 @@
       "id": "ST0171-TRADE-027",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A coordination issue around methods of communication and when to use industry terminology to match the style to the audience could create delay or rework. Which response is strongest?",
+      "question": "A coordination issue around methods of communication and when to use industry terminology to match the style could create delay or rework. Which response is strongest?",
       "answers": [
-        "Wait for someone else to raise the Methods of communication and when to use industry terminology to match the style to the audience conflict formally.",
-        "Prioritise your own Methods of communication and when to use industry terminology to match the style to the audience output even if it blocks following work.",
-        "Resolve the Methods of communication and when to use industry terminology to match the style to the audience interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about Methods of communication and when to use industry terminology to match the style to the audience and continue regardless of the response."
+        "Wait for someone else to raise the methods of communication and when to use industry terminology to match the style conflict formally.",
+        "Prioritise your own methods of communication and when to use industry terminology to match the style output even if it blocks following work.",
+        "Resolve the methods of communication and when to use industry terminology to match the style interface early by communicating the change, checking understanding and agreeing what each person will do next.",
+        "Send a vague message about methods of communication and when to use industry terminology to match the style and continue regardless of the response."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Methods of communication and when to use industry terminology to match the style to the audience rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for methods of communication and when to use industry terminology to match the style directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K27"
@@ -551,15 +551,15 @@
       "id": "ST0171-TRADE-028",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "Your work on the importance of customer service to their organisation, how to provide feedback to ensure customers ar… will affect another person or trade. What is the best response?",
+      "question": "Your work on the importance of customer service to their organisation, how to provide feedback will affect another person or trade. What is the best response?",
       "answers": [
-        "Create an informal workaround for The importance of customer service to their organisation, how to provide feedback to ensure customers are informed of property maintenance without agreeing the changed sequence.",
-        "For The importance of customer service to their organisation, how to provide feedback to ensure customers are informed of property maintenance, share the relevant information with the people affected and agree a safe, workable sequence before the coordination issue creates rework.",
-        "Complete your part of The importance of customer service to their organisation, how to provide feedback to ensure customers are informed of property maintenance first because it is already under way.",
-        "Leave the The importance of customer service to their organisation, how to provide feedback to ensure customers are informed of property maintenance issue for the next person to solve when they reach it."
+        "Create an informal workaround for the importance of customer service to their organisation, how to provide feedback without agreeing the changed sequence.",
+        "Share the relevant the importance of customer service to their organisation, how to provide feedback information with the people affected and agree a safe, workable sequence before continuing.",
+        "Complete your part of the importance of customer service to their organisation, how to provide feedback first because it is already under way.",
+        "Leave the the importance of customer service to their organisation, how to provide feedback issue for the next person to solve when they reach it."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for The importance of customer service to their organisation, how to provide feedback to ensure customers are informed of property maintenance rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the importance of customer service to their organisation, how to provide feedback directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K28"
@@ -571,15 +571,15 @@
       "id": "ST0171-TRADE-029",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During the roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies…, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During the roles and responsibilities of property maintenance operatives and the purpose, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Hold the next stage of The roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies of other trade operatives, investigate why the check failed and bring the work back to the issued requirement before it is covered.",
-        "Proceed with The roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies of other trade operatives because the work looks acceptable despite the failed check.",
-        "Leave the The roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies of other trade operatives defect for handover so it can be considered with the finished job.",
-        "Change the next stage of The roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies of other trade operatives instead of correcting the failed requirement."
+        "Hold the next stage of the roles and responsibilities of property maintenance operatives and the purpose, investigate why the check failed and bring the work back to the issued requirement before covering it.",
+        "Proceed with the roles and responsibilities of property maintenance operatives and the purpose because the work looks acceptable despite the failed check.",
+        "Leave the the roles and responsibilities of property maintenance operatives and the purpose defect for handover so it can be considered with the finished job.",
+        "Change the next stage of the roles and responsibilities of property maintenance operatives and the purpose instead of correcting the failed requirement."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for The roles and responsibilities of property maintenance operatives and the purpose and inter-dependencies of other trade operatives rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the roles and responsibilities of property maintenance operatives and the purpose directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K29"
@@ -591,15 +591,15 @@
       "id": "ST0171-TRADE-030",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A team decision affecting the rights and responsibilities of an employee and employer and an awareness of equality, diversity and… is unfair and has no work-related justification. Which response is strongest?",
+      "question": "A team decision affecting the rights and responsibilities of an employee and employer and an awareness of is unfair and has no work-related justification. Which response is strongest?",
       "answers": [
-        "Use the existing The rights and responsibilities of an employee and employer and an awareness of equality, diversity and inclusion, safeguarding and prevent arrangement because it is familiar to the team.",
-        "Avoid discussing the The rights and responsibilities of an employee and employer and an awareness of equality, diversity and inclusion, safeguarding and prevent decision and give the person different work.",
-        "Wait until The rights and responsibilities of an employee and employer and an awareness of equality, diversity and inclusion, safeguarding and prevent is finished before considering whether the treatment was fair.",
-        "Do not allow an unjustified assumption to determine The rights and responsibilities of an employee and employer and an awareness of equality, diversity and inclusion, safeguarding and prevent; use the proper route to restore fair, respectful and work-related decision-making."
+        "Use the existing the rights and responsibilities of an employee and employer and an awareness of arrangement because it is familiar to the team.",
+        "Avoid discussing the the rights and responsibilities of an employee and employer and an awareness of decision and give the person different work.",
+        "Wait until the rights and responsibilities of an employee and employer and an awareness of is finished before considering whether the treatment was fair.",
+        "Do not allow an unjustified assumption to determine the rights and responsibilities of an employee and employer and an awareness of; use the proper route to restore fair and work-related decision-making."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for The rights and responsibilities of an employee and employer and an awareness of equality, diversity and inclusion, safeguarding and prevent rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the rights and responsibilities of an employee and employer and an awareness of directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K30"
@@ -611,15 +611,15 @@
       "id": "ST0171-TRADE-031",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "You are asked to carry out the purpose of continuing professional development (cpd) and how this supports them to understand their…, but an important decision is outside your current competence or authority. What should you do?",
+      "question": "You are asked to carry out the purpose of continuing professional development (cpd) and how this supports, but an important decision is outside your current competence or authority. What should you do?",
       "answers": [
-        "Ask another operative to take responsibility for The purpose of continuing professional development (CPD) and how this supports them to understand their limits for personal authority and competence informally while you continue.",
-        "Choose the least disruptive The purpose of continuing professional development (CPD) and how this supports them to understand their limits for personal authority and competence option and report it after completion.",
-        "For The purpose of continuing professional development (CPD) and how this supports them to understand their limits for personal authority and competence, make the situation safe and seek the correct instruction, supervision or authorised decision before acting beyond your competence.",
-        "Use the solution that worked on a previous The purpose of continuing professional development (CPD) and how this supports them to understand their limits for personal authority and competence job."
+        "Ask another operative to take responsibility for the purpose of continuing professional development (cpd) and how this supports informally while you continue.",
+        "Choose the least disruptive the purpose of continuing professional development (cpd) and how this supports option and report it after completion.",
+        "For the purpose of continuing professional development (cpd) and how this supports, make the situation safe and seek the correct instruction, supervision or authorised decision before acting beyond your competence.",
+        "Use the solution that worked on a previous the purpose of continuing professional development (cpd) and how this supports job."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for The purpose of continuing professional development (CPD) and how this supports them to understand their limits for personal authority and competence rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for the purpose of continuing professional development (cpd) and how this supports directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K31"
@@ -631,15 +631,15 @@
       "id": "ST0171-TRADE-032",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During plan the sequence of work required to carry out routine property maintenance operations, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During plan the sequence of work required to carry out routine property maintenance, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Change the next stage of Plan the sequence of work required to carry out routine property maintenance operations instead of correcting the failed requirement.",
-        "Hold the next stage of Plan the sequence of work required to carry out routine property maintenance operations, investigate why the check failed and bring the work back to the issued requirement before it is covered.",
-        "Proceed with Plan the sequence of work required to carry out routine property maintenance operations because the work looks acceptable despite the failed check.",
-        "Leave the Plan the sequence of work required to carry out routine property maintenance operations defect for handover so it can be considered with the finished job."
+        "Change the next stage of plan the sequence of work required to carry out routine property maintenance instead of correcting the failed requirement.",
+        "Hold the next stage of plan the sequence of work required to carry out routine property maintenance, investigate why the check failed and bring the work back to the issued requirement before covering it.",
+        "Proceed with plan the sequence of work required to carry out routine property maintenance because the work looks acceptable despite the failed check.",
+        "Leave the plan the sequence of work required to carry out routine property maintenance defect for handover so it can be considered with the finished job."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Plan the sequence of work required to carry out routine property maintenance operations rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for plan the sequence of work required to carry out routine property maintenance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -651,15 +651,15 @@
       "id": "ST0171-TRADE-033",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "Before committing work on identify and select the appropriate materials and components for property maintenance tasks, ensuring th…, the information is incomplete or inconsistent. Which response is strongest?",
+      "question": "Before committing work on identify and select the appropriate materials and components for property, the information is incomplete or inconsistent. Which response is strongest?",
       "answers": [
-        "Treat the uncertainty around Identify and select the appropriate materials and components for property maintenance tasks, ensuring these are compliant with relevant regulatory requirements and manuf… as unresolved: check the approved source and get the discrepancy confirmed before work is fixed or concealed.",
-        "Use the newest-looking Identify and select the appropriate materials and components for property maintenance tasks, ensuring these are compliant with relevant regulatory requirements and manuf… document even if its revision is unconfirmed.",
-        "Adapt Identify and select the appropriate materials and components for property maintenance tasks, ensuring these are compliant with relevant regulatory requirements and manuf… to suit the site without recording the change.",
-        "Proceed with Identify and select the appropriate materials and components for property maintenance tasks, ensuring these are compliant with relevant regulatory requirements and manuf… and ask for confirmation only at handover."
+        "Treat the information for identify and select the appropriate materials and components for property as unresolved until the approved source and any discrepancy have been confirmed.",
+        "Use the newest-looking identify and select the appropriate materials and components for property document even if its revision is unconfirmed.",
+        "Adapt identify and select the appropriate materials and components for property to suit the site without recording the change.",
+        "Proceed with identify and select the appropriate materials and components for property and ask for confirmation only at handover."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Identify and select the appropriate materials and components for property maintenance tasks, ensuring these are compliant with relevant regulatory requirements and manuf… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for identify and select the appropriate materials and components for property directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S2"
@@ -671,15 +671,15 @@
       "id": "ST0171-TRADE-034",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "While working on comply with statutory health and safety regulations and requirements, a required control is no longer effective. What is the best response?",
+      "question": "While working on comply with statutory health and safety regulations and requirements, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Continue the Comply with statutory health and safety regulations and requirements activity cautiously because the original task has not changed.",
-        "Keep Comply with statutory health and safety regulations and requirements moving by relying on PPE while the failed control is left as it is.",
-        "Finish the immediate Comply with statutory health and safety regulations and requirements operation first, then report that the control failed.",
-        "For the requirement on Comply with statutory health and safety regulations and requirements, stop the affected activity, make the situation safe and restore or review the failed control before restarting."
+        "Continue the comply with statutory health and safety regulations and requirements work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the comply with statutory health and safety regulations and requirements work and leave the failed control as it is.",
+        "Finish the current comply with statutory health and safety regulations and requirements operation first, then report the failed control.",
+        "Pause the comply with statutory health and safety regulations and requirements work, make the situation safe and restore or reassess the failed control before continuing."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Comply with statutory health and safety regulations and requirements rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with statutory health and safety regulations and requirements directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -691,15 +691,15 @@
       "id": "ST0171-TRADE-035",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During comply with risk assessments, and organise the workplace, to safeguard themselves and the property, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During comply with risk assessments, and organise the workplace, to safeguard themselves, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to watch Comply with risk assessments, and organise the workplace, to safeguard themselves and the property while the failed control remains unavailable.",
-        "Complete the current stage of Comply with risk assessments, and organise the workplace, to safeguard themselves and the property because changing the system now would delay the job.",
-        "Pause work connected with Comply with risk assessments, and organise the workplace, to safeguard themselves and the property; reassess the changed risk and put an effective agreed control back in place before continuing.",
-        "Reduce the pace of Comply with risk assessments, and organise the workplace, to safeguard themselves and the property and continue under the original method without reviewing it."
+        "Ask another operative to watch the comply with risk assessments, and organise the workplace, to safeguard themselves work while the control remains unavailable.",
+        "Complete this stage of the comply with risk assessments, and organise the workplace, to safeguard themselves work because changing the system now would cause delay.",
+        "Stop the affected comply with risk assessments, and organise the workplace, to safeguard themselves activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the comply with risk assessments, and organise the workplace, to safeguard themselves activity but keep the original method unchanged."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Comply with risk assessments, and organise the workplace, to safeguard themselves and the property rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with risk assessments, and organise the workplace, to safeguard themselves directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S4"
@@ -711,15 +711,15 @@
       "id": "ST0171-TRADE-036",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "The next stage will conceal part of comply with key regulatory and legislative requirements, including building regulations, but a required check is still outstanding. Which response is strongest?",
+      "question": "The next stage will conceal part of comply with key regulatory and legislative requirements, including building, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Continue Comply with key regulatory and legislative requirements, including building regulations and rely on the final inspection to identify any problem.",
-        "Do not conceal Comply with key regulatory and legislative requirements, including building regulations while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
-        "Photograph Comply with key regulatory and legislative requirements, including building regulations and continue even though the check has not passed.",
-        "Accept Comply with key regulatory and legislative requirements, including building regulations because a later finish will hide the discrepancy."
+        "Continue comply with key regulatory and legislative requirements, including building and rely on final inspection to identify any problem.",
+        "Do not conceal comply with key regulatory and legislative requirements, including building while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph comply with key regulatory and legislative requirements, including building and continue even though the check has not passed.",
+        "Accept comply with key regulatory and legislative requirements, including building because a later finish will hide the discrepancy."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Comply with key regulatory and legislative requirements, including building regulations rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with key regulatory and legislative requirements, including building directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -731,15 +731,15 @@
       "id": "ST0171-TRADE-037",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A tool or item of equipment used for uses safe working practices when carrying out property maintenance tasks including the use of ppe, signa… develops a defect during a pre-use check. What should you do?",
+      "question": "While working on uses safe working practices when carrying out property maintenance tasks including, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "For Uses safe working practices when carrying out property maintenance tasks including the use of PPE, signage, barriers, access equipment and ensuring work area is prepared…, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Uses safe working practices when carrying out property maintenance tasks including the use of PPE, signage, barriers, access equipment and ensuring work area is prepared… with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Uses safe working practices when carrying out property maintenance tasks including the use of PPE, signage, barriers, access equipment and ensuring work area is prepared… before deciding.",
-        "Use the defective equipment only for a non-visible part of Uses safe working practices when carrying out property maintenance tasks including the use of PPE, signage, barriers, access equipment and ensuring work area is prepared…."
+        "Pause the uses safe working practices when carrying out property maintenance tasks including work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the uses safe working practices when carrying out property maintenance tasks including work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the uses safe working practices when carrying out property maintenance tasks including work and leave the failed control as it is.",
+        "Finish the current uses safe working practices when carrying out property maintenance tasks including operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Uses safe working practices when carrying out property maintenance tasks including the use of PPE, signage, barriers, access equipment and ensuring work area is prepared… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for uses safe working practices when carrying out property maintenance tasks including directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -751,15 +751,15 @@
       "id": "ST0171-TRADE-038",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and en…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During select, and use work tools and equipment for property maintenance tasks, applying, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Use the equipment for Select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and ensuring the correct functioning of equipment only until the current operation is complete.",
-        "Keep the equipment in service for Select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and ensuring the correct functioning of equipment if a colleague agrees to monitor it.",
-        "Compensate for the defect during Select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and ensuring the correct functioning of equipment by working more slowly.",
-        "Do not continue Select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and ensuring the correct functioning of equipment with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement."
+        "Use the equipment for select, and use work tools and equipment for property maintenance tasks, applying only until the current operation is complete.",
+        "Keep the equipment in service for select, and use work tools and equipment for property maintenance tasks, applying if a colleague agrees to monitor it.",
+        "Compensate for the defect during select, and use work tools and equipment for property maintenance tasks, applying by working more slowly.",
+        "Do not continue select, and use work tools and equipment for property maintenance tasks, applying with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Select, and use work tools and equipment for property maintenance tasks, applying all safeguards, and ensuring the correct functioning of equipment rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for select, and use work tools and equipment for property maintenance tasks, applying directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S7"
@@ -771,15 +771,15 @@
       "id": "ST0171-TRADE-039",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague wants to continue safely isolate and secure electrical or electronic supplies prior to performing property maintenance ope… even though an agreed control has failed. Which response is strongest?",
+      "question": "The next stage will conceal part of safely isolate and secure electrical or electronic supplies prior to performing, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Use additional PPE for Safely isolate and secure electrical or electronic supplies prior to performing property maintenance operations instead of restoring the failed control.",
-        "Record the failed control for Safely isolate and secure electrical or electronic supplies prior to performing property maintenance operations and deal with it after the task is finished.",
-        "Do not continue Safely isolate and secure electrical or electronic supplies prior to performing property maintenance operations under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with Safely isolate and secure electrical or electronic supplies prior to performing property maintenance operations if the remaining exposure is brief."
+        "Accept safely isolate and secure electrical or electronic supplies prior to performing because a later finish will hide the discrepancy.",
+        "Continue safely isolate and secure electrical or electronic supplies prior to performing and rely on final inspection to identify any problem.",
+        "Do not conceal safely isolate and secure electrical or electronic supplies prior to performing while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph safely isolate and secure electrical or electronic supplies prior to performing and continue even though the check has not passed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Safely isolate and secure electrical or electronic supplies prior to performing property maintenance operations rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for safely isolate and secure electrical or electronic supplies prior to performing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -791,15 +791,15 @@
       "id": "ST0171-TRADE-040",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "While carrying out apply and implement routine emergency system checks, testing and routine maintenance, identifying and re…, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "While carrying out apply and implement routine emergency system checks, testing and routine, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Adjust a later part of Apply and implement routine emergency system checks, testing and routine maintenance, identifying and reporting faults as required to disguise the current error.",
-        "For Apply and implement routine emergency system checks, testing and routine maintenance, identifying and reporting faults as required, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
-        "Continue Apply and implement routine emergency system checks, testing and routine maintenance, identifying and reporting faults as required and correct only the visible result at final inspection.",
-        "Record the deviation in Apply and implement routine emergency system checks, testing and routine maintenance, identifying and reporting faults as required but leave it unless another trade objects."
+        "Adjust a later part of apply and implement routine emergency system checks, testing and routine to disguise the current error.",
+        "Stop the apply and implement routine emergency system checks, testing and routine work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Continue apply and implement routine emergency system checks, testing and routine and correct only the visible result at final inspection.",
+        "Record the deviation in apply and implement routine emergency system checks, testing and routine but leave it unless another trade objects."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Apply and implement routine emergency system checks, testing and routine maintenance, identifying and reporting faults as required rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for apply and implement routine emergency system checks, testing and routine directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S9"
@@ -811,15 +811,15 @@
       "id": "ST0171-TRADE-041",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of s…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During perform maintenance and repairs to plumbing systems, including fault, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Do not use the doubtful material in Perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of supply, replacing components and clearing blockages until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of supply, replacing components and clearing blockages if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of supply, replacing components and clearing blockages informally.",
-        "Keep the material in Perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of supply, replacing components and clearing blockages and replace it only if the finished work fails inspection."
+        "Do not use the doubtful material in perform maintenance and repairs to plumbing systems, including fault until its identity, suitability and approval have been checked.",
+        "Fit the material in perform maintenance and repairs to plumbing systems, including fault if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for perform maintenance and repairs to plumbing systems, including fault informally.",
+        "Keep the material in perform maintenance and repairs to plumbing systems, including fault and replace it only if final inspection fails."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Perform maintenance and repairs to plumbing systems, including fault identification, safe isolation of supply, replacing components and clearing blockages rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform maintenance and repairs to plumbing systems, including fault directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -831,15 +831,15 @@
       "id": "ST0171-TRADE-042",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague proposes a similar substitute for perform maintenance and repairs to external drainage systems, including clearing blockages and replacing… because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for perform maintenance and repairs to external drainage systems, including clearing because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Use the resource in Perform maintenance and repairs to external drainage systems, including clearing blockages and replacing components where it will be concealed.",
-        "Modify the resource on site for Perform maintenance and repairs to external drainage systems, including clearing blockages and replacing components without checking approval.",
-        "Proceed with Perform maintenance and repairs to external drainage systems, including clearing blockages and replacing components because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Perform maintenance and repairs to external drainage systems, including clearing blockages and replacing components, verify it against the current requirement and use it only when its suitability is confirmed."
+        "Use the resource in perform maintenance and repairs to external drainage systems, including clearing where it will be concealed.",
+        "Modify the resource on site for perform maintenance and repairs to external drainage systems, including clearing without checking approval.",
+        "Proceed with perform maintenance and repairs to external drainage systems, including clearing because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for perform maintenance and repairs to external drainage systems, including clearing, check it against the current requirement and use it only when suitability is confirmed."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Perform maintenance and repairs to external drainage systems, including clearing blockages and replacing components rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform maintenance and repairs to external drainage systems, including clearing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -851,15 +851,15 @@
       "id": "ST0171-TRADE-043",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague involved in perform maintenance and repairs to environmental and energy management systems, including fault identifi… says their wellbeing is affecting concentration. What is the best response?",
+      "question": "The work on perform maintenance and repairs to environmental and energy management systems, produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Move them away from Perform maintenance and repairs to environmental and energy management systems, including fault identification, safe isolation of supply, replacing components without discussing what support they need.",
-        "Wait until the end of the week before responding to the Perform maintenance and repairs to environmental and energy management systems, including fault identification, safe isolation of supply, replacing components concern.",
-        "For Perform maintenance and repairs to environmental and energy management systems, including fault identification, safe isolation of supply, replacing components, prioritise immediate safety, speak supportively with the person and involve appropriate supervision or support where needed.",
-        "Tell the person to continue Perform maintenance and repairs to environmental and energy management systems, including fault identification, safe isolation of supply, replacing components more slowly and keep the concern private."
+        "Keep only high-value offcuts from perform maintenance and repairs to environmental and energy management systems, and dispose of the rest together.",
+        "Leave all sorting from perform maintenance and repairs to environmental and energy management systems, until the end of the project.",
+        "Segregate waste from perform maintenance and repairs to environmental and energy management systems, as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
+        "Put all waste from perform maintenance and repairs to environmental and energy management systems, in the nearest container so the area is cleared quickly."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Perform maintenance and repairs to environmental and energy management systems, including fault identification, safe isolation of supply, replacing components rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform maintenance and repairs to environmental and energy management systems, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S12"
@@ -871,15 +871,15 @@
       "id": "ST0171-TRADE-044",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their assoc…, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During use carpentry and joinery skills to perform repairs to windows, doors and glazing, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Complete the current stage of Use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their associated fittings because changing the system now would delay the job.",
-        "Pause work connected with Use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their associated fittings; reassess the changed risk and put an effective agreed control back in place before continuing.",
-        "Reduce the pace of Use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their associated fittings and continue under the original method without reviewing it.",
-        "Ask another operative to watch Use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their associated fittings while the failed control remains unavailable."
+        "Complete this stage of the use carpentry and joinery skills to perform repairs to windows, doors and glazing work because changing the system now would cause delay.",
+        "Stop the affected use carpentry and joinery skills to perform repairs to windows, doors and glazing activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the use carpentry and joinery skills to perform repairs to windows, doors and glazing activity but keep the original method unchanged.",
+        "Ask another operative to watch the use carpentry and joinery skills to perform repairs to windows, doors and glazing work while the control remains unavailable."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Use carpentry and joinery skills to perform repairs to windows, doors and glazing units, and their associated fittings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for use carpentry and joinery skills to perform repairs to windows, doors and glazing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -891,15 +891,15 @@
       "id": "ST0171-TRADE-045",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague proposes a similar substitute for perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and co… because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for perform repairs to plastered surfaces, including surface preparation, fixing and because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for Perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and compounds, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and compounds where it will be concealed.",
-        "Modify the resource on site for Perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and compounds without checking approval.",
-        "Proceed with Perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and compounds because shortages justify an unapproved substitution."
+        "Quarantine the resource intended for perform repairs to plastered surfaces, including surface preparation, fixing and, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in perform repairs to plastered surfaces, including surface preparation, fixing and where it will be concealed.",
+        "Modify the resource on site for perform repairs to plastered surfaces, including surface preparation, fixing and without checking approval.",
+        "Proceed with perform repairs to plastered surfaces, including surface preparation, fixing and because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Perform repairs to plastered surfaces, including surface preparation, fixing and mixing materials and compounds rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform repairs to plastered surfaces, including surface preparation, fixing and directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S14"
@@ -911,15 +911,15 @@
       "id": "ST0171-TRADE-046",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A material or component for use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rol… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for use painting and decorating skills to prepare surfaces for decoration, apply paint does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of Use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rollers, and complete sealing activities using gun appliances.",
-        "Use extra quantity of the substitute during Use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rollers, and complete sealing activities using gun appliances to compensate for the difference.",
-        "Install the resource for Use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rollers, and complete sealing activities using gun appliances and record the substitution only at handover.",
-        "For Use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rollers, and complete sealing activities using gun appliances, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Use the resource for a less visible part of use painting and decorating skills to prepare surfaces for decoration, apply paint.",
+        "Use extra quantity of the substitute in use painting and decorating skills to prepare surfaces for decoration, apply paint to compensate for the difference.",
+        "Install the resource in use painting and decorating skills to prepare surfaces for decoration, apply paint and record the substitution only at handover.",
+        "Separate the questionable resource for use painting and decorating skills to prepare surfaces for decoration, apply paint and verify its condition, specification and approval before use."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Use painting and decorating skills to prepare surfaces for decoration, apply paint using brushes and rollers, and complete sealing activities using gun appliances rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for use painting and decorating skills to prepare surfaces for decoration, apply paint directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S15"
@@ -931,15 +931,15 @@
       "id": "ST0171-TRADE-047",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "During perform tiling repairs, including setting out, surface preparation and cutting around obstacles, the work looks acceptable but a required quality check does not pass. What should you do?",
+      "question": "During perform tiling repairs, including setting out, surface preparation and cutting, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Leave the Perform tiling repairs, including setting out, surface preparation and cutting around obstacles defect for handover so it can be considered with the finished job.",
-        "Change the next stage of Perform tiling repairs, including setting out, surface preparation and cutting around obstacles instead of correcting the failed requirement.",
-        "Hold the next stage of Perform tiling repairs, including setting out, surface preparation and cutting around obstacles, investigate why the check failed and bring the work back to the issued requirement before it is covered.",
-        "Proceed with Perform tiling repairs, including setting out, surface preparation and cutting around obstacles because the work looks acceptable despite the failed check."
+        "Leave the perform tiling repairs, including setting out, surface preparation and cutting defect for handover so it can be considered with the finished job.",
+        "Change the next stage of perform tiling repairs, including setting out, surface preparation and cutting instead of correcting the failed requirement.",
+        "Hold the next stage of perform tiling repairs, including setting out, surface preparation and cutting, investigate why the check failed and bring the work back to the issued requirement before covering it.",
+        "Proceed with perform tiling repairs, including setting out, surface preparation and cutting because the work looks acceptable despite the failed check."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Perform tiling repairs, including setting out, surface preparation and cutting around obstacles rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform tiling repairs, including setting out, surface preparation and cutting directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S16"
@@ -951,15 +951,15 @@
       "id": "ST0171-TRADE-048",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "A colleague proposes a similar substitute for perform flooring repairs, including setting out, surface preparation and cutting around obstacles because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for perform flooring repairs, including setting out, surface preparation and cutting because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Proceed with Perform flooring repairs, including setting out, surface preparation and cutting around obstacles because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Perform flooring repairs, including setting out, surface preparation and cutting around obstacles, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Perform flooring repairs, including setting out, surface preparation and cutting around obstacles where it will be concealed.",
-        "Modify the resource on site for Perform flooring repairs, including setting out, surface preparation and cutting around obstacles without checking approval."
+        "Proceed with perform flooring repairs, including setting out, surface preparation and cutting because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for perform flooring repairs, including setting out, surface preparation and cutting, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in perform flooring repairs, including setting out, surface preparation and cutting where it will be concealed.",
+        "Modify the resource on site for perform flooring repairs, including setting out, surface preparation and cutting without checking approval."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Perform flooring repairs, including setting out, surface preparation and cutting around obstacles rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform flooring repairs, including setting out, surface preparation and cutting directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S17"
@@ -971,15 +971,15 @@
       "id": "ST0171-TRADE-049",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "While carrying out perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending…, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "While carrying out perform planned, responsive or temporary repairs to buildings or their immediate, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "For Perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending to minor defects within either masonry, roofing, fencing or rail…, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
-        "Continue Perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending to minor defects within either masonry, roofing, fencing or rail… and correct only the visible result at final inspection.",
-        "Record the deviation in Perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending to minor defects within either masonry, roofing, fencing or rail… but leave it unless another trade objects.",
-        "Adjust a later part of Perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending to minor defects within either masonry, roofing, fencing or rail… to disguise the current error."
+        "Stop the perform planned, responsive or temporary repairs to buildings or their immediate work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Continue perform planned, responsive or temporary repairs to buildings or their immediate and correct only the visible result at final inspection.",
+        "Record the deviation in perform planned, responsive or temporary repairs to buildings or their immediate but leave it unless another trade objects.",
+        "Adjust a later part of perform planned, responsive or temporary repairs to buildings or their immediate to disguise the current error."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Perform planned, responsive or temporary repairs to buildings or their immediate surroundings, attending to minor defects within either masonry, roofing, fencing or rail… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for perform planned, responsive or temporary repairs to buildings or their immediate directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S18"
@@ -991,15 +991,15 @@
       "id": "ST0171-TRADE-050",
       "category": "trade",
       "courseId": "ST0171",
-      "question": "The drawing, specification or instruction for select and use technical literature and other sources of information and data to address property mainte… does not agree with the site condition. What should you do?",
+      "question": "The drawing, specification or instruction for select and use technical literature and other sources of information and data to does not agree with the site condition. What should you do?",
       "answers": [
-        "Use whichever Select and use technical literature and other sources of information and data to address property maintenance problems document is easiest to follow.",
-        "Continue Select and use technical literature and other sources of information and data to address property maintenance problems from memory and correct it later if necessary.",
-        "Let the next trade decide which Select and use technical literature and other sources of information and data to address property maintenance problems information should have been used.",
-        "Before continuing Select and use technical literature and other sources of information and data to address property maintenance problems, verify which instruction, drawing or specification is current and obtain clarification for any conflict."
+        "Use whichever select and use technical literature and other sources of information and data to document is easiest to follow.",
+        "Continue select and use technical literature and other sources of information and data to from memory and correct it later if necessary.",
+        "Let the next trade decide which select and use technical literature and other sources of information and data to information should have been used.",
+        "Verify which drawing, specification or instruction governs select and use technical literature and other sources of information and data to, then obtain clarification before fixing the work."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Select and use technical literature and other sources of information and data to address property maintenance problems rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for select and use technical literature and other sources of information and data to directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S19"

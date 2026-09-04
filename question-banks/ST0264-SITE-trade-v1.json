@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0264-SITE-trade-v1",
-  "version": 2,
+  "version": 3,
   "category": "trade",
   "courseId": "ST0264-SITE",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0264-SITE-TRADE-001",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A tool or item of equipment used for awareness of health and safety regulations, standards, and guidance and impact on role develops a defect during a pre-use check. What should you do?",
+      "question": "While working on awareness of health and safety regulations, standards, and guidance and impact on, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "For Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety…, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety… with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety… before deciding.",
-        "Use the defective equipment only for a non-visible part of Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety…."
+        "Pause the awareness of health and safety regulations, standards, and guidance and impact on work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the awareness of health and safety regulations, standards, and guidance and impact on work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the awareness of health and safety regulations, standards, and guidance and impact on work and leave the failed control as it is.",
+        "Finish the current awareness of health and safety regulations, standards, and guidance and impact on operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for awareness of health and safety regulations, standards, and guidance and impact on directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K1"
@@ -31,15 +31,15 @@
       "id": "ST0264-SITE-TRADE-002",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During safety control equipment and how to use personal protective equipment (ppe) respiratory protective equip…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During safety control equipment and how to use personal protective equipment (ppe), conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Use the equipment for Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) only until the current operation is complete.",
-        "Keep the equipment in service for Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) if a colleague agrees to monitor it.",
-        "Compensate for the defect during Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) by working more slowly.",
-        "Do not continue Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement."
+        "Reduce the pace of the safety control equipment and how to use personal protective equipment (ppe) activity but keep the original method unchanged.",
+        "Ask another operative to watch the safety control equipment and how to use personal protective equipment (ppe) work while the control remains unavailable.",
+        "Complete this stage of the safety control equipment and how to use personal protective equipment (ppe) work because changing the system now would cause delay.",
+        "Stop the affected safety control equipment and how to use personal protective equipment (ppe) activity and review the changed risk before restarting under effective agreed controls."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for safety control equipment and how to use personal protective equipment (ppe) directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K2"
@@ -51,15 +51,15 @@
       "id": "ST0264-SITE-TRADE-003",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A colleague suggests using defective equipment only to finish a short part of safe systems of work: site inductions, tool box talks, risk assessments, method statements and hazard id…. Which response is strongest?",
+      "question": "A colleague wants to continue safe systems of work: site inductions, tool box talks, risk assessments, method even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Use the equipment for Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area only where accuracy is less important.",
-        "Ask someone else to use the equipment for Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area so responsibility is transferred.",
-        "Suspend the affected part of Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area first because the defect has not stopped the equipment operating."
+        "Add extra PPE for safe systems of work: site inductions, tool box talks, risk assessments, method instead of restoring the failed control.",
+        "Record the failed control for safe systems of work: site inductions, tool box talks, risk assessments, method and deal with it after the task is finished.",
+        "Do not continue safe systems of work: site inductions, tool box talks, risk assessments, method until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with safe systems of work: site inductions, tool box talks, risk assessments, method if the remaining exposure is brief."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for safe systems of work: site inductions, tool box talks, risk assessments, method directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K3"
@@ -73,13 +73,13 @@
       "courseId": "ST0264-SITE",
       "question": "The work on impact of the sector on the environment: efficient use of resources produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Leave all sorting from Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry until the end of the project.",
-        "For Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry, keep the area controlled and separate reusable, recyclable and disposal material using the site's agreed waste arrangements.",
-        "Put all waste from Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry and dispose of the rest together."
+        "Leave all sorting from impact of the sector on the environment: efficient use of resources until the end of the project.",
+        "Segregate waste from impact of the sector on the environment: efficient use of resources as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
+        "Put all waste from impact of the sector on the environment: efficient use of resources in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from impact of the sector on the environment: efficient use of resources and dispose of the rest together."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for impact of the sector on the environment: efficient use of resources directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K4"
@@ -91,15 +91,15 @@
       "id": "ST0264-SITE-TRADE-005",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During principles of building and modern methods of construction: foundations, roofs, walls, damp proof courses…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During principles of building and modern methods of construction: foundations, roofs,, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Do not use the doubtful material in Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… informally.",
-        "Keep the material in Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… and replace it only if the finished work fails inspection."
+        "Do not use the doubtful material in principles of building and modern methods of construction: foundations, roofs, until its identity, suitability and approval have been checked.",
+        "Fit the material in principles of building and modern methods of construction: foundations, roofs, if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for principles of building and modern methods of construction: foundations, roofs, informally.",
+        "Keep the material in principles of building and modern methods of construction: foundations, roofs, and replace it only if final inspection fails."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for principles of building and modern methods of construction: foundations, roofs, directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K5"
@@ -113,13 +113,13 @@
       "courseId": "ST0264-SITE",
       "question": "Before committing work on basic principles of digital design and modelling systems, the information is incomplete or inconsistent. Which response is strongest?",
       "answers": [
-        "Use the newest-looking Basic principles of digital design and modelling systems document even if its revision is unconfirmed.",
-        "Adapt Basic principles of digital design and modelling systems to suit the site without recording the change.",
-        "Proceed with Basic principles of digital design and modelling systems and ask for confirmation only at handover.",
-        "Treat the uncertainty around Basic principles of digital design and modelling systems as unresolved: check the approved source and get the discrepancy confirmed before work is fixed or concealed."
+        "Use the newest-looking basic principles of digital design and modelling systems document even if its revision is unconfirmed.",
+        "Adapt basic principles of digital design and modelling systems to suit the site without recording the change.",
+        "Proceed with basic principles of digital design and modelling systems and ask for confirmation only at handover.",
+        "Treat the information for basic principles of digital design and modelling systems as unresolved until the approved source and any discrepancy have been confirmed."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Basic principles of digital design and modelling systems rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for basic principles of digital design and modelling systems directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K6"
@@ -131,15 +131,15 @@
       "id": "ST0264-SITE-TRADE-007",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "While working on standards and regulations associated with carpentry activities: british standards, building regulations…, a required control is no longer effective. What is the best response?",
+      "question": "While working on standards and regulations associated with carpentry activities: british standards,, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Keep Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards moving by relying on PPE while the failed control is left as it is.",
-        "Finish the immediate Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards operation first, then report that the control failed.",
-        "For the requirement on Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards, stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
-        "Continue the Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards activity cautiously because the original task has not changed."
+        "Rely on PPE alone for the standards and regulations associated with carpentry activities: british standards, work and leave the failed control as it is.",
+        "Finish the current standards and regulations associated with carpentry activities: british standards, operation first, then report the failed control.",
+        "Pause the standards and regulations associated with carpentry activities: british standards, work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the standards and regulations associated with carpentry activities: british standards, work carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for standards and regulations associated with carpentry activities: british standards, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K7"
@@ -151,15 +151,15 @@
       "id": "ST0264-SITE-TRADE-008",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "The drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and specifications does not agree with the site condition. What should you do?",
+      "question": "The drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and does not agree with the site condition. What should you do?",
       "answers": [
-        "Let the next trade decide which Methods of interpreting and extracting relevant information from drawings and specifications information should have been used.",
-        "Before continuing Methods of interpreting and extracting relevant information from drawings and specifications, verify which instruction, drawing or specification is current and obtain clarification for any conflict.",
-        "Use whichever Methods of interpreting and extracting relevant information from drawings and specifications document is easiest to follow.",
-        "Continue Methods of interpreting and extracting relevant information from drawings and specifications from memory and correct it later if necessary."
+        "Let the next trade decide which methods of interpreting and extracting relevant information from drawings and information should have been used.",
+        "Verify which drawing, specification or instruction governs methods of interpreting and extracting relevant information from drawings and, then obtain clarification before fixing the work.",
+        "Use whichever methods of interpreting and extracting relevant information from drawings and document is easiest to follow.",
+        "Continue methods of interpreting and extracting relevant information from drawings and from memory and correct it later if necessary."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Methods of interpreting and extracting relevant information from drawings and specifications rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for methods of interpreting and extracting relevant information from drawings and directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K8"
@@ -171,15 +171,15 @@
       "id": "ST0264-SITE-TRADE-009",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A colleague proposes a similar substitute for materials and their characteristics of home grown and imported timber and timber-based products because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for materials and their characteristics of home grown and imported timber and because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod…, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… where it will be concealed.",
-        "Modify the resource on site for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… without checking approval.",
-        "Proceed with Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… because shortages justify an unapproved substitution."
+        "Quarantine the resource intended for materials and their characteristics of home grown and imported timber and, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in materials and their characteristics of home grown and imported timber and where it will be concealed.",
+        "Modify the resource on site for materials and their characteristics of home grown and imported timber and without checking approval.",
+        "Proceed with materials and their characteristics of home grown and imported timber and because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for materials and their characteristics of home grown and imported timber and directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K9"
@@ -191,15 +191,15 @@
       "id": "ST0264-SITE-TRADE-010",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A material or component for timber decay and repair methods: timber moisture content parameters for a range of timber and timber-bas… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for timber decay and repair methods: timber moisture content parameters for a range of does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack.",
-        "Use extra quantity of the substitute during Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack to compensate for the difference.",
-        "Install the resource for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack and record the substitution only at handover.",
-        "For Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Use the resource for a less visible part of timber decay and repair methods: timber moisture content parameters for a range of.",
+        "Use extra quantity of the substitute in timber decay and repair methods: timber moisture content parameters for a range of to compensate for the difference.",
+        "Install the resource in timber decay and repair methods: timber moisture content parameters for a range of and record the substitution only at handover.",
+        "Separate the questionable resource for timber decay and repair methods: timber moisture content parameters for a range of and verify its condition, specification and approval before use."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for timber decay and repair methods: timber moisture content parameters for a range of directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K10"
@@ -211,15 +211,15 @@
       "id": "ST0264-SITE-TRADE-011",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During carpentry and joinery products and purpose: mastics, preservatives, wood fillers, plastics and ironmonge…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During carpentry and joinery products and purpose: mastics, preservatives, wood fillers,, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to accept the material for Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery informally.",
-        "Keep the material in Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery if it appears close enough to the specified item."
+        "Ask another operative to watch the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, work while the control remains unavailable.",
+        "Complete this stage of the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, work because changing the system now would cause delay.",
+        "Stop the affected carpentry and joinery products and purpose: mastics, preservatives, wood fillers, activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, activity but keep the original method unchanged."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for carpentry and joinery products and purpose: mastics, preservatives, wood fillers, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -231,15 +231,15 @@
       "id": "ST0264-SITE-TRADE-012",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "You need to allow for dimensions, openings or waste when planning basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting l…. Which approach is strongest?",
+      "question": "You need to allow for dimensions, openings or waste when planning basic material estimation techniques, calculating lengths of timber, fixing. Which approach is strongest?",
       "answers": [
-        "Choose the nearest whole quantity for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods before completing the calculation.",
-        "Trace the Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods estimate back to the current measurements, required components and stated waste allowance, correcting any unsupported assumption.",
-        "Use a rule-of-thumb quantity for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods instead of checking the current information.",
-        "Apply the same waste allowance to every part of Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods without justification."
+        "Choose the nearest whole quantity for basic material estimation techniques, calculating lengths of timber, fixing before completing the calculation.",
+        "Trace the basic material estimation techniques, calculating lengths of timber, fixing estimate back to current measurements, required components and the stated waste allowance, correcting unsupported assumptions.",
+        "Use a rule-of-thumb quantity for basic material estimation techniques, calculating lengths of timber, fixing instead of checking the current information.",
+        "Apply the same waste allowance to every part of basic material estimation techniques, calculating lengths of timber, fixing without justification."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for basic material estimation techniques, calculating lengths of timber, fixing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -253,13 +253,13 @@
       "courseId": "ST0264-SITE",
       "question": "Your work on verbal communication techniques and construction terminology will affect another person or trade. What is the best response?",
       "answers": [
-        "For Verbal communication techniques and construction terminology, share the relevant information with the people affected and agree a safe, workable sequence before the coordination issue creates rework.",
-        "Complete your part of Verbal communication techniques and construction terminology first because it is already under way.",
-        "Leave the Verbal communication techniques and construction terminology issue for the next person to solve when they reach it.",
-        "Create an informal workaround for Verbal communication techniques and construction terminology without agreeing the changed sequence."
+        "Share the relevant verbal communication techniques and construction terminology information with the people affected and agree a safe, workable sequence before continuing.",
+        "Complete your part of verbal communication techniques and construction terminology first because it is already under way.",
+        "Leave the verbal communication techniques and construction terminology issue for the next person to solve when they reach it.",
+        "Create an informal workaround for verbal communication techniques and construction terminology without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Verbal communication techniques and construction terminology rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for verbal communication techniques and construction terminology directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K13"
@@ -271,15 +271,15 @@
       "id": "ST0264-SITE-TRADE-014",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During hand tool use and storage methods and techniques: chisels, planes, hand saws, hammers, squares, tri-squa…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During hand tool use and storage methods and techniques: chisels, planes, hand saws,, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Use the equipment for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels only until the current operation is complete.",
-        "Keep the equipment in service for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels if a colleague agrees to monitor it.",
-        "Compensate for the defect during Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels by working more slowly.",
-        "Do not continue Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement."
+        "Use the equipment for hand tool use and storage methods and techniques: chisels, planes, hand saws, only until the current operation is complete.",
+        "Keep the equipment in service for hand tool use and storage methods and techniques: chisels, planes, hand saws, if a colleague agrees to monitor it.",
+        "Compensate for the defect during hand tool use and storage methods and techniques: chisels, planes, hand saws, by working more slowly.",
+        "Do not continue hand tool use and storage methods and techniques: chisels, planes, hand saws, with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for hand tool use and storage methods and techniques: chisels, planes, hand saws, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -291,15 +291,15 @@
       "id": "ST0264-SITE-TRADE-015",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A colleague suggests using defective equipment only to finish a short part of hand tool maintenance and sharpening techniques. Which response is strongest?",
+      "question": "A colleague wants to continue hand tool maintenance and sharpening techniques even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Use the equipment for Hand tool maintenance and sharpening techniques only where accuracy is less important.",
-        "Ask someone else to use the equipment for Hand tool maintenance and sharpening techniques so responsibility is transferred.",
-        "Suspend the affected part of Hand tool maintenance and sharpening techniques until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Hand tool maintenance and sharpening techniques first because the defect has not stopped the equipment operating."
+        "Add extra PPE for hand tool maintenance and sharpening techniques instead of restoring the failed control.",
+        "Record the failed control for hand tool maintenance and sharpening techniques and deal with it after the task is finished.",
+        "Do not continue hand tool maintenance and sharpening techniques until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with hand tool maintenance and sharpening techniques if the remaining exposure is brief."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Hand tool maintenance and sharpening techniques rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for hand tool maintenance and sharpening techniques directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K15"
@@ -313,13 +313,13 @@
       "courseId": "ST0264-SITE",
       "question": "A tool or item of equipment used for jig production techniques develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use the defective equipment only for a non-visible part of Jig production techniques.",
-        "For Jig production techniques, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Jig production techniques with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Jig production techniques before deciding."
+        "Use the defective equipment only for a non-visible part of jig production techniques.",
+        "Take the defective equipment out of service before continuing jig production techniques, then report it and arrange the required repair, inspection or replacement.",
+        "Continue jig production techniques with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during jig production techniques before deciding."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Jig production techniques rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for jig production techniques directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -331,15 +331,15 @@
       "id": "ST0264-SITE-TRADE-017",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During power tools use and storage methods and techniques: portable circular saws, drills, saws, planers, route…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During power tools use and storage methods and techniques: portable circular saws,, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Do not continue Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
-        "Use the equipment for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns only until the current operation is complete.",
-        "Keep the equipment in service for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns if a colleague agrees to monitor it.",
-        "Compensate for the defect during Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns by working more slowly."
+        "Do not continue power tools use and storage methods and techniques: portable circular saws, with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
+        "Use the equipment for power tools use and storage methods and techniques: portable circular saws, only until the current operation is complete.",
+        "Keep the equipment in service for power tools use and storage methods and techniques: portable circular saws, if a colleague agrees to monitor it.",
+        "Compensate for the defect during power tools use and storage methods and techniques: portable circular saws, by working more slowly."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for power tools use and storage methods and techniques: portable circular saws, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -353,13 +353,13 @@
       "courseId": "ST0264-SITE",
       "question": "A coordination issue around principles of good team working could create delay or rework. Which response is strongest?",
       "answers": [
-        "Send a vague message about Principles of good team working and continue regardless of the response.",
-        "Wait for someone else to raise the Principles of good team working conflict formally.",
-        "Prioritise your own Principles of good team working output even if it blocks following work.",
-        "Resolve the Principles of good team working interface early by communicating the change, checking understanding and agreeing what each person will do next."
+        "Send a vague message about principles of good team working and continue regardless of the response.",
+        "Wait for someone else to raise the principles of good team working conflict formally.",
+        "Prioritise your own principles of good team working output even if it blocks following work.",
+        "Resolve the principles of good team working interface early by communicating the change, checking understanding and agreeing what each person will do next."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Principles of good team working rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for principles of good team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K18"
@@ -373,13 +373,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague is being excluded during inclusion, equity and diversity in the workplace for reasons unrelated to competence or safety. What is the best response?",
       "answers": [
-        "Accept the unequal treatment in Inclusion, equity and diversity in the workplace if the current arrangement is quicker.",
-        "Move the colleague to simpler Inclusion, equity and diversity in the workplace work so the disagreement disappears.",
-        "For Inclusion, equity and diversity in the workplace, support fair and respectful treatment and address or report the inappropriate practice through the correct workplace route.",
-        "Ignore the issue during Inclusion, equity and diversity in the workplace unless the person affected makes a formal complaint."
+        "Accept the unequal treatment in inclusion, equity and diversity in the workplace if the current arrangement is quicker.",
+        "Move the colleague to simpler inclusion, equity and diversity in the workplace work so the disagreement disappears.",
+        "For inclusion, equity and diversity in the workplace, support fair and respectful treatment and address or report inappropriate practice through the correct workplace route.",
+        "Ignore the issue during inclusion, equity and diversity in the workplace unless the person affected makes a formal complaint."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Inclusion, equity and diversity in the workplace rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity in the workplace directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -391,15 +391,15 @@
       "id": "ST0264-SITE-TRADE-020",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During well-being: mental and physical health considerations in self and others and how to access support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During well-being: mental and physical health considerations in self and others and how, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Treat the Well-being: Mental and physical health considerations in self and others and how to access support issue only as a performance problem.",
-        "If wellbeing is affecting Well-being: Mental and physical health considerations in self and others and how to access support, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change.",
-        "Keep Well-being: Mental and physical health considerations in self and others and how to access support running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in Well-being: Mental and physical health considerations in self and others and how to access support without addressing the concern."
+        "Treat the well-being: mental and physical health considerations in self and others and how issue only as a performance problem.",
+        "Respond to the wellbeing concern during well-being: mental and physical health considerations in self and others and how by controlling any immediate safety risk, checking in with the person and using the appropriate support route.",
+        "Keep well-being: mental and physical health considerations in self and others and how running and assume concentration will improve.",
+        "Ask colleagues to cover the person's mistakes in well-being: mental and physical health considerations in self and others and how without addressing the concern."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Well-being: Mental and physical health considerations in self and others and how to access support rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for well-being: mental and physical health considerations in self and others and how directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K20"
@@ -413,13 +413,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Do not continue Site Carpenter. Site carpentry techniques: Measuring, marking out, fitting, cutting (straight and angled) and mitring under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with Site Carpenter. Site carpentry techniques: Measuring, marking out, fitting, cutting (straight and angled) and mitring if the remaining exposure is brief.",
-        "Use additional PPE for Site Carpenter. Site carpentry techniques: Measuring, marking out, fitting, cutting (straight and angled) and mitring instead of restoring the failed control.",
-        "Record the failed control for Site Carpenter. Site carpentry techniques: Measuring, marking out, fitting, cutting (straight and angled) and mitring and deal with it after the task is finished."
+        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with site carpenter if the remaining exposure is brief.",
+        "Add extra PPE for site carpenter instead of restoring the failed control.",
+        "Record the failed control for site carpenter and deal with it after the task is finished."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry techniques: Measuring, marking out, fitting, cutting (straight and angled) and mitring rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K21"
@@ -431,15 +431,15 @@
       "id": "ST0264-SITE-TRADE-022",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A material or component for site carpenter does not fully match the issued requirement. What is the best response?",
+      "question": "While working on site carpenter, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of Site Carpenter. Site carpentry: Structural fixtures and timber sizing in site carpentry, how to use sizing tables.",
-        "Use extra quantity of the substitute during Site Carpenter. Site carpentry: Structural fixtures and timber sizing in site carpentry, how to use sizing tables to compensate for the difference.",
-        "Install the resource for Site Carpenter. Site carpentry: Structural fixtures and timber sizing in site carpentry, how to use sizing tables and record the substitution only at handover.",
-        "For Site Carpenter. Site carpentry: Structural fixtures and timber sizing in site carpentry, how to use sizing tables, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Continue the site carpenter work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
+        "Finish the current site carpenter operation first, then report the failed control.",
+        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: Structural fixtures and timber sizing in site carpentry, how to use sizing tables rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K22"
@@ -451,15 +451,15 @@
       "id": "ST0264-SITE-TRADE-023",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During site carpenter, a resource has doubtful condition or identification. What should you do?",
+      "question": "During site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to accept the material for Site Carpenter. Timber sizing tables purpose and use informally.",
-        "Keep the material in Site Carpenter. Timber sizing tables purpose and use and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Site Carpenter. Timber sizing tables purpose and use until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Site Carpenter. Timber sizing tables purpose and use if it appears close enough to the specified item."
+        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
+        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
+        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the site carpenter activity but keep the original method unchanged."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Timber sizing tables purpose and use rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K23"
@@ -471,15 +471,15 @@
       "id": "ST0264-SITE-TRADE-024",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A colleague proposes a similar substitute for site carpenter because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Proceed with Site Carpenter. Site carpentry: Timber splicing and scribing techniques because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Site Carpenter. Site carpentry: Timber splicing and scribing techniques, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Site Carpenter. Site carpentry: Timber splicing and scribing techniques where it will be concealed.",
-        "Modify the resource on site for Site Carpenter. Site carpentry: Timber splicing and scribing techniques without checking approval."
+        "Record the failed control for site carpenter and deal with it after the task is finished.",
+        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Confirm the requirement has been met before continuing.",
+        "Carry on with site carpenter if the remaining exposure is brief.",
+        "Add extra PPE for site carpenter instead of restoring the failed control."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: Timber splicing and scribing techniques rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K24"
@@ -491,15 +491,15 @@
       "id": "ST0264-SITE-TRADE-025",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "While working on site carpenter, a required control is no longer effective. What is the best response?",
+      "question": "While working on site carpenter, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "For the requirement on Site Carpenter. Site carpentry: Straight roof installation techniques: Basic rafter trussed (prefabricated) and traditional cut roof (built on site), stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
-        "Continue the Site Carpenter. Site carpentry: Straight roof installation techniques: Basic rafter trussed (prefabricated) and traditional cut roof (built on site) activity cautiously because the original task has not changed.",
-        "Keep Site Carpenter. Site carpentry: Straight roof installation techniques: Basic rafter trussed (prefabricated) and traditional cut roof (built on site) moving by relying on PPE while the failed control is left as it is.",
-        "Finish the immediate Site Carpenter. Site carpentry: Straight roof installation techniques: Basic rafter trussed (prefabricated) and traditional cut roof (built on site) operation first, then report that the control failed."
+        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Confirm the outcome before the next stage begins.",
+        "Continue the site carpenter work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
+        "Finish the current site carpenter operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: Straight roof installation techniques: Basic rafter trussed (prefabricated) and traditional cut roof (built on site) rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K25"
@@ -513,13 +513,13 @@
       "courseId": "ST0264-SITE",
       "question": "During site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Reduce the pace of Site Carpenter. Site carpentry: Flat roofs: Warm and cold flat roofs including firings and coverings and continue under the original method without reviewing it.",
-        "Ask another operative to watch Site Carpenter. Site carpentry: Flat roofs: Warm and cold flat roofs including firings and coverings while the failed control remains unavailable.",
-        "Complete the current stage of Site Carpenter. Site carpentry: Flat roofs: Warm and cold flat roofs including firings and coverings because changing the system now would delay the job.",
-        "Pause work connected with Site Carpenter. Site carpentry: Flat roofs: Warm and cold flat roofs including firings and coverings; reassess the changed risk and put an effective agreed control back in place before continuing."
+        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
+        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
+        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
+        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Make sure the action is completed before work continues."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: Flat roofs: Warm and cold flat roofs including firings and coverings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K26"
@@ -531,15 +531,15 @@
       "id": "ST0264-SITE-TRADE-027",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A colleague proposes a similar substitute for site carpenter because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Modify the resource on site for Site Carpenter. Site carpentry: First fixing installation techniques: Structural carcassing (load bearing studwork), floor joists and coverings, straight flights of stai… without checking approval.",
-        "Proceed with Site Carpenter. Site carpentry: First fixing installation techniques: Structural carcassing (load bearing studwork), floor joists and coverings, straight flights of stai… because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Site Carpenter. Site carpentry: First fixing installation techniques: Structural carcassing (load bearing studwork), floor joists and coverings, straight flights of stai…, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Site Carpenter. Site carpentry: First fixing installation techniques: Structural carcassing (load bearing studwork), floor joists and coverings, straight flights of stai… where it will be concealed."
+        "Add extra PPE for site carpenter instead of restoring the failed control.",
+        "Record the failed control for site carpenter and deal with it after the task is finished.",
+        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Check that the issue has been resolved before proceeding.",
+        "Carry on with site carpenter if the remaining exposure is brief."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: First fixing installation techniques: Structural carcassing (load bearing studwork), floor joists and coverings, straight flights of stai… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K27"
@@ -551,15 +551,15 @@
       "id": "ST0264-SITE-TRADE-028",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "While working on site carpenter, a required control is no longer effective. What is the best response?",
+      "question": "While working on site carpenter, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Finish the immediate Site Carpenter. Site carpentry: Second fix installation techniques: Service encasement, cladding, wall and floor units and fitments, window boards, handrails and spindle… operation first, then report that the control failed.",
-        "For the requirement on Site Carpenter. Site carpentry: Second fix installation techniques: Service encasement, cladding, wall and floor units and fitments, window boards, handrails and spindle…, stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
-        "Continue the Site Carpenter. Site carpentry: Second fix installation techniques: Service encasement, cladding, wall and floor units and fitments, window boards, handrails and spindle… activity cautiously because the original task has not changed.",
-        "Keep Site Carpenter. Site carpentry: Second fix installation techniques: Service encasement, cladding, wall and floor units and fitments, window boards, handrails and spindle… moving by relying on PPE while the failed control is left as it is."
+        "Finish the current site carpenter operation first, then report the failed control.",
+        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Record or confirm the resolution before moving on.",
+        "Continue the site carpenter work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the site carpenter work and leave the failed control as it is."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: Second fix installation techniques: Service encasement, cladding, wall and floor units and fitments, window boards, handrails and spindle… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K28"
@@ -571,15 +571,15 @@
       "id": "ST0264-SITE-TRADE-029",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During site carpenter, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Do not continue Site Carpenter. Site carpentry: Types, use, calibration and storage of laser levels with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
-        "Use the equipment for Site Carpenter. Site carpentry: Types, use, calibration and storage of laser levels only until the current operation is complete.",
-        "Keep the equipment in service for Site Carpenter. Site carpentry: Types, use, calibration and storage of laser levels if a colleague agrees to monitor it.",
-        "Compensate for the defect during Site Carpenter. Site carpentry: Types, use, calibration and storage of laser levels by working more slowly."
+        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Do not restart the affected activity until that action is complete.",
+        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
+        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
+        "Complete this stage of the site carpenter work because changing the system now would cause delay."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Site carpentry: Types, use, calibration and storage of laser levels rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K29"
@@ -591,15 +591,15 @@
       "id": "ST0264-SITE-TRADE-030",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "The next stage will conceal part of employment types (self employed and employed), small business start up principles and tax, but a required check is still outstanding. Which response is strongest?",
+      "question": "The next stage will conceal part of employment types (self employed and employed), small business start up principles, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Photograph Employment types (self employed and employed), small business start up principles and tax and continue even though the check has not passed.",
-        "Accept Employment types (self employed and employed), small business start up principles and tax because a later finish will hide the discrepancy.",
-        "Continue Employment types (self employed and employed), small business start up principles and tax and rely on the final inspection to identify any problem.",
-        "Do not conceal Employment types (self employed and employed), small business start up principles and tax while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on."
+        "Photograph employment types (self employed and employed), small business start up principles and continue even though the check has not passed.",
+        "Accept employment types (self employed and employed), small business start up principles because a later finish will hide the discrepancy.",
+        "Continue employment types (self employed and employed), small business start up principles and rely on final inspection to identify any problem.",
+        "Do not conceal employment types (self employed and employed), small business start up principles while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Employment types (self employed and employed), small business start up principles and tax rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for employment types (self employed and employed), small business start up principles directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K40"
@@ -611,15 +611,15 @@
       "id": "ST0264-SITE-TRADE-031",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "While working on comply with health and safety regulations, standards, and guidance, a required control is no longer effective. What is the best response?",
+      "question": "While working on comply with health and safety regulations, standards, and guidance, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Keep Comply with health and safety regulations, standards, and guidance moving by relying on PPE while the failed control is left as it is.",
-        "Finish the immediate Comply with health and safety regulations, standards, and guidance operation first, then report that the control failed.",
-        "For the requirement on Comply with health and safety regulations, standards, and guidance, stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
-        "Continue the Comply with health and safety regulations, standards, and guidance activity cautiously because the original task has not changed."
+        "Rely on PPE alone for the comply with health and safety regulations, standards, and guidance work and leave the failed control as it is.",
+        "Finish the current comply with health and safety regulations, standards, and guidance operation first, then report the failed control.",
+        "Pause the comply with health and safety regulations, standards, and guidance work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the comply with health and safety regulations, standards, and guidance work carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Comply with health and safety regulations, standards, and guidance rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with health and safety regulations, standards, and guidance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -631,15 +631,15 @@
       "id": "ST0264-SITE-TRADE-032",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During identify and use safety control equipment, for example, rpe, dust suppression, ppe and lev, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During identify and use safety control equipment, for example, rpe, dust suppression, ppe, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Compensate for the defect during Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV by working more slowly.",
-        "Do not continue Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
-        "Use the equipment for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV only until the current operation is complete.",
-        "Keep the equipment in service for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV if a colleague agrees to monitor it."
+        "Complete this stage of the identify and use safety control equipment, for example, rpe, dust suppression, ppe work because changing the system now would cause delay.",
+        "Stop the affected identify and use safety control equipment, for example, rpe, dust suppression, ppe activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the identify and use safety control equipment, for example, rpe, dust suppression, ppe activity but keep the original method unchanged.",
+        "Ask another operative to watch the identify and use safety control equipment, for example, rpe, dust suppression, ppe work while the control remains unavailable."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for identify and use safety control equipment, for example, rpe, dust suppression, ppe directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S2"
@@ -651,15 +651,15 @@
       "id": "ST0264-SITE-TRADE-033",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A wellbeing concern may now affect safe work on comply with environmental and sustainability regulations, standards, and guidance. Which response is strongest?",
+      "question": "At the end of comply with environmental and sustainability regulations, standards, and guidance, several waste streams have been mixed. Which response is strongest?",
       "answers": [
-        "Pause or adjust Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal where safety is affected, respond respectfully to the wellbeing concern and seek suitable support or supervision.",
-        "Tell the person to finish Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal before discussing how they feel.",
-        "Remove the person from Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal permanently without speaking to them.",
-        "Keep the concern about Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal informal even if safety is deteriorating."
+        "Prevent mixed waste building up during comply with environmental and sustainability regulations, standards, and guidance by separating resources at source and following the site's agreed waste arrangements.",
+        "Use one container for all comply with environmental and sustainability regulations, standards, and guidance waste because segregation slows the task.",
+        "Separate only hazardous comply with environmental and sustainability regulations, standards, and guidance waste and mix all other materials together.",
+        "Wait until comply with environmental and sustainability regulations, standards, and guidance is complete before deciding which materials could have been reused."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with environmental and sustainability regulations, standards, and guidance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -673,13 +673,13 @@
       "courseId": "ST0264-SITE",
       "question": "While carrying out comply with industry regulations, standards, and guidance, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Continue Comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
-        "Record the deviation in Comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
-        "Adjust a later part of Comply with industry regulations, standards, and guidance to disguise the current error.",
-        "For Comply with industry regulations, standards, and guidance, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing."
+        "Continue comply with industry regulations, standards, and guidance and correct only the visible result at final inspection.",
+        "Record the deviation in comply with industry regulations, standards, and guidance but leave it unless another trade objects.",
+        "Adjust a later part of comply with industry regulations, standards, and guidance to disguise the current error.",
+        "Stop the comply with industry regulations, standards, and guidance work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Comply with industry regulations, standards, and guidance rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S4"
@@ -691,15 +691,15 @@
       "id": "ST0264-SITE-TRADE-035",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During prepare and maintain a safe working area, conditions change and the agreed safe system no longer controls the risk. What should happen?",
+      "question": "During prepare and maintain a safe working area, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Ask another operative to watch Prepare and maintain a safe working area while the failed control remains unavailable.",
-        "Complete the current stage of Prepare and maintain a safe working area because changing the system now would delay the job.",
-        "Pause work connected with Prepare and maintain a safe working area; reassess the changed risk and put an effective agreed control back in place before continuing.",
-        "Reduce the pace of Prepare and maintain a safe working area and continue under the original method without reviewing it."
+        "Leave the prepare and maintain a safe working area defect for handover so it can be considered with the finished job.",
+        "Change the next stage of prepare and maintain a safe working area instead of correcting the failed requirement.",
+        "Hold the next stage of prepare and maintain a safe working area, investigate why the check failed and bring the work back to the issued requirement before covering it.",
+        "Proceed with prepare and maintain a safe working area because the work looks acceptable despite the failed check."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Prepare and maintain a safe working area rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for prepare and maintain a safe working area directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S5"
@@ -713,13 +713,13 @@
       "courseId": "ST0264-SITE",
       "question": "Before committing work on interpret and use information from drawings and specifications, the information is incomplete or inconsistent. Which response is strongest?",
       "answers": [
-        "Proceed with Interpret and use information from drawings and specifications and ask for confirmation only at handover.",
-        "Treat the uncertainty around Interpret and use information from drawings and specifications as unresolved: check the approved source and get the discrepancy confirmed before work is fixed or concealed.",
-        "Use the newest-looking Interpret and use information from drawings and specifications document even if its revision is unconfirmed.",
-        "Adapt Interpret and use information from drawings and specifications to suit the site without recording the change."
+        "Proceed with interpret and use information from drawings and specifications and ask for confirmation only at handover.",
+        "Treat the information for interpret and use information from drawings and specifications as unresolved until the approved source and any discrepancy have been confirmed.",
+        "Use the newest-looking interpret and use information from drawings and specifications document even if its revision is unconfirmed.",
+        "Adapt interpret and use information from drawings and specifications to suit the site without recording the change."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Interpret and use information from drawings and specifications rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for interpret and use information from drawings and specifications directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -733,13 +733,13 @@
       "courseId": "ST0264-SITE",
       "question": "A quantity for estimate required materials and produce a cutting list is much higher than expected. What is the most reliable check?",
       "answers": [
-        "For Estimate required materials and produce a cutting list, recalculate from the current job information and check dimensions, deductions, components and any justified allowance before ordering.",
-        "Use the quantity from a previous Estimate required materials and produce a cutting list job because it is a practical benchmark.",
-        "Keep the higher Estimate required materials and produce a cutting list figure without checking so there is no risk of shortage.",
-        "Round every stage of the Estimate required materials and produce a cutting list calculation upward before checking the dimensions."
+        "Recalculate the estimate required materials and produce a cutting list quantity from the current job information, checking dimensions, deductions and any justified allowance.",
+        "Use the quantity from a previous estimate required materials and produce a cutting list job because it is a practical benchmark.",
+        "Keep the higher estimate required materials and produce a cutting list figure without checking so there is no risk of shortage.",
+        "Round every stage of the estimate required materials and produce a cutting list calculation upward before checking the dimensions."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Estimate required materials and produce a cutting list rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for estimate required materials and produce a cutting list directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S7"
@@ -753,13 +753,13 @@
       "courseId": "ST0264-SITE",
       "question": "During verbally communicate with others, applying construction terminology, the sequence or information needed by another person becomes unclear. What should you do?",
       "answers": [
-        "Assume the other trade understands Verbally communicate with others, applying construction terminology without checking.",
-        "Change the Verbally communicate with others, applying construction terminology sequence yourself and tell others afterwards.",
-        "Continue Verbally communicate with others, applying construction terminology until the coordination problem actually stops the job.",
-        "Clarify the Verbally communicate with others, applying construction terminology information with the affected people, confirm responsibilities and agree the sequence before work proceeds."
+        "Assume the other trade understands verbally communicate with others, applying construction terminology without checking.",
+        "Change the verbally communicate with others, applying construction terminology sequence yourself and tell others afterwards.",
+        "Continue verbally communicate with others, applying construction terminology until the coordination problem actually stops the job.",
+        "Clarify the verbally communicate with others, applying construction terminology issue with the affected people, confirm responsibilities and agree the sequence before work proceeds."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Verbally communicate with others, applying construction terminology rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for verbally communicate with others, applying construction terminology directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -773,13 +773,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague suggests using defective equipment only to finish a short part of select, use and store hand tools. Which response is strongest?",
       "answers": [
-        "Use the equipment for Select, use and store hand tools only where accuracy is less important.",
-        "Ask someone else to use the equipment for Select, use and store hand tools so responsibility is transferred.",
-        "Suspend the affected part of Select, use and store hand tools until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Select, use and store hand tools first because the defect has not stopped the equipment operating."
+        "Use the equipment for select, use and store hand tools only where accuracy is less important.",
+        "Ask someone else to use the equipment for select, use and store hand tools so responsibility is transferred.",
+        "Suspend the affected select, use and store hand tools activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure.",
+        "Finish select, use and store hand tools first because the defect has not stopped the equipment operating."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Select, use and store hand tools rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for select, use and store hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S9"
@@ -793,13 +793,13 @@
       "courseId": "ST0264-SITE",
       "question": "A tool or item of equipment used for select, use and store power tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use the defective equipment only for a non-visible part of Select, use and store power tools.",
-        "For Select, use and store power tools, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Select, use and store power tools with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Select, use and store power tools before deciding."
+        "Use the defective equipment only for a non-visible part of select, use and store power tools.",
+        "Take the defective equipment out of service before continuing select, use and store power tools, then report it and arrange the required repair, inspection or replacement.",
+        "Continue select, use and store power tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during select, use and store power tools before deciding."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Select, use and store power tools rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for select, use and store power tools directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S10"
@@ -811,15 +811,15 @@
       "id": "ST0264-SITE-TRADE-041",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During maintain and sharpen hand tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During maintain and sharpen hand tools, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Do not continue Maintain and sharpen hand tools with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
-        "Use the equipment for Maintain and sharpen hand tools only until the current operation is complete.",
-        "Keep the equipment in service for Maintain and sharpen hand tools if a colleague agrees to monitor it.",
-        "Compensate for the defect during Maintain and sharpen hand tools by working more slowly."
+        "Stop the affected maintain and sharpen hand tools activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the maintain and sharpen hand tools activity but keep the original method unchanged.",
+        "Ask another operative to watch the maintain and sharpen hand tools work while the control remains unavailable.",
+        "Complete this stage of the maintain and sharpen hand tools work because changing the system now would cause delay."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Maintain and sharpen hand tools rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for maintain and sharpen hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -833,13 +833,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague suggests using defective equipment only to finish a short part of produce jigs. Which response is strongest?",
       "answers": [
-        "Finish Produce jigs first because the defect has not stopped the equipment operating.",
-        "Use the equipment for Produce jigs only where accuracy is less important.",
-        "Ask someone else to use the equipment for Produce jigs so responsibility is transferred.",
-        "Suspend the affected part of Produce jigs until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure."
+        "Finish produce jigs first because the defect has not stopped the equipment operating.",
+        "Use the equipment for produce jigs only where accuracy is less important.",
+        "Ask someone else to use the equipment for produce jigs so responsibility is transferred.",
+        "Suspend the affected produce jigs activity until the defective tool or equipment has been isolated from use and dealt with through the approved procedure."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Produce jigs rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for produce jigs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S12"
@@ -853,13 +853,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague involved in identifies well-being support available to self and others says their wellbeing is affecting concentration. What is the best response?",
       "answers": [
-        "Move them away from Identifies well-being support available to self and others without discussing what support they need.",
-        "Wait until the end of the week before responding to the Identifies well-being support available to self and others concern.",
-        "For Identifies well-being support available to self and others, prioritise immediate safety, speak supportively with the person and involve appropriate supervision or support where needed.",
-        "Tell the person to continue Identifies well-being support available to self and others more slowly and keep the concern private."
+        "Move them away from identifies well-being support available to self and others without discussing what support they need.",
+        "Wait until the end of the week before responding to the identifies well-being support available to self and others concern.",
+        "If wellbeing is affecting identifies well-being support available to self and others, make the activity safe, speak supportively with the person and involve appropriate supervision or support where needed.",
+        "Tell the person to continue identifies well-being support available to self and others more slowly and keep the concern private."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Identifies well-being support available to self and others rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for identifies well-being support available to self and others directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -871,15 +871,15 @@
       "id": "ST0264-SITE-TRADE-044",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During site carpenter, a resource has doubtful condition or identification. What should you do?",
+      "question": "During site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Keep the material in Site Carpenter. Apply first fix techniques and practices for: structural carcassing (load bearing studwork), straight timber or metal partition walls, floor joists, floo… and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Site Carpenter. Apply first fix techniques and practices for: structural carcassing (load bearing studwork), straight timber or metal partition walls, floor joists, floo… until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Site Carpenter. Apply first fix techniques and practices for: structural carcassing (load bearing studwork), straight timber or metal partition walls, floor joists, floo… if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Site Carpenter. Apply first fix techniques and practices for: structural carcassing (load bearing studwork), straight timber or metal partition walls, floor joists, floo… informally."
+        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
+        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Record or confirm the resolution before moving on.",
+        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
+        "Ask another operative to watch the site carpenter work while the control remains unavailable."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Apply first fix techniques and practices for: structural carcassing (load bearing studwork), straight timber or metal partition walls, floor joists, floo… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S14"
@@ -893,13 +893,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Do not continue Site Carpenter. Install structural fixings under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with Site Carpenter. Install structural fixings if the remaining exposure is brief.",
-        "Use additional PPE for Site Carpenter. Install structural fixings instead of restoring the failed control.",
-        "Record the failed control for Site Carpenter. Install structural fixings and deal with it after the task is finished."
+        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Do not restart the affected activity until that action is complete.",
+        "Carry on with site carpenter if the remaining exposure is brief.",
+        "Add extra PPE for site carpenter instead of restoring the failed control.",
+        "Record the failed control for site carpenter and deal with it after the task is finished."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Install structural fixings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S15"
@@ -911,15 +911,15 @@
       "id": "ST0264-SITE-TRADE-046",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A material or component for site carpenter does not fully match the issued requirement. What is the best response?",
+      "question": "While working on site carpenter, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of Site Carpenter. Size timber from sizing tables.",
-        "Use extra quantity of the substitute during Site Carpenter. Size timber from sizing tables to compensate for the difference.",
-        "Install the resource for Site Carpenter. Size timber from sizing tables and record the substitution only at handover.",
-        "For Site Carpenter. Size timber from sizing tables, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Continue the site carpenter work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
+        "Finish the current site carpenter operation first, then report the failed control.",
+        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Verify the result before allowing the task to continue."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Size timber from sizing tables rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S16"
@@ -933,13 +933,13 @@
       "courseId": "ST0264-SITE",
       "question": "During site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to watch Site Carpenter. Apply site second fix techniques and practices for: service encasement, cladding, wall and floor units and fitments, handrails and spindles to straight f… while the failed control remains unavailable.",
-        "Complete the current stage of Site Carpenter. Apply site second fix techniques and practices for: service encasement, cladding, wall and floor units and fitments, handrails and spindles to straight f… because changing the system now would delay the job.",
-        "Pause work connected with Site Carpenter. Apply site second fix techniques and practices for: service encasement, cladding, wall and floor units and fitments, handrails and spindles to straight f…; reassess the changed risk and put an effective agreed control back in place before continuing.",
-        "Reduce the pace of Site Carpenter. Apply site second fix techniques and practices for: service encasement, cladding, wall and floor units and fitments, handrails and spindles to straight f… and continue under the original method without reviewing it."
+        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
+        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
+        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Complete that response before the work is progressed further.",
+        "Reduce the pace of the site carpenter activity but keep the original method unchanged."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Apply site second fix techniques and practices for: service encasement, cladding, wall and floor units and fitments, handrails and spindles to straight f… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S17"
@@ -953,13 +953,13 @@
       "courseId": "ST0264-SITE",
       "question": "A colleague wants to continue site carpenter even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Record the failed control for Site Carpenter. Apply site carpenter techniques and practices to construction of rafter roofs, including trussed (prefabricated) and traditional (built on site) includin… and deal with it after the task is finished.",
-        "Do not continue Site Carpenter. Apply site carpenter techniques and practices to construction of rafter roofs, including trussed (prefabricated) and traditional (built on site) includin… under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with Site Carpenter. Apply site carpenter techniques and practices to construction of rafter roofs, including trussed (prefabricated) and traditional (built on site) includin… if the remaining exposure is brief.",
-        "Use additional PPE for Site Carpenter. Apply site carpenter techniques and practices to construction of rafter roofs, including trussed (prefabricated) and traditional (built on site) includin… instead of restoring the failed control."
+        "Record the failed control for site carpenter and deal with it after the task is finished.",
+        "Do not continue site carpenter until the failed control has been corrected or the safe system has been revised and agreed. Confirm the outcome before the next stage begins.",
+        "Carry on with site carpenter if the remaining exposure is brief.",
+        "Add extra PPE for site carpenter instead of restoring the failed control."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Apply site carpenter techniques and practices to construction of rafter roofs, including trussed (prefabricated) and traditional (built on site) includin… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S18"
@@ -971,15 +971,15 @@
       "id": "ST0264-SITE-TRADE-049",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "A tool or item of equipment used for site carpenter develops a defect during a pre-use check. What should you do?",
+      "question": "While working on site carpenter, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "For Site Carpenter. Use and store laser levels, for example cross line laser, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Site Carpenter. Use and store laser levels, for example cross line laser with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Site Carpenter. Use and store laser levels, for example cross line laser before deciding.",
-        "Use the defective equipment only for a non-visible part of Site Carpenter. Use and store laser levels, for example cross line laser."
+        "Pause the site carpenter work, make the situation safe and restore or reassess the failed control before continuing. Make sure the action is completed before work continues.",
+        "Continue the site carpenter work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the site carpenter work and leave the failed control as it is.",
+        "Finish the current site carpenter operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Use and store laser levels, for example cross line laser rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S19"
@@ -991,15 +991,15 @@
       "id": "ST0264-SITE-TRADE-050",
       "category": "trade",
       "courseId": "ST0264-SITE",
-      "question": "During site carpenter, a resource has doubtful condition or identification. What should you do?",
+      "question": "During site carpenter, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Fit the material during Site Carpenter. Form connections, for example, using joints, nails, screws, bolts and adhesive if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Site Carpenter. Form connections, for example, using joints, nails, screws, bolts and adhesive informally.",
-        "Keep the material in Site Carpenter. Form connections, for example, using joints, nails, screws, bolts and adhesive and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Site Carpenter. Form connections, for example, using joints, nails, screws, bolts and adhesive until its identity, suitability and approval have been checked against the requirement."
+        "Reduce the pace of the site carpenter activity but keep the original method unchanged.",
+        "Ask another operative to watch the site carpenter work while the control remains unavailable.",
+        "Complete this stage of the site carpenter work because changing the system now would cause delay.",
+        "Stop the affected site carpenter activity and review the changed risk before restarting under effective agreed controls. Check that the issue has been resolved before proceeding."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Site Carpenter. Form connections, for example, using joints, nails, screws, bolts and adhesive rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for site carpenter directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S20"

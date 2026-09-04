@@ -2,7 +2,7 @@
   "naxosQuestionBank": 1,
   "schemaVersion": 1,
   "bankId": "ST0264-AJ-trade-v1",
-  "version": 2,
+  "version": 3,
   "category": "trade",
   "courseId": "ST0264-AJ",
   "questionCount": 50,
@@ -11,15 +11,15 @@
       "id": "ST0264-AJ-TRADE-001",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A tool or item of equipment used for awareness of health and safety regulations, standards, and guidance and impact on role develops a defect during a pre-use check. What should you do?",
+      "question": "While working on awareness of health and safety regulations, standards, and guidance and impact on, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "For Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety…, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety… with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety… before deciding.",
-        "Use the defective equipment only for a non-visible part of Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety…."
+        "Pause the awareness of health and safety regulations, standards, and guidance and impact on work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the awareness of health and safety regulations, standards, and guidance and impact on work carefully because the task itself has not changed.",
+        "Rely on PPE alone for the awareness of health and safety regulations, standards, and guidance and impact on work and leave the failed control as it is.",
+        "Finish the current awareness of health and safety regulations, standards, and guidance and impact on operation first, then report the failed control."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Awareness of health and safety regulations, standards, and guidance and impact on role. Control of Substances Hazardous to Health (CoSHH). Fire safety. Health and Safety… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for awareness of health and safety regulations, standards, and guidance and impact on directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K1"
@@ -31,15 +31,15 @@
       "id": "ST0264-AJ-TRADE-002",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "During safety control equipment and how to use personal protective equipment (ppe) respiratory protective equip…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During safety control equipment and how to use personal protective equipment (ppe), conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Use the equipment for Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) only until the current operation is complete.",
-        "Keep the equipment in service for Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) if a colleague agrees to monitor it.",
-        "Compensate for the defect during Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) by working more slowly.",
-        "Do not continue Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement."
+        "Reduce the pace of the safety control equipment and how to use personal protective equipment (ppe) activity but keep the original method unchanged.",
+        "Ask another operative to watch the safety control equipment and how to use personal protective equipment (ppe) work while the control remains unavailable.",
+        "Complete this stage of the safety control equipment and how to use personal protective equipment (ppe) work because changing the system now would cause delay.",
+        "Stop the affected safety control equipment and how to use personal protective equipment (ppe) activity and review the changed risk before restarting under effective agreed controls."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Safety control equipment and how to use personal protective equipment (PPE) respiratory protective equipment (RPE) and local exhaust ventilation (LEV) rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for safety control equipment and how to use personal protective equipment (ppe) directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K2"
@@ -51,15 +51,15 @@
       "id": "ST0264-AJ-TRADE-003",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague suggests using defective equipment only to finish a short part of safe systems of work: site inductions, tool box talks, risk assessments, method statements and hazard id…. Which response is strongest?",
+      "question": "A colleague wants to continue safe systems of work: site inductions, tool box talks, risk assessments, method even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Use the equipment for Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area only where accuracy is less important.",
-        "Ask someone else to use the equipment for Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area so responsibility is transferred.",
-        "Suspend the affected part of Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area first because the defect has not stopped the equipment operating."
+        "Add extra PPE for safe systems of work: site inductions, tool box talks, risk assessments, method instead of restoring the failed control.",
+        "Record the failed control for safe systems of work: site inductions, tool box talks, risk assessments, method and deal with it after the task is finished.",
+        "Do not continue safe systems of work: site inductions, tool box talks, risk assessments, method until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with safe systems of work: site inductions, tool box talks, risk assessments, method if the remaining exposure is brief."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Safe systems of work: Site inductions, tool box talks, risk assessments, method statements and hazard identification in the work area rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for safe systems of work: site inductions, tool box talks, risk assessments, method directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K3"
@@ -73,13 +73,13 @@
       "courseId": "ST0264-AJ",
       "question": "The work on impact of the sector on the environment: efficient use of resources produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Leave all sorting from Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry until the end of the project.",
-        "For Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry, keep the area controlled and separate reusable, recyclable and disposal material using the site's agreed waste arrangements.",
-        "Put all waste from Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry in the nearest container so the area is cleared quickly.",
-        "Keep only high-value offcuts from Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry and dispose of the rest together."
+        "Leave all sorting from impact of the sector on the environment: efficient use of resources until the end of the project.",
+        "Segregate waste from impact of the sector on the environment: efficient use of resources as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes.",
+        "Put all waste from impact of the sector on the environment: efficient use of resources in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from impact of the sector on the environment: efficient use of resources and dispose of the rest together."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Impact of the sector on the environment: Efficient use of resources. Recycling, reuse, safe disposal of waste and sustainable forestry rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for impact of the sector on the environment: efficient use of resources directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K4"
@@ -91,15 +91,15 @@
       "id": "ST0264-AJ-TRADE-005",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "During principles of building and modern methods of construction: foundations, roofs, walls, damp proof courses…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During principles of building and modern methods of construction: foundations, roofs,, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Do not use the doubtful material in Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… informally.",
-        "Keep the material in Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… and replace it only if the finished work fails inspection."
+        "Do not use the doubtful material in principles of building and modern methods of construction: foundations, roofs, until its identity, suitability and approval have been checked.",
+        "Fit the material in principles of building and modern methods of construction: foundations, roofs, if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for principles of building and modern methods of construction: foundations, roofs, informally.",
+        "Keep the material in principles of building and modern methods of construction: foundations, roofs, and replace it only if final inspection fails."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Principles of building and modern methods of construction: Foundations, roofs, walls, damp proof courses, floors, timber frame, structurally insulated panels (SIPS) util… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for principles of building and modern methods of construction: foundations, roofs, directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K5"
@@ -113,13 +113,13 @@
       "courseId": "ST0264-AJ",
       "question": "Before committing work on basic principles of digital design and modelling systems, the information is incomplete or inconsistent. Which response is strongest?",
       "answers": [
-        "Use the newest-looking Basic principles of digital design and modelling systems document even if its revision is unconfirmed.",
-        "Adapt Basic principles of digital design and modelling systems to suit the site without recording the change.",
-        "Proceed with Basic principles of digital design and modelling systems and ask for confirmation only at handover.",
-        "Treat the uncertainty around Basic principles of digital design and modelling systems as unresolved: check the approved source and get the discrepancy confirmed before work is fixed or concealed."
+        "Use the newest-looking basic principles of digital design and modelling systems document even if its revision is unconfirmed.",
+        "Adapt basic principles of digital design and modelling systems to suit the site without recording the change.",
+        "Proceed with basic principles of digital design and modelling systems and ask for confirmation only at handover.",
+        "Treat the information for basic principles of digital design and modelling systems as unresolved until the approved source and any discrepancy have been confirmed."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Basic principles of digital design and modelling systems rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for basic principles of digital design and modelling systems directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K6"
@@ -131,15 +131,15 @@
       "id": "ST0264-AJ-TRADE-007",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "While working on standards and regulations associated with carpentry activities: british standards, building regulations…, a required control is no longer effective. What is the best response?",
+      "question": "While working on standards and regulations associated with carpentry activities: british standards,, a required safety control is no longer effective. What is the best response?",
       "answers": [
-        "Keep Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards moving by relying on PPE while the failed control is left as it is.",
-        "Finish the immediate Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards operation first, then report that the control failed.",
-        "For the requirement on Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards, stop the affected activity, make the situation safe and restore or review the failed control before restarting.",
-        "Continue the Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards activity cautiously because the original task has not changed."
+        "Rely on PPE alone for the standards and regulations associated with carpentry activities: british standards, work and leave the failed control as it is.",
+        "Finish the current standards and regulations associated with carpentry activities: british standards, operation first, then report the failed control.",
+        "Pause the standards and regulations associated with carpentry activities: british standards, work, make the situation safe and restore or reassess the failed control before continuing.",
+        "Continue the standards and regulations associated with carpentry activities: british standards, work carefully because the task itself has not changed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Standards and regulations associated with carpentry activities: British standards, building regulations and warranty provider standards rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for standards and regulations associated with carpentry activities: british standards, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K7"
@@ -151,15 +151,15 @@
       "id": "ST0264-AJ-TRADE-008",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "The drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and specifications does not agree with the site condition. What should you do?",
+      "question": "The drawing, specification or instruction for methods of interpreting and extracting relevant information from drawings and does not agree with the site condition. What should you do?",
       "answers": [
-        "Let the next trade decide which Methods of interpreting and extracting relevant information from drawings and specifications information should have been used.",
-        "Before continuing Methods of interpreting and extracting relevant information from drawings and specifications, verify which instruction, drawing or specification is current and obtain clarification for any conflict.",
-        "Use whichever Methods of interpreting and extracting relevant information from drawings and specifications document is easiest to follow.",
-        "Continue Methods of interpreting and extracting relevant information from drawings and specifications from memory and correct it later if necessary."
+        "Let the next trade decide which methods of interpreting and extracting relevant information from drawings and information should have been used.",
+        "Verify which drawing, specification or instruction governs methods of interpreting and extracting relevant information from drawings and, then obtain clarification before fixing the work.",
+        "Use whichever methods of interpreting and extracting relevant information from drawings and document is easiest to follow.",
+        "Continue methods of interpreting and extracting relevant information from drawings and from memory and correct it later if necessary."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Methods of interpreting and extracting relevant information from drawings and specifications rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for methods of interpreting and extracting relevant information from drawings and directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K8"
@@ -171,15 +171,15 @@
       "id": "ST0264-AJ-TRADE-009",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague proposes a similar substitute for materials and their characteristics of home grown and imported timber and timber-based products because the specified item is unavailable. Which response is strongest?",
+      "question": "A colleague proposes a similar substitute for materials and their characteristics of home grown and imported timber and because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod…, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… where it will be concealed.",
-        "Modify the resource on site for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… without checking approval.",
-        "Proceed with Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… because shortages justify an unapproved substitution."
+        "Quarantine the resource intended for materials and their characteristics of home grown and imported timber and, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in materials and their characteristics of home grown and imported timber and where it will be concealed.",
+        "Modify the resource on site for materials and their characteristics of home grown and imported timber and without checking approval.",
+        "Proceed with materials and their characteristics of home grown and imported timber and because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Materials and their characteristics of home grown and imported timber and timber-based products. Natural timber products: Hardwood and softwood. Manufactured timber prod… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for materials and their characteristics of home grown and imported timber and directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K9"
@@ -191,15 +191,15 @@
       "id": "ST0264-AJ-TRADE-010",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A material or component for timber decay and repair methods: timber moisture content parameters for a range of timber and timber-bas… does not fully match the issued requirement. What is the best response?",
+      "question": "A material or component for timber decay and repair methods: timber moisture content parameters for a range of does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Use the resource for a less visible part of Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack.",
-        "Use extra quantity of the substitute during Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack to compensate for the difference.",
-        "Install the resource for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack and record the substitution only at handover.",
-        "For Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack, separate the questionable resource and confirm its condition, specification and approval before it is incorporated."
+        "Use the resource for a less visible part of timber decay and repair methods: timber moisture content parameters for a range of.",
+        "Use extra quantity of the substitute in timber decay and repair methods: timber moisture content parameters for a range of to compensate for the difference.",
+        "Install the resource in timber decay and repair methods: timber moisture content parameters for a range of and record the substitution only at handover.",
+        "Separate the questionable resource for timber decay and repair methods: timber moisture content parameters for a range of and verify its condition, specification and approval before use."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Timber decay and repair methods: Timber moisture content parameters for a range of timber and timber-based materials, wet rot and dry rot, and insect attack rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for timber decay and repair methods: timber moisture content parameters for a range of directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K10"
@@ -211,15 +211,15 @@
       "id": "ST0264-AJ-TRADE-011",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "During carpentry and joinery products and purpose: mastics, preservatives, wood fillers, plastics and ironmonge…, a resource has doubtful condition or identification. What should you do?",
+      "question": "During carpentry and joinery products and purpose: mastics, preservatives, wood fillers,, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Ask another operative to accept the material for Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery informally.",
-        "Keep the material in Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery if it appears close enough to the specified item."
+        "Ask another operative to watch the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, work while the control remains unavailable.",
+        "Complete this stage of the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, work because changing the system now would cause delay.",
+        "Stop the affected carpentry and joinery products and purpose: mastics, preservatives, wood fillers, activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the carpentry and joinery products and purpose: mastics, preservatives, wood fillers, activity but keep the original method unchanged."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Carpentry and joinery products and purpose: Mastics, preservatives, wood fillers, plastics and ironmongery rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for carpentry and joinery products and purpose: mastics, preservatives, wood fillers, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K11"
@@ -231,15 +231,15 @@
       "id": "ST0264-AJ-TRADE-012",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "You need to allow for dimensions, openings or waste when planning basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting l…. Which approach is strongest?",
+      "question": "You need to allow for dimensions, openings or waste when planning basic material estimation techniques, calculating lengths of timber, fixing. Which approach is strongest?",
       "answers": [
-        "Choose the nearest whole quantity for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods before completing the calculation.",
-        "Trace the Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods estimate back to the current measurements, required components and stated waste allowance, correcting any unsupported assumption.",
-        "Use a rule-of-thumb quantity for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods instead of checking the current information.",
-        "Apply the same waste allowance to every part of Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods without justification."
+        "Choose the nearest whole quantity for basic material estimation techniques, calculating lengths of timber, fixing before completing the calculation.",
+        "Trace the basic material estimation techniques, calculating lengths of timber, fixing estimate back to current measurements, required components and the stated waste allowance, correcting unsupported assumptions.",
+        "Use a rule-of-thumb quantity for basic material estimation techniques, calculating lengths of timber, fixing instead of checking the current information.",
+        "Apply the same waste allowance to every part of basic material estimation techniques, calculating lengths of timber, fixing without justification."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Basic material estimation techniques, calculating lengths of timber, fixing requirements and a cutting list production methods rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for basic material estimation techniques, calculating lengths of timber, fixing directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K12"
@@ -253,13 +253,13 @@
       "courseId": "ST0264-AJ",
       "question": "Your work on verbal communication techniques and construction terminology will affect another person or trade. What is the best response?",
       "answers": [
-        "For Verbal communication techniques and construction terminology, share the relevant information with the people affected and agree a safe, workable sequence before the coordination issue creates rework.",
-        "Complete your part of Verbal communication techniques and construction terminology first because it is already under way.",
-        "Leave the Verbal communication techniques and construction terminology issue for the next person to solve when they reach it.",
-        "Create an informal workaround for Verbal communication techniques and construction terminology without agreeing the changed sequence."
+        "Share the relevant verbal communication techniques and construction terminology information with the people affected and agree a safe, workable sequence before continuing.",
+        "Complete your part of verbal communication techniques and construction terminology first because it is already under way.",
+        "Leave the verbal communication techniques and construction terminology issue for the next person to solve when they reach it.",
+        "Create an informal workaround for verbal communication techniques and construction terminology without agreeing the changed sequence."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Verbal communication techniques and construction terminology rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for verbal communication techniques and construction terminology directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K13"
@@ -271,15 +271,15 @@
       "id": "ST0264-AJ-TRADE-014",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "During hand tool use and storage methods and techniques: chisels, planes, hand saws, hammers, squares, tri-squa…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During hand tool use and storage methods and techniques: chisels, planes, hand saws,, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Use the equipment for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels only until the current operation is complete.",
-        "Keep the equipment in service for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels if a colleague agrees to monitor it.",
-        "Compensate for the defect during Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels by working more slowly.",
-        "Do not continue Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement."
+        "Use the equipment for hand tool use and storage methods and techniques: chisels, planes, hand saws, only until the current operation is complete.",
+        "Keep the equipment in service for hand tool use and storage methods and techniques: chisels, planes, hand saws, if a colleague agrees to monitor it.",
+        "Compensate for the defect during hand tool use and storage methods and techniques: chisels, planes, hand saws, by working more slowly.",
+        "Do not continue hand tool use and storage methods and techniques: chisels, planes, hand saws, with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Hand tool use and storage methods and techniques: Chisels, planes, hand saws, hammers, squares, tri-square, bevels, marking and mortise gauges, spirit levels rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for hand tool use and storage methods and techniques: chisels, planes, hand saws, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K14"
@@ -291,15 +291,15 @@
       "id": "ST0264-AJ-TRADE-015",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague suggests using defective equipment only to finish a short part of hand tool maintenance and sharpening techniques. Which response is strongest?",
+      "question": "A colleague wants to continue hand tool maintenance and sharpening techniques even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Use the equipment for Hand tool maintenance and sharpening techniques only where accuracy is less important.",
-        "Ask someone else to use the equipment for Hand tool maintenance and sharpening techniques so responsibility is transferred.",
-        "Suspend the affected part of Hand tool maintenance and sharpening techniques until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Hand tool maintenance and sharpening techniques first because the defect has not stopped the equipment operating."
+        "Add extra PPE for hand tool maintenance and sharpening techniques instead of restoring the failed control.",
+        "Record the failed control for hand tool maintenance and sharpening techniques and deal with it after the task is finished.",
+        "Do not continue hand tool maintenance and sharpening techniques until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with hand tool maintenance and sharpening techniques if the remaining exposure is brief."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Hand tool maintenance and sharpening techniques rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for hand tool maintenance and sharpening techniques directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K15"
@@ -313,13 +313,13 @@
       "courseId": "ST0264-AJ",
       "question": "A tool or item of equipment used for jig production techniques develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use the defective equipment only for a non-visible part of Jig production techniques.",
-        "For Jig production techniques, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Jig production techniques with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Jig production techniques before deciding."
+        "Use the defective equipment only for a non-visible part of jig production techniques.",
+        "Take the defective equipment out of service before continuing jig production techniques, then report it and arrange the required repair, inspection or replacement.",
+        "Continue jig production techniques with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during jig production techniques before deciding."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Jig production techniques rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for jig production techniques directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K16"
@@ -331,15 +331,15 @@
       "id": "ST0264-AJ-TRADE-017",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "During power tools use and storage methods and techniques: portable circular saws, drills, saws, planers, route…, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
+      "question": "During power tools use and storage methods and techniques: portable circular saws,, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Do not continue Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
-        "Use the equipment for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns only until the current operation is complete.",
-        "Keep the equipment in service for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns if a colleague agrees to monitor it.",
-        "Compensate for the defect during Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns by working more slowly."
+        "Do not continue power tools use and storage methods and techniques: portable circular saws, with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
+        "Use the equipment for power tools use and storage methods and techniques: portable circular saws, only until the current operation is complete.",
+        "Keep the equipment in service for power tools use and storage methods and techniques: portable circular saws, if a colleague agrees to monitor it.",
+        "Compensate for the defect during power tools use and storage methods and techniques: portable circular saws, by working more slowly."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Power tools use and storage methods and techniques: Portable circular saws, drills, saws, planers, routers, sanders, multi-functional tools and nail guns rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for power tools use and storage methods and techniques: portable circular saws, directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K17"
@@ -353,13 +353,13 @@
       "courseId": "ST0264-AJ",
       "question": "A coordination issue around principles of good team working could create delay or rework. Which response is strongest?",
       "answers": [
-        "Send a vague message about Principles of good team working and continue regardless of the response.",
-        "Wait for someone else to raise the Principles of good team working conflict formally.",
-        "Prioritise your own Principles of good team working output even if it blocks following work.",
-        "Resolve the Principles of good team working interface early by communicating the change, checking understanding and agreeing what each person will do next."
+        "Send a vague message about principles of good team working and continue regardless of the response.",
+        "Wait for someone else to raise the principles of good team working conflict formally.",
+        "Prioritise your own principles of good team working output even if it blocks following work.",
+        "Resolve the principles of good team working interface early by communicating the change, checking understanding and agreeing what each person will do next."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Principles of good team working rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for principles of good team working directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K18"
@@ -373,13 +373,13 @@
       "courseId": "ST0264-AJ",
       "question": "A colleague is being excluded during inclusion, equity and diversity in the workplace for reasons unrelated to competence or safety. What is the best response?",
       "answers": [
-        "Accept the unequal treatment in Inclusion, equity and diversity in the workplace if the current arrangement is quicker.",
-        "Move the colleague to simpler Inclusion, equity and diversity in the workplace work so the disagreement disappears.",
-        "For Inclusion, equity and diversity in the workplace, support fair and respectful treatment and address or report the inappropriate practice through the correct workplace route.",
-        "Ignore the issue during Inclusion, equity and diversity in the workplace unless the person affected makes a formal complaint."
+        "Accept the unequal treatment in inclusion, equity and diversity in the workplace if the current arrangement is quicker.",
+        "Move the colleague to simpler inclusion, equity and diversity in the workplace work so the disagreement disappears.",
+        "For inclusion, equity and diversity in the workplace, support fair and respectful treatment and address or report inappropriate practice through the correct workplace route.",
+        "Ignore the issue during inclusion, equity and diversity in the workplace unless the person affected makes a formal complaint."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Inclusion, equity and diversity in the workplace rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for inclusion, equity and diversity in the workplace directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K19"
@@ -391,15 +391,15 @@
       "id": "ST0264-AJ-TRADE-020",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "During well-being: mental and physical health considerations in self and others and how to access support, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
+      "question": "During well-being: mental and physical health considerations in self and others and how, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Treat the Well-being: Mental and physical health considerations in self and others and how to access support issue only as a performance problem.",
-        "If wellbeing is affecting Well-being: Mental and physical health considerations in self and others and how to access support, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change.",
-        "Keep Well-being: Mental and physical health considerations in self and others and how to access support running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in Well-being: Mental and physical health considerations in self and others and how to access support without addressing the concern."
+        "Treat the well-being: mental and physical health considerations in self and others and how issue only as a performance problem.",
+        "Respond to the wellbeing concern during well-being: mental and physical health considerations in self and others and how by controlling any immediate safety risk, checking in with the person and using the appropriate support route.",
+        "Keep well-being: mental and physical health considerations in self and others and how running and assume concentration will improve.",
+        "Ask colleagues to cover the person's mistakes in well-being: mental and physical health considerations in self and others and how without addressing the concern."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Well-being: Mental and physical health considerations in self and others and how to access support rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for well-being: mental and physical health considerations in self and others and how directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K20"
@@ -411,15 +411,15 @@
       "id": "ST0264-AJ-TRADE-021",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague wants to continue architectural joiner even though an agreed control has failed. Which response is strongest?",
+      "question": "The next stage will conceal part of architectural joiner, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Do not continue Architectural Joiner. Requirements of fire door assemblies under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with Architectural Joiner. Requirements of fire door assemblies if the remaining exposure is brief.",
-        "Use additional PPE for Architectural Joiner. Requirements of fire door assemblies instead of restoring the failed control.",
-        "Record the failed control for Architectural Joiner. Requirements of fire door assemblies and deal with it after the task is finished."
+        "Do not conceal architectural joiner while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph architectural joiner and continue even though the check has not passed.",
+        "Accept architectural joiner because a later finish will hide the discrepancy.",
+        "Continue architectural joiner and rely on final inspection to identify any problem."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Requirements of fire door assemblies rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K30"
@@ -433,13 +433,13 @@
       "courseId": "ST0264-AJ",
       "question": "A tool or item of equipment used for architectural joiner develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Continue Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser before deciding.",
-        "Use the defective equipment only for a non-visible part of Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser.",
-        "For Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement."
+        "Continue architectural joiner with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during architectural joiner before deciding.",
+        "Use the defective equipment only for a non-visible part of architectural joiner.",
+        "Take the defective equipment out of service before continuing architectural joiner, then report it and arrange the required repair, inspection or replacement."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Safe use of fixed machinery, inspection, preparation and operation techniques: Crosscut saw, band saw, planer and thicknesser and mortiser rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K31"
@@ -453,13 +453,13 @@
       "courseId": "ST0264-AJ",
       "question": "During architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Ask another operative to accept the material for Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors informally.",
-        "Keep the material in Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors if it appears close enough to the specified item."
+        "Ask another operative to accept the material for architectural joiner informally.",
+        "Keep the material in architectural joiner and replace it only if final inspection fails.",
+        "Do not use the doubtful material in architectural joiner until its identity, suitability and approval have been checked.",
+        "Fit the material in architectural joiner if it appears close enough to the specified item."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Setting out and marking out techniques for joinery product manufacture and potential effects of marking out errors rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K32"
@@ -473,13 +473,13 @@
       "courseId": "ST0264-AJ",
       "question": "A colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Proceed with Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings where it will be concealed.",
-        "Modify the resource on site for Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings without checking approval."
+        "Proceed with architectural joiner because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for architectural joiner, check it against the current requirement and use it only when suitability is confirmed.",
+        "Use the resource in architectural joiner where it will be concealed.",
+        "Modify the resource on site for architectural joiner without checking approval."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Timber joints, types and production techniques: Dovetails, mortise and tenon, bridals and halvings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K33"
@@ -493,13 +493,13 @@
       "courseId": "ST0264-AJ",
       "question": "A material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "For Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
-        "Use the resource for a less visible part of Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows.",
-        "Use extra quantity of the substitute during Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows to compensate for the difference.",
-        "Install the resource for Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows and record the substitution only at handover."
+        "Separate the questionable resource for architectural joiner and verify its condition, specification and approval before use.",
+        "Use the resource for a less visible part of architectural joiner.",
+        "Use extra quantity of the substitute in architectural joiner to compensate for the difference.",
+        "Install the resource in architectural joiner and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Manufacture and assembly techniques for standard right angled timber windows rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K34"
@@ -513,13 +513,13 @@
       "courseId": "ST0264-AJ",
       "question": "During architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Fit the material during Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives informally.",
-        "Keep the material in Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives until its identity, suitability and approval have been checked against the requirement."
+        "Fit the material in architectural joiner if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for architectural joiner informally.",
+        "Keep the material in architectural joiner and replace it only if final inspection fails.",
+        "Do not use the doubtful material in architectural joiner until its identity, suitability and approval have been checked. Make sure the action is completed before work continues."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Connection methods in joinery: Dowels, biscuit, staples and adhesives rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K35"
@@ -533,13 +533,13 @@
       "courseId": "ST0264-AJ",
       "question": "A colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Modify the resource on site for Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings without checking approval.",
-        "Proceed with Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings where it will be concealed."
+        "Modify the resource on site for architectural joiner without checking approval.",
+        "Proceed with architectural joiner because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for architectural joiner, check it against the current requirement and use it only when suitability is confirmed. Check that the issue has been resolved before proceeding.",
+        "Use the resource in architectural joiner where it will be concealed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Manufacture and assembly techniques for timber first fix products: straight staircases; door frames and linings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K36"
@@ -553,13 +553,13 @@
       "courseId": "ST0264-AJ",
       "question": "A material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "Install the resource for Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings and record the substitution only at handover.",
-        "For Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
-        "Use the resource for a less visible part of Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings.",
-        "Use extra quantity of the substitute during Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings to compensate for the difference."
+        "Install the resource in architectural joiner and record the substitution only at handover.",
+        "Separate the questionable resource for architectural joiner and verify its condition, specification and approval before use. Record or confirm the resolution before moving on.",
+        "Use the resource for a less visible part of architectural joiner.",
+        "Use extra quantity of the substitute in architectural joiner to compensate for the difference."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Manufacture and assembly techniques for second fix timber products: timber wall and floor units; timber doors; timber mouldings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K37"
@@ -573,13 +573,13 @@
       "courseId": "ST0264-AJ",
       "question": "During architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Do not use the doubtful material in Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative informally.",
-        "Keep the material in Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative and replace it only if the finished work fails inspection."
+        "Do not use the doubtful material in architectural joiner until its identity, suitability and approval have been checked. Do not restart the affected activity until that action is complete.",
+        "Fit the material in architectural joiner if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for architectural joiner informally.",
+        "Keep the material in architectural joiner and replace it only if final inspection fails."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Finishing techniques for manufactured timber products: Sanding, painting, waxing, polishing, oiling and applying preservative rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K38"
@@ -593,13 +593,13 @@
       "courseId": "ST0264-AJ",
       "question": "The next stage will conceal part of architectural joiner, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Photograph Architectural Joiner. Ironmongery installation techniques and continue even though the check has not passed.",
-        "Accept Architectural Joiner. Ironmongery installation techniques because a later finish will hide the discrepancy.",
-        "Continue Architectural Joiner. Ironmongery installation techniques and rely on the final inspection to identify any problem.",
-        "Do not conceal Architectural Joiner. Ironmongery installation techniques while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on."
+        "Photograph architectural joiner and continue even though the check has not passed.",
+        "Accept architectural joiner because a later finish will hide the discrepancy.",
+        "Continue architectural joiner and rely on final inspection to identify any problem.",
+        "Do not conceal architectural joiner while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on. Verify the result before allowing the task to continue."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Ironmongery installation techniques rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "K39"
@@ -611,15 +611,15 @@
       "id": "ST0264-AJ-TRADE-031",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "While carrying out employment types (self employed and employed), small business start up principles and tax, a check shows the work no longer matches the issued requirement. What is the best response?",
+      "question": "While carrying out employment types (self employed and employed), small business start up principles, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Record the deviation in Employment types (self employed and employed), small business start up principles and tax but leave it unless another trade objects.",
-        "Adjust a later part of Employment types (self employed and employed), small business start up principles and tax to disguise the current error.",
-        "For Employment types (self employed and employed), small business start up principles and tax, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing.",
-        "Continue Employment types (self employed and employed), small business start up principles and tax and correct only the visible result at final inspection."
+        "Record the deviation in employment types (self employed and employed), small business start up principles but leave it unless another trade objects.",
+        "Adjust a later part of employment types (self employed and employed), small business start up principles to disguise the current error.",
+        "Stop the employment types (self employed and employed), small business start up principles work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check.",
+        "Continue employment types (self employed and employed), small business start up principles and correct only the visible result at final inspection."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Employment types (self employed and employed), small business start up principles and tax rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for employment types (self employed and employed), small business start up principles directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "K40"
@@ -633,13 +633,13 @@
       "courseId": "ST0264-AJ",
       "question": "During comply with health and safety regulations, standards, and guidance, conditions change and the agreed safe system no longer controls the risk. What should happen?",
       "answers": [
-        "Complete the current stage of Comply with health and safety regulations, standards, and guidance because changing the system now would delay the job.",
-        "Pause work connected with Comply with health and safety regulations, standards, and guidance; reassess the changed risk and put an effective agreed control back in place before continuing.",
-        "Reduce the pace of Comply with health and safety regulations, standards, and guidance and continue under the original method without reviewing it.",
-        "Ask another operative to watch Comply with health and safety regulations, standards, and guidance while the failed control remains unavailable."
+        "Complete this stage of the comply with health and safety regulations, standards, and guidance work because changing the system now would cause delay.",
+        "Stop the affected comply with health and safety regulations, standards, and guidance activity and review the changed risk before restarting under effective agreed controls.",
+        "Reduce the pace of the comply with health and safety regulations, standards, and guidance activity but keep the original method unchanged.",
+        "Ask another operative to watch the comply with health and safety regulations, standards, and guidance work while the control remains unavailable."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Comply with health and safety regulations, standards, and guidance rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with health and safety regulations, standards, and guidance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S1"
@@ -651,15 +651,15 @@
       "id": "ST0264-AJ-TRADE-033",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague suggests using defective equipment only to finish a short part of identify and use safety control equipment, for example, rpe, dust suppression, ppe and lev. Which response is strongest?",
+      "question": "A colleague wants to continue identify and use safety control equipment, for example, rpe, dust suppression, ppe even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Suspend the affected part of Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure.",
-        "Finish Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV first because the defect has not stopped the equipment operating.",
-        "Use the equipment for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV only where accuracy is less important.",
-        "Ask someone else to use the equipment for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV so responsibility is transferred."
+        "Do not continue identify and use safety control equipment, for example, rpe, dust suppression, ppe until the failed control has been corrected or the safe system has been revised and agreed.",
+        "Carry on with identify and use safety control equipment, for example, rpe, dust suppression, ppe if the remaining exposure is brief.",
+        "Add extra PPE for identify and use safety control equipment, for example, rpe, dust suppression, ppe instead of restoring the failed control.",
+        "Record the failed control for identify and use safety control equipment, for example, rpe, dust suppression, ppe and deal with it after the task is finished."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Identify and use safety control equipment, for example, RPE, dust suppression, PPE and LEV rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for identify and use safety control equipment, for example, rpe, dust suppression, ppe directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S2"
@@ -671,15 +671,15 @@
       "id": "ST0264-AJ-TRADE-034",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague involved in comply with environmental and sustainability regulations, standards, and guidance says their wellbeing is affecting concentration. What is the best response?",
+      "question": "The work on comply with environmental and sustainability regulations, standards, and guidance produces reusable, recyclable and disposal waste. What is the best approach?",
       "answers": [
-        "Tell the person to continue Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal more slowly and keep the concern private.",
-        "Move them away from Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal without discussing what support they need.",
-        "Wait until the end of the week before responding to the Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal concern.",
-        "For Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal, prioritise immediate safety, speak supportively with the person and involve appropriate supervision or support where needed."
+        "Put all waste from comply with environmental and sustainability regulations, standards, and guidance in the nearest container so the area is cleared quickly.",
+        "Keep only high-value offcuts from comply with environmental and sustainability regulations, standards, and guidance and dispose of the rest together.",
+        "Leave all sorting from comply with environmental and sustainability regulations, standards, and guidance until the end of the project.",
+        "Segregate waste from comply with environmental and sustainability regulations, standards, and guidance as it is produced, retaining usable material and following the site's reuse, recycling and disposal routes."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Comply with environmental and sustainability regulations, standards, and guidance. Segregate resources for reuse, recycling and disposal rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with environmental and sustainability regulations, standards, and guidance directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S3"
@@ -693,13 +693,13 @@
       "courseId": "ST0264-AJ",
       "question": "During comply with industry regulations, standards, and guidance, the work looks acceptable but a required quality check does not pass. What should you do?",
       "answers": [
-        "Leave the Comply with industry regulations, standards, and guidance defect for handover so it can be considered with the finished job.",
-        "Change the next stage of Comply with industry regulations, standards, and guidance instead of correcting the failed requirement.",
-        "Hold the next stage of Comply with industry regulations, standards, and guidance, investigate why the check failed and bring the work back to the issued requirement before it is covered.",
-        "Proceed with Comply with industry regulations, standards, and guidance because the work looks acceptable despite the failed check."
+        "Leave the comply with industry regulations, standards, and guidance defect for handover so it can be considered with the finished job.",
+        "Change the next stage of comply with industry regulations, standards, and guidance instead of correcting the failed requirement.",
+        "Hold the next stage of comply with industry regulations, standards, and guidance, investigate why the check failed and bring the work back to the issued requirement before covering it.",
+        "Proceed with comply with industry regulations, standards, and guidance because the work looks acceptable despite the failed check."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Comply with industry regulations, standards, and guidance rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for comply with industry regulations, standards, and guidance directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S4"
@@ -711,15 +711,15 @@
       "id": "ST0264-AJ-TRADE-036",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague wants to continue prepare and maintain a safe working area even though an agreed control has failed. Which response is strongest?",
+      "question": "The next stage will conceal part of prepare and maintain a safe working area, but a required check is still outstanding. Which response is strongest?",
       "answers": [
-        "Record the failed control for Prepare and maintain a safe working area and deal with it after the task is finished.",
-        "Do not continue Prepare and maintain a safe working area under a failed control: secure the activity, review the safe system and resume only when the risk is properly controlled.",
-        "Carry on with Prepare and maintain a safe working area if the remaining exposure is brief.",
-        "Use additional PPE for Prepare and maintain a safe working area instead of restoring the failed control."
+        "Continue prepare and maintain a safe working area and rely on final inspection to identify any problem.",
+        "Do not conceal prepare and maintain a safe working area while a required check is unresolved; correct or formally escalate the issue and verify compliance before moving on.",
+        "Photograph prepare and maintain a safe working area and continue even though the check has not passed.",
+        "Accept prepare and maintain a safe working area because a later finish will hide the discrepancy."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Prepare and maintain a safe working area rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for prepare and maintain a safe working area directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S5"
@@ -731,15 +731,15 @@
       "id": "ST0264-AJ-TRADE-037",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "While preparing interpret and use information from drawings and specifications, two current-looking sources conflict. What is the best next step?",
+      "question": "Two current-looking sources for interpret and use information from drawings and specifications conflict. What is the best next step?",
       "answers": [
-        "For Interpret and use information from drawings and specifications, stop before committing the work, confirm the current approved information and resolve the conflict before proceeding.",
-        "Choose the drawing for Interpret and use information from drawings and specifications automatically because drawings always override site information.",
-        "Follow the site condition for Interpret and use information from drawings and specifications without checking because it is physically present.",
-        "Average the conflicting information for Interpret and use information from drawings and specifications so progress can continue."
+        "Before continuing interpret and use information from drawings and specifications, confirm the current approved information and resolve the conflict or missing detail.",
+        "Use the drawing for interpret and use information from drawings and specifications automatically because drawings always take priority.",
+        "Use the site condition for interpret and use information from drawings and specifications without checking because it is physically present.",
+        "Average the conflicting requirements for interpret and use information from drawings and specifications so progress can continue."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Interpret and use information from drawings and specifications rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for interpret and use information from drawings and specifications directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S6"
@@ -753,13 +753,13 @@
       "courseId": "ST0264-AJ",
       "question": "Before ordering for estimate required materials and produce a cutting list, your calculation differs significantly from a previous similar job. What should you do?",
       "answers": [
-        "Average the new Estimate required materials and produce a cutting list quantity with the previous job total.",
-        "Order the larger Estimate required materials and produce a cutting list amount and investigate only if material is left over.",
-        "Ignore openings or deductions in Estimate required materials and produce a cutting list so the estimate stays conservative.",
-        "Rework the Estimate required materials and produce a cutting list quantity from the issued dimensions and current scope, then compare each assumption before accepting the total."
+        "Average the new estimate required materials and produce a cutting list quantity with the previous job total.",
+        "Order the larger estimate required materials and produce a cutting list amount and investigate only if material is left over.",
+        "Ignore openings or deductions in estimate required materials and produce a cutting list so the estimate stays conservative.",
+        "Rework the estimate required materials and produce a cutting list quantity from the issued dimensions and current scope, then check each assumption before accepting the total."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Estimate required materials and produce a cutting list rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for estimate required materials and produce a cutting list directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S7"
@@ -773,13 +773,13 @@
       "courseId": "ST0264-AJ",
       "question": "A coordination issue around verbally communicate with others, applying construction terminology could create delay or rework. Which response is strongest?",
       "answers": [
-        "Wait for someone else to raise the Verbally communicate with others, applying construction terminology conflict formally.",
-        "Prioritise your own Verbally communicate with others, applying construction terminology output even if it blocks following work.",
-        "Resolve the Verbally communicate with others, applying construction terminology interface early by communicating the change, checking understanding and agreeing what each person will do next.",
-        "Send a vague message about Verbally communicate with others, applying construction terminology and continue regardless of the response."
+        "Wait for someone else to raise the verbally communicate with others, applying construction terminology conflict formally.",
+        "Prioritise your own verbally communicate with others, applying construction terminology output even if it blocks following work.",
+        "Resolve the verbally communicate with others, applying construction terminology interface early by communicating the change, checking understanding and agreeing what each person will do next.",
+        "Send a vague message about verbally communicate with others, applying construction terminology and continue regardless of the response."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Verbally communicate with others, applying construction terminology rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for verbally communicate with others, applying construction terminology directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S8"
@@ -793,13 +793,13 @@
       "courseId": "ST0264-AJ",
       "question": "A tool or item of equipment used for select, use and store hand tools develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Use the defective equipment only for a non-visible part of Select, use and store hand tools.",
-        "For Select, use and store hand tools, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Select, use and store hand tools with the equipment at a reduced load or speed.",
-        "Let the most experienced person try the equipment during Select, use and store hand tools before deciding."
+        "Use the defective equipment only for a non-visible part of select, use and store hand tools.",
+        "Take the defective equipment out of service before continuing select, use and store hand tools, then report it and arrange the required repair, inspection or replacement.",
+        "Continue select, use and store hand tools with the equipment at a reduced load or speed.",
+        "Let the most experienced person try the equipment during select, use and store hand tools before deciding."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Select, use and store hand tools rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for select, use and store hand tools directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S9"
@@ -813,13 +813,13 @@
       "courseId": "ST0264-AJ",
       "question": "During select, use and store power tools, the equipment still operates but a safety or accuracy feature is unreliable. What is the best response?",
       "answers": [
-        "Do not continue Select, use and store power tools with unreliable equipment; take it out of use and arrange the required report, inspection, maintenance or replacement.",
-        "Use the equipment for Select, use and store power tools only until the current operation is complete.",
-        "Keep the equipment in service for Select, use and store power tools if a colleague agrees to monitor it.",
-        "Compensate for the defect during Select, use and store power tools by working more slowly."
+        "Do not continue select, use and store power tools with unreliable equipment; remove it from use and follow the workplace reporting and maintenance procedure.",
+        "Use the equipment for select, use and store power tools only until the current operation is complete.",
+        "Keep the equipment in service for select, use and store power tools if a colleague agrees to monitor it.",
+        "Compensate for the defect during select, use and store power tools by working more slowly."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Select, use and store power tools rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for select, use and store power tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S10"
@@ -831,15 +831,15 @@
       "id": "ST0264-AJ-TRADE-042",
       "category": "trade",
       "courseId": "ST0264-AJ",
-      "question": "A colleague suggests using defective equipment only to finish a short part of maintain and sharpen hand tools. Which response is strongest?",
+      "question": "A colleague wants to continue maintain and sharpen hand tools even though an agreed control has failed. Which response is strongest?",
       "answers": [
-        "Finish Maintain and sharpen hand tools first because the defect has not stopped the equipment operating.",
-        "Use the equipment for Maintain and sharpen hand tools only where accuracy is less important.",
-        "Ask someone else to use the equipment for Maintain and sharpen hand tools so responsibility is transferred.",
-        "Suspend the affected part of Maintain and sharpen hand tools until the defective tool or equipment is removed from service and dealt with through the approved workplace procedure."
+        "Carry on with maintain and sharpen hand tools if the remaining exposure is brief.",
+        "Add extra PPE for maintain and sharpen hand tools instead of restoring the failed control.",
+        "Record the failed control for maintain and sharpen hand tools and deal with it after the task is finished.",
+        "Do not continue maintain and sharpen hand tools until the failed control has been corrected or the safe system has been revised and agreed."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Maintain and sharpen hand tools rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for maintain and sharpen hand tools directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S11"
@@ -853,13 +853,13 @@
       "courseId": "ST0264-AJ",
       "question": "A tool or item of equipment used for produce jigs develops a defect during a pre-use check. What should you do?",
       "answers": [
-        "Let the most experienced person try the equipment during Produce jigs before deciding.",
-        "Use the defective equipment only for a non-visible part of Produce jigs.",
-        "For Produce jigs, stop using the defective equipment, identify it as out of service and follow the workplace route for reporting, repair or replacement.",
-        "Continue Produce jigs with the equipment at a reduced load or speed."
+        "Let the most experienced person try the equipment during produce jigs before deciding.",
+        "Use the defective equipment only for a non-visible part of produce jigs.",
+        "Take the defective equipment out of service before continuing produce jigs, then report it and arrange the required repair, inspection or replacement.",
+        "Continue produce jigs with the equipment at a reduced load or speed."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Produce jigs rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for produce jigs directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S12"
@@ -873,13 +873,13 @@
       "courseId": "ST0264-AJ",
       "question": "During identifies well-being support available to self and others, a normally reliable colleague is distressed and making unusual mistakes. What should you do?",
       "answers": [
-        "Treat the Identifies well-being support available to self and others issue only as a performance problem.",
-        "If wellbeing is affecting Identifies well-being support available to self and others, make the activity safe, check in with the person and use the appropriate support or escalation route rather than ignoring the change.",
-        "Keep Identifies well-being support available to self and others running and assume concentration will improve.",
-        "Ask colleagues to cover the person's mistakes in Identifies well-being support available to self and others without addressing the concern."
+        "Treat the identifies well-being support available to self and others issue only as a performance problem.",
+        "Respond to the wellbeing concern during identifies well-being support available to self and others by controlling any immediate safety risk, checking in with the person and using the appropriate support route.",
+        "Keep identifies well-being support available to self and others running and assume concentration will improve.",
+        "Ask colleagues to cover the person's mistakes in identifies well-being support available to self and others without addressing the concern."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Identifies well-being support available to self and others rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for identifies well-being support available to self and others directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S13"
@@ -893,13 +893,13 @@
       "courseId": "ST0264-AJ",
       "question": "A colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Quarantine the resource intended for Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products where it will be concealed.",
-        "Modify the resource on site for Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products without checking approval.",
-        "Proceed with Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products because shortages justify an unapproved substitution."
+        "Quarantine the resource intended for architectural joiner, check it against the current requirement and use it only when suitability is confirmed. Do not restart the affected activity until that action is complete.",
+        "Use the resource in architectural joiner where it will be concealed.",
+        "Modify the resource on site for architectural joiner without checking approval.",
+        "Proceed with architectural joiner because shortages justify an unapproved substitution."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Produce setting out details, including setting rods, and mark out for timber products rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S23"
@@ -913,13 +913,13 @@
       "courseId": "ST0264-AJ",
       "question": "While carrying out architectural joiner, a check shows the work no longer matches the issued requirement. What is the best response?",
       "answers": [
-        "Continue Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving and correct only the visible result at final inspection.",
-        "Record the deviation in Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving but leave it unless another trade objects.",
-        "Adjust a later part of Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving to disguise the current error.",
-        "For Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving, stop before the defect is concealed, identify the cause, correct or escalate it and repeat the required check before continuing."
+        "Continue architectural joiner and correct only the visible result at final inspection.",
+        "Record the deviation in architectural joiner but leave it unless another trade objects.",
+        "Adjust a later part of architectural joiner to disguise the current error.",
+        "Stop the architectural joiner work before the defect is concealed, identify the cause, correct or escalate it and repeat the required check."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Produce basic woodworking joints including dovetail, bridal, mortise and tenon and halving rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S24"
@@ -933,13 +933,13 @@
       "courseId": "ST0264-AJ",
       "question": "During architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Ask another operative to accept the material for Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives informally.",
-        "Keep the material in Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives until its identity, suitability and approval have been checked against the requirement.",
-        "Fit the material during Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives if it appears close enough to the specified item."
+        "Ask another operative to accept the material for architectural joiner informally.",
+        "Keep the material in architectural joiner and replace it only if final inspection fails.",
+        "Do not use the doubtful material in architectural joiner until its identity, suitability and approval have been checked. Complete that response before the work is progressed further.",
+        "Fit the material in architectural joiner if it appears close enough to the specified item."
       ],
       "correct": 2,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Form connections using dowels, biscuit, staples and adhesives rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S25"
@@ -953,13 +953,13 @@
       "courseId": "ST0264-AJ",
       "question": "A colleague proposes a similar substitute for architectural joiner because the specified item is unavailable. Which response is strongest?",
       "answers": [
-        "Proceed with Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery because shortages justify an unapproved substitution.",
-        "Quarantine the resource intended for Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery, verify it against the current requirement and use it only when its suitability is confirmed.",
-        "Use the resource in Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery where it will be concealed.",
-        "Modify the resource on site for Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery without checking approval."
+        "Proceed with architectural joiner because shortages justify an unapproved substitution.",
+        "Quarantine the resource intended for architectural joiner, check it against the current requirement and use it only when suitability is confirmed. Confirm the requirement has been met before continuing.",
+        "Use the resource in architectural joiner where it will be concealed.",
+        "Modify the resource on site for architectural joiner without checking approval."
       ],
       "correct": 1,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Apply techniques and practices to the manufacture and assembly of a timber window with casement including glazing rebates and associated ironmongery rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S26"
@@ -973,13 +973,13 @@
       "courseId": "ST0264-AJ",
       "question": "A material or component for architectural joiner does not fully match the issued requirement. What is the best response?",
       "answers": [
-        "For Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings, separate the questionable resource and confirm its condition, specification and approval before it is incorporated.",
-        "Use the resource for a less visible part of Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings.",
-        "Use extra quantity of the substitute during Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings to compensate for the difference.",
-        "Install the resource for Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings and record the substitution only at handover."
+        "Separate the questionable resource for architectural joiner and verify its condition, specification and approval before use. Confirm the outcome before the next stage begins.",
+        "Use the resource for a less visible part of architectural joiner.",
+        "Use extra quantity of the substitute in architectural joiner to compensate for the difference.",
+        "Install the resource in architectural joiner and record the substitution only at handover."
       ],
       "correct": 0,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Apply manufacture and assembly techniques for first fix products: straight staircases; door frames and linings rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "competent",
       "mappings": [
         "S27"
@@ -993,13 +993,13 @@
       "courseId": "ST0264-AJ",
       "question": "During architectural joiner, a resource has doubtful condition or identification. What should you do?",
       "answers": [
-        "Fit the material during Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… if it appears close enough to the specified item.",
-        "Ask another operative to accept the material for Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… informally.",
-        "Keep the material in Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… and replace it only if the finished work fails inspection.",
-        "Do not use the doubtful material in Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… until its identity, suitability and approval have been checked against the requirement."
+        "Fit the material in architectural joiner if it appears close enough to the specified item.",
+        "Ask another operative to accept the material for architectural joiner informally.",
+        "Keep the material in architectural joiner and replace it only if final inspection fails.",
+        "Do not use the doubtful material in architectural joiner until its identity, suitability and approval have been checked. Check that the issue has been resolved before proceeding."
       ],
       "correct": 3,
-      "explanation": "The response must address the specific mapped requirement for Architectural Joiner. Apply manufacture and assembly techniques for second fix products: timber doors; wall and floor units; timber mouldings; staircase spindles and bal… rather than rely on a generic workaround.",
+      "explanation": "The strongest response applies the mapped requirement for architectural joiner directly to the scenario.",
       "difficulty": "stretch",
       "mappings": [
         "S28"
